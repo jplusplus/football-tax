@@ -25,9 +25,6 @@ exports.index = function(req, res) {
 };
 
 // Search territories
-// Examples:
-// * http://localhost:9000/api/territories/reverse?latlng=43.7502971,7.1043772
-// * http://localhost:9000/api/territories/reverse?latlng=43.7229328524,7.3234234772
 exports.search = function(req, res) {
   // Build paginator parameters
   var params = paginator.offset(req);
@@ -48,6 +45,9 @@ exports.search = function(req, res) {
 };
 
 // Reverse search by latitude and longitude
+// Examples:
+// * http://localhost:9000/api/territories/reverse?latlng=43.7502971,7.1043772
+// * http://localhost:9000/api/territories/reverse?latlng=43.7229328524,7.3234234772
 exports.reverse = function(req, res) {
   // Build paginator parameters
   var  params = paginator.offset(req),
