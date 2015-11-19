@@ -648,6 +648,9 @@ module.exports = function (grunt) {
           Object.keys(row).forEach(function(col) {
             var key = header[col] ? header[col].toLowerCase().replace(/[^a-z]/g, "") : col;
             rowdata[key] = row[col];
+            // Boolean value might be expressed with words
+            rowdata[key] = rowdata[key] === 'yes' ? true  : rowdata[key];
+            rowdata[key] = rowdata[key] === 'no'  ? false : rowdata[key];
           });
           return rowdata;
         }

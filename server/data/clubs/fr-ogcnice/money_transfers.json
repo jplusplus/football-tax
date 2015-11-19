@@ -6,7 +6,7 @@
     "amount": "€250,000",
     "date": 2011,
     "type": "Indemnistation",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://citoyens.ville-nice.fr/WebDelib/",
     "comment": " 7.25 du 17/12/2010"
   },
@@ -17,7 +17,7 @@
     "amount": "€250,000",
     "date": 2011,
     "type": "Indemnistation",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://citoyens.ville-nice.fr/WebDelib/",
     "comment": " Deliberation7323 - 7.25 du 17/12/2010"
   },
@@ -28,7 +28,7 @@
     "amount": "€14,000,000",
     "date": 2013,
     "type": "PPP (construction du stade)",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://webrecorder.io/record/20150924134034/https://www.ccomptes.fr/Publications/Publications/Construction-du-grand-stade-de-Nice-Nice-PPP-Rapport-d-observations-definitives"
   },
   {
@@ -38,7 +38,7 @@
     "amount": "€10,000,000",
     "date": 2014,
     "type": "Location du stade",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://webrecorder.io/record/20150924102640/http://www.leparisien.fr/nice-06000/l-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php#xtref=http%3A%2F%2Fwww.leparisien.fr%2Fnice-06000%2Fl-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php"
   },
   {
@@ -48,7 +48,7 @@
     "amount": "€10,000,000",
     "date": 2015,
     "type": "Location du stade",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://webrecorder.io/record/20150924102640/http://www.leparisien.fr/nice-06000/l-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php#xtref=http%3A%2F%2Fwww.leparisien.fr%2Fnice-06000%2Fl-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php"
   },
   {
@@ -59,7 +59,7 @@
     "date": 2010,
     "dateprcision": "prévision",
     "type": "PPP (construction du stade)",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
   },
   {
@@ -70,7 +70,7 @@
     "date": 2010,
     "dateprcision": "prévision",
     "type": "PPP (construction du stade)",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
   },
   {
@@ -81,7 +81,7 @@
     "date": 2010,
     "dateprcision": "prévision",
     "type": "PPP (construction du stade)",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
   },
   {
@@ -92,7 +92,7 @@
     "date": 2010,
     "dateprcision": "prévision",
     "type": "PPP (construction du stade)",
-    "stadium": "yes",
+    "stadium": "Grand Stade",
     "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
   },
   {
