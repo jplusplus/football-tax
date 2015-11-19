@@ -1,12 +1,22 @@
 // Generated on 2015-11-18 using generator-angular-fullstack 2.1.1
 'use strict';
 
+var  _ = require("lodash");
+
 module.exports = function (grunt) {
   var localConfig;
   try {
     localConfig = require('./server/config/local.env');
   } catch(e) {
     localConfig = {};
+  }
+
+  // Local grunt must use this config at runtine too
+  for(var key in localConfig) {
+    // Skip missing values
+    if(!localConfig[key]) continue;
+    // Simply change the env VAR
+    process.env[key] = localConfig[key];
   }
 
   // Load grunt tasks automatically, when needed
@@ -16,11 +26,20 @@ module.exports = function (grunt) {
     ngtemplates: 'grunt-angular-templates',
     cdnify: 'grunt-google-cdn',
     protractor: 'grunt-protractor-runner',
-    buildcontrol: 'grunt-build-control'
+    buildcontrol: 'grunt-build-control',
   });
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
+
+  // Clubs list to extract
+  var clubs = _.reduce( require('./server/config/clubs.json'), function(result, id, k) {
+    result[k] = {
+      options: { spreadsheetId: id },
+      dest: 'server/data/clubs/' + k + '.json'
+    };
+    return result;
+  }, {});
 
   // Define the configuration for all the tasks
   grunt.initConfig({
@@ -604,6 +623,29 @@ module.exports = function (grunt) {
         }
       }
     },
+
+    // Extract dataset from googlespeadsheet
+    gss_to_json: _.merge({
+      options: {
+        // edit-google-spreadsheet options go here
+        debug: true,
+        prettify: true,
+        includeInfo: false,
+        headerIsFirstRow: true,
+        worksheetName: 'money_transfers',
+        // Google Spreadsheet configuration
+        oauth2: require("./server/config/environment").gss.oauth2,
+        // Substitue col name to col number
+        transformRow: function(row, header) {
+          var rowdata = {};
+          Object.keys(row).forEach(function(col) {
+            var key = header[col] ? header[col].toLowerCase().replace(/[^a-z]/g, "") : col;
+            rowdata[key] = row[col];
+          });
+          return rowdata;
+        }
+      }
+    }, clubs)
   });
 
   // Used for delaying livereload until after server has restarted
@@ -621,6 +663,8 @@ module.exports = function (grunt) {
   grunt.registerTask('express-keepalive', 'Keep grunt running', function() {
     this.async();
   });
+
+  grunt.registerTask('gss', 'env:all', 'gss_to_json')
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {

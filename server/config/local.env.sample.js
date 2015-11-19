@@ -8,6 +8,10 @@
 module.exports = {
   DOMAIN:           'http://localhost:9000',
   SESSION_SECRET:   'footballtax-secret',
+  // Google Spreadsheet Oauth token
+  GSS_CLIENT_ID: '',
+  GSS_CLIENT_SECRET: '',
+  GSS_REFRESH_TOKEN: '',
   // Control debug level for modules using visionmedia/debug
   DEBUG: ''
 };

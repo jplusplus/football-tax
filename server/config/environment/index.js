@@ -13,7 +13,7 @@ function requiredProcessEnv(name) {
 // All configurations will extend these options
 // ============================================
 var all = {
-  env: process.env.NODE_ENV,
+  env: process.env.NODE_ENV || 'development',
 
   // Root path of server
   root: path.normalize(__dirname + '/../../..'),
@@ -44,10 +44,17 @@ var all = {
     }
   },
 
+  // Google Spreadsheet access token
+  gss: {
+    oauth2: {
+      client_id: process.env.GSS_CLIENT_ID || '',
+      client_secret: process.env.GSS_CLIENT_SECRET || '',
+      refresh_token: process.env.GSS_REFRESH_TOKEN || '',
+    }
+  },
+
 };
 
 // Export the config object based on the NODE_ENV
 // ==============================================
-module.exports = _.merge(
-  all,
-  require('./' + process.env.NODE_ENV + '.js') || {});
+module.exports = _.merge(all, require('./' + all.env + '.js') || {});
