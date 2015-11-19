@@ -44,7 +44,7 @@ exports.search = function(req, res) {
   // Look for a club by its name
   var filtered = clubs.filter(function(item) {
     var q = req.query.q.toLowerCase();
-    return item.nameclub.toLowerCase().match(q)
+    return (item.nameclub || '').toLowerCase().match(q)
   });
   // Return a slice of the collections
   res.json(200, filtered.toArray().slice(params.offset, params.offset + params.limit) );

@@ -1,0 +1,53 @@
+[
+  {
+    "item": "city",
+    "value": "Strasbourg"
+  },
+  {
+    "item": "Name club",
+    "value": "RACING CLUB DE STRASBOURG FOOTBALL"
+  },
+  {
+    "item": "Location club"
+  },
+  {
+    "item": "Name non-profit association"
+  },
+  {
+    "item": "non-profit: Identification number name",
+    "value": "SIREN"
+  },
+  {
+    "item": "non-profit: Identification number value",
+    "value": 421961764
+  },
+  {
+    "item": "Name corporation",
+    "value": "Racing Club de Strasbourg Alsace, S.A.S "
+  },
+  {
+    "item": "corporation: Identification number name",
+    "value": "SIRET"
+  },
+  {
+    "item": "corporation: Identification number value",
+    "value": 75130396700010
+  },
+  {
+    "item": "Country",
+    "value": "FRA"
+  },
+  {
+    "item": "Official URL",
+    "value": "http://www.rcstrasbourgalsace.fr/"
+  },
+  {
+    "item": "Wikipedia page"
+  },
+  {
+    "item": "Twitter URL"
+  },
+  {
+    "item": "Facebook URL"
+  }
+]
