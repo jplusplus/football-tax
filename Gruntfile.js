@@ -34,10 +34,17 @@ module.exports = function (grunt) {
 
   // Clubs list to extract
   var clubs = _.reduce( require('./server/config/clubs.json'), function(result, id, k) {
-    result[k] = {
-      options: { spreadsheetId: id },
-      dest: 'server/data/clubs/' + k + '.json'
-    };
+    // Create two files
+    for(var sheet of ['money_transfers', 'desc']) {
+      // Money transfert sheet
+      result[k + sheet] = {
+        options: {
+          spreadsheetId: id,
+          worksheetName: sheet
+        },
+        dest: 'server/data/clubs/' + k + '/' + sheet + '.json'
+      };
+    }
     return result;
   }, {});
 
