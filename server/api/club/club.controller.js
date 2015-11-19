@@ -1,6 +1,7 @@
 'use strict';
 
-var _ = require('lodash');
+var _ = require('lodash'),
+fuzzy = require('fuzzy');
 
 var response = require("../response"),
    paginator = require("../paginator");
@@ -43,8 +44,8 @@ exports.search = function(req, res) {
   }
   // Look for a club by its name
   var filtered = clubs.filter(function(item) {
-    var q = req.query.q.toLowerCase();
-    return (item.nameclub || '').toLowerCase().match(q)
+    // Slugify club's name with slug
+    return fuzzy.test(req.query.q, item.nameclub || '');
   });
   // Return a slice of the collections
   res.json(200, filtered.toArray().slice(params.offset, params.offset + params.limit) );
