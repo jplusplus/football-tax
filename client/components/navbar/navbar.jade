@@ -16,3 +16,15 @@
           a(ui-sref='methodology') {{ 'NAV_METHODOLOGY_LABEL' | translate }}
         li(ui-sref-active)
           a(ui-sref='contribute') {{ 'NAV_CONTRIBUTE_LABEL' | translate }}
+          
+      ul.nav.navbar-nav.navbar-right      
+        li.dropdown
+          a.dropdown-toggle 
+            | {{ 'NAV_LANGUAGE' | translate }}
+            span.caret
+          ul.dropdown-menu
+            li
+              a(ng-click="use('en')") English
+            li
+              a(ng-click="use('fr')") Français
+          
