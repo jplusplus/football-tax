@@ -10,15 +10,15 @@
 
     #navbar-main.navbar-collapse.collapse(collapse='isCollapsed')
       ul.nav.navbar-nav
-        li(ui-sref-active)
+        li(ui-sref-active="active")
           a(ui-sref='main') {{ 'NAV_RESULT_LABEL' | translate }}
-        li(ui-sref-active)
+        li(ui-sref-active="active")
           a(ui-sref='methodology') {{ 'NAV_METHODOLOGY_LABEL' | translate }}
-        li(ui-sref-active)
+        li(ui-sref-active="active")
           a(ui-sref='contribute') {{ 'NAV_CONTRIBUTE_LABEL' | translate }}
           
       ul.nav.navbar-nav.navbar-right  
-        li(ui-sref-active)
+        li(ui-sref-active="active")
           a(ui-sref='about') {{ 'NAV_ABOUT_LABEL' | translate }}    
         li.dropdown
           a.dropdown-toggle 
