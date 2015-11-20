@@ -102,10 +102,10 @@
 @border-radius-large:       6px;
 @border-radius-small:       3px;
 
-//** Global color for active items (e.g., navs or dropdowns).
-@component-active-color:    #fff;
 //** Global background color for active items (e.g., navs or dropdowns).
-@component-active-bg:       @brand-primary;
+@component-active-bg:       @brand-secondary;
+//** Global color for active items (e.g., navs or dropdowns).
+@component-active-color:    mix(contrast(@component-active-bg), @component-active-bg, 80%);
 
 //** Width of the `border` for generating carets that indicator dropdowns.
 @caret-width-base:          4px;
@@ -183,7 +183,7 @@
 //** `<input>` border radius
 @input-border-radius:            @border-radius-base;
 //** Border color for inputs on focus
-@input-border-focus:             #66afe9;
+@input-border-focus:             @brand-secondary;
 
 //** Placeholder text color
 @input-color-placeholder:        @gray-light;

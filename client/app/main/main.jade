@@ -23,6 +23,14 @@ div(ng-include='"components/navbar/navbar.html"')
             .panel-body
               h3 {{ 'HOMEPAGE_CLUBS_TITLE' | translate }}
               p {{ 'HOMEPAGE_CLUBS_DESCRIPTION' | translate }}
+              p.main__homepage__panel__clubsearch
+                ui-select(ng-model="selectedClub")
+                  ui-select-match(placeholder="{{ 'CLUB_SEARCH_PLACEHOLDER' | translate }}") 
+                    | {{ $select.selected.nameclub || ('CLUB_SEARCH_PLACEHOLDER' | translate) }}
+                  ui-select-choices(repeat="club in clubs", 
+                                    refresh="clubLookup($select.search)",
+                                    refresh-delay="0")
+                    | {{ club.nameclub }}
               ul.list-inline
                 li
                   img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
