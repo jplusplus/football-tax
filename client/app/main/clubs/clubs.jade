@@ -2,3 +2,10 @@
   .main__clubs__header
     .container
       h1 {{ club.nameclub }}
+      ul.main__clubs__header__breadcrum.list-inline
+        li
+          a(ui-sref='main') {{ 'NAV_RESULT_LABEL' | translate }}
+        li
+          a(ui-sref='main') {{ 'NAV_CLUBS_LABEL' | translate }}
+        li
+          | {{ club.nameclub }}

@@ -1,3 +1,38 @@
 .main__clubs {
-  
+
+  padding-bottom:30px;
+
+  &__header {
+    background:@brand-primary;
+    color: contrast(@brand-primary);
+    min-height: 200px;
+    padding-top:@navbar-height*2px;
+    margin-bottom:30px;
+
+    h1 {
+      font-weight: bold;
+    }
+
+    &__breadcrum {
+      margin-top: 30px;
+      a {
+        color:mix( contrast(@brand-primary), @link-color);
+      }
+
+      li {
+        padding-left:10px;
+        &:before {
+          padding-right:10px;
+          content:"❭";
+          color: @brand-secondary;
+        }
+
+        &:first-child:before {
+          display: none;
+        }
+      }
+    }
+
+  }
+
 }
