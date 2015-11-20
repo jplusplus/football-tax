@@ -5,5 +5,7 @@ angular.module('footballTaxApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'pascalprecht.translate',
+  'restangular',
 ]);

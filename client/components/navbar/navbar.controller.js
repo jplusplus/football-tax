@@ -1,15 +1,6 @@
 'use strict';
 
 angular.module('footballTaxApp')
-  .controller('NavbarCtrl', function ($scope, $location) {
-    $scope.menu = [{
-      'title': 'Home',
-      'link': '/'
-    }];
-
+  .controller('NavbarCtrl', function ($scope) {
     $scope.isCollapsed = true;
-
-    $scope.isActive = function(route) {
-      return route === $location.path();
-    };
   });

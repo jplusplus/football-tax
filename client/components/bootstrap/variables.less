@@ -1,7 +1,9 @@
 //
 // Variables
 // --------------------------------------------------
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,300,700);
 
+@pi: 3.141592653589793;
 
 //== Colors
 //
@@ -13,7 +15,8 @@
 @gray-light:             lighten(#000, 60%);   // #999
 @gray-lighter:           lighten(#000, 93.5%); // #eee
 
-@brand-primary:         #428bca;
+@brand-primary:         #00202F;
+@brand-secondary:       #FFDF54;
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
@@ -39,7 +42,7 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -62,7 +65,7 @@
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    inherit;
+@headings-font-family:    "Montserrat", @font-family-sans-serif;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
@@ -333,12 +336,12 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             #777;
-@navbar-default-bg:                #f8f8f8;
-@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-color:             contrast(@brand-primary);
+@navbar-default-bg:                fade(@brand-primary, @pi * 10%);
+@navbar-default-border:            darken(@navbar-default-bg, @pi * 1%);
 
 // Navbar links
-@navbar-default-link-color:                #777;
+@navbar-default-link-color:                contrast(@brand-primary);
 @navbar-default-link-hover-color:          #333;
 @navbar-default-link-hover-bg:             transparent;
 @navbar-default-link-active-color:         #555;
@@ -661,7 +664,7 @@
 //
 //##
 
-@panel-bg:                    #fff;
+@panel-bg:                    @navbar-default-bg;
 @panel-body-padding:          15px;
 @panel-border-radius:         @border-radius-base;
 

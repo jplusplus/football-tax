@@ -1,5 +1,45 @@
 div(ng-include='"components/navbar/navbar.html"')
 
-header.hero-unit
-  .container
-    h1 Hello world
+.main(ui-view)
+  .main__homepage(screen-height)
+    .main__homepage__panel
+      .row              
+        .col-sm-6
+          h1 {{ 'APP_TITLE' | translate }}
+          .lead  {{ 'HOMEPAGE_DESCRIPTION' | translate }}
+          
+        .col-sm-6        
+          .panel
+            .panel-body
+              h3 {{ 'HOMEPAGE_ADDR_TITLE' | translate }}
+              p {{ 'HOMEPAGE_ADDR_DESCRIPTION' | translate }}
+              form(ng-submit)
+                div.input-group
+                  input.form-control(type="text", placeholder="Ex: 12 promenade des anglais Nice")
+                  span.input-group-btn
+                    button.btn.btn-default(type="button") Validate
+                    
+          .panel
+            .panel-body
+              h3 {{ 'HOMEPAGE_CLUBS_TITLE' | translate }}
+              p {{ 'HOMEPAGE_CLUBS_DESCRIPTION' | translate }}
+              ul.list-inline
+                li
+                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
+                li
+                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
+                li
+                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
+                li
+                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
+                li
+                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
+                li
+                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")
+          
+  .main__about
+    .container
+      h2 {{ 'HOMEPAGE_ABOUT_TITLE' | translate }}
+      p.lead  {{ 'HOMEPAGE_ABOUT_CONTENT' | translate }}
+
+div(ng-include='"components/footer/footer.html"')
