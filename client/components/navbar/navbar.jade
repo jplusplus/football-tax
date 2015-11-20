@@ -17,7 +17,9 @@
         li(ui-sref-active)
           a(ui-sref='contribute') {{ 'NAV_CONTRIBUTE_LABEL' | translate }}
           
-      ul.nav.navbar-nav.navbar-right      
+      ul.nav.navbar-nav.navbar-right  
+        li(ui-sref-active)
+          a(ui-sref='about') {{ 'NAV_ABOUT_LABEL' | translate }}    
         li.dropdown
           a.dropdown-toggle 
             | {{ 'NAV_LANGUAGE' | translate }}
@@ -26,5 +28,5 @@
             li
               a(ng-click="use('en')") English
             li
-              a(ng-click="use('fr')") Français
+              a(ng-click="use('en')") Français
           
