@@ -1,9 +1,11 @@
 'use strict';
 
 angular.module('footballTaxApp')
-  .controller('MainCtrl', function ($scope, Restangular) {
+  .controller('MainCtrl', function ($scope, $state, Restangular) {
     $scope.clubs = [];
+    // Selected club
     $scope.selectedClub = {};
+    // Looks for a club
     $scope.clubLookup = function(q) {
       if(!q) {
         $scope.clubs = []
@@ -15,4 +17,8 @@ angular.module('footballTaxApp')
           $scope.clubs = clubs;
         });
     };
+    // A club is Selected
+    $scope.selectClub = function(slug) {
+      $state.go("main.clubs", { slug: slug });
+    }
   });
