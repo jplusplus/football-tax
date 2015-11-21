@@ -25,8 +25,8 @@
             | {{ 'NAV_LANGUAGE_LABEL' | translate }}
             span.caret
           ul.dropdown-menu
-            li
+            li(ng-class="{ active: use() === 'en' }")
               a(ng-click="use('en')") English
-            li
+            li(ng-class="{ active: use() === 'fr' }")
               a(ng-click="use('fr')") Français
           
