@@ -25,8 +25,7 @@ ui-view.main
               p {{ 'HOMEPAGE_CLUBS_DESCRIPTION' | translate }}
               p.main__homepage__panel__clubsearch
                 ui-select(ng-model="selectedClub", on-select="selectClub($item.slug)")
-                  ui-select-match(placeholder="{{ 'CLUB_SEARCH_PLACEHOLDER' | translate }}") 
-                    | {{ $select.selected.nameclub || ('CLUB_SEARCH_PLACEHOLDER' | translate) }}
+                  ui-select-match(placeholder="{{ 'CLUB_SEARCH_PLACEHOLDER' | translate }}") {{ $select.selected.nameclub }}
                   ui-select-choices(repeat="club in clubs", 
                                     refresh="clubLookup($select.search)",
                                     refresh-delay="0")
