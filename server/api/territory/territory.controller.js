@@ -24,6 +24,17 @@ exports.index = function(req, res) {
     });
 };
 
+
+// Get a territory by its id
+exports.show = function(req, res) {
+  Territory
+    .findById(req.params.id, function (err, territory) {
+      if(err) { return response.handleError(res)(err); }
+      return res.json(200, territory);
+    });
+};
+
+
 // Search territories
 exports.search = function(req, res) {
   // Build paginator parameters
