@@ -1,0 +1,20 @@
+.main__territories__details
+  .main__header
+    .container
+      h1 {{ territory.name }}      
+      .row
+        .col-sm-4.col-sm-push-8
+          form.main__header__search(ng-submit="addrLookup(query)")
+            div.input-group
+              input.form-control(type="text", ng-model="query", placeholder="Chercher une autre adresse")
+              span.input-group-btn
+                button.btn.btn-default(type="submit") {{ 'SEARCH_BTN' | translate }}
+        .col-sm-8.col-sm-pull-4
+          ul.main__header__breadcrum.list-inline
+            li
+              a(ui-sref='main') {{ 'NAV_RESULT_LABEL' | translate }}
+            li
+              a(ui-sref='main') {{ 'NAV_TERRITORIES_LABEL' | translate }}
+            li
+              | {{ territory.name }}
+      

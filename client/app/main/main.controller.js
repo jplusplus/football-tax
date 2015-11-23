@@ -7,7 +7,7 @@ angular.module('footballTaxApp')
     $scope.selectedClub = null;
     // Looks for an address
     $scope.addrLookup = function(q) {
-      $state.go('main.territories', { q: q });
+      $state.go('main.territories.search', { q: q });
     };
     // Looks for a club
     $scope.clubLookup = function(q) {
