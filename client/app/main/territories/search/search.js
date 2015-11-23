@@ -15,7 +15,7 @@ angular.module('footballTaxApp')
               return deferred.reject('No value');
             }
             // Use OSM API to geocode the given address
-            let url  = "http://nominatim.openstreetmap.org/search?";
+            let url  = "//nominatim.openstreetmap.org/search?";
             url += "format=json&";
             url += "limit=1&";
             url += "osm_type=N&";
