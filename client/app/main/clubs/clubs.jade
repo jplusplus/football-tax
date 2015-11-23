@@ -1,12 +1,22 @@
 .main__clubs
   .main__header
     .container
-      h1 {{ club.nameclub }}
-      ul.main__header__breadcrum.list-inline
-        li
-          a(ui-sref='main') {{ 'NAV_RESULT_LABEL' | translate }}
-        li
-          a(ui-sref='main') {{ 'NAV_CLUBS_LABEL' | translate }}
-        li
-          | {{ club.nameclub }}
-  
+      h1 {{ club.nameclub }}      
+      .row
+        .col-sm-4.col-sm-push-8
+          form.main__header__search  
+            ui-select(ng-model="selectedClub", on-select="selectClub($item.slug)")
+              ui-select-match(placeholder="{{ 'CLUB_SEARCH_PLACEHOLDER' | translate }}") {{ $select.selected.nameclub }}
+              ui-select-choices(repeat="club in clubs", 
+                                refresh="clubLookup($select.search)",
+                                refresh-delay="0")
+                | {{ club.nameclub }}            
+        .col-sm-8.col-sm-pull-4
+          ul.main__header__breadcrum.list-inline
+            li
+              a(ui-sref='main') {{ 'NAV_RESULT_LABEL' | translate }}
+            li
+              a(ui-sref='main') {{ 'NAV_CLUBS_LABEL' | translate }}
+            li
+              | {{ club.nameclub }}
+      
