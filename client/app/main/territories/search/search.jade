@@ -28,9 +28,11 @@
           ul.main__territories__search__content__list.list-group
             li.list-group-item(ng-repeat="territory in territories | orderBy:'level'")
               .main__territories__search__content__list__details
-                a.btn.btn-primary {{ 'SEE_SUBSIDIES' | translate }}
+                a.btn.btn-primary(ui-sref="main.territories.details({ id: territory._id })")
+                  | {{ 'SEE_SUBSIDIES' | translate }}
               h4.list-group-item-heading
-                a(ui-sref="main.territories.details({ id: territory._id })") {{ territory.name }}
+                a(ui-sref="main.territories.details({ id: territory._id })")
+                  | {{ territory.name }}
               p.list-group-item-text.text-muted City ({{ territory.level }})
         div(ng-show="stadiums.length")
           h3  {{ 'STADIUMS' | translate }}
