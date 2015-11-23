@@ -1,0 +1,36 @@
+.main__territories
+  .main__header
+    .container
+      h1 “{{ ::q }}”
+      .row
+        .col-sm-4.col-sm-push-8
+          form(ng-submit="addrLookup(query)").main__header__search
+            div.input-group
+              input.form-control(type="text", ng-model="query", placeholder="Chercher une autre adresse")
+              span.input-group-btn
+                button.btn.btn-default(type="submit") {{ 'SEARCH_BTN' | translate }}
+        .col-sm-8.col-sm-pull-4
+          ul.main__header__breadcrum.list-inline
+            li
+              a(ui-sref='main') {{ 'NAV_RESULT_LABEL' | translate }}
+            li
+              a(ui-sref='main') {{ 'NAV_TERRITORIES_LABEL' | translate }}
+            li
+              | {{ 'YOUR_ADDR_LABEL' | translate }} 
+  .main__territories__content
+    .container    
+      div(ng-hide="territories.length + stadiums.length > 0")
+        .lead {{ 'ADDR_NO_TERRITORIES' | translate }}
+      div(ng-show="territories.length + stadiums.length > 0")
+        .lead {{ 'YOUR_ADDR_LEAD' | translate }}
+        div(ng-show="territories.length")
+          h3  {{ 'ADMIN_TERRITORIES' | translate }}
+          ul.main__territories__content__list.list-group
+            li.list-group-item(ng-repeat="territory in territories | orderBy:'level'")
+              h4.list-group-item-heading {{ territory.name }}
+              p.list-group-item-text.text-muted City ({{ territory.level }})
+        div(ng-show="stadiums.length")
+          h3  {{ 'STADIUMS' | translate }}
+          ul.main__territories__content__list.list-group
+            li.list-group-item(ng-repeat="stadium in stadiums | orderBy:'level'")
+              h4.list-group-item-heading {{ stadium.name }}

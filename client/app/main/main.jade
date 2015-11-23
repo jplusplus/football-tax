@@ -13,11 +13,11 @@ ui-view.main
             .panel-body
               h3 {{ 'HOMEPAGE_ADDR_TITLE' | translate }}
               p {{ 'HOMEPAGE_ADDR_DESCRIPTION' | translate }}
-              form(ng-submit)
+              form(ng-submit="addrLookup(q)")
                 div.input-group
-                  input.form-control(type="text", placeholder="Ex: 12 promenade des anglais Nice")
+                  input.form-control(type="text", ng-model="q", placeholder="Ex: 12 promenade des anglais Nice")
                   span.input-group-btn
-                    button.btn.btn-default(type="button") Validate
+                    button.btn.btn-default(type="submit") {{ 'SEARCH_BTN' | translate }}
                     
           .panel
             .panel-body

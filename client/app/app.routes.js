@@ -33,6 +33,6 @@ angular.module('footballTaxApp')
     // Stop progress indicator
     $rootScope.$on("$stateChangeError", function() {
       // By default, go to the 404 state
-      $state.go("404");
+      $state.go("main");
     });
   });

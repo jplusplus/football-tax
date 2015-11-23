@@ -7,6 +7,7 @@
   "NAV_ABOUT_LABEL": "About",
   "NAV_LANGUAGE_LABEL": "Languages",
   "NAV_CLUBS_LABEL": "Clubs",
+  "NAV_TERRITORIES_LABEL": "Territories",
   "CLUB_SEARCH_PLACEHOLDER": "Search a club by name...",
   "HOMEPAGE_DESCRIPTION": "How taxes are used to finance stadiums profesionnal soccer clubs in Europe.",
   "HOMEPAGE_ADDR_TITLE": "Enter you address",
@@ -16,5 +17,9 @@
   "HOMEPAGE_FINDINGS_TITLE": "Findings",
   "HOMEPAGE_FINDINGS_CONTENT": "Sykes aruzan keshiri klatooinian hoth. Tatooine organa monkey-lizard keshiri darth. Rebo vor xexto altyr calamari moddell lorth. Shawda gora kohl palpatine depa droopy falleen kowakian. Zam bothan letaki tapani ooryl drall draethos windu. Senex bardan choka mara var binks lobot lahara. Vebb tano baba nagai jacen md-5 organa. Mas mothma fode vuffi altyr snootles obi-wan chagrian. Coway mon nar nal falleen dexter bertroff quinlan. Jabiimas bespin timoliini iridonian owen dulok shmi rune. Yoda organa qui-gonn whill momaw kir mon ishi.",
   "ABOUT_TITLE": "About this project",
-  "ABOUT_CONTENT": "Sykes aruzan keshiri klatooinian hoth. Tatooine organa monkey-lizard keshiri darth. Rebo vor xexto altyr calamari moddell lorth. Shawda gora kohl palpatine depa droopy falleen kowakian. Zam bothan letaki tapani ooryl drall draethos windu. Senex bardan choka mara var binks lobot lahara. Vebb tano baba nagai jacen md-5 organa. Mas mothma fode vuffi altyr snootles obi-wan chagrian. Coway mon nar nal falleen dexter bertroff quinlan. Jabiimas bespin timoliini iridonian owen dulok shmi rune. Yoda organa qui-gonn whill momaw kir mon ishi."
+  "ABOUT_CONTENT": "Sykes aruzan keshiri klatooinian hoth. Tatooine organa monkey-lizard keshiri darth. Rebo vor xexto altyr calamari moddell lorth. Shawda gora kohl palpatine depa droopy falleen kowakian. Zam bothan letaki tapani ooryl drall draethos windu. Senex bardan choka mara var binks lobot lahara. Vebb tano baba nagai jacen md-5 organa. Mas mothma fode vuffi altyr snootles obi-wan chagrian. Coway mon nar nal falleen dexter bertroff quinlan. Jabiimas bespin timoliini iridonian owen dulok shmi rune. Yoda organa qui-gonn whill momaw kir mon ishi.",
+  "YOUR_ADDR_LABEL": "Your address",
+  "YOUR_ADDR_LEAD": "Through taxes, you financed the stadiums and clubs in the territories bellow:",
+  "ADMIN_TERRITORIES": "Administrative territories",
+  "STADIUMS": "Stadiums"
 }

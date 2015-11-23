@@ -5,6 +5,10 @@ angular.module('footballTaxApp')
     $scope.clubs = [];
     // Selected club
     $scope.selectedClub = null;
+    // Looks for an address
+    $scope.addrLookup = function(q) {
+      $state.go('main.territories', { q: q });
+    };
     // Looks for a club
     $scope.clubLookup = function(q) {
       if(!q) {

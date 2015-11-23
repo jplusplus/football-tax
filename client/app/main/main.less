@@ -1,6 +1,6 @@
 .main {
   display: block;
-  
+
   &__homepage {
     background:@brand-primary url("../assets/images/main-soccer.jpg") center center;
     background-size: cover;
@@ -34,6 +34,42 @@
 
   &__findings {
     padding:100px 0;
+  }
+
+
+  &__header {
+    background:@brand-primary;
+    color: contrast(@brand-primary);
+    min-height: 200px;
+    padding-top:@navbar-height*2px;
+    margin-bottom:30px;
+
+    h1 {
+      font-weight: bold;
+    }
+
+    &__search {
+      margin-top:-10px;
+    }
+
+    &__breadcrum {
+      a {
+        color:mix( contrast(@brand-primary), @link-color);
+      }
+
+      li {
+        padding-left:10px;
+        &:before {
+          padding-right:10px;
+          content:"❭";
+          color: @brand-secondary;
+        }
+
+        &:first-child:before {
+          display: none;
+        }
+      }
+    }
   }
 
 }
