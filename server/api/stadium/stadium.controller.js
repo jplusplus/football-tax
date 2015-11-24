@@ -46,8 +46,8 @@ exports.search = function(req, res) {
   }
   // Look for a stadium by its name
   var filtered = stadiums.filter(function(item) {
-    // Slugify stadium's name with slug
-    return fuzzy.test(req.query.q, item.name || '');
+    // Fuzzy search on stadium name + city
+    return fuzzy.test(req.query.q, item.name + ' ' + item.city);
   });
   // Return a slice of the collections
   res.json(200, filtered.toArray().slice(params.offset, params.offset + params.limit) );
