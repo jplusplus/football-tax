@@ -25,7 +25,7 @@
     }
 
   }
-  
+
   .ui-select-container {
 
     .btn.ui-select-toggle {
@@ -53,13 +53,24 @@
     padding-top:@navbar-height*2px;
     margin-bottom:30px;
 
+    @media (max-width: @screen-xs-max) {
+      min-height: auto;
+    }
+
     h1 {
       font-weight: bold;
       margin-bottom:60px;
+      @media (max-width: @screen-xs-max) {
+        margin-bottom:30px;
+      }
     }
 
     &__search {
       margin-top:-10px;
+      @media (max-width: @screen-xs-max) {
+        margin-top:0px;
+        margin-bottom:10px;
+      }
     }
 
     &__breadcrum {
