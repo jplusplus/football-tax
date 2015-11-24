@@ -1,0 +1,29 @@
+.money-transfers {
+
+  height: 500px;
+
+  .node {
+
+    rect, polygon {
+      fill-opacity: 1;
+      fill:@brand-secondary;
+      stroke-width: 0;
+      stroke:darken(@brand-secondary, 10);
+    }
+
+    text {
+      fill:@text-color;
+      font:@font-family-base;
+    }
+  }
+
+  .link {
+    fill: none;
+    stroke: #024;
+    stroke-opacity: .2;
+  }
+
+  .link:hover {
+    stroke-opacity: .5;
+  }
+}

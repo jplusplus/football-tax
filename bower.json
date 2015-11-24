@@ -18,7 +18,9 @@
     "angular-translate-loader-static-files": "2.8.1",
     "angular-translate-storage-cookie": "2.8.1",
     "angular-markdown-directive": "0.3.1",
-    "ui-select": "angular-ui-select#0.13.2"
+    "ui-select": "angular-ui-select#0.13.2",
+    "d3": "3.5.9",
+    "d3-sankey": "https://raw.githubusercontent.com/soxofaan/d3-plugin-captain-sankey/master/sankey.js"
   },
   "devDependencies": {
     "angular-mocks": ">=1.4.*",
