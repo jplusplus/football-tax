@@ -16,8 +16,13 @@ var collection = new Set([],
 );
 // Add every clubs, one by one, to the collection
 for(var slug of clubs) {
-  // Create a club object
-  var club = require('../../data/clubs/' + slug + '/desc.json')[0];
+  try {
+    // Create a club object
+    var club = require('../../data/clubs/' + slug + '/desc.json')[0];
+  } catch(e) {
+    // Catch require error (the clubs is not yet downloaded)
+    continue
+  }
   // Add the slug to this object
   club.slug = slug
   // Add every money transfers to this club
