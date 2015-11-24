@@ -67,7 +67,7 @@ angular.module('footballTaxApp')
         // Set up Sankey object.
         var sankey = d3.sankey()
                 .nodeWidth(20)
-                .nodePadding(25)
+                .nodePadding(35)
                 .size([width - 20, height - 40])
                 .nodes(data.nodes)
                 .links(data.links)
