@@ -66,7 +66,7 @@ angular.module('footballTaxApp')
                 .attr("transform", "translate(10, 20)");
         // Set up Sankey object.
         var sankey = d3.sankey()
-                .nodeWidth(20)
+                .nodeWidth(40)
                 .nodePadding(35)
                 .size([width - 20, height - 40])
                 .nodes(data.nodes)
@@ -110,13 +110,15 @@ angular.module('footballTaxApp')
       nodes.append("polygon")
               .attr({
                 points: function(d) {
+                  // Gap is lighter on small rect
+                  let gap = Math.min(d.dy/10, 10)
                   return [
                     [0,0],
                     [sankey.nodeWidth(), 0],
-                    [sankey.nodeWidth() + 10, d.dy/2],
+                    [sankey.nodeWidth() + gap, d.dy/2],
                     [sankey.nodeWidth(), d.dy],
                     [0, d.dy],
-                    [10, d.dy/2],
+                    [gap, d.dy/2],
                   ].join(" ")
                 },
                 transform: function(d) {
