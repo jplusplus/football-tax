@@ -1,0 +1,22 @@
+.main__stadiums
+  .main__header
+    .container
+      h1 {{ stadium.name }}      
+      .row
+        .col-sm-4.col-sm-push-8        
+          form.main__header__search  
+            ui-select(ng-model="selectedStadium", on-select="selectStadium($item.slug)")
+              ui-select-match(placeholder="{{ 'STADIUM_SEARCH_PLACEHOLDER' | translate }}") {{ $select.selected.name }}
+              ui-select-choices(repeat="stadium in stadiums", 
+                                refresh="stadiumLookup($select.search)",
+                                refresh-delay="0")
+                | {{ stadium.name }}
+        .col-sm-8.col-sm-pull-4
+          ul.main__header__breadcrum.list-inline
+            li
+              a(ui-sref='main') {{ 'NAV_RESULT_LABEL' | translate }}
+            li
+              a(ui-sref='main') {{ 'NAV_STADIUMS_LABEL' | translate }}
+            li
+              | {{ stadium.name }}
+      
