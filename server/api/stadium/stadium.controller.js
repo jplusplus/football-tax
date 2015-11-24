@@ -25,8 +25,8 @@ exports.show = function(req, res) {
   if(stadium) {
     // Creates a copy to work on
     stadium = _.clone(stadium);
-    // Gets stadium's transfert
-    stadium.transfert = stadium.getTransfers();
+    // Gets stadium's transfers
+    stadium.transfers = stadium.getTransfers();
     // Return a slice of the collections
     res.json(200, stadium);
   // We didn't...

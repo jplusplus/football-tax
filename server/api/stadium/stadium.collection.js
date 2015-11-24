@@ -18,20 +18,20 @@ var collection = new Set([],
 
 // Look into the club list
 for(let club of clubs.toArray() ) {
-  // Each club has several transferts that may cocern a stadium
-  let transfertByStadium = _.groupBy(club.getTransfers(), 'stadium');
+  // Each club has several transfers that may cocern a stadium
+  let transfersByStadium = _.groupBy(club.getTransfers(), 'stadium');
   // Save every stadium
-  for(let stadiumName in transfertByStadium) {
+  for(let stadiumName in transfersByStadium) {
     // Avoid recording undefined stadium
-    // (since groupBy saves transferts not related to any stadium)
+    // (since groupBy saves transfers not related to any stadium)
     if(stadiumName !== 'undefined' && club.city && club.country) {
       // Build a stadium slug using the club info too
       let stadiumSlug = [club.country, club.city, stadiumName].join('-');
       // Closure to get the transfert for this stadium
-      let getTransfers = (function(club, transferts) {
+      let getTransfers = (function(club, transfers) {
         return function() {
           // Returns a modified list of transfert
-          return _.map(transferts, function(transfert) {
+          return _.map(transfers, function(transfert) {
             // Add the club to the transfert
             transfert.club = club;
             // Return the transfert
@@ -39,7 +39,7 @@ for(let club of clubs.toArray() ) {
           });
         };
       // Call the closure
-      })(club, transfertByStadium[stadiumName]);
+    })(club, transfersByStadium[stadiumName]);
       // Then create a stadium
       collection.add({
         slug: slug(stadiumSlug).toLowerCase(),
