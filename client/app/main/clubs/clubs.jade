@@ -10,7 +10,9 @@
               ui-select-choices(repeat="club in clubs", 
                                 refresh="clubLookup($select.search)",
                                 refresh-delay="0")
-                | {{ club.nameclub }}            
+                strong {{ club.nameclub }}
+                br
+                span {{ club.city }}
         .col-sm-8.col-sm-pull-4
           ul.main__header__breadcrum.list-inline
             li

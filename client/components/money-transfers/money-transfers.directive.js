@@ -10,9 +10,15 @@ angular.module('footballTaxApp')
         var data = {
           // Every entities in the graph
           nodes: _.chain(scope.moneyTransfers).reduce(function(res, transfer) {
-            // Pluck several values
-            for(let k of ['payer', 'beneficiary']) {
-              res.push(transfer[k]);
+            // We have to ponderate the value of the link according to the amount.
+            // Data use english format to express amount, we have to clean it.
+            transfer.value = isNaN(transfer.amount) ? transfer.amount.replace(/€|,/gi, '') * 1 : transfer.amount;
+            // Skip buguy value
+            if( !isNaN(transfer.value) ) {
+              // Pluck several values
+              for(let k of ['payer', 'beneficiary']) {
+                res.push(transfer[k]);
+              }
             }
             return res;
           }, []).uniq().map(function(name) {
@@ -27,14 +33,11 @@ angular.module('footballTaxApp')
           transfer.source = _.findIndex(data.nodes, {name: transfer.payer});
           // And beneficiary the target
           transfer.target = _.findIndex(data.nodes, {name: transfer.beneficiary});
-          // We have to ponderate the value of the link according to the amount.
-          // Data use english format to express amount, we have to clean it.
-          transfer.value = isNaN(transfer.amount) ? transfer.amount.replace(/€|,/gi, '') * 1 : transfer.amount;
           return transfer;
         // Sum values by source and target
         }).reduce(function(res, transfer) {
           // Skip transfer with no value
-          if( transfer.value <= 0 ) return res;
+          if( transfer.value <= 0 || isNaN(transfer.value) ) return res;
           // Find existing link
           let link = _.find(res, {
             source: transfer.source,
@@ -42,7 +45,6 @@ angular.module('footballTaxApp')
           });
           // Link not created yet
           if(!link) {
-
             // Add it to the final links list
             res.push({
               source: transfer.source,
@@ -99,33 +101,25 @@ angular.module('footballTaxApp')
                   }
                 });
 
-        /* nodes.append("rect")
+        nodes.append("polygon")
                 .attr({
-                  height: function (d) { return d.dy; },
-                  width: sankey.nodeWidth()
+                  points: function(d) {
+                    // Gap is lighter on small rect
+                    let gap = Math.min(d.dy/10, 10)
+                    return [
+                      [0,0],
+                      [sankey.nodeWidth(), 0],
+                      [sankey.nodeWidth() + gap, d.dy/2],
+                      [sankey.nodeWidth(), d.dy],
+                      [0, d.dy],
+                      [gap, d.dy/2],
+                    ].join(" ")
+                  },
+                  transform: function(d) {
+                    let x = ( d.x > width/2 ? -1 : 0 ) * 10;
+                    return 'translate(' + x + ', 0)'
+                  }
                 })
-                .append("title")
-                  .text(function (d) { return d.name; }); */
-
-      nodes.append("polygon")
-              .attr({
-                points: function(d) {
-                  // Gap is lighter on small rect
-                  let gap = Math.min(d.dy/10, 10)
-                  return [
-                    [0,0],
-                    [sankey.nodeWidth(), 0],
-                    [sankey.nodeWidth() + gap, d.dy/2],
-                    [sankey.nodeWidth(), d.dy],
-                    [0, d.dy],
-                    [gap, d.dy/2],
-                  ].join(" ")
-                },
-                transform: function(d) {
-                  let x = ( d.x > width/2 ? -1 : 0 ) * 10;
-                  return 'translate(' + x + ', 0)'
-                }
-              })
 
 
         nodes.append("text")
