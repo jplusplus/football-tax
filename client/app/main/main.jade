@@ -29,7 +29,9 @@ ui-view.main
                   ui-select-choices(repeat="club in clubs", 
                                     refresh="clubLookup($select.search)",
                                     refresh-delay="0")
-                    | {{ club.nameclub }}
+                    strong {{ club.nameclub }}
+                    br
+                    span {{ club.city }}
               ul.list-inline
                 li
                   img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          

@@ -10,7 +10,9 @@
               ui-select-choices(repeat="stadium in stadiums", 
                                 refresh="stadiumLookup($select.search)",
                                 refresh-delay="0")
-                | {{ stadium.name }}
+                strong {{ stadium.name }}
+                br
+                span {{ stadium.city }}
         .col-sm-8.col-sm-pull-4
           ul.main__header__breadcrum.list-inline
             li
