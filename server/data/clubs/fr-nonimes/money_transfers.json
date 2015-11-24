@@ -1,0 +1,401 @@
+[
+  {
+    "paymentid": 1,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€304,900",
+    "date": 2003,
+    "type": "Subsidies - Soutien centre de formation",
+    "source": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 2,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€411,615",
+    "date": 2003,
+    "type": "Achats prestations",
+    "source": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 3,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€243,920",
+    "date": 2003,
+    "type": "Subsidies - Soutien centre de formation",
+    "source": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 4,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€457,350",
+    "date": 2004,
+    "type": "Subsidies - Soutien centre de formation",
+    "source": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 5,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€274,445",
+    "date": 2004,
+    "type": "Achats prestations",
+    "source": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 6,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€167,690",
+    "date": 2004,
+    "type": "Subsidies - Soutien centre de formation",
+    "source": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 7,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€579,307",
+    "date": 2005,
+    "type": "Achats prestations",
+    "source": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 8,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€98,184",
+    "date": 2005,
+    "type": "Subsidies - Soutien centre de formation",
+    "source": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 9,
+    "payer": "Conseil Régional Languedoc Roussillon",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€25,000",
+    "date": 2009,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 10,
+    "payer": "Conseil général 30",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€65,000",
+    "date": 2009,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 11,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€280,000",
+    "date": 2009,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 12,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€180,000",
+    "date": 2010,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 13,
+    "payer": "Conseil Régional Languedoc Roussillon",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€25,000",
+    "date": 2010,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 14,
+    "payer": "Conseil général 30",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€60,000",
+    "date": 2010,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 15,
+    "payer": "Conseil Régional Languedoc Roussillon",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€25,000",
+    "date": 2011,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 16,
+    "payer": "Conseil général 30",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€60,000",
+    "date": 2011,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 17,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€180,000",
+    "date": 2011,
+    "type": "Subsidies",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 18,
+    "payer": "Conseil général 30",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€60,000",
+    "date": 2012,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
+  },
+  {
+    "paymentid": 19,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€630,000",
+    "date": 2012,
+    "type": "Achats prestations (principalement support de communication : logo sur maillot, achat espace publicitaire etc)",
+    "source": "p.12"
+  },
+  {
+    "paymentid": 20,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€230,000",
+    "date": 2012,
+    "type": "Subsidies",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 21,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€289,768",
+    "date": 2013,
+    "type": "Subsidies",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 22,
+    "payer": "Conseil général 30",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€55,000",
+    "date": 2013,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 23,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€250,000",
+    "includedin": 21,
+    "date": 2013,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 24,
+    "payer": "Conseil général 30",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€48,000",
+    "date": 2014,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 25,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€630,672",
+    "date": 2014,
+    "type": "Achats prestations",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 26,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€340,000",
+    "date": 2014,
+    "type": "Subsidies",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 27,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€298,129",
+    "includedin": 26,
+    "date": 2014,
+    "type": "Subsidies",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 28,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€631,302",
+    "date": 2015,
+    "type": "Achats prestations",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 29,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€300,000",
+    "date": 2015,
+    "type": "Subsidies",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 30,
+    "payer": "Etat France",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€60,473",
+    "date": 2014,
+    "type": "Subsidies - Aides à l'emploi",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 31,
+    "payer": "Etat France",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€69,164",
+    "date": 2013,
+    "type": "Subsidies - Aides à l'emploi",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 32,
+    "payer": "Etat France",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€52,539",
+    "date": 2012,
+    "type": "Subsidies - Aides à l'emploi",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 33,
+    "payer": "Etat France",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€73,509",
+    "date": 2011,
+    "type": "Subsidies - Aides à l'emploi",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 34,
+    "payer": "Etat France",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€20,924",
+    "date": 2010,
+    "type": "Subsidies - Aides à l'emploi",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 35,
+    "payer": "Etat France",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€9,602",
+    "date": 2009,
+    "type": "Subsidies - Aides à l'emploi",
+    "source": "p.10",
+    "title": "bilan-association-2013-2014.pdf"
+  },
+  {
+    "paymentid": 36,
+    "payer": "Communauté d'agglomération Nîmes Métropole (CANM)",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€57,000",
+    "date": 2015,
+    "type": "Achats places et prestations publicitaires",
+    "source": "Mail CNAM",
+    "title": "SCT-2015-08-155.pdf",
+    "infoscomptables": "Budget principal - Chapitre 011 - Fonction 4150 - Nature 6238 - Service 2203"
+  },
+  {
+    "paymentid": 37,
+    "payer": "Communauté d'agglomération Nîmes Métropole (CANM)",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€55,000",
+    "date": 2014,
+    "type": "Achats places et prestations publicitaires",
+    "source": "Mail CNAM",
+    "title": "SC 2013 06 114.pdf",
+    "infoscomptables": "Budget principal - Chapitre 011 - Fonction 4150 - Nature 6238 - Service 2203"
+  },
+  {
+    "paymentid": 38,
+    "payer": "Communauté d'agglomération Nîmes Métropole (CANM)",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€52,933",
+    "date": 2013,
+    "type": "Achats places et prestations publicitaires",
+    "source": "Mail CNAM",
+    "title": "SC 2011-07-218.pdf",
+    "infoscomptables": "Budget principal - Chapitre 011 - Fonction 4150 - Nature 6238 - Service 2203"
+  },
+  {
+    "paymentid": 39,
+    "payer": "Communauté d'agglomération Nîmes Métropole (CANM)",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€52,933",
+    "date": 2012,
+    "type": "Achats places et prestations publicitaires",
+    "source": "Mail CNAM",
+    "title": "SC 2012 07 189.pdf",
+    "infoscomptables": "Budget principal - Chapitre 011 - Fonction 4150 - Nature 6238 - Service 2203"
+  },
+  {
+    "paymentid": 40,
+    "payer": "Communauté d'agglomération Nîmes Métropole (CANM)",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€42,173",
+    "date": 2011,
+    "type": "Achats places et prestations publicitaires",
+    "source": "Mail CNAM",
+    "title": "SCT 2010 07 175.pdf",
+    "infoscomptables": "Budget principal - Chapitre 011 - Fonction 4150 - Nature 6238 - Service 2203"
+  }
+]
