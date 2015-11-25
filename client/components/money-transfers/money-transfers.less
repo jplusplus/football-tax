@@ -12,8 +12,17 @@
     }
 
     text {
-      fill:@text-color;
       font:@font-family-base;
+    }
+
+    &_label {
+      fill:@text-color;
+    }
+
+    &_value {
+      fill:white;
+      text-shadow:0 0 1px darken(@brand-secondary, 30%);
+      font-weight: bold;
     }
   }
 

@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("moneyTransfers", function() {
+  .directive("moneyTransfers", function($window) {
     return {
       restrict: 'AE',
       template: '<svg class="money-transfers"></svg>',
@@ -58,83 +58,126 @@ angular.module('footballTaxApp')
           return res;
         }, []).value();
 
-        // Some setup stuff.
-        var width = element.width();
-        var height = element.height();
-        // SVG (group) to draw in.
-        var svg = d3.select(element.find(".money-transfers")[0])
-                .attr({ width: width, height: height })
-                .append("g")
-                .attr("transform", "translate(10, 20)");
-        // Set up Sankey object.
-        var sankey = d3.sankey()
-                .nodeWidth(40)
-                .nodePadding(35)
-                .size([width - 20, height - 40])
-                .nodes(data.nodes)
-                .links(data.links)
-                .layout(0);
-        // Path data generator.
-        var path = sankey.link();
-        // Draw the links.
-        var links = svg.append("g").selectAll(".link")
-                .data(data.links)
-                .enter()
-                .append("path")
-                .attr({ "class": "link", d: path })
-                .style("stroke-width", function (d) {
-                  return Math.max(1, d.dy);
-                })
-        links.append("title")
-                .text(function (d) {
-                  return d.source.name + " to " + d.target.name + " = " + d.value;
-                });
-        // Draw the nodes.
-        var nodes = svg.append("g").selectAll(".node")
-                .data(data.nodes)
-                .enter()
-                .append("g")
-                .attr({
-                  "class": "node",
-                  transform: function (d) {
-                    return "translate(" + d.x + "," + d.y + ")";
-                  }
-                });
+        var figuresFormat = function(d) {
+            if(d > 10e9) {
+              return Math.round(d/10e9) + 'B';
+            } else if(d > 10e6) {
+              return Math.round(d/10e6) + 'M';
+            } else if(d > 10e3) {
+              return Math.round(d/10e3) + 'K';
+            } else {
+              return d;
+            }
+        };
 
-        nodes.append("polygon")
-                .attr({
-                  points: function(d) {
-                    // Gap is lighter on small rect
-                    let gap = Math.min(d.dy/10, 10)
-                    return [
-                      [0,0],
-                      [sankey.nodeWidth(), 0],
-                      [sankey.nodeWidth() + gap, d.dy/2],
-                      [sankey.nodeWidth(), d.dy],
-                      [0, d.dy],
-                      [gap, d.dy/2],
-                    ].join(" ")
-                  },
-                  transform: function(d) {
-                    let x = ( d.x > width/2 ? -1 : 0 ) * 10;
-                    return 'translate(' + x + ', 0)'
-                  }
-                })
+        var init = function() {
+
+          // Some setup stuff.
+          var width = element.width();
+          var height = element.height();
+          // Remove content for regeneration
+          element.find(".money-transfers").empty()
+          // SVG (group) to draw in.
+          var svg = d3.select(element.find(".money-transfers")[0])
+                  .attr({ width: width, height: height })
+                  .append("g")
+                  .attr("transform", "translate(10, 20)");
+          // Set up Sankey object.
+          var sankey = d3.sankey()
+                  .nodeWidth(50)
+                  .nodePadding(35)
+                  .size([width - 20, height - 40])
+                  .nodes(data.nodes)
+                  .links(data.links)
+                  .layout(0);
+          // Path data generator.
+          var path = sankey.link();
+          // Draw the links.
+          var links = svg.append("g").selectAll(".link")
+                  .data(data.links)
+                  .enter()
+                  .append("path")
+                  .attr({ "class": "link", d: path })
+                  .style("stroke-width", function (d) {
+                    return Math.max(1, d.dy);
+                  })
+          links.append("title")
+                  .text(function (d) {
+                    return d.source.name + " to " + d.target.name + " = " + d.value;
+                  });
+
+          // Draw the nodes.
+          var nodes = svg.append("g").selectAll(".node")
+                  .data(data.nodes)
+                  .enter()
+                  .append("g")
+                  .attr({
+                    "class": "node",
+                    transform: function (d) {
+                      return "translate(" + d.x + "," + d.y + ")";
+                    }
+                  });
 
 
-        nodes.append("text")
-                .attr({
-                  x: function(d) {
-                    return ( d.x > width/2 ? 1 : 0 ) * sankey.nodeWidth();
-                  },
-                  y: function (d) { return -10; },
-                  dy: ".35em",
-                  "text-anchor": function(d) {
-                    return (d.x > width/2) ? "end" : "start";
-                  },
-                  transform: null
-                })
-                .text(function (d) { return d.name; });
+
+          nodes.append("polygon")
+                  .attr({
+                    points: function(d) {
+                      // Gap is lighter on small rect
+                      let gap = Math.min(d.dy/10, 10)
+                      return [
+                        [0,0],
+                        [sankey.nodeWidth(), 0],
+                        [sankey.nodeWidth() + gap, d.dy/2],
+                        [sankey.nodeWidth(), d.dy],
+                        [0, d.dy],
+                        [gap, d.dy/2],
+                      ].join(" ")
+                    },
+                    transform: function(d) {
+                      let x = ( d.x > width/2 ? -1 : 0 ) * 10;
+                      return 'translate(' + x + ', 0)'
+                    }
+                  })
+
+
+          nodes.append("text")
+                  .attr({
+                    "class": "node_value",
+                    "x": function(d) {
+                      return sankey.nodeWidth()/2;
+                    },
+                    "y": function(d) { return d.dy/2 },
+                    "dy": ".35em",
+                    "text-anchor": "middle",
+                    "transform": function (d) {
+                      let x = ( d.x > width/2 ? -1 : 0 ) * 10;
+                      return 'translate(' + x + ', 0)';
+                    }
+                  })
+                  .text(function (d) {
+                    return d.dy > 12 ? figuresFormat(d.value) : '';
+                  });
+
+          nodes.append("text")
+                  .attr({
+                    "class": "node_label",
+                    "x": function(d) {
+                      return ( d.x > width/2 ? 1 : 0 ) * sankey.nodeWidth();
+                    },
+                    "y": function (d) { return -10; },
+                    "dy": ".35em",
+                    "text-anchor": function(d) {
+                      return (d.x > width/2) ? "end" : "start";
+                    },
+                    "transform": null
+                  })
+                  .text(function (d) { return d.name; });
+
+        }
+
+        init();
+        angular.element($window).bind("resize", init);
       }
     };
   });
