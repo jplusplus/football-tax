@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("moneyTransfers", function($window) {
+  .directive("moneyTransfers", function($window, $translate) {
     return {
       restrict: 'AE',
       template: '<svg class="money-transfers"></svg>',
@@ -60,11 +60,11 @@ angular.module('footballTaxApp')
 
         var figuresFormat = function(d) {
             if(d > 10e9) {
-              return Math.round(d/10e9) + 'B';
+              return Math.round(d/10e9) + $translate.instant('BILLION_FIGURE');
             } else if(d > 10e6) {
-              return Math.round(d/10e6) + 'M';
+              return Math.round(d/10e6) + $translate.instant('MILLION_FIGURE');
             } else if(d > 10e3) {
-              return Math.round(d/10e3) + 'K';
+              return Math.round(d/10e3) + $translate.instant('THOUSAND_FIGURE');
             } else {
               return d;
             }
@@ -93,18 +93,33 @@ angular.module('footballTaxApp')
           // Path data generator.
           var path = sankey.link();
           // Draw the links.
-          var links = svg.append("g").selectAll(".link")
+          var links = svg.selectAll(".link")
                   .data(data.links)
                   .enter()
+                  .append("g")
+                  .attr({ "class": "link" })
                   .append("path")
-                  .attr({ "class": "link", d: path })
+                  .attr({ "class": "link_path", d: path })
                   .style("stroke-width", function (d) {
                     return Math.max(1, d.dy);
-                  })
-          links.append("title")
-                  .text(function (d) {
-                    return d.source.name + " to " + d.target.name + " = " + d.value;
                   });
+
+          svg.selectAll(".link")
+            .append("text")
+            .attr({
+              "class": "link_value",
+              "text-anchor": "middle",
+              "dy": ".35em",
+              "x": function(d) {
+                return (d.target.x - d.source.x)/2;
+              },
+              "y": function(d) {
+                return ( (d.source.y + d.sy) + (d.target.y + d.ty + d.dy) ) / 2;
+              }
+            })
+            .text(function(d) {
+              return $translate.instant('AMOUNT_SPENT', { value: figuresFormat(d.value) });
+            });
 
           // Draw the nodes.
           var nodes = svg.append("g").selectAll(".node")

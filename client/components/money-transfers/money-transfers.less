@@ -2,6 +2,10 @@
 
   height: 500px;
 
+  text {
+    font:@font-family-base;
+  }
+
   .node {
 
     rect, polygon {
@@ -9,10 +13,6 @@
       fill:@brand-secondary;
       stroke-width: 1px;
       stroke:@brand-secondary;
-    }
-
-    text {
-      font:@font-family-base;
     }
 
     &_label {
@@ -27,12 +27,28 @@
   }
 
   .link {
-    fill: none;
-    stroke: #024;
-    stroke-opacity: .2;
+
+    &_value {
+      font-weight:bold;
+      fill:white;
+      fill-opacity:0;
+      text-shadow:0 0 1px darken(#024, 30%), 0 0 2px darken(#024, 30%);
+    }
+
+    &_path {
+      fill: none;
+      stroke: #024;
+      stroke-opacity: .2;
+    }
+
+    &:hover {
+      .link_path {
+        stroke-opacity: .7;
+      }
+      .link_value {
+        fill-opacity: 1;
+      }
+    }
   }
 
-  .link:hover {
-    stroke-opacity: .5;
-  }
 }
