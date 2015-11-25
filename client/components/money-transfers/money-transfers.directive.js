@@ -151,7 +151,9 @@ angular.module('footballTaxApp')
                     "dy": ".35em",
                     "text-anchor": "middle",
                     "transform": function (d) {
-                      let x = ( d.x > width/2 ? -1 : 0 ) * 10;
+                      // Gap is lighter on small rect
+                      let gap = Math.min(d.dy/10, 10)
+                      let x = ( d.x > width/2 ? -1 : 0 ) * 10 + gap;
                       return 'translate(' + x + ', 0)';
                     }
                   })
