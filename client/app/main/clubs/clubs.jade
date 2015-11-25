@@ -26,4 +26,8 @@
     .container
       .lead
         p {{ 'ABOUT_CONTENT' | translate }}
-      div(money-transfers="club.transfers")
+      div(money-transfers="club.transfers")      
+      div(ng-repeat="(name, payer) in payers")
+        h2 {{ name }}
+        p {{ 'ABOUT_CONTENT' | translate }}
+      div(transfer-by-year="club.transfers")   
