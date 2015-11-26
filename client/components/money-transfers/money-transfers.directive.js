@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("moneyTransfers", function($window, $translate) {
+  .directive("moneyTransfers", function($window, $translate, currencies) {
     return {
       restrict: 'AE',
       template: '<svg class="money-transfers"></svg>',
@@ -12,7 +12,7 @@ angular.module('footballTaxApp')
           nodes: _.chain(scope.moneyTransfers).reduce(function(res, transfer) {
             // We have to ponderate the value of the link according to the amount.
             // Data use english format to express amount, we have to clean it.
-            transfer.value = isNaN(transfer.amount) ? transfer.amount.replace(/€|,/gi, '') * 1 : transfer.amount;
+            transfer.value = currencies.fromStr(transfer.amount);
             // Skip buguy value
             if( !isNaN(transfer.value) ) {
               // Pluck several values
@@ -58,17 +58,6 @@ angular.module('footballTaxApp')
           return res;
         }, []).value();
 
-        var figuresFormat = function(d) {
-            if(d > 10e9) {
-              return Math.round(d/10e9) + $translate.instant('BILLION_FIGURE');
-            } else if(d > 10e6) {
-              return Math.round(d/10e6) + $translate.instant('MILLION_FIGURE');
-            } else if(d > 10e3) {
-              return Math.round(d/10e3) + $translate.instant('THOUSAND_FIGURE');
-            } else {
-              return d;
-            }
-        };
 
         var init = function() {
 
@@ -118,7 +107,7 @@ angular.module('footballTaxApp')
               }
             })
             .text(function(d) {
-              return $translate.instant('AMOUNT_SPENT', { value: figuresFormat(d.value) });
+              return $translate.instant('AMOUNT_SPENT', { value: currencies.figuresFormat(d.value) });
             });
 
           // Draw the nodes.
@@ -173,7 +162,7 @@ angular.module('footballTaxApp')
                     }
                   })
                   .text(function (d) {
-                    return d.dy > 12 ? figuresFormat(d.value) : '';
+                    return d.dy > 12 ? currencies.figuresFormat(d.value) : '';
                   });
 
           nodes.append("text")

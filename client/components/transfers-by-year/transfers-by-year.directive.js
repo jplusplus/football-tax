@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("transferByYear", function($window, $translate) {
+  .directive("transferByYear", function($window, currencies) {
     return {
       restrict: 'AE',
       template: '<svg class="transfers-by-year"></svg>',
@@ -12,7 +12,7 @@ angular.module('footballTaxApp')
         var beneficiaries = [];
         var data = {
           all: _.chain(scope.transferByYear).map( (transfer)=> {
-            transfer.value = (transfer.amount + "").replace(/€|,/gi, '') * 1;
+            transfer.value = currencies.fromStr(transfer.amount);
             return transfer;
           }).filter( (transfer)=> {
             return !isNaN(transfer.value) && !isNaN(transfer.date);
@@ -68,7 +68,7 @@ angular.module('footballTaxApp')
         // Sort the array of year.. by year!
         data.years = _.sortBy(data.years, 'date');
         // Color categories
-        var color = d3.scale.category20b().domain(data.beneficiaries);
+        var color = d3.scale.category20c().domain(data.beneficiaries);
 
         var init = ()=> {
           // Some setup stuff.
@@ -102,19 +102,42 @@ angular.module('footballTaxApp')
                     .attr('transform', (d, i)=> {
                       return 'translate(' + x(i) + ',  0)';
                     });
-
+          // A group for each bar
           var bars = stacks.selectAll(".stack_bar")
                   .data(d => d.beneficiaries)
                   .enter()
-                    .append("rect")
+                    .append("g")
                     .attr({
-                      y: d=> padding.top + barMaxHeight - y(d.total),
-                      x: barGap/2,
-                      class: 'stack_bar',
-                      width: barWidth,
-                      height: d=> y(d.total),
-                      fill: d=> color(d.name)
-                    });
+                      "class": "stack_bar",
+                      "transform": d=> {
+                        let dy = padding.top + barMaxHeight - y(d.total);
+                        let dx = barGap/2;
+                        return "translate(" + dx + "," + dy + " )";
+                      }
+                    })
+          // Draw the rect into the bar's group
+          bars.append("rect")
+            .attr({
+              class: 'stack_bar_rect',
+              width: barWidth,
+              height: d=> y(d.total),
+              fill: d=> color(d.name)
+            });
+
+          // Draw a label in every bar's group
+          var ylabels = bars.append("text")
+                  .attr({
+                    "class": (d, i)=> {
+                      return [
+                        "ylabels",
+                        y(d.total) < 10 ? "ylabels-disabled" : ""
+                      ].join(" ")
+                    },
+                    "text-anchor": "middle",
+                    "dy": "1.35em",
+                    "x": barWidth/2
+                  })
+                  .text(d => currencies.figuresFormat(d.total));
 
           var xlabels = svg.append("g")
                   .attr("class", "xlabels")
