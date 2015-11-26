@@ -6,7 +6,7 @@ angular.module('footballTaxApp')
       scope: {
         transfersByYear:"=",
         years:"=",
-        stacked: "="
+        subgroup: "&"
       },
       link: function(scope, element, attrs) {
 
@@ -34,7 +34,7 @@ angular.module('footballTaxApp')
           });
         }
 
-        var beneficiaries = [];
+        var groups = [];
         var data = {
           all: _.chain(scope.transfersByYear).map( (transfer)=> {
             transfer.value = currencies.fromStr(transfer.amount);
@@ -42,12 +42,12 @@ angular.module('footballTaxApp')
           }).filter( (transfer)=> {
             return !isNaN(transfer.value) && !isNaN(transfer.date);
           }).each( (transfer)=> {
-            // Save the beneficiary for later
-            beneficiaries.push(transfer.beneficiary);
+            // Save the group for later
+            groups.push(transfer[ scope.subgroup() ]);
           }).value()
         };
-        // Collect beneficiaries from effective data
-        data.beneficiaries = _.uniq(beneficiaries);
+        // Collect groups from effective data
+        data.groups = _.uniq(groups);
         // Data by year
         data.years = _.chain(data.all)
                   .groupBy('date')
@@ -55,12 +55,12 @@ angular.module('footballTaxApp')
                     let year = {
                       date: date,
                       transfers: transfers,
-                      // Data by beneficiary
-                      beneficiaries: _.chain(transfers)
-                        .groupBy('beneficiary')
-                        .reduce( (res, transfers, beneficiary)=> {
+                      // Data by group
+                      groups: _.chain(transfers)
+                        .groupBy(scope.subgroup())
+                        .reduce( (res, transfers, name)=> {
                           res.push({
-                            name: beneficiary,
+                            name: name,
                             transfers: transfers,
                             total: _.reduce(transfers, (res, d)=> res + d.value, 0)
                           });
@@ -70,11 +70,11 @@ angular.module('footballTaxApp')
                         .value()
                     };
                     // Save the maximum value for this year
-                    year.max = _.max(year.beneficiaries, 'total').total;
+                    year.max = _.max(year.groups, 'total').total;
                     year.total = _.reduce(transfers, (res, d)=> res + d.value, 0);
-                    // Save the previous total for each beneficiary
-                    year.beneficiaries = _.each(year.beneficiaries, (d, i)=>{
-                      d.prev = i === year.beneficiaries.length - 1 ? 0 : year.beneficiaries[i + 1].total;
+                    // Save the previous total for each group
+                    year.groups = _.each(year.groups, (d, i)=>{
+                      d.prev = i === year.groups.length - 1 ? 0 : year.groups[i + 1].total;
                     });
                     res.push(year);
                     return res;
@@ -90,7 +90,7 @@ angular.module('footballTaxApp')
             data.years.push({
               date: date,
               transfers: [],
-              beneficiaries: [],
+              groups: [],
               max: 0,
               total: 0
             });
@@ -99,9 +99,9 @@ angular.module('footballTaxApp')
         // Sort the array of year.. by year!
         data.years = _.sortBy(data.years, 'date');
         // Should we use several colors?
-        if( scope.stacked ) {
+        if( scope.subgroup() ) {
           // Color categories
-          var color = d3.scale.category20c().domain(data.beneficiaries);
+          var color = d3.scale.category20c().domain(data.groups);
         } else {
           // One color
           var color = ()=> "#00202F";
@@ -142,8 +142,8 @@ angular.module('footballTaxApp')
                     });
           // A group for each bar
           var bars = stacks.selectAll(".stack_bar")
-                  // Non-stacked chart just contain one beneficiary
-                  .data(d => scope.stacked ? d.beneficiaries : [ { total: d.total } ])
+                  // Non-stacked chart just contain one group
+                  .data(d => scope.subgroup() ? d.groups : [ { total: d.total } ])
                   .enter()
                     .append("g")
                     .attr({
@@ -169,7 +169,7 @@ angular.module('footballTaxApp')
                   .attr({
                     "class": (d, i)=> {
                       // Space between a rect and the previous one
-                      let space = scope.stacked ? y(d.total) - y(d.prev) : y(d.total);
+                      let space = scope.subgroup() ? y(d.total) - y(d.prev) : y(d.total);
                       return [
                         "ylabels",
                         space < 14 ? "ylabels-disabled" : ""
@@ -192,7 +192,7 @@ angular.module('footballTaxApp')
                         "text-anchor": "middle",
                         "class": d=> [
                           "xlabels_text",
-                          d.beneficiaries.length ? "" : "xlabels_text-disabled"
+                          d.groups.length ? "" : "xlabels_text-disabled"
                         ].join(" "),
                         "y": barMaxHeight + padding.top,
                         "x": (d, i)=> x(i) + barWidth/2 + barGap/2,
@@ -200,7 +200,7 @@ angular.module('footballTaxApp')
                       });
 
           // Only stacked charts need a legend
-          if( scope.stacked ) {
+          if( scope.subgroup() ) {
 
             var legends = svg.append("g")
                       .attr({
@@ -208,7 +208,7 @@ angular.module('footballTaxApp')
                         "transform": "translate(20, " + height + ")"
                       })
                       .selectAll(".legend_item")
-                      .data(data.beneficiaries)
+                      .data(data.groups)
                       .enter()
                         .append("g")
                         .attr({
