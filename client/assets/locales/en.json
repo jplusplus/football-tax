@@ -28,6 +28,6 @@
   "SEE_SUBSIDIES": "See subsidies for this territory",
   "AMOUNT_SPENT": "{{value}} euros spent",
   "BILLION_FIGURE": "B",
-  "MILLION_FIGURE": "K",
+  "MILLION_FIGURE": "M",
   "THOUSAND_FIGURE": "K"
 }

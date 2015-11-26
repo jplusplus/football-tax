@@ -46,6 +46,10 @@ angular.module('footballTaxApp')
                     };
                     // Save the maximum value for this year
                     year.max = _.max(year.beneficiaries, 'total').total;
+                    // Save the previous total for each beneficiary
+                    year.beneficiaries = _.each(year.beneficiaries, (d, i)=>{
+                      d.prev = i === year.beneficiaries.length - 1 ? 0 : year.beneficiaries[i + 1].total;
+                    });
                     res.push(year);
                     return res;
                   }, []).value();
@@ -83,7 +87,7 @@ angular.module('footballTaxApp')
           // Bar scale
           var y = d3.scale.linear()
                     .domain([0, _.max(data.years, 'max').max ])
-                    .range([padding.top, barMaxHeight]);
+                    .range([0, barMaxHeight]);
           // Year scale
           var x = d3.scale.linear()
                     .domain([0, (scope.years || data.domain).length])
@@ -114,7 +118,8 @@ angular.module('footballTaxApp')
                         let dx = barGap/2;
                         return "translate(" + dx + "," + dy + " )";
                       }
-                    })
+                    });
+          bars.append("title").text(d=> d.total);
           // Draw the rect into the bar's group
           bars.append("rect")
             .attr({
@@ -128,13 +133,16 @@ angular.module('footballTaxApp')
           var ylabels = bars.append("text")
                   .attr({
                     "class": (d, i)=> {
+                      // Space between a rect and the previous one
+                      let space = y(d.total) - y(d.prev);
+                      console.log(i, d.prev, y(d.prev), space );
                       return [
                         "ylabels",
-                        y(d.total) < 10 ? "ylabels-disabled" : ""
+                        space < 14 ? "ylabels-disabled" : ""
                       ].join(" ")
                     },
                     "text-anchor": "middle",
-                    "dy": "1.35em",
+                    "dy": "1.15em",
                     "x": barWidth/2
                   })
                   .text(d => currencies.figuresFormat(d.total));
