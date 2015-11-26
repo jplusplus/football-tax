@@ -133,12 +133,12 @@ angular.module('footballTaxApp')
 
           var xlabels = svg.append("g")
                   .attr("class", "xlabels")
-                    .selectAll(".xlabels__group")
+                    .selectAll(".xlabels_group")
                     .data(data.groups)
                     .enter()
                       .append("g")
                       .attr({
-                        "class": "xlabels__group",
+                        "class": "xlabels_group",
                         "transform": (d, i)=> {
                           let dx = x(i) + barWidth/2 + barGap/2;
                           let dy = barMaxHeight + padding.top;
@@ -149,7 +149,7 @@ angular.module('footballTaxApp')
                           .text(d => d.name)
                           .attr({
                             "text-anchor": "middle",
-                            "class": "xlabels_text",
+                            "class": "xlabels_group_text",
                             "dy": "1.35em"
                           })
                           .call(wrap, barWidth);

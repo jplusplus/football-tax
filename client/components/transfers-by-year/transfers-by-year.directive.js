@@ -190,12 +190,10 @@ angular.module('footballTaxApp')
                       .text(d => d.date)
                       .attr({
                         "text-anchor": "middle",
-                        "class": d=> {
-                            return [
-                              "xlabels_text",
-                              d.beneficiaries.length ? "" : "xlabels_text-disabled"
-                            ].join(" ")
-                        },
+                        "class": d=> [
+                          "xlabels_text",
+                          d.beneficiaries.length ? "" : "xlabels_text-disabled"
+                        ].join(" "),
                         "y": barMaxHeight + padding.top,
                         "x": (d, i)=> x(i) + barWidth/2 + barGap/2,
                         "dy": "1.35em"

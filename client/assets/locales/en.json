@@ -29,5 +29,6 @@
   "AMOUNT_SPENT": "{{value}} euros spent",
   "BILLION_FIGURE": "B",
   "MILLION_FIGURE": "M",
-  "THOUSAND_FIGURE": "K"
+  "THOUSAND_FIGURE": "K",
+  "YEAR_MOST_SPENDING": "Year with most spending: {{year}}"
 }
