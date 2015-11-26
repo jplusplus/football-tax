@@ -9,6 +9,30 @@ angular.module('footballTaxApp')
       },
       link: function(scope, element, attrs) {
 
+        function wrap(text, width) {
+          text.each(function() {
+            var text = d3.select(this),
+                words = text.text().split(/\s+/).reverse(),
+                word,
+                line = [],
+                lineNumber = 0,
+                lineHeight = 1.2, // ems
+                y = text.attr("y"),
+                dy = parseFloat(text.attr("dy")),
+                tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+            while (word = words.pop()) {
+              line.push(word);
+              tspan.text(line.join(" "));
+              if (tspan.node().getComputedTextLength() > width) {
+                line.pop();
+                tspan.text(line.join(" "));
+                line = [word];
+                tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", lineHeight + "em").text(word);
+              }
+            }
+          });
+        }
+
         var beneficiaries = [];
         var data = {
           all: _.chain(scope.transferByYear).map( (transfer)=> {
@@ -76,7 +100,7 @@ angular.module('footballTaxApp')
 
         var init = ()=> {
           // Some setup stuff.
-          var padding = { left: 20, right: 20, top: 20, bottom: 40 };
+          var padding = { left: 20, right: 20, top: 20, bottom: 60 };
           var width = element.width();
           var height = 350;
           var barSpace = width - padding.left - padding.right;
@@ -165,6 +189,59 @@ angular.module('footballTaxApp')
                         "x": (d, i)=> x(i) + barWidth/2 + barGap/2,
                         "dy": "1.35em"
                       });
+
+          var legends = svg.append("g")
+                    .attr({
+                      "class": "legend",
+                      "transform": "translate(20, " + height + ")"
+                    })
+                    .selectAll(".legend_item")
+                    .data(data.beneficiaries)
+                    .enter()
+                      .append("g")
+                      .attr({
+                        "class": "legend_item",
+                      });
+
+          legends.append("text")
+                    .attr({
+                      "class": "legend_item_label",
+                      "text-anchor": "start",
+                      "dy": "1em",
+                      "transform": "translate(25, 0)"
+                    })
+                    .text(d => d)
+                    .call(wrap, width*0.25);
+          legends.append("rect")
+                    .attr({
+                      "class": "legend_item_square",
+                      "width": 16,
+                      "height": 16,
+                      "y": 2,
+                      "fill": color
+                    });
+          // Iterate over text elements
+          var prevWidth = 0;
+          // Move existing element after they have been created
+          legends.each(function(d, i) {
+            // Move every item but the first one
+            if(i) {
+              d3.select(this).attr("transform", "translate(" + prevWidth + ", 0)");
+            }
+            // Save the last bbox
+            prevWidth += d3.select(this).node().getBBox().width + 20
+          });
+          // Draw a line between the legend and the bars
+          svg.append("line")
+            .attr({
+              class: "separator",
+              x1: 0,
+              y1: height - padding.top,
+              x2: width,
+              y2: height - padding.top
+            })
+          // Enlarge the svg according to the legend height
+          svg.attr({ height: height + svg.select(".legend").node().getBBox().height + padding.top })
         };
 
         init();
