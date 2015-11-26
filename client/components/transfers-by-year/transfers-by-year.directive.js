@@ -100,14 +100,15 @@ angular.module('footballTaxApp')
 
         var init = ()=> {
           // Some setup stuff.
-          var padding = { left: 20, right: 20, top: 20, bottom: 60 };
-          var width = element.width();
-          var height = 350;
-          var barSpace = width - padding.left - padding.right;
-          var stackWidth = Math.min(barSpace / scope.years.length, 350);
-          var barGap = stackWidth * (1/3);
-          var barWidth = stackWidth * (2/3);
-          var barMaxHeight = height - padding.top - padding.bottom;
+          const padding = { left: 20, right: 20, top: 20, bottom: 60 };
+          const width = element.width();
+          const height = 350;
+          const mobileWidth = 720;
+          const barSpace = width - padding.left - padding.right;
+          const stackWidth = Math.min(barSpace / scope.years.length, 350);
+          const barGap = stackWidth * (1/3);
+          const barWidth = stackWidth * (2/3);
+          const barMaxHeight = height - padding.top - padding.bottom;
           // Bar scale
           var y = d3.scale.linear()
                     .domain([0, _.max(data.years, 'max').max ])
@@ -211,7 +212,7 @@ angular.module('footballTaxApp')
                       "transform": "translate(25, 0)"
                     })
                     .text(d => d)
-                    .call(wrap, width*0.25);
+                    .call(wrap, width > mobileWidth ? width*0.25 : mobileWidth);
           legends.append("rect")
                     .attr({
                       "class": "legend_item_square",
@@ -221,15 +222,21 @@ angular.module('footballTaxApp')
                       "fill": color
                     });
           // Iterate over text elements
-          var prevWidth = 0;
+          var prevWidth =  0, prevHeight = 0;
           // Move existing element after they have been created
           legends.each(function(d, i) {
+            let bbox = d3.select(this).node().getBBox();
             // Move every item but the first one
             if(i) {
-              d3.select(this).attr("transform", "translate(" + prevWidth + ", 0)");
+              if(width > mobileWidth) {
+                d3.select(this).attr("transform", "translate(" + prevWidth + ", 0)");
+              } else {
+                d3.select(this).attr("transform", "translate(0, " + prevHeight + ")");
+              }
             }
             // Save the last bbox
-            prevWidth += d3.select(this).node().getBBox().width + 20
+            prevWidth  += bbox.width + 20
+            prevHeight += bbox.height + 20
           });
           // Draw a line between the legend and the bars
           svg.append("line")
