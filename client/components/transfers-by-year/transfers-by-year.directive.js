@@ -169,7 +169,7 @@ angular.module('footballTaxApp')
                   .attr({
                     "class": (d, i)=> {
                       // Space between a rect and the previous one
-                      let space = y(d.total) - y(d.prev);
+                      let space = scope.scaped ? y(d.total) - y(d.prev) : y(d.total);
                       return [
                         "ylabels",
                         space < 14 ? "ylabels-disabled" : ""
