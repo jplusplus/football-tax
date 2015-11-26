@@ -1,10 +1,10 @@
 angular.module('footballTaxApp')
-  .directive("transferByYear", function($window, currencies) {
+  .directive("transfersByYear", function($window, currencies) {
     return {
       restrict: 'AE',
       template: '<svg class="transfers-by-year"></svg>',
       scope: {
-        transferByYear:"=",
+        transfersByYear:"=",
         years:"=",
         stacked: "="
       },
@@ -36,7 +36,7 @@ angular.module('footballTaxApp')
 
         var beneficiaries = [];
         var data = {
-          all: _.chain(scope.transferByYear).map( (transfer)=> {
+          all: _.chain(scope.transfersByYear).map( (transfer)=> {
             transfer.value = currencies.fromStr(transfer.amount);
             return transfer;
           }).filter( (transfer)=> {
@@ -91,7 +91,8 @@ angular.module('footballTaxApp')
               date: date,
               transfers: [],
               beneficiaries: [],
-              max: 0
+              max: 0,
+              total: 0
             });
           }
         }

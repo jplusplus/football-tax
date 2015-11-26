@@ -27,4 +27,7 @@
     .container
       .lead
         p {{ 'ABOUT_CONTENT' | translate }}
-      div(transfer-by-year="stadium.transfers", years="years", stacked="false")  
+      div(transfers-by-year="stadium.transfers", years="years", stacked="false")  
+      h2 {{ 'YEAR_MOST_SPENT' | translate:{year: 2010} }}
+      p {{ 'ABOUT_CONTENT' | translate }}
+      div(transfers-by-category="stadium.transfers", category="'payer'")  
