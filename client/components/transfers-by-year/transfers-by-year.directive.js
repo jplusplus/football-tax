@@ -135,7 +135,6 @@ angular.module('footballTaxApp')
                     "class": (d, i)=> {
                       // Space between a rect and the previous one
                       let space = y(d.total) - y(d.prev);
-                      console.log(i, d.prev, y(d.prev), space );
                       return [
                         "ylabels",
                         space < 14 ? "ylabels-disabled" : ""
@@ -156,7 +155,12 @@ angular.module('footballTaxApp')
                       .text(d => d.date)
                       .attr({
                         "text-anchor": "middle",
-                        "class": "xlabels_text",
+                        "class": d=> {
+                            return [
+                              "xlabels_text",
+                              d.beneficiaries.length ? "" : "xlabels_text-disabled"
+                            ].join(" ")
+                        },
                         "y": barMaxHeight + padding.top,
                         "x": (d, i)=> x(i) + barWidth/2 + barGap/2,
                         "dy": "1.35em"
