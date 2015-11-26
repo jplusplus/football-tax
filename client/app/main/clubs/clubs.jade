@@ -30,4 +30,4 @@
       div(ng-repeat="(name, transfers) in payers")
         h2 {{ name }}
         p {{ 'ABOUT_CONTENT' | translate }}
-        div(transfer-by-year="transfers", years="years")   
+        div(transfer-by-year="transfers", years="years", stacked="true")   

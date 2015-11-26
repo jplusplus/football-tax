@@ -6,6 +6,7 @@ angular.module('footballTaxApp')
       scope: {
         transferByYear:"=",
         years:"=",
+        stacked: "="
       },
       link: function(scope, element, attrs) {
 
@@ -70,6 +71,7 @@ angular.module('footballTaxApp')
                     };
                     // Save the maximum value for this year
                     year.max = _.max(year.beneficiaries, 'total').total;
+                    year.total = _.reduce(transfers, (res, d)=> res + d.value, 0);
                     // Save the previous total for each beneficiary
                     year.beneficiaries = _.each(year.beneficiaries, (d, i)=>{
                       d.prev = i === year.beneficiaries.length - 1 ? 0 : year.beneficiaries[i + 1].total;
@@ -95,8 +97,14 @@ angular.module('footballTaxApp')
         }
         // Sort the array of year.. by year!
         data.years = _.sortBy(data.years, 'date');
-        // Color categories
-        var color = d3.scale.category20c().domain(data.beneficiaries);
+        // Should we use several colors?
+        if( scope.stacked ) {
+          // Color categories
+          var color = d3.scale.category20c().domain(data.beneficiaries);
+        } else {
+          // One color
+          var color = ()=> "#00202F";
+        }
 
         var init = ()=> {
           // Some setup stuff.
@@ -133,7 +141,8 @@ angular.module('footballTaxApp')
                     });
           // A group for each bar
           var bars = stacks.selectAll(".stack_bar")
-                  .data(d => d.beneficiaries)
+                  // Non-stacked chart just contain one beneficiary
+                  .data(d => scope.stacked ? d.beneficiaries : [ { total: d.total } ])
                   .enter()
                     .append("g")
                     .attr({
@@ -191,64 +200,68 @@ angular.module('footballTaxApp')
                         "dy": "1.35em"
                       });
 
-          var legends = svg.append("g")
-                    .attr({
-                      "class": "legend",
-                      "transform": "translate(20, " + height + ")"
-                    })
-                    .selectAll(".legend_item")
-                    .data(data.beneficiaries)
-                    .enter()
-                      .append("g")
-                      .attr({
-                        "class": "legend_item",
-                      });
+          // Only stacked charts need a legend
+          if( scope.stacked ) {
 
-          legends.append("text")
-                    .attr({
-                      "class": "legend_item_label",
-                      "text-anchor": "start",
-                      "dy": "1em",
-                      "transform": "translate(25, 0)"
-                    })
-                    .text(d => d)
-                    .call(wrap, width > mobileWidth ? width*0.25 : mobileWidth);
-          legends.append("rect")
-                    .attr({
-                      "class": "legend_item_square",
-                      "width": 16,
-                      "height": 16,
-                      "y": 2,
-                      "fill": color
-                    });
-          // Iterate over text elements
-          var prevWidth =  0, prevHeight = 0;
-          // Move existing element after they have been created
-          legends.each(function(d, i) {
-            let bbox = d3.select(this).node().getBBox();
-            // Move every item but the first one
-            if(i) {
-              if(width > mobileWidth) {
-                d3.select(this).attr("transform", "translate(" + prevWidth + ", 0)");
-              } else {
-                d3.select(this).attr("transform", "translate(0, " + prevHeight + ")");
+            var legends = svg.append("g")
+                      .attr({
+                        "class": "legend",
+                        "transform": "translate(20, " + height + ")"
+                      })
+                      .selectAll(".legend_item")
+                      .data(data.beneficiaries)
+                      .enter()
+                        .append("g")
+                        .attr({
+                          "class": "legend_item",
+                        });
+
+            legends.append("text")
+                      .attr({
+                        "class": "legend_item_label",
+                        "text-anchor": "start",
+                        "dy": "1em",
+                        "transform": "translate(25, 0)"
+                      })
+                      .text(d => d)
+                      .call(wrap, width > mobileWidth ? width*0.25 : mobileWidth);
+            legends.append("rect")
+                      .attr({
+                        "class": "legend_item_square",
+                        "width": 16,
+                        "height": 16,
+                        "y": 2,
+                        "fill": color
+                      });
+            // Iterate over text elements
+            var prevWidth =  0, prevHeight = 0;
+            // Move existing element after they have been created
+            legends.each(function(d, i) {
+              let bbox = d3.select(this).node().getBBox();
+              // Move every item but the first one
+              if(i) {
+                if(width > mobileWidth) {
+                  d3.select(this).attr("transform", "translate(" + prevWidth + ", 0)");
+                } else {
+                  d3.select(this).attr("transform", "translate(0, " + prevHeight + ")");
+                }
               }
-            }
-            // Save the last bbox
-            prevWidth  += bbox.width + 20
-            prevHeight += bbox.height + 20
-          });
-          // Draw a line between the legend and the bars
-          svg.append("line")
-            .attr({
-              class: "separator",
-              x1: 0,
-              y1: height - padding.top,
-              x2: width,
-              y2: height - padding.top
-            })
-          // Enlarge the svg according to the legend height
-          svg.attr({ height: height + svg.select(".legend").node().getBBox().height + padding.top })
+              // Save the last bbox
+              prevWidth  += bbox.width + 20
+              prevHeight += bbox.height + 20
+            });
+            // Draw a line between the legend and the bars
+            svg.append("line")
+              .attr({
+                class: "separator",
+                x1: 0,
+                y1: height - padding.top,
+                x2: width,
+                y2: height - padding.top
+              })
+            // Enlarge the svg according to the legend height
+            svg.attr({ height: height + svg.select(".legend").node().getBBox().height + padding.top })
+          }
         };
 
         init();

@@ -22,3 +22,9 @@
             li
               | {{ stadium.name }}
       
+              
+  .main__clubs__content.main__content
+    .container
+      .lead
+        p {{ 'ABOUT_CONTENT' | translate }}
+      div(transfer-by-year="stadium.transfers", years="years", stacked="false")  
