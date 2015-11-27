@@ -106,7 +106,6 @@ angular.module('footballTaxApp')
                               .range([
                                 "#7AB4D0",
                                 "#086FA1",
-                                "#06567D",
                                 "#00202F",
                                 "#FFE363",
                                 "#FFD100",
