@@ -19,3 +19,30 @@
 // endinjector
 
 a { cursor: pointer; }
+
+.landing-logo {
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  font-weight: bold;
+  z-index: @zindex-modal + 250;
+  text-align: center;
+  padding:100px 0;
+  color: @brand-secondary;
+  background:@brand-primary;
+  margin:0;
+
+  &:after {
+    content:"";
+    position: absolute;
+    top:50%;
+    left:50%;
+    .translate(-50%, 0);
+    width:135px * 0.2px;
+    height:140px * 0.2px;
+    background:url("//logo-js.herokuapp.com/loading-bars/F2DDCC") center center no-repeat;
+    background-size: 100% auto;
+  }
+}

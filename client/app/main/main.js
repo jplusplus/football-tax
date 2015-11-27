@@ -6,6 +6,10 @@ angular.module('footballTaxApp')
       .state('main', {
         url: '/',
         templateUrl: 'app/main/main.html',
-        controller: 'MainCtrl'
+        controller: 'MainCtrl',
+        resolve: {
+          // Take a breath
+          timeout: $timeout=> $timeout(1000)
+        }
       });
   });
