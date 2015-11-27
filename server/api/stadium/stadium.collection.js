@@ -63,5 +63,16 @@ for(let club of clubs.toArray() ) {
     }
   }
 }
+// Get stadiums in the given radius according to a center
+collection.inRadius = function(center, radius) {
+  // Convert KM radius in degree
+  let deg = radius * .01;
+  return this.filter(function(stadium) {
+    // Just using some Pythagorian intersection
+    let a = center[0] - stadium.longitude,
+        b = center[1] - stadium.latitude;
+    return Math.pow(a, 2) + Math.pow(b, 2) <= Math.pow(deg, 2)
+  });
+};
 // Expose the collection
 module.exports = collection;

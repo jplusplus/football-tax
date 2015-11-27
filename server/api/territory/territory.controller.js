@@ -6,6 +6,7 @@ var response = require("../response"),
    paginator = require("../paginator");
 
 var Territory = require('./territory.model');
+var stadiums = require('../stadium/stadium.collection');
 
 
 // Get list of territories
@@ -99,6 +100,10 @@ exports.reverse = function(req, res) {
     .sort('-level')
     .exec(function (err, territories) {
       if(err) { return response.handleError(res)(err); }
-      return res.json(200, territories);
+      return res.json(200, {
+        territories: territories,
+        // Search stadium in a radius of 30km
+        stadiums: stadiums.inRadius(coordinates, 30)
+      });
     });
 };

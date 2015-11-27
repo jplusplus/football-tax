@@ -30,13 +30,12 @@ angular.module('footballTaxApp')
             });
             return deferred.promise;
           },
-          territories: function(Restangular, addr) {
+          results: function(Restangular, addr) {
             let latlng = addr.lat + "," + addr.lon;
             return Restangular.one("territories", "reverse").get({ latlng: latlng });
           },
-          stadiums: function() {
-            return [];
-          }
+          territories: results => results.territories,
+          stadiums: results => results.stadiums
         }
       });
   });
