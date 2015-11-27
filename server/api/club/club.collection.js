@@ -15,6 +15,14 @@ var collection = new Set([],
     return object.slug;
   }
 );
+
+// Create a slug with an array of string
+var slugify = parts => _.chain(parts)
+  // Simplify values with slugify
+  .map(s=> slug(s).toLowerCase())
+  // Join values
+  .value().join("-");
+
 // Add every clubs, one by one, to the collection
 for(var name of clubs) {
   try {
@@ -26,19 +34,25 @@ for(var name of clubs) {
   }
   // Add the slug to this object
   club.slug = name
-  // The club must belong to somewhere
-  if(club.country && club.city) {
-    // Add a slug of the territory this club belong to
-    club.territory = _.chain([club.country, club.city])
-      // Simplify values with slugify
-      .map(s=> slug(s).toLowerCase())
-      // Join values
-      .value().join("-")
-  }
   // Add every money transfers to this club
-  club.getTransfers = (function(club) {
-    return function() {
-      return require('../../data/clubs/' + club.slug + '/money_transfers.json');
+  club.getTransfers = (club=>{
+    let transfers = require('../../data/clubs/' + club.slug + '/money_transfers.json');
+    // The club must be in a country
+    if(club.country) {
+      // For each line, add a field 'territory'
+      _.each(transfers, t=> t.territory = slugify([club.country, t.payer]) );
+    }
+    return function(territory) {
+      // Simply returns the array of transfers that we prepared above
+      return territory ? _.filter(transfers, { territory: territory }) : transfers;
+    }
+  // Call the closure function so the club is available
+  })(club);
+  // Add every money transfers to this club
+  club.inTerritory = (club=>{
+    return function(slug) {
+      let transfers = club.getTransfers();
+      return _.any(transfers, {territory: slug});
     }
   // Call the closure function so the club is available
   })(club);
