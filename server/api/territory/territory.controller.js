@@ -1,6 +1,7 @@
 'use strict';
 
-var       _ = require('lodash');
+var      _ = require('lodash'),
+  ObjectId = require('mongoose').Types.ObjectId;
 
 var response = require("../response"),
    paginator = require("../paginator");
@@ -28,9 +29,20 @@ exports.index = function(req, res) {
 
 // Get a territory by its id
 exports.show = function(req, res) {
+  // Lookup by id or slug
+  let field = ObjectId.isValid(req.params.id) ? '_id' : 'slug';
+  // Build parameters
+  let params = {};
+  params[field] = req.params.id;
+
   Territory
-    .findById(req.params.id, function (err, territory) {
-      if(err) { return response.handleError(res)(err); }
+    .findOne(params, function (err, doc) {
+      if(err || !doc) { return response.handleError(res)(err); }
+      // Get the serialize object
+      let territory = doc.toObject();
+      // Add a clubs fields to the result
+      territory.clubs = doc.getClubs();
+      // Return the object
       return res.json(200, territory);
     });
 };

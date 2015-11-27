@@ -1,6 +1,7 @@
 'use strict';
 
 var _ = require('lodash'),
+ slug = require('slug'),
   Set = require("collections/set");
 // Gets clubs list from the config file
 var clubs = _.keys( require('../../config/clubs.json') );
@@ -15,16 +16,25 @@ var collection = new Set([],
   }
 );
 // Add every clubs, one by one, to the collection
-for(var slug of clubs) {
+for(var name of clubs) {
   try {
     // Create a club object
-    var club = require('../../data/clubs/' + slug + '/desc.json')[0];
+    var club = require('../../data/clubs/' + name + '/desc.json')[0];
   } catch(e) {
     // Catch require error (the clubs is not yet downloaded)
     continue
   }
   // Add the slug to this object
-  club.slug = slug
+  club.slug = name
+  // The club must belong to somewhere
+  if(club.country && club.city) {
+    // Add a slug of the territory this club belong to
+    club.territory = _.chain([club.country, club.city])
+      // Simplify values with slugify
+      .map(s=> slug(s).toLowerCase())
+      // Join values
+      .value().join("-")
+  }
   // Add every money transfers to this club
   club.getTransfers = (function(club) {
     return function() {
