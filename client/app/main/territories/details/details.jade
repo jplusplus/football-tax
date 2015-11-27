@@ -1,5 +1,5 @@
 .main__territories__details
-  .main__header
+  .main__header.main__territories__details__header
     .container
       h1 {{ territory.name }}      
       .row
@@ -18,3 +18,12 @@
             li
               | {{ territory.name }}
       
+              
+  .main__territories__details__content.main__content
+    .container
+      .lead
+        p {{ 'ABOUT_CONTENT' | translate }}
+      div(transfers-by-year="transfers", years="years")  
+      h2 {{ 'YEAR_MOST_SPENDING' | translate:{year: yearMostSpeding.date} }}
+      p {{ 'ABOUT_CONTENT' | translate }}
+      div(transfers-by-category="yearMostSpeding.transfers", category="'beneficiary'")  
