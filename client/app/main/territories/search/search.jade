@@ -28,10 +28,10 @@
           ul.main__territories__search__content__list.list-group
             li.list-group-item(ng-repeat="territory in territories | orderBy:'level'")
               .main__territories__search__content__list__details
-                a.btn.btn-primary(ui-sref="main.territories.details({ id: territory._id })")
+                a.btn.btn-primary(ui-sref="main.territories.details({ slug: territory.slug })")
                   | {{ 'SEE_SUBSIDIES_TERRITORY' | translate }}
               h4.list-group-item-heading
-                a(ui-sref="main.territories.details({ id: territory._id })")
+                a(ui-sref="main.territories.details({ slug: territory.slug })")
                   | {{ territory.name }}
               p.list-group-item-text.text-muted City ({{ territory.level }})
         div(ng-show="stadiums.length")
