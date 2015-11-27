@@ -651,6 +651,13 @@ module.exports = function (grunt) {
           });
           return rowdata;
         }
+      },
+      stadiums: {
+        options: {
+          spreadsheetId: '1GwSBjDpyeCrJMfJSmt9Or-U4fNqPo7ySr_b-SVO8QJQ',
+          worksheetName: 'all'
+        },
+        dest: 'server/data/stadiums/all.json'
       }
     }, clubs)
   });
