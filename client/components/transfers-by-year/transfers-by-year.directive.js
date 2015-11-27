@@ -101,10 +101,21 @@ angular.module('footballTaxApp')
         // Should we use several colors?
         if( scope.subgroup() ) {
           // Color categories
-          var color = d3.scale.category20c().domain(data.groups);
+          var color = d3.scale.ordinal()
+                              .domain(data.groups)
+                              .range([
+                                "#7AB4D0",
+                                "#086FA1",
+                                "#06567D",
+                                "#00202F",
+                                "#FFE363",
+                                "#FFD100",
+                                "#C5A100",
+                                "#9B7F00"
+                              ]);
         } else {
           // One color
-          var color = ()=> "#00202F";
+          var color = ()=> "#086FA1";
         }
 
         var init = ()=> {

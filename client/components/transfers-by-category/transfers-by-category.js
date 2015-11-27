@@ -62,7 +62,7 @@ angular.module('footballTaxApp')
         // Sort the array of group by total
         data.groups = _.sortBy(data.groups, 'total');
         // One color
-        var color = "#00202F";
+        var color = "#086FA1";
 
 
         var init = ()=> {
