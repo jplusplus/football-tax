@@ -13,4 +13,4 @@ ui-view.main
         
                 
     .main__clubs__content.main__content
-      .container {{ page.content }}
+      .container(ng-bind-html="page.body")

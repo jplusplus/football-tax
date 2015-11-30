@@ -7,6 +7,10 @@ angular.module('footballTaxApp')
         url: '/pages/:slug',
         templateUrl: 'app/pages/pages.html',
         controller: 'PagesCtrl',
-        resolve: {}
+        resolve: {
+          page: (Restangular, $stateParams)=> {
+            return Restangular.one('pages', $stateParams.slug).get();
+          }
+        }
       });
   });
