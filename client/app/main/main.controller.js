@@ -4,8 +4,8 @@ angular.module('footballTaxApp')
   .controller('MainCtrl', function ($scope, $state, Restangular) {
     $scope.clubs = [];
     $scope.stadiums = [];
-    // Selected club
-    $scope.selectedClub = null;
+    // Selected club and stadium
+    $scope.selectedClub = $scope.selectedStadium = null;
     // Looks for an address
     $scope.addrLookup = function(q) {
       $state.go('main.territories.search', { q: q });
@@ -37,5 +37,9 @@ angular.module('footballTaxApp')
     // A club is Selected
     $scope.selectClub = function(slug) {
       $state.go("main.clubs", { slug: slug });
-    }
+    };
+    // A stadium is Selected
+    $scope.selectStadium = function(slug) {
+      $state.go("main.stadiums", { slug: slug });
+    };
   });
