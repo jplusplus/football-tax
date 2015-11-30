@@ -1,0 +1,16 @@
+div(ng-include='"components/navbar/navbar.html"')
+
+ui-view.main
+  .main__stadiums
+    .main__header
+      .container
+        h1 {{ page.title }}      
+        ul.main__header__breadcrum.list-inline
+          li
+            a(ui-sref='main') {{ 'NAV_PAGES_LABEL' | translate }}
+          li
+            | {{ page.title }}
+        
+                
+    .main__clubs__content.main__content
+      .container {{ page.content }}
