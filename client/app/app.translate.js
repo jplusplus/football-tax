@@ -10,5 +10,6 @@ angular.module('footballTaxApp')
       .registerAvailableLanguageKeys(['en', 'fr'])
       .determinePreferredLanguage()
       .fallbackLanguage(['en'])
+      .useMessageFormatInterpolation()
       .useCookieStorage()
   });

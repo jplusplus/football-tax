@@ -28,9 +28,9 @@
   "SEARCH_BTN": "Search",
   "SEE_SUBSIDIES_TERRITORY": "See subsidies for this territory",
   "SEE_SUBSIDIES_STADIUM": "See subsidies for this stadium",
-  "AMOUNT_SPENT": "{{value}} euros spent",
+  "AMOUNT_SPENT": "{value} euros spent",
   "BILLION_FIGURE": "B",
   "MILLION_FIGURE": "M",
   "THOUSAND_FIGURE": "K",
-  "YEAR_MOST_SPENDING": "Year with most spending: {{year}}"
+  "YEAR_MOST_SPENDING": "Year with most spending: {year}"
 }
