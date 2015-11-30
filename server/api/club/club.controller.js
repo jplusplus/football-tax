@@ -6,8 +6,8 @@ fuzzy = require('fuzzy');
 var response = require("../response"),
    paginator = require("../paginator");
 
-var clubs = require('./club.collection');
-
+var clubs = require('./club.collection'),
+    pages = require('../page/page.collection');
 
 // Get list of clubs
 exports.index = function(req, res) {
@@ -26,6 +26,8 @@ exports.show = function(req, res) {
     club = _.clone(club);
     // Gets club's transfers
     club.transfers = club.getTransfers();
+    // Gets club's page (if any)
+    club.page = pages.get({ slug: req.params.slug });
     // Return a slice of the collections
     res.json(200, club);
   // We didn't...
