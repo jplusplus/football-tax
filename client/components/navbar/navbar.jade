@@ -6,7 +6,8 @@
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      a.navbar-brand(ui-sref='main') {{ 'APP_TITLE' | translate }}
+      a.navbar-brand(ui-sref='main') 
+        img(src="assets/images/logo-small.png", height="40", alt="{{ 'APP_TITLE' | translate }}")
 
     #navbar-main.navbar-collapse.collapse(collapse='isCollapsed')
       ul.nav.navbar-nav
