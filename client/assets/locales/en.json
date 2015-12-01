@@ -32,5 +32,6 @@
   "BILLION_FIGURE": "B",
   "MILLION_FIGURE": "M",
   "THOUSAND_FIGURE": "K",
-  "YEAR_MOST_SPENDING": "Year with most spending: {year}"
+  "YEAR_MOST_SPENDING": "Year with most spending: {year}",
+  "SEE_MONEY_TRANSFERS": "See money transfers"
 }
