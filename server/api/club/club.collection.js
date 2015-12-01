@@ -53,7 +53,7 @@ for(var name of clubs) {
     return function(slug) {
       let transfers = club.getTransfers();
       return _.any(transfers, {territory: slug});
-    }
+    };
   // Call the closure function so the club is available
   })(club);
   // Finaly, add the club to the collection

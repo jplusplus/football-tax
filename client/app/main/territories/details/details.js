@@ -14,7 +14,7 @@ angular.module('footballTaxApp')
           transfers: function(territory) {
             let all = _.chain(territory.clubs).reduce( (res, club)=>{
               // Add the club namme to each transfers
-              _.map(club.transfers, t=> t.club = club.nameclub);
+              _.map(club.transfers, t=> t.club = club);
               // Add the transfers array to the result
               res.push(club.transfers);
               return res;

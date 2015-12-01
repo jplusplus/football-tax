@@ -24,6 +24,13 @@
       .lead
         p {{ 'ABOUT_CONTENT' | translate }}
       div(transfers-by-year="transfers", years="years")  
-      h2 {{ 'YEAR_MOST_SPENDING' | translate:{year: yearMostSpeding.date} }}
+      
+      h2 {{ 'YEAR_MOST_SPENDING' | translate:{ year: yearMostSpending.year } }}
       p {{ 'ABOUT_CONTENT' | translate }}
-      div(transfers-by-category="yearMostSpeding.transfers", category="'beneficiary'")  
+      div(transfers-by-category="yearMostSpending.transfers", category="'beneficiary'")  
+      
+      div
+        a.pull-right.btn.btn-primary(ui-sref="main.clubs({ slug: beneficiaryMostSpending.club.slug })")
+          | {{ 'SEE_MONEY_TRANSFERS_FOR_CLUB' | translate }}
+        h2(ng-bind-html="'BENEFICIARY_MOST_SPENDING' | translate:{ beneficiary: beneficiaryMostSpending.beneficiary, club: beneficiaryMostSpending.club.nameclub }")
+        p {{ 'ABOUT_CONTENT' | translate }}
