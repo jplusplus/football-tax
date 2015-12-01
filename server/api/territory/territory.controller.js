@@ -37,7 +37,8 @@ exports.show = function(req, res) {
 
   Territory
     .findOne(params, function (err, doc) {
-      if(err || !doc) { return response.handleError(res)(err); }
+      if(err) { return response.handleError(res)(err); }
+      else if(!doc) { return response.handleError(res)({ error: 'Territory not found' }, 404); }
       // Get the serialize object
       let territory = doc.toObject();
       // Add a clubs fields to the result
