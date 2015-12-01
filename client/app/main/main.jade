@@ -5,7 +5,8 @@ ui-view.main
     .main__homepage__panel
       .row              
         .col-sm-6
-          h1 {{ 'APP_TITLE' | translate }}
+          h1
+            img(src="assets/images/logo-big.png", height="100" , alt="{{ 'APP_TITLE' | translate }}")
           .lead  {{ 'HOMEPAGE_DESCRIPTION' | translate }}
           
         .col-sm-6        
