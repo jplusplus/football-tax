@@ -1,7 +1,9 @@
 // Generated on 2015-11-18 using generator-angular-fullstack 2.1.1
 'use strict';
 
-var  _ = require("lodash");
+var _ = require("lodash"),
+   fs = require("fs"),
+ path = require("path");
 
 module.exports = function (grunt) {
   var localConfig;
@@ -711,6 +713,45 @@ module.exports = function (grunt) {
       //'open',
       'watch'
     ]);
+  });
+
+  // Creates and complete every existing locales
+  grunt.registerTask('locales', function () {
+    const BASE = 'en';
+    const LANGUAGES = [BASE, 'fr', 'de'];
+    const LOCALES_DIR = 'client/assets/locales'
+    // Get locale file for the given lang key
+    var getLocalePath = (l)=> './' + path.join(LOCALES_DIR, l.toLowerCase() + '.json');
+    // Function to gets translations for a given language code
+    var getLocaleMessages = (lang)=> {
+      // Since the file might not exist yet...
+      try {
+        // Read the language file
+        return require(getLocalePath(lang));
+      // We catch the error to return an empty set of translation
+      } catch(e) {
+        return {};
+      }
+    };
+    // Gets base messages
+    var baseMessages = getLocaleMessages(BASE);
+    // Treats every languages
+    for( var lang of LANGUAGES ) {
+      // Gets messages for the current lang
+      var messages = getLocaleMessages(lang);
+      // Read every existing key from the base file
+      for( var key in baseMessages ) {
+        // Does the target lang have the key?
+        if( ! messages[key] ) {
+          // Add the key
+          messages[key] = '';
+        }
+      }
+      var file = JSON.stringify(messages, null, 2)
+      // And override the existinng JSON file
+      fs.writeFileSync(getLocalePath(lang), file);
+    }
+
   });
 
   grunt.registerTask('server', function () {
