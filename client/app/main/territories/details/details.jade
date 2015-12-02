@@ -27,6 +27,8 @@
       
       h2 {{ 'YEAR_MOST_SPENDING' | translate:{ year: yearMostSpending.year } }}
       p {{ 'ABOUT_CONTENT' | translate }}
+      
+      h2 {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}
       div(transfers-by-category="yearMostSpending.transfers", category="'beneficiary'")  
       
       div
