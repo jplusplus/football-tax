@@ -7,7 +7,7 @@ angular.module('footballTaxApp')
         prefix: 'assets/locales/',
         suffix: '.json'
       })
-      .registerAvailableLanguageKeys(['en', 'fr'])
+      .registerAvailableLanguageKeys(['en', 'fr', 'de'])
       .determinePreferredLanguage()
       .fallbackLanguage(['en'])
       .useMessageFormatInterpolation()
