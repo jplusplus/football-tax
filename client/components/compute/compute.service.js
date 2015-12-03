@@ -5,7 +5,7 @@ angular.module('footballTaxApp')
       return this;
     }
 
-    Compute.prototype.mostSpending = function(transfers, aggregate) {
+    Compute.prototype.aggregate = function(transfers, aggregate) {
       // Pick the year with most spending
       return _.chain(transfers)
         // Group transfers by date (year)
@@ -17,15 +17,19 @@ angular.module('footballTaxApp')
             transfers: transfers,
             // Sum every transfer's value
             total: _.reduce(transfers, (res, t)=>res + t.value, 0),
+            // Maximum value
+            max: _.max(transfers, 'value').value,
             // Find club from the first transfers (they are all the same)
             club: transfers[0].club
           });
           return res
-        }, [])
-        // Pick and return the year with the maximum value for 'total'
-        .max('total').value();
-    }
+        }, []).sortBy(d => -d.total).value()
+    };
 
+    Compute.prototype.mostSpending = function(transfers, aggregate) {
+      // Pick and return the group with the maximum value for 'total'
+      return _.max( this.aggregate(transfers, aggregate), 'total');
+    };
 
     Compute.prototype.cleanAmount = function(transfers) {
       // Clean currencies

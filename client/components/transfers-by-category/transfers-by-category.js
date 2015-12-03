@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("transfersByCategory", function($window, currencies) {
+  .directive("transfersByCategory", function($window, currencies, compute) {
     return {
       restrict: 'AE',
       template: '<svg class="transfers-by-category"></svg>',
@@ -35,30 +35,18 @@ angular.module('footballTaxApp')
 
         var categories = [];
         var data = {
-          all: _.chain(scope.transfersByCategory).map( (transfer)=> {
-            transfer.value = currencies.fromStr(transfer.amount);
-            return transfer;
-          }).filter( (transfer)=> {
-            return !isNaN(transfer.value) && !isNaN(transfer.date);
-          }).each( (transfer)=> {
-            // Save the beneficiary for later
-            categories.push( transfer[ scope.category() ]);
-          }).value()
+          all: _.chain(compute.cleanAmount(scope.transfersByCategory))
+                .filter( (transfer)=> {
+                  return !isNaN(transfer.value) && !isNaN(transfer.date);
+                }).each( (transfer)=> {
+                  // Save the beneficiary for later
+                  categories.push( transfer[ scope.category() ]);
+                }).value()
         };
         // Collect categories from effective data
         data.categories = _.uniq(categories);
         // Data grouped by categories
-        data.groups = _.chain(data.all)
-                  .groupBy( scope.category() )
-                  .reduce( (res, transfers, name)=> {
-                    res.push({
-                      max: _.max(transfers, 'value').value,
-                      name: name,
-                      total: _.reduce(transfers, (res, d)=> res + d.value, 0),
-                      transfers: transfers
-                    });
-                    return res;
-                  }, []).value();
+        data.groups = compute.aggregate(data.all, scope.category());
         // Sort the array of group by total
         data.groups = _.sortBy(data.groups, 'total');
         // One color

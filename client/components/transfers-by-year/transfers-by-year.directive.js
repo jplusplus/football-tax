@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("transfersByYear", function($window, currencies) {
+  .directive("transfersByYear", function($window, currencies, compute) {
     return {
       restrict: 'AE',
       template: '<svg class="transfers-by-year"></svg>',
@@ -36,15 +36,13 @@ angular.module('footballTaxApp')
 
         var groups = [];
         var data = {
-          all: _.chain(scope.transfersByYear).map( (transfer)=> {
-            transfer.value = currencies.fromStr(transfer.amount);
-            return transfer;
-          }).filter( (transfer)=> {
-            return !isNaN(transfer.value) && !isNaN(transfer.date);
-          }).each( (transfer)=> {
-            // Save the group for later
-            groups.push(transfer[ scope.subgroup() ]);
-          }).value()
+          all: _.chain( compute.cleanAmount(scope.transfersByYear) )
+                .filter( (transfer)=> {
+                  return !isNaN(transfer.value) && !isNaN(transfer.date);
+                }).each( (transfer)=> {
+                  // Save the group for later
+                  groups.push(transfer[ scope.subgroup() ]);
+                }).value()
         };
         // Collect groups from effective data
         data.groups = _.uniq(groups);
@@ -56,18 +54,7 @@ angular.module('footballTaxApp')
                       date: date,
                       transfers: transfers,
                       // Data by group
-                      groups: _.chain(transfers)
-                        .groupBy(scope.subgroup())
-                        .reduce( (res, transfers, name)=> {
-                          res.push({
-                            name: name,
-                            transfers: transfers,
-                            total: _.reduce(transfers, (res, d)=> res + d.value, 0)
-                          });
-                          return res;
-                        }, [])
-                        .sortBy(d => -d.total)
-                        .value()
+                      groups: compute.aggregate( transfers, scope.subgroup() )
                     };
                     // Save the maximum value for this year
                     year.max = _.max(year.groups, 'total').total;
