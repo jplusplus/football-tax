@@ -744,7 +744,7 @@ module.exports = function (grunt) {
         // Does the target lang have the key?
         if( ! messages[key] ) {
           // Add the key
-          messages[key] = '';
+          messages[key] = baseMessages[key];
         }
       }
       var file = JSON.stringify(messages, null, 2)
