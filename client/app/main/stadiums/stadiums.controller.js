@@ -8,6 +8,11 @@ angular.module('footballTaxApp')
       _.max(stadium.transfers, 'date').date * 1 + 1
     );
 
+    // Generates territory slug using its name
+    $scope.territorySlug = (name)=> {
+      return slug( [stadium.country, name].join("-").toLowerCase() );
+    }
+
     // Clean currencies
     var transfers =  _.map(stadium.transfers, transfer=> {
       transfer.value = currencies.fromStr(transfer.amount);

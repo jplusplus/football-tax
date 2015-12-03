@@ -35,5 +35,7 @@
         div(transfers-by-category="yearMostSpeding.transfers", category="'payer'")  
         
       div
+        a.pull-right.btn.btn-primary(ui-sref="main.territories.details({ slug: territorySlug(territoryMostSpending.payer) })")
+          | {{ 'SEE_MONEY_TRANSFERS_FOR_TERRITORY' | translate }}
         h2 {{ 'TERRITORY_MOST_SPENDING' | translate:{territory: territoryMostSpending.payer} }}
         p {{ 'ABOUT_CONTENT' | translate }}
