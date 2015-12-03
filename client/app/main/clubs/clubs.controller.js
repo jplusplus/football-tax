@@ -8,10 +8,7 @@ angular.module('footballTaxApp')
       _.min(club.transfers, 'date').date * 1,
       _.max(club.transfers, 'date').date * 1 + 1
     );
-    // Generates territory slug using its name
-    $scope.territorySlug = (name)=> {
-      return slug( [club.country, name].join("-").toLowerCase() );
-    }
+    
     // Not every club has a page
     if( club.page ) {
       // Function to use the page translation
