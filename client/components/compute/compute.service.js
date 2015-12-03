@@ -35,5 +35,12 @@ angular.module('footballTaxApp')
       });
     };
 
+    Compute.prototype.years = function(transfers) {
+      return _.range(
+        _.min(transfers, 'date').date * 1,
+        _.max(transfers, 'date').date * 1 + 1
+      );
+    };
+
     return new Compute();
 });

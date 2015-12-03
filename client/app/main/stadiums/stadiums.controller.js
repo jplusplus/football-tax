@@ -3,10 +3,7 @@
 angular.module('footballTaxApp')
   .controller('MainStadiumsCtrl', function ($scope, currencies, stadium, compute) {
     $scope.stadium = stadium;
-    $scope.years = _.range(
-      _.min(stadium.transfers, 'date').date * 1,
-      _.max(stadium.transfers, 'date').date * 1 + 1
-    );
+    $scope.years =  compute.years(stadium.transfers);  
     // Clean currencies
     var transfers =  compute.cleanAmount(stadium.transfers);
     // Pick the year with most spending
