@@ -37,6 +37,8 @@ for(var name of clubs) {
   // Add every money transfers to this club
   club.getTransfers = (club=>{
     let transfers = require('../../data/clubs/' + club.slug + '/money_transfers.json');
+    // Remove transfers already included in another
+    transfers = _.filter(transfers, t=> t.includedin === undefined)
     // The club must be in a country
     if(club.country) {
       // For each line, add a field 'territory'
