@@ -45,7 +45,7 @@ angular.module('footballTaxApp')
                 }).value()
         };
         // Collect groups from effective data
-        data.groups = _.uniq(groups);
+        data.groups = _.chain(groups).uniq().sort().value();
         // Data by year
         data.years = _.chain(data.all)
                   .groupBy('date')
@@ -61,7 +61,12 @@ angular.module('footballTaxApp')
                     year.total = _.reduce(transfers, (res, d)=> res + d.value, 0);
                     // Save the previous total for each group
                     year.groups = _.each(year.groups, (d, i)=>{
-                      d.prev = i === year.groups.length - 1 ? 0 : year.groups[i + 1].total;
+                      // Save the previous group (if any)
+                      d.prev = i > 0 && scope.subgroup() ? year.groups[i - 1] : 0;
+                      // Cumulate the current group value with previous ones
+                      d.cumulate = (attr)=> {
+                        return d[attr] + (d.prev ? d.prev.cumulate(attr) : 0);
+                      }
                     });
                     res.push(year);
                     return res;
@@ -79,7 +84,7 @@ angular.module('footballTaxApp')
               transfers: [],
               groups: [],
               max: 0,
-              total: 0
+              total: 0,
             });
           }
         }
@@ -117,7 +122,7 @@ angular.module('footballTaxApp')
           const barMaxHeight = height - padding.top - padding.bottom;
           // Bar scale
           var y = d3.scale.linear()
-                    .domain([0, _.max(data.years, 'max').max ])
+                    .domain([0, _.max(data.years, 'total').total ])
                     .range([0, barMaxHeight]);
           // Year scale
           var x = d3.scale.linear()
@@ -140,13 +145,18 @@ angular.module('footballTaxApp')
           // A group for each bar
           var bars = stacks.selectAll(".stack_bar")
                   // Non-stacked chart just contain one group
-                  .data(d => scope.subgroup() ? d.groups : [ { total: d.total } ])
+                  .data(d => scope.subgroup() ? d.groups : [
+                    {
+                      total: d.total,
+                      cumulate: (d=> attr=> d[attr])(d)
+                    }
+                  ])
                   .enter()
                     .append("g")
                     .attr({
                       "class": "stack_bar",
                       "transform": d=> {
-                        let dy = padding.top + barMaxHeight - y(d.total);
+                        let dy = padding.top + barMaxHeight - y(d.cumulate('total'));
                         let dx = barGap/2;
                         return "translate(" + dx + "," + dy + " )";
                       }
@@ -165,11 +175,9 @@ angular.module('footballTaxApp')
           var ylabels = bars.append("text")
                   .attr({
                     "class": (d, i)=> {
-                      // Space between a rect and the previous one
-                      let space = scope.subgroup() ? y(d.total) - y(d.prev) : y(d.total);
                       return [
                         "ylabels",
-                        space < 14 ? "ylabels-disabled" : ""
+                        y(d.total) < 14 ? "ylabels-disabled" : ""
                       ].join(" ")
                     },
                     "text-anchor": "middle",

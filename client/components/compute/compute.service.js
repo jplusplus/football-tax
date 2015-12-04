@@ -23,7 +23,7 @@ angular.module('footballTaxApp')
             club: transfers[0].club
           });
           return res
-        }, []).sortBy(d => -d.total).value()
+        }, []).sortBy('name').value()
     };
 
     Compute.prototype.mostSpending = function(transfers, aggregate) {
