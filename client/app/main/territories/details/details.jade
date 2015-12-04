@@ -29,7 +29,7 @@
       p {{ 'ABOUT_CONTENT' | translate }}
       
       h2 {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}
-      div(transfers-by-category="yearMostSpending.transfers", category="'beneficiary'")  
+      div(transfers-by-category="transfers", category="'beneficiary'")  
       
       div
         a.pull-right.btn.btn-primary(ui-sref="main.clubs({ slug: beneficiaryMostSpending.club.slug })")
