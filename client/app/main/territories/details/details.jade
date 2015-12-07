@@ -35,7 +35,9 @@
         h2.chart-block__title {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}        
         .chart-block__chart(transfers-by-category="transfers", category="'beneficiary'")  
         .chart-block__headline
-          a.chart-block__headline__action.btn.btn-primary(ui-sref="main.clubs({ slug: beneficiaryMostSpending.club.slug })")
+          a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.clubs({ slug: beneficiaryMostSpending.club.slug })")
+            .fa.fa-bar-chart
+            span &nbsp;
             | {{ 'SEE_MONEY_TRANSFERS_FOR_CLUB' | translate }}
           h3.chart-block__headline__title(ng-bind-html="'BENEFICIARY_MOST_SPENDING' | translate: { beneficiary: beneficiaryMostSpending.name, club:beneficiaryMostSpending.club.nameclub }")
           p.chart-block__headline__content {{ 'ABOUT_CONTENT' | translate }}

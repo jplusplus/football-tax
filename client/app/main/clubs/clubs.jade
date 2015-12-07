@@ -25,10 +25,15 @@
   .main__clubs__content.main__content
     .container
       .lead(ng-if="page", ng-bind-html="page.body")        
-      div(money-transfers="club.transfers")      
-      div(ng-repeat="(name, transfers) in payers")
-        a.pull-right.btn.btn-primary(ui-sref="main.territories.details({ slug: (club.country | slug:name)  })")
-          | {{ 'SEE_MONEY_TRANSFERS' | translate }}
-        h2 {{ name }}
-        p {{ 'ABOUT_CONTENT' | translate }}
-        div(transfers-by-year="transfers", years="years", subgroup="'beneficiary'")   
+      div(money-transfers="club.transfers")   
+        
+      .chart-block(ng-repeat="(name, transfers) in payers")
+        h2.chart-block__title {{ 'SPENDING_FROM_TERRITORY' | translate:{ territory: name } }}
+        .chart-block__chart(transfers-by-year="transfers", years="years", subgroup="'beneficiary'") 
+        .chart-block__headline
+          a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.territories.details({ slug: (club.country | slug:name)  })")
+            i.fa.fa-bar-chart
+            span &nbsp;
+            | {{ 'SEE_MONEY_TRANSFERS' | translate }}
+          h3.chart-block__headline__title {{ name }}
+          p.chart-block__headline__content {{ 'ABOUT_CONTENT' | translate }}
