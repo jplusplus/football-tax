@@ -26,7 +26,7 @@
   "ADMIN_TERRITORIES": "Administrative territories",
   "STADIUMS": "Stadiums",
   "SEARCH_BTN": "Search",
-  "SEE_SUBSIDIES_TERRITORY": "See subsidies for this territory",
+  "SEE_SUBSIDIES_TERRITORY": "See subsidies paid by this territory",
   "SEE_SUBSIDIES_STADIUM": "See subsidies for this stadium",
   "AMOUNT_SPENT": "{value} euros spent",
   "BILLION_FIGURE": "B",
@@ -36,7 +36,7 @@
   "BENEFICIARY_MOST_SPENDING": "Entity with most spending: {beneficiary}<br /><small>for the club {club}</small>",
   "SEE_MONEY_TRANSFERS": "See money transfers",
   "SEE_MONEY_TRANSFERS_FOR_CLUB": "See money transfers in this club",
-  "SPENDINGS_BY_BENEFICIARY": "Spendings by beneficiary",
+  "SPENDINGS_BY_BENEFICIARY": "Spending by beneficiary",
   "TERRITORY_MOST_SPENDING": "Territory with most spending: {territory}",
   "SPENDING_FROM_TERRITORY": "Amount paid by {territory}"
 }
