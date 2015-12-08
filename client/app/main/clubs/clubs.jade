@@ -28,7 +28,7 @@
       div(money-transfers="club.transfers")   
         
       .chart-block(ng-repeat="(name, transfers) in payers")
-        h2.chart-block__title {{ 'SPENDING_FROM_TERRITORY' | translate:{ territory: name } }}
+        h2.chart-block__title(ng-bind-html="'SPENDING_FROM_TERRITORY' | translate:{ territory: name }")
         .chart-block__chart(transfers-by-year="transfers", years="years", subgroup="'beneficiary'") 
         .chart-block__headline
           a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.territories.details({ slug: (club.country | slug:name)  })")
