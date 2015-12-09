@@ -12,5 +12,5 @@ angular.module('footballTaxApp')
       .fallbackLanguage(['en'])
       .useMessageFormatInterpolation()
       .useCookieStorage()
-      .useSanitizeValueStrategy('sanitize');
+      .useSanitizeValueStrategy(null);
   });
