@@ -29,7 +29,7 @@
         .chart-block__chart(transfers-by-year="transfers", years="years")  
         .chart-block__headline
           h3.chart-block__headline__title {{ 'YEAR_MOST_SPENDING' | translate:{ year: yearMostSpending.name } }}
-          p.chart-block__headline__content {{ 'ABOUT_CONTENT' | translate }}
+          p.chart-block__headline__content {{ 'CHART_TERR_YEARS' | translate:{ year: yearMostSpending.name } }}
           
       .chart-block
         h2.chart-block__title {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}        

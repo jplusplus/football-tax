@@ -33,6 +33,7 @@
   "MILLION_FIGURE": "M",
   "THOUSAND_FIGURE": "K",
   "YEAR_MOST_SPENDING": "Year with most spending: {year}",
+  "CHART_TERR_YEARS": "En {year}, nous avons retrouvé que {territory} a versé €14M à {beneficiary}, €1.3M à {beneficiary} - Association OGC Nice Côte d'Azur ainsi que €406K à SASP OGC Nice. La ville de Nice a ainsi dépensé au moins €15.7M d'argent public cette année là pour financer le football professionnel.",
   "BENEFICIARY_MOST_SPENDING": "Entity that received most public money: {beneficiary}<br /><small>for the club {club}</small>",
   "SEE_MONEY_TRANSFERS": "See money transfers",
   "SEE_MONEY_TRANSFERS_FOR_CLUB": "See money transfers for this club",
