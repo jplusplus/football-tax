@@ -22,7 +22,7 @@
   .main__territories__details__content.main__content
     .container
       .lead
-        p {{ 'ABOUT_CONTENT' | translate }}
+        p(ng-bind-html="'INTRO_TERRITORY' | translate:{ total_amount: '€51M', territory: territory.name}")
       
       .chart-block
         h2.chart-block__title {{ 'Amount paid by accross the years' }}
@@ -32,8 +32,8 @@
           
           .chart-block__headline__content
             p {{ 'YEAR_MOST_SPENDING_INTRO' | translate:{ year: yearMostSpending.name, territory:territory.name } }}
-            p  {{ 'YEAR_MOST_SPENDING_LIST_ITEM' | translate:{ amount: '€14M', beneficiary: 'Nice ECO Stadium'} }}
-            p  {{ 'YEAR_MOST_SPENDING_OUTRO'| translate:{ total_amount: '€15.7M', territory: territory.name  } }}
+            p(ng-bind-html=" 'YEAR_MOST_SPENDING_LIST_ITEM' | translate:{ amount: '€14M', beneficiary: 'Nice ECO Stadium'}")
+            p(ng-bind-html="'YEAR_MOST_SPENDING_OUTRO'| translate:{ total_amount_year: '€15.7M', territory: territory.name }")
           
       .chart-block
         h2.chart-block__title {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}        
@@ -43,5 +43,7 @@
             .fa.fa-bar-chart
             span &nbsp;
             | {{ 'SEE_MONEY_TRANSFERS_FOR_CLUB' | translate }}
-          h3.chart-block__headline__title(ng-bind-html="'BENEFICIARY_MOST_SPENDING' | translate: { beneficiary: beneficiaryMostSpending.name, club:beneficiaryMostSpending.club.nameclub }")
-          p.chart-block__headline__content {{ 'ABOUT_CONTENT' | translate }}
+          h3.chart-block__headline__title(ng-bind-html="'LARGEST_BENEFICIARY' | translate: { beneficiary: beneficiaryMostSpending.name, club:beneficiaryMostSpending.club.nameclub,territory: territory.name }")
+          .chart-block__headline__content
+            p(ng-bind-html=" 'LARGEST_BENEFICIARY_DESC' | translate: { beneficiary: beneficiaryMostSpending.name, club:beneficiaryMostSpending.club.nameclub,territory: territory.name,amount_largest_beneficiary: '€34M' }")
+

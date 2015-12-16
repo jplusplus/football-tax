@@ -33,7 +33,7 @@
   "MILLION_FIGURE": "M",
   "THOUSAND_FIGURE": "K",
   "YEAR_MOST_SPENDING": "Year with most spending: {year}",
-  "BENEFICIARY_MOST_SPENDING": "Entity with most spending: {beneficiary}<br /><small>for the club {club}</small>",
+  "BENEFICIARY_MOST_SPENDING": "Entity that received most public money: {beneficiary}<br /><small>for the club {club}</small>",
   "SEE_MONEY_TRANSFERS": "See money transfers",
   "SEE_MONEY_TRANSFERS_FOR_CLUB": "See money transfers in this club",
   "SPENDINGS_BY_BENEFICIARY": "Spendings by beneficiary"
