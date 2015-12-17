@@ -42,6 +42,9 @@
   "SEE_MONEY_TRANSFERS": "See money transfers",
   "SEE_MONEY_TRANSFERS_FOR_CLUB": "See money transfers for this club",
   "SPENDINGS_BY_BENEFICIARY": "Spending by beneficiary",
+  "SPENDING_TERR_FOR_CLUB":"{territory} provided around <strong>{amount}</strong> to {club} between 2003 and 2015. The largest payment occured in <strong>{year_largest_payment}</strong>, it corresponds to a <strong>{type_payment}</strong>.<br/> Informations about the following years are still missing: ",
+  "SPENDING_TERR_FOR_CLUB_LIST_YEARS":"- <small>{year}</small>",
+  "SPENDING_TERR_FOR_CLUB_OUTRO":"If you have it, please send us an email at contact@footballtax.com",
   "TERRITORY_MOST_SPENDING": "Territory that spent most: {territory}",
   "SPENDING_FROM_TERRITORY": "Amount paid by {territory}"
 }
