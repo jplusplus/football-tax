@@ -41,8 +41,28 @@ Territory.find({}).remove(function() {
     country: 'FRA',
     slug: 'fra-conseil-regional-paca',
     level: 0.4,
-    // FeatureCollection containing one feature
     the_geom: require('../components/geojson/conseil-regional-PACA.json').geometry 
+  },
+  {
+    name : 'Ville de Nîmes',
+    country: 'FRA',
+    slug: 'fra-ville-de-nimes',
+    level: 0.1,
+    the_geom: require('../components/geojson/nimes.json').geometry 
+  },
+  {
+    name : 'Conseil général 30',
+    country: 'FRA',
+    slug: 'fra-conseil-general-30',
+    level: 0.3,
+    the_geom: require('../components/geojson/departement-30.json').geometry 
+  },
+  {
+    name : 'Conseil Régional Languedoc Roussillon',
+    country: 'FRA',
+    slug: 'fra-conseil-regional-languedoc-roussillon',
+    level: 0.4,
+    the_geom: require('../components/geojson/conseil-regional-languedoc-roussillon.json').geometry 
   }
   ];
 
