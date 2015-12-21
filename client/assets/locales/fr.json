@@ -37,7 +37,7 @@
   "SEE_MONEY_TRANSFERS": "Voir touts les montants versés par ce territoire",
   "SEE_MONEY_TRANSFERS_FOR_CLUB": "Voir toutes les financements pour ce club",
   "SPENDINGS_BY_BENEFICIARY": "Montants accordés par bénéficiaire",
-  "SPENDINGS_BY_YEAR" : "Montants accordés par année",
+  "SPENDINGS_BY_YEAR": "Montants accordés par année",
   "INTRO_TERRITORY": "Pour la période <strong>2003-2015</strong>, les enquêteurs de The Football Tax ont retrouvé la trace de <strong>{total_amount}</strong> d'argent public versés par<strong>{territory}</strong> pour financer le football professionnel (clubs et/ou stades). Découvrez ci-dessous le détail et visualisez comment ces dépenses sont réparties par année et par bénéficiaire.",
   "YEAR_MOST_SPENDING_INTRO": "Nos équipes ont retrouvé qu'en {year}, {territory} a versé : ",
   "YEAR_MOST_SPENDING_LIST_ITEM": "- <strong>{amount}</strong> à <strong>{beneficiary}</strong>",

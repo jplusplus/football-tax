@@ -47,5 +47,6 @@
   "SPENDING_TERR_FOR_CLUB_LIST_YEARS": "- <small>{year}</small>",
   "SPENDING_TERR_FOR_CLUB_OUTRO": "If you have it, please send us an email at contact@footballtax.com",
   "TERRITORY_MOST_SPENDING": "Territory that spent most: {territory}",
-  "SPENDING_FROM_TERRITORY": "Amount paid by {territory}"
+  "SPENDING_FROM_TERRITORY": "Amount paid by {territory}",
+  "SPENDINGS_BY_YEAR": "Spending by year"
 }

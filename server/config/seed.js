@@ -19,14 +19,32 @@ Territory.find({}).remove(function() {
     slug: 'fra-ville-de-nice',
     level: 0.1,
     the_geom: require('../components/geojson/nice.json')
-  }, {
+  }, 
+  {
+    name : 'Conseil Général 06',
+    country: 'FRA',
+    slug: 'fra-conseil-general-06',
+    level: 0.3,
+    // FeatureCollection containing one feature
+    the_geom: require('../components/geojson/departement-06.json').geometry 
+  },
+  {
     name : 'Nice Métropole',
     country: 'FRA',
     slug: 'fra-nice-metropole',
     level: 0.2,
     // FeatureCollection containing one feature
     the_geom: require('../components/geojson/metropole-nice.json').features[0].geometry
-  }];
+  },
+   {
+    name : 'Conseil Régional PACA',
+    country: 'FRA',
+    slug: 'fra-conseil-regional-paca',
+    level: 0.4,
+    // FeatureCollection containing one feature
+    the_geom: require('../components/geojson/conseil-regional-PACA.json').geometry 
+  }
+  ];
 
   // Look into the club list
   for(let club of clubs.toArray() ) {
