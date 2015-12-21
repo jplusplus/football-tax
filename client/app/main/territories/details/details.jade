@@ -25,7 +25,7 @@
         p(ng-bind-html="'INTRO_TERRITORY' | translate:{ total_amount: '€51M', territory: territory.name}")
       
       .chart-block
-        h2.chart-block__title {{ 'Amount paid by accross the years' }}
+        h2.chart-block__title {{ 'SPENDINGS_BY_YEAR'| translate:{ year: '€14M' } }}
         .chart-block__chart(transfers-by-year="transfers", years="years")  
         .chart-block__headline
           h3.chart-block__headline__title {{ 'YEAR_MOST_SPENDING' | translate:{ year: yearMostSpending.name } }}
