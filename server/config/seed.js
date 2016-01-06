@@ -63,6 +63,13 @@ Territory.find({}).remove(function() {
     slug: 'fra-conseil-regional-languedoc-roussillon',
     level: 0.4,
     the_geom: require('../components/geojson/conseil-regional-languedoc-roussillon.json').geometry 
+  },
+   {
+    name : 'Conseil général 69',
+    country: 'FRA',
+    slug: 'fra-conseil-general-69',
+    level: 0.3,
+    the_geom: require('../components/geojson/departement-69.json').geometry
   }
   ];
 
