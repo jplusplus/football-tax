@@ -754,6 +754,38 @@ module.exports = function (grunt) {
 
   });
 
+  grunt.registerTask('transferstypes', function () {
+    const BASE = 'en';
+    const LOCALES_DIR = 'client/assets/locales'
+    const BASE_PATH = path.join(__dirname, LOCALES_DIR, BASE + '.json');
+    // Force task into async mode and grab a handle to the "done" function.
+    let done = this.async();
+    // Open the base locales file
+    let base = require(BASE_PATH);
+    // Get all file names
+    grunt.file.glob("server/data/clubs/*/money_transfers.json", function(er, files) {
+      // Collected types
+      let types = [];
+      // For each files
+      for( var filepath of files) {
+        // Open the JSON containing all transfers
+        let transfers = require( path.join(__dirname, filepath) );
+        // Collects types in this file
+        types = types.concat( _.pluck(transfers, 'type') );
+      }
+      // Remove dupliccated types
+      types = _.uniq(types);
+      // Complete the base file with non-existing types
+      for(let t of types) {
+        // The type is new
+        base[t] = base[t] || t;
+      }
+      // And override the existinng JSON file
+      fs.writeFileSync(BASE_PATH, JSON.stringify(base, null, 2) );
+      done();
+    });
+  });
+
   grunt.registerTask('server', function () {
     grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
     grunt.task.run(['serve']);
