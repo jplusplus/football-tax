@@ -4,7 +4,7 @@ angular.module('footballTaxApp')
   .controller('MainClubsCtrl', function ($scope, $rootScope, $translate, $filter, club, compute) {
     $scope.club = club;
     $scope.payers = _.groupBy(club.transfers, 'payer');
-    $scope.years = compute.years(club.transfers);
+    $scope.years = compute.years();
 
     $scope.territoryFigures = (territory, transfers)=> {
       let currencies = $filter("currencies");

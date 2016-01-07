@@ -39,8 +39,8 @@ angular.module('footballTaxApp')
       });
     };
 
-    Compute.prototype.years = function(transfers) {
-      return _.range(2003, (new Date() ).getFullYear() );
+    Compute.prototype.years = function() {
+      return _.range(2003, (new Date() ).getFullYear() + 1 );
     };
 
     return new Compute();

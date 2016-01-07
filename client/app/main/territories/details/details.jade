@@ -22,18 +22,20 @@
   .main__territories__details__content.main__content
     .container
       .lead
-        p(ng-bind-html="'INTRO_TERRITORY' | translate:{ total_amount: '€51M', territory: territory.name}")
+        p(ng-bind-html="'INTRO_TERRITORY' | translate:{ starting_year: years[0], ending_year: years[ years.length - 1], total_amount: (total | currencies), territory: territory.name }")
       
       .chart-block
-        h2.chart-block__title {{ 'SPENDINGS_BY_YEAR'| translate:{ year: '€14M' } }}
+        h2.chart-block__title {{ 'SPENDINGS_BY_YEAR'| translate }}
         .chart-block__chart(transfers-by-year="transfers", years="years")  
         .chart-block__headline
           h3.chart-block__headline__title {{ 'YEAR_MOST_SPENDING' | translate:{ year: yearMostSpending.name } }}
           
           .chart-block__headline__content
             p {{ 'YEAR_MOST_SPENDING_INTRO' | translate:{ year: yearMostSpending.name, territory:territory.name } }}
-            p(ng-bind-html=" 'YEAR_MOST_SPENDING_LIST_ITEM' | translate:{ amount: '€14M', beneficiary: 'Nice ECO Stadium'}")
-            p(ng-bind-html="'YEAR_MOST_SPENDING_OUTRO'| translate:{ total_amount_year: '€15.7M', territory: territory.name }")
+            ul
+              li(ng-repeat="transfer in ::yearMostSpending.transfers")
+                span(ng-bind-html=" 'YEAR_MOST_SPENDING_LIST_ITEM' | translate:{ amount: (transfer.value | currencies), beneficiary: transfer.beneficiary}")                
+            p(ng-bind-html="'YEAR_MOST_SPENDING_OUTRO'| translate:{ total_amount_year: (yearMostSpending.total | currencies), territory: territory.name }")
           
       .chart-block
         h2.chart-block__title {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}        
@@ -45,5 +47,4 @@
             | {{ 'SEE_MONEY_TRANSFERS_FOR_CLUB' | translate }}
           h3.chart-block__headline__title(ng-bind-html="'LARGEST_BENEFICIARY' | translate: { beneficiary: beneficiaryMostSpending.name, club:beneficiaryMostSpending.club.nameclub,territory: territory.name }")
           .chart-block__headline__content
-            p(ng-bind-html=" 'LARGEST_BENEFICIARY_DESC' | translate: { beneficiary: beneficiaryMostSpending.name, club:beneficiaryMostSpending.club.nameclub,territory: territory.name,amount_largest_beneficiary: '€34M' }")
-
+            p(ng-bind-html=" 'LARGEST_BENEFICIARY_DESC' | translate: { beneficiary: beneficiaryMostSpending.name, club:beneficiaryMostSpending.club.nameclub,territory: territory.name, amount_largest_beneficiary: (beneficiaryMostSpending.total | currencies), starting_year: years[0], ending_year: years[ years.length - 1] }")
