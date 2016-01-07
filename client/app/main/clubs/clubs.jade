@@ -37,7 +37,7 @@
             | {{ 'SEE_MONEY_TRANSFERS' | translate }}
           h3.chart-block__headline__title {{ name }}
           .chart-block__headline__content
-            p(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate: { territory: name, amount:'€XM', club: 'OGC Nice', year_largest_payment:'2010',years_number:'1','type_payment':  ( 'compensation fee' | translate )  }")
-            p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_LIST_YEARS' | translate: { year: '2012'}")
+            p(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate: territoryFigures(name, transfers)")
+            ul.small
+              li(ng-repeat="year in ::missingYears(transfers)") {{ year }}
             p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate")
-

@@ -1,10 +1,29 @@
 'use strict';
 
 angular.module('footballTaxApp')
-  .controller('MainClubsCtrl', function ($scope, $rootScope, $translate, club, compute) {
+  .controller('MainClubsCtrl', function ($scope, $rootScope, $translate, $filter, club, compute) {
     $scope.club = club;
     $scope.payers = _.groupBy(club.transfers, 'payer');
-    $scope.years = compute.years(club.transfers);  
+    $scope.years = compute.years(club.transfers);
+
+    $scope.territoryFigures = (territory, transfers)=> {
+      let currencies = $filter("currencies");
+      let largestPayment = _.max(transfers, 'value');
+      return {
+        territory: name,
+        amount: currencies( _.chain(transfers).pluck('value').sum().value() ),
+        club: club.nameclub,
+        year_largest_payment: largestPayment.date,
+        years_number: $scope.missingYears(transfers).length,
+        type_payment: $translate.instant(largestPayment.type)
+      };
+    };
+
+    $scope.missingYears = (transfers)=> {
+      let years = _.chain(transfers).pluck("date").uniq().reject(isNaN).value()
+      return _.reject($scope.years, y => years.indexOf(y) > -1);
+    };
+
     // Not every club has a page
     if( club.page ) {
       // Function to use the page translation
