@@ -1,0 +1,20 @@
+[
+  {
+    "city": "Saint-Etienne",
+    "nameclub": "Association sportive de Saint-Etienne Loire",
+    "locationclub": "AS Saint-Etienne\n11 rue de Verdun\n42580 L'Étrat",
+    "namenonprofitassociation": "Association sportive de Saint-Etienne Loire",
+    "namecorporation": "SASP ASSE LOIRE",
+    "corporationidentificationnumbername": "SIRET",
+    "corporationidentificationnumbervalue": "408 630 069 00016",
+    "country": "FRA",
+    "officialurl": "http://www.asse.fr/",
+    "wikipediapage": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne",
+    "twitterurl": "https://twitter.com/ASSEofficiel",
+    "facebookurl": "https://www.facebook.com/assepageofficielle/?fref=ts",
+    "foundationdate": 1919
+  },
+  {
+    "nameclub": 0
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "paymentid": 1,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "société SPORTFIVE",
+    "amount": "€116,168",
+    "date": 2015,
+    "type": "Prestation de communication",
+    "source": "https://www.saint-etienne.fr/sites/default/files/deliberations/20150706/DELIB150612.pdf"
+  },
+  {
+    "paymentid": 2,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "société SPORTFIVE",
+    "amount": "€151,000",
+    "date": 2013,
+    "type": "Achat de prestations de communication",
+    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20130701/DELIB130563.pdf",
+    "comment": "Investissement"
+  },
+  {
+    "paymentid": 3,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "société SPORTFIVE",
+    "amount": "€151,000",
+    "date": 2014,
+    "type": "Achat de prestations de communication",
+    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20140707/DELIB140540.pdf"
+  },
+  {
+    "paymentid": 4,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€244,900",
+    "date": 2014,
+    "type": "Attribution de subventions",
+    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20141103/DELIB140904.pdf"
+  },
+  {
+    "paymentid": 5,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€80,000",
+    "date": 2015,
+    "type": "Attribution de subventions",
+    "source": "https://www.saint-etienne.fr/sites/default/files/deliberations/20150914/DELIB150911.pdf"
+  },
+  {
+    "paymentid": 6,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€100,000",
+    "date": 2014,
+    "type": "Attribution de subventions",
+    "source": "https://www.saint-etienne.fr/sites/default/files/deliberations/20150914/DELIB150911.pdf"
+  },
+  {
+    "paymentid": 7,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€30,000",
+    "date": 2015,
+    "type": "Acomptes sur subventions",
+    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20141201/DELIB141107.pdf"
+  },
+  {
+    "paymentid": 8,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€100,000",
+    "date": 2015,
+    "type": "Acomptes sur subventions",
+    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20141201/DELIB141107.pdf"
+  },
+  {
+    "paymentid": 9,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€22,500",
+    "date": 2011,
+    "type": "Attribution de subventions",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 10,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€30,000",
+    "date": 2009,
+    "type": "Attribution de subventions",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 11,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€22,500",
+    "date": 2010,
+    "type": "Attribution de subventions",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 12,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€160,818",
+    "date": 2013,
+    "type": "Achat de places de football",
+    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20130701/DELIB130564.pdf"
+  },
+  {
+    "paymentid": 13,
+    "payer": "Ville de Saint-Etienne",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€100,485",
+    "date": 2015,
+    "type": "Achat de places de football",
+    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20150706/DELIB150613.pdf"
+  },
+  {
+    "paymentid": 14,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€48,000",
+    "date": 2009,
+    "type": "Achat de prestations",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 15,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€20,000",
+    "date": 2010,
+    "type": "Achat de prestations",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 16,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€20,000",
+    "date": 2011,
+    "type": "Achat de prestations",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 17,
+    "payer": "Communauté d'agglomération Saint-Etienne",
+    "amount": "€2,600,000",
+    "date": 2015,
+    "type": "Gestion du stade\r",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+  },
+  {
+    "paymentid": 18,
+    "payer": "Communauté d'agglomération Saint-Etienne",
+    "amount": "€6,628,583",
+    "date": 2015,
+    "type": "Rénovation du stade",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+  }
+]
