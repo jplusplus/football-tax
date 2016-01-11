@@ -1,6 +1,7 @@
 'use strict';
 
 var _ = require('lodash'),
+ slug = require('slug'),
 fuzzy = require('fuzzy');
 
 var response = require("../response"),
@@ -40,14 +41,16 @@ exports.show = function(req, res) {
 exports.search = function(req, res) {
   // Build paginator parameters
   var params = paginator.offset(req);
+  var q = slug(req.query.q || "");
   // Must specified a query parameter
-  if(!req.query.q || req.query.q.length < 1) {
+  if(!q || q.length < 1) {
     return response.validationError(res)({ error: "'q' parameter must not be empty."});
   }
+
   // Look for a club by its name
   var filtered = clubs.filter(function(item) {
     // Slugify club's name with slug
-    return fuzzy.test(req.query.q, item.nameclub || '');
+    return fuzzy.test(q, slug(item.nameclub || ''));
   });
   // Return a slice of the collections
   res.json(200, filtered.toArray().slice(params.offset, params.offset + params.limit) );
