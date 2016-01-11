@@ -7,8 +7,10 @@ fuzzy = require('fuzzy');
 var response = require("../response"),
    paginator = require("../paginator");
 
+
 var clubs = require('./club.collection'),
-    pages = require('../page/page.collection');
+    pages = require('../page/page.collection'),
+Territory = require('../territory/territory.model');
 
 // Get list of clubs
 exports.index = function(req, res) {
@@ -27,10 +29,23 @@ exports.show = function(req, res) {
     club = _.clone(club);
     // Gets club's transfers
     club.transfers = club.getTransfers();
-    // Gets club's page (if any)
-    club.page = pages.get({ slug: req.params.slug });
-    // Return a slice of the collections
-    res.json(200, club);
+    // Gets all payers for this club
+    club.payers = _.chain(club.transfers)
+                   .pluck('payer')
+                   .uniq()
+                   .map(t => slug(club.country + '-' + t).toLowerCase() )
+                   .value()
+    // Find those payers in the database
+    Territory
+      .find({ slug: { $in: club.payers } })
+      .sort('level')
+      .exec(function(err, territories) {
+        club.payers = territories;
+        // Gets club's page (if any)
+        club.page = pages.get({ slug: req.params.slug });
+        // Return a slice of the collections
+        res.json(200, club);
+      });
   // We didn't...
   } else {
     res.send(404);

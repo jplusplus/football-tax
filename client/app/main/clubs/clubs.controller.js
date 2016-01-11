@@ -3,8 +3,21 @@
 angular.module('footballTaxApp')
   .controller('MainClubsCtrl', function ($scope, $rootScope, $translate, $filter, club, compute) {
     $scope.club = club;
-    $scope.payers = _.groupBy(club.transfers, 'payer');
     $scope.years = compute.years();
+    $scope.payers = [];
+    let territories = _.groupBy(club.transfers, 'payer');
+
+    for( let name in territories ) {
+      let transfers = territories[name];
+      // Replace the payer array by an object
+      let payer = _.find($scope.club.payers, { name: name });
+      // Add the payer's transfers
+      payer.transfers = transfers;
+      // No level for this payer? We add one !
+      //payer.level = payer.level || 1
+      // And ad the territory as a payer
+      $scope.payers.push(payer);
+    }
 
     $scope.territoryFigures = (territory, transfers)=> {
       let currencies = $filter("currencies");
