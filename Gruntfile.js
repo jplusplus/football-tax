@@ -680,7 +680,49 @@ module.exports = function (grunt) {
     this.async();
   });
 
-  grunt.registerTask('gss', 'env:all', 'gss_to_json')
+
+  grunt.registerTask('gss_to_md', function () {
+    const BASE = 'en';
+    const LOCALES_DIR = 'client/assets/locales';
+    const PAGE_DIR = 'server/pages';
+    // Force task into async mode and grab a handle to the "done" function.
+    let done = this.async();
+
+    // True is the given path exists
+    let exists =  function(path) {
+      try {
+        return !! fs.statSync(path);
+      } catch (e) {
+        return false;
+      }
+    };
+
+    grunt.file.glob(path.join(LOCALES_DIR, '*.json'), function(err, languages) {
+      const LANGUAGES = _.map(languages, l=> l.match(/\/locales\/(\w+)\.json$/)[1] );
+      const CLUBS = _.keys( require('./server/config/clubs.json') )
+
+      for(let club of CLUBS) {
+        for(let lang of LANGUAGES) {
+          let dir = path.join(__dirname, PAGE_DIR, club);
+          let md  = path.join(dir, lang) + '.md';
+          // Create dir for this club (skip existing)
+          if(! exists(dir) ) {
+            // One dir by club
+            fs.mkdirSync(dir);
+          }
+          // Create new file
+          if(! exists(md) ){
+            // All file starts empty
+            fs.writeFileSync(md, '');
+          }
+        }
+      }
+
+      done();
+    });
+  });
+
+  grunt.registerTask('gss', 'env:all', 'gss_to_json', 'gss_to_md')
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
@@ -718,39 +760,45 @@ module.exports = function (grunt) {
   // Creates and complete every existing locales
   grunt.registerTask('locales', function () {
     const BASE = 'en';
-    const LANGUAGES = [BASE, 'fr', 'de'];
-    const LOCALES_DIR = 'client/assets/locales'
-    // Get locale file for the given lang key
-    var getLocalePath = (l)=> './' + path.join(LOCALES_DIR, l.toLowerCase() + '.json');
-    // Function to gets translations for a given language code
-    var getLocaleMessages = (lang)=> {
-      // Since the file might not exist yet...
-      try {
-        // Read the language file
-        return require(getLocalePath(lang));
-      // We catch the error to return an empty set of translation
-      } catch(e) {
-        return {};
-      }
-    };
-    // Gets base messages
-    var baseMessages = getLocaleMessages(BASE);
-    // Treats every languages
-    for( var lang of LANGUAGES ) {
-      // Gets messages for the current lang
-      var messages = getLocaleMessages(lang);
-      // Read every existing key from the base file
-      for( var key in baseMessages ) {
-        // Does the target lang have the key?
-        if( ! messages[key] ) {
-          // Add the key
-          messages[key] = baseMessages[key];
+    const LOCALES_DIR = 'client/assets/locales';
+    // Force task into async mode and grab a handle to the "done" function.
+    let done = this.async();
+
+    grunt.file.glob(path.join(LOCALES_DIR, '*.json'), function(err, languages) {
+      const LANGUAGES = _.map(languages, l=> l.match(/\/locales\/(\w+)\.json$/)[1] );
+       // Get locale file for the given lang key
+      var getLocalePath = (l)=> './' + path.join(LOCALES_DIR, l.toLowerCase() + '.json');
+      // Function to gets translations for a given language code
+      var getLocaleMessages = (lang)=> {
+        // Since the file might not exist yet...
+        try {
+          // Read the language file
+          return require(getLocalePath(lang));
+        // We catch the error to return an empty set of translation
+        } catch(e) {
+          return {};
         }
+      };
+      // Gets base messages
+      var baseMessages = getLocaleMessages(BASE);
+      // Treats every languages
+      for( var lang of LANGUAGES ) {
+        // Gets messages for the current lang
+        var messages = getLocaleMessages(lang);
+        // Read every existing key from the base file
+        for( var key in baseMessages ) {
+          // Does the target lang have the key?
+          if( ! messages[key] ) {
+            // Add the key
+            messages[key] = baseMessages[key];
+          }
+        }
+        var file = JSON.stringify(messages, null, 2)
+        // And override the existinng JSON file
+        fs.writeFileSync(getLocalePath(lang), file);
       }
-      var file = JSON.stringify(messages, null, 2)
-      // And override the existinng JSON file
-      fs.writeFileSync(getLocalePath(lang), file);
-    }
+      done();
+    });
 
   });
 
