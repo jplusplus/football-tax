@@ -39,7 +39,7 @@ module.exports = function (grunt) {
     // Create two files
     for(var sheet of ['money_transfers', 'desc']) {
       // Money transfert sheet
-      result[k + sheet] = {
+      result[k + '-' + sheet] = {
         options: {
           spreadsheetId: id,
           worksheetName: sheet

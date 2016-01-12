@@ -1,0 +1,275 @@
+[
+  {
+    "paymentid": 1,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€279 300",
+    "date": 2014,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20146262%2C2.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000065434967&ssbinary=true"
+  },
+  {
+    "paymentid": 2,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€515 000",
+    "date": 2008,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20088929%2C2.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000001717271&ssbinary=true"
+  },
+  {
+    "paymentid": 3,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€591 106",
+    "date": 2008,
+    "type": "Prestation de service",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20088929%2C2.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000001717271&ssbinary=true"
+  },
+  {
+    "paymentid": 4,
+    "payer": "Grand Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€277 400",
+    "date": 2014,
+    "type": "Attribution de subventions",
+    "source": "http://www.grandlyon.com/delibs/pdf/Conseil/2015/07/06/DELIBERATION/2015-0448.pdf"
+  },
+  {
+    "paymentid": 5,
+    "payer": "Grand Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€292 000",
+    "date": 2013,
+    "type": "Attribution de subventions",
+    "source": "http://www.grandlyon.com/delibs/pdfGL/ConseildeCommunaute/2014/01/13/DELIBERATION/2014-4451.pdf"
+  },
+  {
+    "paymentid": 6,
+    "payer": "Grand Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€310 000",
+    "date": 2012,
+    "type": "Attribution de subventions",
+    "source": "http://www.grandlyon.com/delibs/pdfGL/ConseildeCommunaute/2013/02/18/DELIBERATION/2013-3507.pdf"
+  },
+  {
+    "paymentid": 7,
+    "payer": "Grand Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€310 000",
+    "date": 2011,
+    "type": "Attribution de subventions",
+    "source": "http://www.grandlyon.com/delibs/pdfGL/ConseildeCommunaute/2012/03/19/DELIBERATION/2012-2808.pdf"
+  },
+  {
+    "paymentid": 8,
+    "payer": "Grand Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€310 000",
+    "date": 2010,
+    "type": "Attribution de subventions",
+    "source": "http://www.grandlyon.com/delibs/pdfGL/ConseildeCommunaute/2011/04/18/DELIBERATION/2011-2159.pdf"
+  },
+  {
+    "paymentid": 9,
+    "payer": "Grand Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€310 000",
+    "date": 2009,
+    "type": "Attribution de subventions",
+    "source": "http://www.grandlyon.com/delibs/pdfGL/ConseildeCommunaute/2010/10/25/DELIBERATION/2010-1789.pdf"
+  },
+  {
+    "paymentid": 10,
+    "payer": "Grand Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€75 922",
+    "date": 2005,
+    "type": "Prestation de communication",
+    "source": "http://www.grandlyon.com/delibs/pdfGL/Bureau/2006/01/09/DELIBERATION/B-2006-3905.pdf"
+  },
+  {
+    "paymentid": 11,
+    "payer": "Grand Lyon",
+    "beneficiary": "société SPORTFIVE",
+    "amount": "€121 418",
+    "date": 2005,
+    "type": "Location de loge",
+    "source": "http://www.grandlyon.com/delibs/pdfGL/Bureau/2006/01/09/DELIBERATION/B-2006-3905.pdf"
+  },
+  {
+    "paymentid": 12,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€236 000",
+    "date": 2014,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20136116%2C0.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000063408633&ssbinary=true"
+  },
+  {
+    "paymentid": 13,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€294 000",
+    "date": 2011,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20113247.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000000490122&ssbinary=true"
+  },
+  {
+    "paymentid": 14,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€236 000",
+    "date": 2013,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20125091%2C0.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000014168449&ssbinary=true"
+  },
+  {
+    "paymentid": 15,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€294 000",
+    "date": 2013,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20125091%2C0.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000014168449&ssbinary=true"
+  },
+  {
+    "paymentid": 16,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€236 000",
+    "date": 2012,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20114117%2C2.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000003499426&ssbinary=true"
+  },
+  {
+    "paymentid": 17,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€294 000",
+    "date": 2012,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20114117%2C2.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000003499426&ssbinary=true"
+  },
+  {
+    "paymentid": 18,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€196 000",
+    "date": 2011,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20103048.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000000408068&ssbinary=true"
+  },
+  {
+    "paymentid": 19,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€294 000",
+    "date": 2011,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20103048.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000000408068&ssbinary=true"
+  },
+  {
+    "paymentid": 20,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€294 000",
+    "date": 2009,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20091363%2C1.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000001752184&ssbinary=true"
+  },
+  {
+    "paymentid": 21,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€265 335",
+    "date": 2015,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20150825%2C3.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000113238407&ssbinary=true"
+  },
+  {
+    "paymentid": 22,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€224 200",
+    "date": 2015,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20150825%2C3.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000113238407&ssbinary=true"
+  },
+  {
+    "paymentid": 23,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€196 000",
+    "date": 2009,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20091363%2C1.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000001752184&ssbinary=true"
+  },
+  {
+    "paymentid": 24,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€294 000",
+    "date": 2010,
+    "type": "Attribution de subventions",
+    "source": "http://www.lyon.fr/cs/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=MDT-Type&blobheadername3=Content-Type&blobheadervalue1=inline%3B+filename%3D%22import%2F20102295.pdf%22&blobheadervalue2=abinary%3B+charset%3DUTF-8&blobheadervalue3=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=5000001591565&ssbinary=true"
+  },
+  {
+    "paymentid": 25,
+    "payer": "Département du Rhône",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€64 406",
+    "date": 2007,
+    "type": "Acquisition de places de matchs de football",
+    "source": "http://www.rhone.fr/poseidon/fichier?idNumDoc=45311&idTypDoc=D%C3%A9lib%C3%A9ration"
+  },
+  {
+    "paymentid": 26,
+    "payer": "Département du Rhône",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€759 848",
+    "date": 2010,
+    "type": "Acquisition de places de matchs de football",
+    "source": "http://www.rhone.fr/poseidon/fichier?idNumDoc=62260&idTypDoc=D%C3%A9lib%C3%A9ration",
+    "comment": "Somme importante (pourquoi ?)"
+  },
+  {
+    "paymentid": 27,
+    "payer": "Département du Rhône",
+    "beneficiary": "Olympique Lyonnais SASP",
+    "amount": "€2 196 134",
+    "date": 2012,
+    "type": "Acquisition de places de matchs de football",
+    "source": "http://www.rhone.fr/poseidon/fichier?idNumDoc=75945&idTypDoc=D%C3%A9lib%C3%A9ration",
+    "comment": "Peut-être un doublon de la ligne précédente"
+  },
+  {
+    "paymentid": 28,
+    "payer": "Centre National pour le Développement du Sport",
+    "beneficiary": "OL Groupe",
+    "amount": "€20 000 000",
+    "date": 2012,
+    "type": "Financement des équipements sportifs de l’UEFA-Euro 2016",
+    "stadium": "Lyon Lumières",
+    "source": "http://www.actusnews.com/documents/ACTUS-0-6487-OL-DDR1415-291015-enregistrement-AMF.pdf"
+  },
+  {
+    "paymentid": 29,
+    "payer": "Ville de Lyon",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€224 200",
+    "date": 2016,
+    "type": "Attribution de subventions",
+    "source": "http://www.actusnews.com/documents/ACTUS-0-6487-OL-DDR1415-291015-enregistrement-AMF.pdf"
+  },
+  {
+    "paymentid": 30,
+    "payer": "Région Rhône-Alpes",
+    "beneficiary": "Olympique de Lyon et du Rhône",
+    "amount": "€22 500",
+    "date": 2014,
+    "type": "Attribution de subventions",
+    "source": "http://www.actusnews.com/documents/ACTUS-0-6487-OL-DDR1415-291015-enregistrement-AMF.pdf"
+  }
+]

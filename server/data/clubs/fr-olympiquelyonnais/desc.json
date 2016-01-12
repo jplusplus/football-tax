@@ -1,0 +1,23 @@
+[
+  {
+    "city": "Lyon",
+    "nameclub": "Olympique Lyonnais",
+    "locationclub": "350 Avenue Jean Jaurès\n69007 Lyon",
+    "namenonprofitassociation": "Olympique de Lyon et du Rhône",
+    "namecorporation": "Olympique Lyonnais SASP",
+    "corporationidentificationnumbername": "SIRET",
+    "corporationidentificationnumbervalue": 38507188100028,
+    "country": "France",
+    "officialurl": "http://www.olweb.fr/fr/",
+    "wikipediapage": "https://fr.wikipedia.org/wiki/Olympique_lyonnais",
+    "twitterurl": "https://twitter.com/OL",
+    "facebookurl": "https://www.facebook.com/olympiquelyonnais/?fref=ts",
+    "foundationdate": 1950
+  },
+  {
+    "namecorporation": "OL Groupe",
+    "corporationidentificationnumbername": "SIRET",
+    "corporationidentificationnumbervalue": 42157749500037,
+    "country": "France"
+  }
+]

@@ -147,6 +147,7 @@
   {
     "paymentid": 17,
     "payer": "Communauté d'agglomération Saint-Etienne",
+    "beneficiary": "multiples entreprises privées inconnues",
     "amount": "€2,600,000",
     "date": 2015,
     "type": "Gestion du stade\r",
@@ -156,6 +157,7 @@
   {
     "paymentid": 18,
     "payer": "Communauté d'agglomération Saint-Etienne",
+    "beneficiary": "multiples entreprises privées inconnues",
     "amount": "€6,628,583",
     "date": 2015,
     "type": "Rénovation du stade",
