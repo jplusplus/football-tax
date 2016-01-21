@@ -72,6 +72,13 @@ Territory.find({}).remove(function() {
     slug: 'fra-conseil-general-69',
     level: 0.3,
     the_geom: smartGeojson('./departement-69.json')
+  },
+  {
+    name : 'Lyon Métropole',
+    country: 'FRA',
+    slug: 'fra-lyon-metropole',
+    level: 0.2,
+    the_geom: smartGeojson('./metropole-lyon.json')
   }
   ];
 
