@@ -10,6 +10,10 @@ var clubs = require('../api/club/club.collection');
 
 var slug = require('slug'),
        _ = require('lodash');
+// Load a geojson make it smarter
+var smartGeojson = require('../components/geojson').smartGeojson;
+
+console.log( smartGeojson('./metropole-nice.json').geometries[0] !== null )
 
 Territory.find({}).remove(function() {
 
@@ -18,58 +22,56 @@ Territory.find({}).remove(function() {
     country: 'FRA',
     slug: 'fra-ville-de-nice',
     level: 0.1,
-    the_geom: require('../components/geojson/nice.json')
-  }, 
+    the_geom: smartGeojson('./nice.json')
+  },
   {
     name : 'Conseil Général 06',
     country: 'FRA',
     slug: 'fra-conseil-general-06',
     level: 0.3,
-    // FeatureCollection containing one feature
-    the_geom: require('../components/geojson/departement-06.json').geometry 
+    the_geom: smartGeojson('./departement-06.json')
   },
   {
     name : 'Nice Métropole',
     country: 'FRA',
     slug: 'fra-nice-metropole',
     level: 0.2,
-    // FeatureCollection containing one feature
-    the_geom: require('../components/geojson/metropole-nice.json').features[0].geometry
+    the_geom: smartGeojson('./metropole-nice.json')
   },
    {
     name : 'Conseil Régional PACA',
     country: 'FRA',
     slug: 'fra-conseil-regional-paca',
     level: 0.4,
-    the_geom: require('../components/geojson/conseil-regional-PACA.json').geometry 
+    the_geom: smartGeojson('./conseil-regional-PACA.json')
   },
   {
     name : 'Ville de Nîmes',
     country: 'FRA',
     slug: 'fra-ville-de-nimes',
     level: 0.1,
-    the_geom: require('../components/geojson/nimes.json').geometry 
+    the_geom: smartGeojson('./nimes.json')
   },
   {
     name : 'Conseil général 30',
     country: 'FRA',
     slug: 'fra-conseil-general-30',
     level: 0.3,
-    the_geom: require('../components/geojson/departement-30.json').geometry 
+    the_geom: smartGeojson('./departement-30.json')
   },
   {
     name : 'Conseil Régional Languedoc Roussillon',
     country: 'FRA',
     slug: 'fra-conseil-regional-languedoc-roussillon',
     level: 0.4,
-    the_geom: require('../components/geojson/conseil-regional-languedoc-roussillon.json').geometry 
+    the_geom: smartGeojson('./conseil-regional-languedoc-roussillon.json')
   },
    {
     name : 'Conseil général 69',
     country: 'FRA',
     slug: 'fra-conseil-general-69',
     level: 0.3,
-    the_geom: require('../components/geojson/departement-69.json').geometry
+    the_geom: smartGeojson('./departement-69.json')
   }
   ];
 

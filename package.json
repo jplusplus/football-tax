@@ -23,7 +23,8 @@
     "morgan": "~1.0.0",
     "prerender-node": "2.1.0",
     "serve-favicon": "~2.0.1",
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "tv4": "^1.2.7"
   },
   "devDependencies": {
     "connect-livereload": "0.5.4",
