@@ -24,6 +24,7 @@
       
   .main__clubs__content.main__content
     .container
+      h2(ng-if="page") {{ 'CLUB_KEY_POINT' | translate }}
       .lead(ng-if="page", ng-bind-html="page.body")        
       div(money-transfers="club.transfers")   
         

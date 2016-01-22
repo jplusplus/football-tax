@@ -1,6 +1,6 @@
 [
   {
-    "paymentid": 3,
+    "moneytransfers": 3,
     "payer": "Ville de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 25000,
@@ -9,7 +9,7 @@
     "source": "http://www.proxiliege.net/index.php?page=article&id=599&idrub=24"
   },
   {
-    "paymentid": 4,
+    "moneytransfers": 4,
     "payer": "Ville de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 25000,
@@ -18,7 +18,7 @@
     "source": "http://www.liege.be/vie-communale/le-college-communal/college-communal-archives-communiques/communiques-2006-college-communal/college-communal-09-02-06"
   },
   {
-    "paymentid": 5,
+    "moneytransfers": 5,
     "payer": "Ville de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 65000,
@@ -27,7 +27,7 @@
     "source": "http://www.liege.be/vie-communale/le-college-communal/college-communal-archives-communiques/Communiques-2007-du-College-communal/college-communal-16-05-07"
   },
   {
-    "paymentid": 6,
+    "moneytransfers": 6,
     "payer": "Ville de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 95000,
@@ -36,7 +36,7 @@
     "source": "http://www.lalibre.be/regions/liege/le-standard-fait-cam-pagne-51b8aeaae4b0de6db9b7ca97"
   },
   {
-    "paymentid": 7,
+    "moneytransfers": 7,
     "payer": "Province de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 95000,
@@ -45,7 +45,7 @@
     "source": "http://www.lalibre.be/regions/liege/le-standard-fait-cam-pagne-51b8aeaae4b0de6db9b7ca97"
   },
   {
-    "paymentid": 8,
+    "moneytransfers": 8,
     "payer": "Ville de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 125000,
@@ -54,7 +54,7 @@
     "source": "http://www.willydemeyer.be/articles/communique-de-presse-convention-ville-de-liege-standard-de-liege-reaction?page=4"
   },
   {
-    "paymentid": 9,
+    "moneytransfers": 9,
     "payer": "Ville de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 125000,
@@ -63,7 +63,7 @@
     "source": "http://www.willydemeyer.be/articles/communique-de-presse-convention-ville-de-liege-standard-de-liege-reaction?page=4"
   },
   {
-    "paymentid": 10,
+    "moneytransfers": 10,
     "payer": "Ville de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 125000,
@@ -72,7 +72,7 @@
     "source": "http://www.willydemeyer.be/articles/communique-de-presse-convention-ville-de-liege-standard-de-liege-reaction?page=4"
   },
   {
-    "paymentid": 1,
+    "moneytransfers": 1,
     "payer": "Province de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 50000,
@@ -81,7 +81,7 @@
     "source": "http://www.provincedeliege.be/sites/default/files/media/208/_budget%202014.pdf"
   },
   {
-    "paymentid": 2,
+    "moneytransfers": 2,
     "payer": "Province de Liège",
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 45000,

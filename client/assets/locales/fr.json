@@ -47,5 +47,6 @@
   "SPENDING_TERR_FOR_CLUB": "{territory} a versé environ <strong>{amount}</strong> à {club} entre 2003 et 2015. Le plus gros versement a eu lieu en <strong>{year_largest_payment}</strong>, il s'agit de <strong>{type_payment}</strong>.<br/> Il nous manque encore des informations concernant {years_number, plural, one{l'année suivante} other{les années suivantes}} :",
   "SPENDING_TERR_FOR_CLUB_OUTRO": "Si vous les avez, envoyez nous un courriel à contact@footballtax.com",
   "TERRITORY_MOST_SPENDING": "Territoire avec le plus de dépenses: {territory}",
-  "SPENDING_FROM_TERRITORY": "Montant versé par {territory}"
+  "SPENDING_FROM_TERRITORY": "Montant versé par {territory}",
+  "CLUB_KEY_POINT": "Que retenir pour ce club ?"
 }

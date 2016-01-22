@@ -46,5 +46,6 @@
   "SPENDING_TERR_FOR_CLUB": "{territory} provided around <strong>{amount}</strong> to {club} between 2003 and 2015. The largest payment occured in <strong>{year_largest_payment}</strong>, it corresponds to a <strong>{type_payment}</strong>. Information about the following {years_number, plural, one{year} other{years}} are still missing: ",
   "SPENDING_TERR_FOR_CLUB_OUTRO": "If you have it, please send us an email at contact@footballtax.com",
   "TERRITORY_MOST_SPENDING": "Territory that spent most: {territory}",
-  "SPENDING_FROM_TERRITORY": "Amount paid by {territory}"
+  "SPENDING_FROM_TERRITORY": "Amount paid by {territory}",
+  "CLUB_KEY_POINT": "The key point for this club"
 }

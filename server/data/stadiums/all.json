@@ -1,6 +1,7 @@
 [
   {
     "name": "Grand Stade",
+    "tenants": "OGC Nice",
     "country": "FRA",
     "city": "Nice",
     "brandedname": "Allianz Riviera",
@@ -19,6 +20,7 @@
   },
   {
     "name": "La Meinau",
+    "tenants": "RC Strasbourg",
     "country": "FRA",
     "city": "Strasbourg",
     "type": "competition",
@@ -30,7 +32,6 @@
     "capacity": "42 756 ",
     "owner": "Ville de Strasbourg",
     "operator": "RC Strasbourg",
-    "tenant": "RC Strasbourg",
     "constructioncostoriginal": "117mio FRF",
     "constructioncostineuros": 17836535,
     "constructioncostyear": 1984,
@@ -39,6 +40,7 @@
   },
   {
     "name": "Stade des Costières",
+    "tenants": "NO Nimes",
     "country": "FRA",
     "city": "Nîmes",
     "type": "competition",
@@ -49,11 +51,42 @@
     "capacity": 18482,
     "owner": "Ville de Nîmes",
     "operator": "NO Nimes",
-    "tenant": "NO Nimes",
     "constructioncostoriginal": "160mio FRF",
     "constructioncostineuros": 24391843,
     "constructioncostyear": 1989,
     "publicprivatepartnership": false,
     "sources": "https://web.archive.org/web/20150930151907/https://fr.wikipedia.org/wiki/Stade_des_Costi%C3%A8res"
+  },
+  {
+    "name": "Stade Geoffroy Guichard\n\n",
+    "tenants": "AS Saint-Etienne",
+    "country": "FRA",
+    "city": "Saint-Etienne",
+    "type": "competition",
+    "location": "14, rue Paul et Pierre Guichard\n42028 Saint-Étienne",
+    "datefrom": "1/9/2930",
+    "datelistextension": "1938-1983",
+    "capacity": 42000,
+    "owner": "Saint-Etienne Métropole",
+    "operator": "Saint-Etienne Métropole"
+  },
+  {
+    "name": "Ricoh Arena",
+    "tenants": "Coventry City FC",
+    "country": "UK",
+    "city": "Coventry",
+    "brandedname": "Ricoh Arena",
+    "location": "Ricoh Arena, Phoenix Way, Foleshill, Coventry, CV6 6GE",
+    "capacity": "32,609",
+    "owner": "Wasps Holdings Limited (company owning rugby clubs)",
+    "operator": "Arena Coventry Limited",
+    "shareofuse": "Coventry City FC - rent on matchdays",
+    "website": "http://www.ricoharena.com/",
+    "constructioncostoriginal": 118000000,
+    "constructioncostineuros": "=R6*1.1731",
+    "constructioncostyear": 2005,
+    "publicprivatepartnership": true,
+    "privatecompanyinvolvedintheppp": "Arena Coventry Limited",
+    "sources": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/91905/ERDF_West_Midlands_celebrating_success_2000_to_2006_ERDF_programme.pdf"
   }
 ]
