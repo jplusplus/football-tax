@@ -1,0 +1,434 @@
+[
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€13,000",
+    "date": 2009,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=19131&path=52%2F19131_812_Conseil-municipal-du-22-juillet-2013.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€15,000",
+    "date": 2009,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "https://www.montpellier.fr/include/viewFile.php?idtf=6383&path=c5%2FWEB_CHEMINACC_6383_1233221530.txt"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€95,000",
+    "date": 2009,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=19039&path=9a%2F19039_520_Synthese-delibs-juin-2013.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€100,000",
+    "date": 2009,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "https://www.montpellier.fr/include/viewFile.php?idtf=6383&path=c5%2FWEB_CHEMINACC_6383_1233221530.txt"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€122,008",
+    "date": 2009,
+    "typefr": "Achat de prestation de services",
+    "type": "Purchase of service benefits",
+    "source": "https://www.montpellier.fr/include/viewFile.php?idtf=7608&path=ff%2FWEB_CHEMIN_7608_1250586076.pdf"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€300,000",
+    "date": 2010,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2010/12/22/DELIBERATION/D0JLP.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€122,000",
+    "date": 2010,
+    "typefr": "Achat de prestation de services",
+    "type": "Purchase of service benefits",
+    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=18&ved=0ahUKEwiN-o-K_MnKAhUC3SwKHUgeCMg4ChAWCDkwBw&url=https%3A%2F%2Fwww.montpellier.fr%2Finclude%2FviewFile.php%3Fidtf%3D11845%26path%3D83%252FWEB_CHEMIN_11845_1297334861.pdf&usg=AFQjCNFqhJswdFmz-aVp_POGY93DD0FSmw&bvm=bv.112766941,d.bGQ"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€800,000",
+    "date": 2011,
+    "typefr": "Subvention pour le centre de formation",
+    "type": "Training facility grant",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2010/11/29/DELIBERATION/D0JHS.pdf"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€800,000",
+    "date": 2011,
+    "typefr": "Subvention pour le centre de formation",
+    "type": "Training facility grant",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2011/10/21/DELIBERATION/D0KJJ.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€14,700",
+    "date": 2011,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=18145&path=43%2F18145_512_PV-CM-20-06-11-version-2.pdf"
+  },
+  {
+    "payer": "Conseil départemental de l'Hérault",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€250,720",
+    "date": 2011,
+    "typefr": "Subvention",
+    "type": "Subsidy",
+    "source": "http://www.montpellier-journal.fr/2013/06/les-collectivites-explosent-le-plafond-legal-dachat-de-prestations-aux-clubs-sportifs.html"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€400,000",
+    "date": 2011,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2011/12/22/DELIBERATION/D0KRD.pdf"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€40,000",
+    "date": 2011,
+    "typefr": "Subvention",
+    "type": "Subsidy",
+    "source": "http://www.montpellier-journal.fr/2013/06/les-collectivites-explosent-le-plafond-legal-dachat-de-prestations-aux-clubs-sportifs.html"
+  },
+  {
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€1,129,158",
+    "date": 2011,
+    "typefr": "Subvention",
+    "type": "Subsidy",
+    "source": "http://www.montpellier-journal.fr/2013/06/les-collectivites-explosent-le-plafond-legal-dachat-de-prestations-aux-clubs-sportifs.html"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€113,442",
+    "date": 2011,
+    "typefr": "Subvention",
+    "type": "Subsidy",
+    "source": "http://www.montpellier-journal.fr/2013/06/les-collectivites-explosent-le-plafond-legal-dachat-de-prestations-aux-clubs-sportifs.html"
+  },
+  {
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "Stadium Mosson",
+    "amount": "€2,500,000",
+    "date": 2011,
+    "typefr": "Rénovation du stade",
+    "type": "Stadium renovation",
+    "stadium": "Stadium Mosson",
+    "source": "https://www.montpellier3m.fr/sites/default/files/downloads/files/Agglo34-12-RappAct-Web.pdf",
+    "comment": "p.11"
+  },
+  {
+    "12": "20/12/2011",
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€564,579",
+    "date": 2011,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_3611/99_d1346660322562.pdf",
+    "comment": "1st semester"
+  },
+  {
+    "12": "23/06/2011",
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€564,579",
+    "date": 2011,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_3611/99_d1346660322562.pdf",
+    "comment": "2nd semester"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€800,000",
+    "date": 2012,
+    "typefr": "Subvention pour le centre de formation",
+    "type": "Training facility grant",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2012/10/12/DELIBERATION/D0LNG.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€14,200",
+    "date": 2012,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&ved=0ahUKEwiihqLZ7cnKAhUH8HIKHTrgBEoQFghGMAk&url=https%3A%2F%2Fwww.montpellier.fr%2Finclude%2FviewFile.php%3Fidtf%3D14685%26path%3D9c%252FWEB_CHEMIN_14685_1329407883.pdf&usg=AFQjCNFwOItTwQsnsoA0vVE3jiU7PDoNAQ&bvm=bv.112766941,d.bGQ"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€36,400",
+    "date": 2012,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2012/12/21/DELIBERATION/D0LXS.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€100,000",
+    "date": 2012,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&ved=0ahUKEwiihqLZ7cnKAhUH8HIKHTrgBEoQFghGMAk&url=https%3A%2F%2Fwww.montpellier.fr%2Finclude%2FviewFile.php%3Fidtf%3D14685%26path%3D9c%252FWEB_CHEMIN_14685_1329407883.pdf&usg=AFQjCNFwOItTwQsnsoA0vVE3jiU7PDoNAQ&bvm=bv.112766941,d.bGQ"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€130,510",
+    "date": 2012,
+    "typefr": "Achat de prestation de services",
+    "type": "Purchase of service benefits",
+    "source": "https://www.montpellier.fr/include/viewFile.php?idtf=19794&path=b1%2F19794_093_Tome-2-sur-4.pdf"
+  },
+  {
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "Stadium Mosson",
+    "amount": "€323,686",
+    "date": 2012,
+    "typefr": "Stade - frais de fonctionnement",
+    "type": "Stadium maintenance",
+    "stadium": "Stadium Mosson",
+    "source": "http://www.montpellier-journal.fr/2013/04/les-trois-plus-gros-clubs-sportifs-de-montpellier-et-largent-public-77.html"
+  },
+  {
+    "12": "17/01/2013",
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€564,525",
+    "date": 2012,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_43352/82_d1363168639195.pdf",
+    "comment": "1st semester"
+  },
+  {
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€1,570,300",
+    "date": 2012,
+    "typefr": "Subvention pour le centre de formation",
+    "type": "Training facility grant",
+    "source": "https://www.montpellier3m.fr/medias/fichier/suppl-sportmag-43-1-_1334059574088.pdf"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€900,000",
+    "date": 2013,
+    "typefr": "Subvention pour le centre de formation",
+    "type": "Training facility grant",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2013/07/19/DELIBERATION/D0MKK.pdf"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€380,000",
+    "date": 2013,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2014/04/18/DELIBERATION/D0NE0.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€95,000",
+    "date": 2013,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=17&ved=0ahUKEwiK95b78snKAhVCCiwKHcN5CHc4ChAWCEAwBg&url=https%3A%2F%2Fwww.montpellier.fr%2Finclude%2FviewFile.php%3Fidtf%3D20404%26path%3D65%252F20404_504_liste-des-marches-2013-toutes-directions-confondues-version-du-08-avril-2014-_-2_-.pdf&usg=AFQjCNEI63G-WZ-kXGz1kh-ID-XpCNZkXQ&bvm=bv.112766941,d.bGQ"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€15,730",
+    "date": 2013,
+    "typefr": "Achat de places",
+    "type": "Purchase of seats",
+    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=17&ved=0ahUKEwiK95b78snKAhVCCiwKHcN5CHc4ChAWCEAwBg&url=https%3A%2F%2Fwww.montpellier.fr%2Finclude%2FviewFile.php%3Fidtf%3D20404%26path%3D65%252F20404_504_liste-des-marches-2013-toutes-directions-confondues-version-du-08-avril-2014-_-2_-.pdf&usg=AFQjCNEI63G-WZ-kXGz1kh-ID-XpCNZkXQ&bvm=bv.112766941,d.bGQ"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€129,350",
+    "date": 2013,
+    "typefr": "Achat de prestation de services",
+    "type": "Purchase of service benefits",
+    "source": "https://www.montpellier.fr/include/viewFile.php?idtf=22710&path=b1%2F22710_011_Tome-2-sur-4.pdf"
+  },
+  {
+    "12": "23/05/2013",
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€564,525",
+    "date": 2013,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_47500/102_d1387303945415.pdf",
+    "comment": "2nd semester"
+  },
+  {
+    "12": "19/12/2013",
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€556,225",
+    "date": 2013,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_58774/124_d1394125518024.pdf",
+    "comment": "1st semester"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€722,000",
+    "date": 2014,
+    "typefr": "Subvention pour le centre de formation",
+    "type": "Training facility grant",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2014/10/17/DELIBERATION/D0NSX.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€13,000",
+    "date": 2014,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=20436&path=80%2F20436_028_PV-CM-Montpellier-17-02-2014.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€6,500",
+    "date": 2014,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=20436&path=80%2F20436_028_PV-CM-Montpellier-17-02-2014.pdf"
+  },
+  {
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€800,000",
+    "date": 2014,
+    "typefr": "Subvention pour le centre de formation",
+    "type": "Training facility grant",
+    "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2014/06/27/DELIBERATION/D0NLI.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€95,000",
+    "date": 2014,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=20436&path=80%2F20436_028_PV-CM-Montpellier-17-02-2014.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€110,730",
+    "date": 2014,
+    "typefr": "Achat de prestation de services",
+    "type": "Purchase of service benefits",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=21258&path=55%2F21258_542_PV-CM-02-10-14.pdf"
+  },
+  {
+    "12": "19/06/2014",
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€566,300",
+    "date": 2014,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_80972/100_d1411481528769.pdf",
+    "comment": "2nd semester"
+  },
+  {
+    "12": "18/12/2014",
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€481,300",
+    "date": 2014,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_87780/107_d1420447752310.pdf",
+    "comment": "1st semester"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€13,000",
+    "date": 2015,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=22831&path=a3%2F22831_421_PV-CM-23-07-2015.pdf"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "Association Montpellier HSC",
+    "amount": "€6,500",
+    "date": 2015,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=22&ved=0ahUKEwjlmuGS9MnKAhWCZCwKHWLfBH44FBAWCCEwAQ&url=http%3A%2F%2Fwww.montpellier.fr%2Finclude%2FviewFile.php%3Fidtf%3D21862%26path%3D73%252F21862_496_PV-CM-CM-19-02-2015.pdf&usg=AFQjCNHVETBIiQgH1lGy7H_e1yg7Y3y4NQ&bvm=bv.112766941,d.bGQ"
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€95,000",
+    "date": 2015,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=22&ved=0ahUKEwjlmuGS9MnKAhWCZCwKHWLfBH44FBAWCCEwAQ&url=http%3A%2F%2Fwww.montpellier.fr%2Finclude%2FviewFile.php%3Fidtf%3D21862%26path%3D73%252F21862_496_PV-CM-CM-19-02-2015.pdf&usg=AFQjCNHVETBIiQgH1lGy7H_e1yg7Y3y4NQ&bvm=bv.112766941,d.bGQ"
+  },
+  {
+    "12": "29/06/2015",
+    "payer": "Montpellier Méditerannée Métropole",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€964,693",
+    "date": 2015,
+    "typefr": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
+    "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_94904/161_d1441800481935.pdf#search=\"sports\""
+  },
+  {
+    "payer": "Ville de Montpellier",
+    "beneficiary": "SASP Montpellier Hérault Sport Club",
+    "amount": "€95,000",
+    "date": 2016,
+    "typefr": "Subvention de fonctionnement",
+    "type": "Operating grant",
+    "source": "http://www.montpellier.fr/include/viewFile.php?idtf=22550&path=4e%2F22550_406_PV-CM-18-06-15-definitif.pdf"
+  }
+]
