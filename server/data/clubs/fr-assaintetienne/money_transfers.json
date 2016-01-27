@@ -5,7 +5,9 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€244,900",
     "date": 2014,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20141103/DELIB140904.pdf"
   },
   {
@@ -14,7 +16,9 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€30,000",
     "date": 2015,
-    "type": "Acomptes sur subventions",
+    "typeraw": "Acomptes sur subventions",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20141201/DELIB141107.pdf"
   },
   {
@@ -23,7 +27,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€22,500",
     "date": 2011,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -32,7 +37,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€30,000",
     "date": 2009,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -41,7 +47,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€22,500",
     "date": 2010,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -50,7 +57,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€46,296",
     "date": 2009,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -59,7 +67,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€108,000",
     "date": 2009,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -68,7 +77,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€454,800",
     "date": 2009,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -77,7 +87,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€449,800",
     "date": 2010,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -86,7 +97,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€46,296",
     "date": 2010,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -95,7 +107,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€108,000",
     "date": 2010,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -104,7 +117,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€188,000",
     "date": 2011,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20110912/DELIB110866.pdf"
   },
   {
@@ -113,7 +127,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€46,296",
     "date": 2011,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -122,7 +137,8 @@
     "beneficiary": "Association sportive de Saint-Etienne Loire",
     "amount": "€110,000",
     "date": 2011,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -131,7 +147,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€180,000",
     "date": 2014,
-    "type": "Attribution de subventions",
+    "typeraw": "Attribution de subventions",
+    "type": "Subsidy",
     "source": "https://www.saint-etienne.fr/sites/default/files/deliberations/20150914/DELIB150911.pdf"
   },
   {
@@ -140,7 +157,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€100,000",
     "date": 2015,
-    "type": "Acomptes sur subventions",
+    "typeraw": "Acomptes sur subventions",
+    "type": "Subsidy",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20141201/DELIB141107.pdf"
   },
   {
@@ -149,7 +167,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€160,818",
     "date": 2013,
-    "type": "Achat de places de football",
+    "typeraw": "Achat de places de football",
+    "type": "Purchase of seats",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20130701/DELIB130564.pdf"
   },
   {
@@ -158,7 +177,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€100,485",
     "date": 2015,
-    "type": "Achat de places de football",
+    "typeraw": "Achat de places de football",
+    "type": "Purchase of seats",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20150706/DELIB150613.pdf"
   },
   {
@@ -167,7 +187,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€48,000",
     "date": 2009,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -176,7 +197,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€20,000",
     "date": 2010,
-    "type": "Achat de prestations",
+    "typeraw": "Achat de prestations",
+    "type": "Purchase of benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -185,7 +207,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€20,000",
     "date": 2011,
-    "type": "Achat de prestations",
+    "typeraw": "Achat de prestations",
+    "type": "Purchase of benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -194,7 +217,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€160,818",
     "date": 2011,
-    "type": "Achat de places de football",
+    "typeraw": "Achat de places de football",
+    "type": "Purchase of seats",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20110704/DELIB110579.pdf"
   },
   {
@@ -203,7 +227,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€160,818",
     "date": 2012,
-    "type": "Achat de places de football",
+    "typeraw": "Achat de places de football",
+    "type": "Purchase of seats",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20120702/DELIB120585.pdf"
   },
   {
@@ -212,7 +237,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€159,520",
     "date": 2014,
-    "type": "Achat de places de football",
+    "typeraw": "Achat de places de football",
+    "type": "Purchase of seats",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20140707/DELIB140537.pdf"
   },
   {
@@ -221,7 +247,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€500,000",
     "date": 2004,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://www.sport.fr/football/29870.shtm"
   },
   {
@@ -230,7 +257,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€250,000",
     "date": 2005,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://www.sport.fr/football/29870.shtm"
   },
   {
@@ -239,7 +267,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€125,000",
     "date": 2006,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://www.sport.fr/football/29870.shtm"
   },
   {
@@ -248,7 +277,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€380,269",
     "date": 2009,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -257,7 +287,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€258,254",
     "date": 2010,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -266,7 +297,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€149,215",
     "date": 2011,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -275,7 +307,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€600,000",
     "date": 2003,
-    "type": "Subventions de fonctionnement",
+    "typeraw": "Subventions de fonctionnement",
+    "type": "Operating grant",
     "source": "http://www.sport.fr/football/29870.shtm"
   },
   {
@@ -284,7 +317,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€527,904",
     "date": 2009,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -293,7 +327,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€693,478",
     "date": 2010,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -302,7 +337,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€694,918",
     "date": 2011,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -311,7 +347,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€612,200",
     "date": 2009,
-    "type": "Achat de prestations",
+    "typeraw": "Achat de prestations",
+    "type": "Purchase of benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -320,7 +357,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€354,572",
     "date": 2010,
-    "type": "Achat de prestations",
+    "typeraw": "Achat de prestations",
+    "type": "Purchase of benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -329,7 +367,8 @@
     "beneficiary": "SASP ASSE LOIRE",
     "amount": "€355,294",
     "date": 2011,
-    "type": "Achat de prestations",
+    "typeraw": "Achat de prestations",
+    "type": "Purchase of benefits",
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
@@ -338,7 +377,8 @@
     "beneficiary": "société SPORTFIVE",
     "amount": "€116,168",
     "date": 2015,
-    "type": "Prestation de communication",
+    "typeraw": "Prestation de communication",
+    "type": "Purchase of communication benefits",
     "source": "https://www.saint-etienne.fr/sites/default/files/deliberations/20150706/DELIB150612.pdf"
   },
   {
@@ -347,7 +387,8 @@
     "beneficiary": "société SPORTFIVE",
     "amount": "€151,000",
     "date": 2013,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20130701/DELIB130563.pdf",
     "comment": "Investissement"
   },
@@ -357,7 +398,8 @@
     "beneficiary": "société SPORTFIVE",
     "amount": "€151,000",
     "date": 2014,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20140707/DELIB140540.pdf"
   },
   {
@@ -366,7 +408,8 @@
     "beneficiary": "société SPORTFIVE",
     "amount": "€151,000",
     "date": 2011,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20110704/DELIB110578.pdf"
   },
   {
@@ -375,7 +418,8 @@
     "beneficiary": "société SPORTFIVE",
     "amount": "€151,000",
     "date": 2012,
-    "type": "Achat de prestations de communication",
+    "typeraw": "Achat de prestations de communication",
+    "type": "Purchase of communication benefits",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20120917/DELIB120587.pdf",
     "comment": "Investissement"
   },
@@ -385,7 +429,8 @@
     "beneficiary": "SOFILO",
     "amount": "€19,650",
     "date": 2013,
-    "type": "Achat d'une parcelle afin d'agrandir le stade",
+    "typeraw": "Achat d'une parcelle afin d'agrandir le stade",
+    "type": "Stadium renovation",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20130916/DELIB130883.pdf",
     "file": "DELIB130883.pdf"
@@ -396,7 +441,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€8,000,000",
     "date": 2012,
-    "type": "Rénovation stade - Euro 2016",
+    "typeraw": "Rénovation stade - Euro 2016",
+    "type": "Stadium renovation ",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.geoffroy-guichard.com/renovation-euro-2016/"
   },
@@ -406,7 +452,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€6,800,000",
     "date": 2012,
-    "type": "Rénovation stade - Euro 2016",
+    "typeraw": "Rénovation stade - Euro 2016",
+    "type": "Stadium renovation",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.geoffroy-guichard.com/renovation-euro-2016/"
   },
@@ -416,7 +463,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€3,000,000",
     "date": 2012,
-    "type": "Rénovation stade - Euro 2016",
+    "typeraw": "Rénovation stade - Euro 2016",
+    "type": "Stadium renovation",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
   },
@@ -426,7 +474,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€860,000",
     "date": 2015,
-    "type": "Aménagements et matériels du stade",
+    "typeraw": "Aménagements et matériels du stade",
+    "type": "Stadium renovation",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
   },
@@ -436,7 +485,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€2,600,000",
     "date": 2015,
-    "type": "Gestion annuelle du stage",
+    "typeraw": "Gestion annuelle du stade",
+    "type": "Stadium maintenance",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
   },
@@ -446,7 +496,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€550,000",
     "date": 2015,
-    "type": "Mise en conformité - Euro 2016",
+    "typeraw": "Mise en conformité - Euro 2016",
+    "type": "Stadium renovation",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
   },
@@ -456,7 +507,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€40,200,000",
     "date": 2012,
-    "type": "Rénovation stade - Euro 2016",
+    "typeraw": "Rénovation stade - Euro 2016",
+    "type": "Stadium renovation",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
   },
@@ -466,7 +518,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€5,218,583",
     "date": 2015,
-    "type": "Rénovation stade - Euro 2016",
+    "typeraw": "Rénovation stade - Euro 2016",
+    "type": "Stadium renovation",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
   },
@@ -476,7 +529,8 @@
     "beneficiary": "Stade Geoffroy-Guichard",
     "amount": "€6,700,000",
     "date": 2012,
-    "type": "Supplément non prévu pour la rénovation stade - Euro 2016",
+    "typeraw": "Supplément non prévu pour la rénovation stade - Euro 2016",
+    "type": "Stadium renovation",
     "stadium": "Geoffroy-Guichard",
     "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
   }

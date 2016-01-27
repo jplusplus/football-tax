@@ -5,7 +5,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 25000,
     "date": 2005,
-    "type": "Subsidies - mise à disposition de places en tribunes pour la ville",
+    "typefr": "Subsidies - mise à disposition de places en tribunes pour la ville",
+    "type": "Purchase of seats",
     "source": "http://www.proxiliege.net/index.php?page=article&id=599&idrub=24"
   },
   {
@@ -14,7 +15,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 25000,
     "date": 2006,
-    "type": "Subsidies - mise à disposition de places en tribunes pour la ville (100 places pour chaque match en trib n°4)",
+    "typefr": "Subsidies - mise à disposition de places en tribunes pour la ville (100 places pour chaque match en trib n°4)",
+    "type": "Purchase of seats",
     "source": "http://www.liege.be/vie-communale/le-college-communal/college-communal-archives-communiques/communiques-2006-college-communal/college-communal-09-02-06"
   },
   {
@@ -23,7 +25,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 65000,
     "date": 2007,
-    "type": "Subsidies - mise à disposition de 1950 places en tribunes pour la ville (total des matches)",
+    "typefr": "Subsidies - mise à disposition de 1950 places en tribunes pour la ville (total des matches)",
+    "type": "Purchase of seats",
     "source": "http://www.liege.be/vie-communale/le-college-communal/college-communal-archives-communiques/Communiques-2007-du-College-communal/college-communal-16-05-07"
   },
   {
@@ -32,7 +35,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 95000,
     "date": 2009,
-    "type": "Subsidies -  (convention trisannuelle)",
+    "typefr": "Subsidies -  (convention trisannuelle)",
+    "type": "Subsidy",
     "source": "http://www.lalibre.be/regions/liege/le-standard-fait-cam-pagne-51b8aeaae4b0de6db9b7ca97"
   },
   {
@@ -41,7 +45,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 95000,
     "date": 2009,
-    "type": "Subsidies -  (convention trisannuelle)",
+    "typefr": "Subsidies -  (convention trisannuelle)",
+    "type": "Subsidy",
     "source": "http://www.lalibre.be/regions/liege/le-standard-fait-cam-pagne-51b8aeaae4b0de6db9b7ca97"
   },
   {
@@ -50,7 +55,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 125000,
     "date": 2011,
-    "type": "Subsidies -  (convention trisannuelle)",
+    "typefr": "Subsidies -  (convention trisannuelle)",
+    "type": "Subsidy",
     "source": "http://www.willydemeyer.be/articles/communique-de-presse-convention-ville-de-liege-standard-de-liege-reaction?page=4"
   },
   {
@@ -59,7 +65,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 125000,
     "date": 2012,
-    "type": "Subsidies -  (convention trisannuelle)",
+    "typefr": "Subsidies -  (convention trisannuelle)",
+    "type": "Subsidy",
     "source": "http://www.willydemeyer.be/articles/communique-de-presse-convention-ville-de-liege-standard-de-liege-reaction?page=4"
   },
   {
@@ -68,7 +75,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 125000,
     "date": 2013,
-    "type": "Subsidies -  (convention trisannuelle)",
+    "typefr": "Subsidies -  (convention trisannuelle)",
+    "type": "Subsidy",
     "source": "http://www.willydemeyer.be/articles/communique-de-presse-convention-ville-de-liege-standard-de-liege-reaction?page=4"
   },
   {
@@ -77,7 +85,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 50000,
     "date": 2014,
-    "type": "Subsidies -  (convention pluriannuelle)",
+    "typefr": "Subsidies -  (convention pluriannuelle)",
+    "type": "Subsidy",
     "source": "http://www.provincedeliege.be/sites/default/files/media/208/_budget%202014.pdf"
   },
   {
@@ -86,7 +95,8 @@
     "beneficiary": "STANDARD DE LIEGE SA",
     "amount": 45000,
     "date": 2015,
-    "type": "Subsidies -  (convention pluriannuelle)",
+    "typefr": "Subsidies -  (convention pluriannuelle)",
+    "type": "Subsidy",
     "source": "http://www.provincedeliege.be/sites/default/files/media/208/Budget%202015.pdf"
   },
   {
@@ -94,7 +104,8 @@
     "beneficiary": "Académie Robert Louis Dreyfus",
     "amount": 5600000,
     "date": 2007,
-    "type": "Subsidies - création de l'académie",
+    "typefr": "Subsidies - création de l'académie",
+    "type": "Training facility grant",
     "source": "http://www.wallonie.be/sites/wallonie/files/dossier_vlw_16.pdf"
   }
 ]

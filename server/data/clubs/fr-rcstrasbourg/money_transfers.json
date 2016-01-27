@@ -7,7 +7,8 @@
     "amount": 171500,
     "includedin": 29,
     "date": 2014,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of communication benefits",
     "source": "20140526_delib_CM.pdf",
     "page": "p.4"
   },
@@ -18,7 +19,7 @@
     "beneficiary": "Association RCS",
     "amount": "?",
     "date": 2010,
-    "type": "Baisse du loyer du centre de formation",
+    "typefr": "Baisse du loyer du centre de formation",
     "source": "rapport-activite-cus-2011.pdf",
     "page": "p.11",
     "comment": "La ville a acquis le centre de formation de l'association, qui avait déjà été financé par des subventions (33mF en 2000) et le reloue à l'asso pour une bouchée de pain."
@@ -30,7 +31,7 @@
     "beneficiary": "Association RCS",
     "amount": "?",
     "date": 2015,
-    "type": "Mise à disposition du stade",
+    "typefr": "Mise à disposition du stade",
     "source": "20141219_delibs_CUS.pdf",
     "page": "p. 79",
     "comment": "En 2014, la journée pour les associations n'ayant pas leur siège à Strasbourg était de 31500E"
@@ -42,7 +43,7 @@
     "beneficiary": "Association RCS",
     "amount": "?",
     "date": "2009-2011",
-    "type": "Mise à disposition d'installations",
+    "typefr": "Mise à disposition d'installations",
     "source": "20090710_CR_CUS",
     "page": "p.56",
     "comment": "Centre Sportif sud"
@@ -54,7 +55,8 @@
     "beneficiary": "Association RCS",
     "amount": "=4074751.51*1.196",
     "date": 2010,
-    "type": "Indemnité",
+    "typefr": "Indemnité",
+    "type": "Compensation",
     "source": "20100913_CR_CM.pdf",
     "page": "p.36",
     "comment": "Indémnité suite à la résiliation anticipé du bail emphytéotique -- Achat du centre de formation"
@@ -66,7 +68,8 @@
     "beneficiary": "Association RCS",
     "amount": "€567,350",
     "date": 2010,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20100922_CR_CUS.pdf",
     "page": "p.82",
     "comment": "Centre de formation"
@@ -78,7 +81,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€545,000",
     "date": 2014,
-    "type": "Subvention ou achat de prestation (non précisé)",
+    "typefr": "Subvention ou achat de prestation (non précisé)",
+    "type": "Purchase of communication benefits",
     "source": "20140926_delib_bureau_cus.pdf",
     "page": "p.364"
   },
@@ -90,7 +94,8 @@
     "amount": "€513,000",
     "stadium": "La Meinau",
     "date": 2011,
-    "type": "Frais d'entretien La Meinau",
+    "typefr": "Frais d'entretien La Meinau",
+    "type": "Stadium maintenance",
     "source": "rapport-activite-cus-2011.pdf",
     "page": "p.11"
   },
@@ -101,7 +106,8 @@
     "beneficiary": "Association RCS",
     "amount": "€487,350",
     "date": 2008,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20090213_CR_CUS.pdf",
     "page": "p.28",
     "comment": "Centre de formation"
@@ -113,7 +119,8 @@
     "beneficiary": "Association RCS",
     "amount": "€400,000",
     "date": 2012,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20140926_delib_bureau_cus.pdf",
     "page": "p.364"
   },
@@ -124,7 +131,8 @@
     "beneficiary": "Association RCS",
     "amount": "€400,000",
     "date": 2013,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "http://elus-alsace.eelv.fr/un-petit-geste-d-1-8-me-pour-le-racing-club-de-strasbourg-les-ecologistes-sy-opposent/"
   },
   {
@@ -134,7 +142,8 @@
     "beneficiary": "Association RCS",
     "amount": "€400,000",
     "date": 2014,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20140926_delib_bureau_cus.pdf",
     "page": "p.364"
   },
@@ -145,7 +154,8 @@
     "beneficiary": "Association RCS",
     "amount": "€392,650",
     "date": 2010,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20100913_CR_CM.pdf",
     "page": "p.37",
     "comment": "Saison 2010/11"
@@ -157,7 +167,8 @@
     "beneficiary": "Association RCS",
     "amount": "€350,000",
     "date": 2011,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20111024_CR_CM.pdf",
     "page": "p.27"
   },
@@ -168,7 +179,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€350,000",
     "date": 2013,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20130708_delib_CM.pdf",
     "page": "p.475"
   },
@@ -179,7 +191,8 @@
     "beneficiary": "Association RCS",
     "amount": "€300,000",
     "date": 2011,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20111028_CR_CUS.pdf",
     "page": "p.54",
     "comment": "Centre de formation"
@@ -191,7 +204,8 @@
     "beneficiary": "Association RCS",
     "amount": "€300,000",
     "date": 2012,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "Rapport-activite_CUS_2012",
     "page": "p.10",
     "comment": "Centre de formation"
@@ -203,7 +217,8 @@
     "beneficiary": "Association RCS",
     "amount": "€300,000",
     "date": 2013,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "subventions-associations-cus-2013.pdf",
     "page": "p.13"
   },
@@ -214,7 +229,8 @@
     "beneficiary": "Association RCS",
     "amount": "€300,000",
     "date": 2013,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "Rapport-activite_CUS_2013",
     "page": "p.14",
     "comment": "Centre de formation"
@@ -226,7 +242,8 @@
     "beneficiary": "Association RCS",
     "amount": "€300,000",
     "date": 2014,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20140926_CRS_bureau.pdf",
     "page": "p.49",
     "comment": "Pour le centre de formation"
@@ -238,7 +255,8 @@
     "beneficiary": "Association RCS",
     "amount": "€247,000",
     "date": 2010,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20100913_CR_CM.pdf",
     "page": "p.37",
     "comment": "Saison 2009/10"
@@ -250,7 +268,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€200,000",
     "date": 2012,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of communication benefits",
     "source": "delib_814-12_racing_club_stg_foot.pdf"
   },
   {
@@ -260,7 +279,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€200,000",
     "date": 2013,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of communication benefits",
     "source": "http://elus-alsace.eelv.fr/un-petit-geste-d-1-8-me-pour-le-racing-club-de-strasbourg-les-ecologistes-sy-opposent/"
   },
   {
@@ -270,7 +290,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€200,000",
     "date": 2014,
-    "type": "Subvention ou achat de prestation (non précisé)",
+    "typefr": "Subvention ou achat de prestation (non précisé)",
+    "type": "Purchase of communication benefits",
     "source": "20140926_delib_bureau_cus.pdf",
     "page": "p.364"
   },
@@ -281,7 +302,8 @@
     "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€190,000",
     "date": 2005,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "D149111.pdf"
   },
   {
@@ -291,7 +313,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€169,806",
     "date": 2013,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of communication benefits",
     "source": "20130708_delib_CM.pdf",
     "page": "p.475"
   },
@@ -302,7 +325,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€166,925",
     "date": 2015,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of communication benefits",
     "source": "20150216_delib_CM.pdf",
     "page": "p.8"
   },
@@ -313,7 +337,8 @@
     "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€160,000",
     "date": 2007,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "D149977.pdf"
   },
   {
@@ -323,7 +348,8 @@
     "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€155,000",
     "date": 2010,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of communication benefits",
     "source": "20100705_CR_CM.pdf",
     "page": "p.18"
   },
@@ -334,7 +360,8 @@
     "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€150,000",
     "date": 2004,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "D147602.pdf"
   },
   {
@@ -344,7 +371,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€150,000",
     "date": 2013,
-    "type": "Marché de prestation de service",
+    "typefr": "Marché de prestation de service",
+    "type": "Purchase of service benefits",
     "source": "Rapport-activite_CUS_2013",
     "page": "p.14"
   },
@@ -355,7 +383,8 @@
     "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€145,650",
     "date": 2010,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20100705_CR_CM.pdf",
     "page": "p.18"
   },
@@ -366,7 +395,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€135,000",
     "date": 2008,
-    "type": "Convention de partenariat",
+    "typefr": "Convention de partenariat",
+    "type": "Purchase of service benefits",
     "source": "20090213_CR_CUS.pdf",
     "page": "p.28",
     "comment": "Achat d'espace dans le stade"
@@ -378,7 +408,8 @@
     "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€135,000",
     "date": 2010,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of benefits",
     "source": "20100922_CR_CUS.pdf",
     "page": "p.81"
   },
@@ -389,7 +420,8 @@
     "beneficiary": "Association RCS",
     "amount": "€135,000",
     "date": 2011,
-    "type": "Mise à disposition à titre gracieux",
+    "typefr": "Mise à disposition à titre gracieux",
+    "type": "Gifts in kind - stadium",
     "source": "20111028_CR_CUS.pdf",
     "page": "p.54",
     "comment": "Stade et centre sportif sud. L'année précédente, le loyer du stade était de 135kE par an."
@@ -401,7 +433,8 @@
     "beneficiary": "Association RCS",
     "amount": "€135,000",
     "date": 2012,
-    "type": "Mise à disposition à titre gracieux",
+    "typefr": "Mise à disposition à titre gracieux",
+    "type": "Gifts in kind - stadium",
     "source": "20111028_CR_CUS.pdf",
     "page": "p.54",
     "comment": "Stade et centre sportif sud. L'année précédente, le loyer du stade était de 135kE par an."
@@ -413,7 +446,8 @@
     "beneficiary": "Association RCS",
     "amount": "€135,000",
     "date": 2013,
-    "type": "Mise à disposition à titre gracieux",
+    "typefr": "Mise à disposition à titre gracieux",
+    "type": "Gifts in kind - stadium",
     "source": "20111028_CR_CUS.pdf",
     "page": "p.54",
     "comment": "Stade et centre sportif sud. L'année précédente, le loyer du stade était de 135kE par an."
@@ -425,7 +459,8 @@
     "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€100,000",
     "date": 2006,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Investment subsidy",
     "source": "D149860.pdf"
   },
   {
@@ -435,7 +470,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€95,000",
     "date": 2014,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of benefits",
     "source": "20140926_CRS_bureau.pdf",
     "page": "p.50"
   },
@@ -446,7 +482,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€83,600",
     "date": 2013,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of benefits",
     "source": "20130712_CR_CUS.pdf",
     "page": "p.59"
   },
@@ -457,7 +494,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€57,600",
     "date": 2014,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20140926_delib_bureau_cus.pdf",
     "page": "p.364"
   },
@@ -468,7 +506,8 @@
     "beneficiary": "Association RCS",
     "amount": "€56,000",
     "date": 2014,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20140926_delib_bureau_cus.pdf",
     "page": "p.364"
   },
@@ -479,7 +518,8 @@
     "beneficiary": "Association RCS",
     "amount": "€50,000",
     "date": 2011,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of benefits",
     "source": "20111024_CR_CM.pdf",
     "page": "p.27"
   },
@@ -490,7 +530,8 @@
     "beneficiary": "Association RCS",
     "amount": "€50,000",
     "date": 2011,
-    "type": "Achat de prestation",
+    "typefr": "Achat de prestation",
+    "type": "Purchase of benefits",
     "source": "20111028_CR_CUS.pdf",
     "page": "p.54"
   },
@@ -501,7 +542,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€50,000",
     "date": 2012,
-    "type": "Marché de prestation de service",
+    "typefr": "Marché de prestation de service",
+    "type": "Purchase of service benefits",
     "source": "Rapport-activite_CUS_2012",
     "page": "p.10"
   },
@@ -512,7 +554,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€30,000",
     "date": 2012,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "230_3311_Forfaits_Haut_niveau_2012_20131349879441027.pdf"
   },
   {
@@ -522,7 +565,8 @@
     "beneficiary": "SAS Racing Club de Strasbourg",
     "amount": "€28,800",
     "date": 2015,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "421_3312_Mercredis_du_sport1432829533309.pdf"
   },
   {
@@ -532,7 +576,8 @@
     "beneficiary": "Association RCS",
     "amount": "€1,916",
     "date": 2013,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "subventions-associations-ville-2013.pdf",
     "page": "p.28"
   },
@@ -543,7 +588,8 @@
     "beneficiary": "Association RCS",
     "amount": "€0",
     "date": 2014,
-    "type": "Subvention",
+    "typefr": "Subvention",
+    "type": "Subsidy",
     "source": "20140926_delib_bureau_cus.pdf",
     "page": "p.364"
   }
