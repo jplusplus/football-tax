@@ -17,7 +17,6 @@ angular.module('footballTaxApp')
       })
       .determinePreferredLanguage(function() {
         var lang = navigator.language || navigator.userLanguage;
-        console.log(lang)
         var avalaibleKeys = [
           'en_US', 'en_UK', 'en',
           'fr_FR', 'fr_CA', 'fr_BE', 'fr',
