@@ -49,6 +49,7 @@ angular.module('footballTaxApp')
         club: club.nameclub,
         year_largest_payment: largestPayment.date,
         years_number: $scope.missingYears(transfers).length,
+        largest_transfer: _.max(transfers, 'value'),
         type_payment: null // $translate.instant(largestPayment.type)
       };
     };
