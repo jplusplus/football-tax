@@ -21,14 +21,35 @@ angular.module('footballTaxApp')
 
     $scope.territoryFigures = (territory, transfers)=> {
       let currencies = $filter("currencies");
-      let largestPayment = _.max(transfers, 'value');
+      let largestPayment = { value: 0, beneficiary: null, year: null };
+      // Group transfers by years
+      let byYears = _.groupBy(transfers, 'date');
+      // For each year, group transfers by beneficiary
+      _.each(byYears, (transfers, year)=> {
+        byYears[year] = _.groupBy(transfers, 'beneficiary')
+        // For each beneficiary...
+        _.each(byYears[year], (transfers, beneficiary)=> {
+          // ...compute the sum of the transfers
+          let payment = _.chain(transfers).pluck('value').sum().value()
+          // Is the payment bigger than the biggest one so far?
+          if( largestPayment.value < payment ) {
+            // Yes! So we save the current beneficiary
+            largestPayment = {
+              value: payment,
+              beneficiary: beneficiary,
+              date: year
+            }
+          }
+        });
+      });
+
       return {
         territory: name,
-        amount: currencies( _.chain(transfers).pluck('value').sum().value() ),
+        amount: largestPayment.value,
         club: club.nameclub,
         year_largest_payment: largestPayment.date,
         years_number: $scope.missingYears(transfers).length,
-        type_payment: $translate.instant(largestPayment.type)
+        type_payment: null // $translate.instant(largestPayment.type)
       };
     };
 
