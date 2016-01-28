@@ -1,0 +1,1 @@
+With 1,250€ a month in Bordeaux, you could rent a 50-sqm flat in the city center. Unless you are FC Girondins de Bordeaux, that is. For this amount, they rent a humongous, 23-ha _château_, complete with 10 football fields, that belongs to the city. This comes on top of a €1m-a-year subsidy to a company that belongs to M6, a subsidiary of media giant RTL Group.

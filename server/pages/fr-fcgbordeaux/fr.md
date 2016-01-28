@@ -1,0 +1,1 @@
+Avec 1250€ par mois à Bordeaux vous pouvez louer un appartement de 50m2 dans le centre ville. A moins d'être le FC Girondins de Bordeaux... Pour cette somme ils louent à la ville un immense château de 23 hectares comprenant 10 terrains de football. Mais ce n'est pas tout, le club appartenant à M6 reçoit en plus 1 million d'euros de subventions publiques annuelles.

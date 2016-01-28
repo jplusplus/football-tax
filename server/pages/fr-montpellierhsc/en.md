@@ -1,0 +1,1 @@
+'We have so much money we don't know how to spend it!'-- said the owner of the club, local oligarch Louis Nicollin (net worth: €120m) in 2012, after a surprise win in the French first league. In spite of such colorful comments, local taxpayers continued to fill Nicollin's pockets with subsidies of €4m a year, much more than other clubs - and much more than the legal limit.
