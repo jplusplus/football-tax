@@ -43,14 +43,16 @@ angular.module('footballTaxApp')
         });
       });
 
+      let largestTransfer =_.max(transfers, 'value');
+
       return {
         territory: name,
         amount: largestPayment.value,
         club: club.nameclub,
         year_largest_payment: largestPayment.date,
         years_number: $scope.missingYears(transfers).length,
-        largest_transfer: _.max(transfers, 'value'),
-        type_payment: null // $translate.instant(largestPayment.type)
+        largest_transfer_year: largestTransfer.date,
+        largest_transfer_type: $translate.instant(largestTransfer.type)
       };
     };
 
