@@ -74,6 +74,13 @@ Territory.find({}).remove(function() {
     the_geom: smartGeojson('./departement-69.json')
   },
   {
+    name : 'Bordeaux Métropole',
+    country: 'FRA',
+    slug: 'fra-bordeaux-metropole',
+    level: 0.2,
+    the_geom: smartGeojson('./metropole-bordeaux.json')
+  },
+  {
     name : 'Lyon Métropole',
     country: 'FRA',
     slug: 'fra-lyon-metropole',
