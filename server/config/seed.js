@@ -81,6 +81,13 @@ Territory.find({}).remove(function() {
     the_geom: smartGeojson('./metropole-bordeaux.json')
   },
   {
+    name : 'Nimes Métropole',
+    country: 'FRA',
+    slug: 'fra-nimes-metropole',
+    level: 0.2,
+    the_geom: smartGeojson('./metropole-nimes.json')
+  },
+  {
     name : 'Lyon Métropole',
     country: 'FRA',
     slug: 'fra-lyon-metropole',
