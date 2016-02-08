@@ -33,19 +33,25 @@ ui-view.main
                     strong {{ club.nameclub }}
                     br
                     span {{ club.city }}
-              ul.list-inline
-                li
-                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
-                li
-                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
-                li
-                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
-                li
-                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
-                li
-                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")          
-                li
-                  img.img-circle.img-thumbnail(src="//placehold.it/50x50/FFDF54/000")
+              ul.list-unstyled.main__homepage__panel__clubs
+                li.main__homepage__panel__clubs__item
+                  a(ui-sref="main.clubs({slug: 'bel-standardliege'})")
+                    img.img-circle.img-thumbnail(src="assets/images/bel-standardliege.png")          
+                li.main__homepage__panel__clubs__item
+                  a(ui-sref="main.clubs({slug: 'fra-assaintetienne'})")
+                    img.img-circle.img-thumbnail(src="assets/images/fra-assaintetienne.png")          
+                li.main__homepage__panel__clubs__item
+                  a(ui-sref="main.clubs({slug: 'fra-montpellierhsc'})")
+                    img.img-circle.img-thumbnail(src="assets/images/fra-montpellierhsc.png")          
+                li.main__homepage__panel__clubs__item
+                  a(ui-sref="main.clubs({slug: 'fra-ogcnice'})")
+                    img.img-circle.img-thumbnail(src="assets/images/fra-ogcnice.png")          
+                li.main__homepage__panel__clubs__item
+                  a(ui-sref="main.clubs({slug: 'fra-olympiquelyonnais'})")
+                    img.img-circle.img-thumbnail(src="assets/images/fra-olympiquelyonnais.png")          
+                li.main__homepage__panel__clubs__item
+                  a(ui-sref="main.clubs({slug: 'fra-rcstrasbourg'})")
+                    img.img-circle.img-thumbnail(src="assets/images/fra-rcstrasbourg.png")
           
   .main__findings
     .container
