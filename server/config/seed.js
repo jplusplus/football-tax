@@ -13,8 +13,6 @@ var slug = require('slug'),
 // Load a geojson make it smarter
 var smartGeojson = require('../components/geojson').smartGeojson;
 
-console.log( smartGeojson('./metropole-nice.json').geometries[0] !== null )
-
 Territory.find({}).remove(function() {
 
   let territories = [{
