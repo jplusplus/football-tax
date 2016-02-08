@@ -18,7 +18,7 @@ angular.module('footballTaxApp')
     };
 
     Currencies.prototype.fromStr = function(d) {
-      return isNaN(d) ? (d+"").replace(/€|,/gi, '') * 1 : d;
+      return isNaN(d) ? (d+"").replace(/€|,|\s/gi, '') * 1 : d;
     };
 
     var that = new Currencies();
