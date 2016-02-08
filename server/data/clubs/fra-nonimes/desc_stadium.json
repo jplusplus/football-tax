@@ -1,0 +1,19 @@
+[
+  {
+    "country": "FRA",
+    "city": "Nîmes",
+    "name": "Stade des Costières",
+    "residentclub": "Nîmes Olympique",
+    "brandedname": "Stade des Costières",
+    "type": "competition",
+    "location": "123, Avenue de la Bouvine\n30023 Nîmes",
+    "latitude": 43.816529,
+    "longitude": 4.359267,
+    "capacity": 18482,
+    "owner": "Ville de Nîmes",
+    "operator": "Nîmes Olympique",
+    "constructioncostineuros": 24391843,
+    "publicprivatepartnership": false,
+    "sources": "https://web.archive.org/web/20150930151907/https://fr.wikipedia.org/wiki/Stade_des_Costi%C3%A8res"
+  }
+]

@@ -37,7 +37,7 @@ module.exports = function (grunt) {
   // Clubs list to extract
   var clubs = _.reduce( require('./server/config/clubs.json'), function(result, id, k) {
     // Create two files
-    for(var sheet of ['money_transfers', 'desc']) {
+    for(var sheet of ['money_transfers', 'desc_club', 'desc_stadium']) {
       // Money transfert sheet
       result[k + '-' + sheet] = {
         options: {
@@ -49,6 +49,7 @@ module.exports = function (grunt) {
     }
     return result;
   }, {});
+
 
   // Define the configuration for all the tasks
   grunt.initConfig({
@@ -653,13 +654,6 @@ module.exports = function (grunt) {
           });
           return rowdata;
         }
-      },
-      stadiums: {
-        options: {
-          spreadsheetId: '1GwSBjDpyeCrJMfJSmt9Or-U4fNqPo7ySr_b-SVO8QJQ',
-          worksheetName: 'all'
-        },
-        dest: 'server/data/stadiums/all.json'
       }
     }, clubs)
   });
@@ -833,6 +827,43 @@ module.exports = function (grunt) {
       done();
     });
   });
+
+  grunt.registerTask('stadiums', function() {
+    const BASE_PATH = path.join(__dirname, 'server/data/stadiums/all.json');
+    // Force task into async mode and grab a handle to the "done" function.
+    let done = this.async();
+    // Get all file names
+    grunt.file.glob("server/data/clubs/*/desc_stadium.json", function(er, files) {
+      // Collected stadiums
+      let stadiums = [];
+      // For each files
+      for( var filepath of files) {
+        // Open club desc to complete stadium
+        let club_file = filepath.replace('desc_stadium.json', 'desc_club.json');
+        let club_desc = require(path.join(__dirname, club_file))[0];
+        let club_slug = path.dirname(filepath).replace('server/data/clubs/', '')
+        // Open money transfers to complete stadium
+        let tansfers_file = filepath.replace('desc_stadium.json', 'money_transfers.json');
+        let money_transfers = require(path.join(__dirname, tansfers_file));
+        // Open the JSON containing description
+        let stadium_desc = require( path.join(__dirname, filepath) );
+        // Collects stadiums in this file (it should have only one
+        // but we are open to the possibility of several stadiums)
+        for(let stadium of stadium_desc) {
+          stadium.city    = club_desc.city || stadium.city;
+          stadium.country = club_desc.country || stadium.country;
+          stadium.club    = club_slug;
+          // Collect money transfers for this stadiums
+          stadium.money_transfers = _.filter(money_transfers, { stadium: stadium.name });
+        }
+        // We don't insert stadium without a name
+        stadiums = stadiums.concat( _.filter(stadium_desc, s=> s.name) );
+      }
+      // And override the existinng JSON file
+      fs.writeFileSync(BASE_PATH, JSON.stringify(stadiums, null, 2) );
+      done();
+    });
+  })
 
   grunt.registerTask('server', function () {
     grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');

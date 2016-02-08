@@ -1,92 +1,360 @@
 [
   {
-    "name": "Grand Stade",
-    "tenants": "OGC Nice",
+    "country": "BEL",
+    "name": "Stade de Sclessin",
+    "residentclub": "Standard de Liège",
+    "city": "Liège",
+    "location": "30 023",
+    "club": "bel-standardliege",
+    "money_transfers": []
+  },
+  {
+    "country": "FRA",
+    "city": "Saint-Etienne",
+    "name": "Geoffroy-Guichard\n",
+    "residentclub": "AS Saint-Etienne",
+    "type": "competition",
+    "location": "14, rue Paul et Pierre Guichard\n42028 Saint-Étienne",
+    "capacity": 42000,
+    "owner": "Saint-Etienne Métropole",
+    "operator": "Saint-Etienne Métropole",
+    "club": "fra-assaintetienne",
+    "money_transfers": []
+  },
+  {
+    "country": "FRANCE",
+    "city": "Bordeaux",
+    "name": "Matmut-Atlantique",
+    "residentclub": "Football Club des Girondins de Bordeaux",
+    "brandedname": "Matmut-Atlantique",
+    "club": "fra-fcgbordeaux",
+    "money_transfers": [
+      {
+        "paymentid": 16,
+        "payer": "Ville de Bordeaux",
+        "beneficiary": "Stade Matmut-Atlantique",
+        "amount": "€17,000,000",
+        "date": 2012,
+        "type": "Subsidy",
+        "stadium": "Matmut-Atlantique",
+        "source": "http://www.matmut-atlantique.com/fr/le_stade/acteur-financement"
+      },
+      {
+        "paymentid": 17,
+        "payer": "Conseil Régional Aquitaine",
+        "beneficiary": "Stade Matmut-Atlantique",
+        "amount": "€15,000,000",
+        "date": 2012,
+        "type": "Subsidy",
+        "stadium": "Matmut-Atlantique",
+        "source": "http://www.matmut-atlantique.com/fr/le_stade/acteur-financement"
+      },
+      {
+        "paymentid": 18,
+        "payer": "Bordeaux Métropole",
+        "beneficiary": "Stade Matmut-Atlantique",
+        "amount": "€15,000,000",
+        "date": 2012,
+        "type": "Subsidy",
+        "stadium": "Matmut-Atlantique",
+        "source": "http://www.matmut-atlantique.com/fr/le_stade/acteur-financement"
+      }
+    ]
+  },
+  {
+    "country": "FRA",
+    "city": "Montpellier",
+    "name": "Mosson",
+    "residentclub": "Montpellier Hérault Sport Club",
+    "brandedname": "Mosson",
+    "club": "fra-montpellierhsc",
+    "money_transfers": [
+      {
+        "payer": "Montpellier Méditerannée Métropole",
+        "beneficiary": "Stadium Mosson",
+        "amount": "€2,500,000",
+        "date": 2011,
+        "type": "Stadium renovation",
+        "stadium": "Mosson",
+        "source": "https://www.montpellier3m.fr/sites/default/files/downloads/files/Agglo34-12-RappAct-Web.pdf",
+        "comment": "p.11"
+      },
+      {
+        "payer": "Montpellier Méditerannée Métropole",
+        "beneficiary": "Stadium Mosson",
+        "amount": "€323,686",
+        "date": 2012,
+        "type": "Stadium maintenance",
+        "stadium": "Mosson",
+        "source": "http://www.montpellier-journal.fr/2013/04/les-trois-plus-gros-clubs-sportifs-de-montpellier-et-largent-public-77.html"
+      }
+    ]
+  },
+  {
+    "country": "FRA",
+    "city": "Nîmes",
+    "name": "Stade des Costières",
+    "residentclub": "Nîmes Olympique",
+    "brandedname": "Stade des Costières",
+    "type": "competition",
+    "location": "123, Avenue de la Bouvine\n30023 Nîmes",
+    "latitude": 43.816529,
+    "longitude": 4.359267,
+    "capacity": 18482,
+    "owner": "Ville de Nîmes",
+    "operator": "Nîmes Olympique",
+    "constructioncostineuros": 24391843,
+    "publicprivatepartnership": false,
+    "sources": "https://web.archive.org/web/20150930151907/https://fr.wikipedia.org/wiki/Stade_des_Costi%C3%A8res",
+    "club": "fra-nonimes",
+    "money_transfers": []
+  },
+  {
     "country": "FRA",
     "city": "Nice",
+    "name": "Grand Stade",
+    "residentclub": "Olympique Gymnaste Club Nice Côte d'Azur",
     "brandedname": "Allianz Riviera",
     "type": "competition",
     "location": "Bd des Jardiniers\n06200 Nice",
     "latitude": 43.703893,
     "longitude": 7.190894,
-    "datefrom": "9/22/2013",
-    "capacity": 35000,
-    "owner": "Vinci",
+    "capacity": 17415,
     "operator": "Nice Eco Stadium (50% Vinci / 25% Caisse des Dépôts et Consignations / 25% SEIEF)",
     "website": "allianz-riviera.fr",
     "constructioncostineuros": 245000000,
     "publicprivatepartnership": true,
-    "privatecompanyinvolvedintheppp": "Vinci"
+    "privatecompanyinvolvedintheppp": "Vinci",
+    "club": "fra-ogcnice",
+    "money_transfers": [
+      {
+        "paymentid": 1,
+        "payer": "Ville de Nice",
+        "beneficiary": "Groupement GFC (Bouygues), FIDEPPP, Barclays Infrastructures II Limited",
+        "amount": "€250,000",
+        "date": 2011,
+        "type": "Compensation",
+        "stadium": "Grand Stade",
+        "source": "https://citoyens.ville-nice.fr/WebDelib/",
+        "comment": " 7.25 du 17/12/2010"
+      },
+      {
+        "paymentid": 3,
+        "payer": "Ville de Nice",
+        "beneficiary": "Association OGC Nice Côte d'Azur",
+        "amount": "€100,432",
+        "date": 2007,
+        "type": "In-kind-gifts (use of the stadium)",
+        "stadium": "Grand Stade",
+        "source": "Délibération N° 13.28 du 2 février 2007 (ville de Nice)"
+      },
+      {
+        "paymentid": 5,
+        "payer": "Ville de Nice",
+        "beneficiary": "Association OGC Nice Côte d'Azur",
+        "amount": "€100,432",
+        "date": 2008,
+        "type": "In-kind-gifts (use of the stadium)",
+        "stadium": "Grand Stade",
+        "source": "Délibération N° 13.31 du 28 avril 2008 (ville de Nice)"
+      },
+      {
+        "paymentid": 20,
+        "payer": "Ville de Nice",
+        "beneficiary": "groupement CARI, Fayat",
+        "amount": "€250,000",
+        "date": 2011,
+        "type": "Compensation",
+        "stadium": "Grand Stade",
+        "source": "https://citoyens.ville-nice.fr/WebDelib/",
+        "comment": " Deliberation7323 - 7.25 du 17/12/2010"
+      },
+      {
+        "paymentid": 21,
+        "payer": "Ville de Nice",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€14,000,000",
+        "date": 2013,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://webrecorder.io/record/20150924134034/https://www.ccomptes.fr/Publications/Publications/Construction-du-grand-stade-de-Nice-Nice-PPP-Rapport-d-observations-definitives"
+      },
+      {
+        "paymentid": 22,
+        "payer": "Ville de Nice",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€10,000,000",
+        "date": 2014,
+        "type": "Rent of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://webrecorder.io/record/20150924102640/http://www.leparisien.fr/nice-06000/l-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php#xtref=http%3A%2F%2Fwww.leparisien.fr%2Fnice-06000%2Fl-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php"
+      },
+      {
+        "paymentid": 23,
+        "payer": "Ville de Nice",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€10,000,000",
+        "date": 2015,
+        "type": "Rent of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://webrecorder.io/record/20150924102640/http://www.leparisien.fr/nice-06000/l-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php#xtref=http%3A%2F%2Fwww.leparisien.fr%2Fnice-06000%2Fl-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php"
+      },
+      {
+        "paymentid": 24,
+        "payer": "Conseil Général 06",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€20,000,000",
+        "date": 2010,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+      },
+      {
+        "paymentid": 25,
+        "payer": "Nice Métropole",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€6,000,000",
+        "date": 2010,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+      },
+      {
+        "paymentid": 26,
+        "payer": "Etat France",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€20,000,000",
+        "date": 2010,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+      },
+      {
+        "paymentid": 27,
+        "payer": "Conseil Régional PACA",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€7,000,000",
+        "date": 2010,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+      },
+      {
+        "paymentid": 31,
+        "payer": "Ville de Nice",
+        "beneficiary": "SASP OGC Nice",
+        "amount": "€82,547",
+        "date": 2007,
+        "type": "In-kind-gifts (use of the stadium)",
+        "stadium": "Grand Stade",
+        "source": "Délibération N° 13.11 du 2 février 2007 (ville de Nice)"
+      },
+      {
+        "paymentid": 33,
+        "payer": "Ville de Nice",
+        "beneficiary": "SASP OGC Nice",
+        "amount": "€82,547",
+        "date": 2008,
+        "type": "In-kind-gifts (use of the stadium)",
+        "stadium": "Grand Stade",
+        "source": "Délibération N° 13.9 du 30 mai 2008 (ville de Nice)"
+      },
+      {
+        "paymentid": 35,
+        "payer": "Ville de Nice",
+        "beneficiary": "SASP OGC Nice",
+        "amount": "€82,547",
+        "date": 2008,
+        "type": "In-kind-gifts (use of the stadium)",
+        "stadium": "Grand Stade",
+        "source": "Délibération N° 13.3 du 13 février 2009 (ville de Nice)",
+        "comment": "Deliberation6121"
+      }
+    ]
   },
   {
-    "name": "La Meinau",
-    "tenants": "RC Strasbourg",
+    "name": "Lyon Lumières",
+    "brandedname": "Lyon Lumières",
+    "city": "Lyon",
+    "country": "FRA",
+    "club": "fra-olympiquelyonnais",
+    "money_transfers": [
+      {
+        "paymentid": 28,
+        "payer": "Centre National pour le Développement du Sport",
+        "beneficiary": "OL Groupe",
+        "amount": "€20 000 000",
+        "date": 2012,
+        "type": "Stadium renovation",
+        "stadium": "Lyon Lumières",
+        "source": "http://www.actusnews.com/documents/ACTUS-0-6487-OL-DDR1415-291015-enregistrement-AMF.pdf"
+      }
+    ]
+  },
+  {
+    "23": "https://fr.wikipedia.org/wiki/Stade_de_la_Meinau",
+    "25": "https://fr.wikipedia.org/wiki/Stade_de_la_Meinau",
     "country": "FRA",
     "city": "Strasbourg",
+    "name": "La Meinau",
+    "residentclub": "Racing Club de Strasbourg Alsace",
     "type": "competition",
     "location": "12 rue de l'Extenwoerth\n67100 Strasbourg",
     "latitude": 48.559911,
     "longitude": 7.753367,
-    "datefrom": "4/17/1984",
-    "datelistextension": "1921-1930-1951-1984",
     "capacity": "42 756 ",
     "owner": "Ville de Strasbourg",
-    "operator": "RC Strasbourg",
-    "constructioncostoriginal": "117mio FRF",
+    "operator": "Racing Club de Strasbourg Alsace",
     "constructioncostineuros": 17836535,
-    "constructioncostyear": 1984,
-    "publicprivatepartnership": false,
-    "sources": "https://fr.wikipedia.org/wiki/Stade_de_la_Meinau"
-  },
-  {
-    "name": "Stade des Costières",
-    "tenants": "NO Nimes",
-    "country": "FRA",
-    "city": "Nîmes",
-    "type": "competition",
-    "location": "123, Avenue de la Bouvine\n30023 Nîmes",
-    "latitude": 43.816529,
-    "longitude": 4.359267,
-    "datefrom": "2/15/1989",
-    "capacity": 18482,
-    "owner": "Ville de Nîmes",
-    "operator": "NO Nimes",
-    "constructioncostoriginal": "160mio FRF",
-    "constructioncostineuros": 24391843,
-    "constructioncostyear": 1989,
-    "publicprivatepartnership": false,
-    "sources": "https://web.archive.org/web/20150930151907/https://fr.wikipedia.org/wiki/Stade_des_Costi%C3%A8res"
-  },
-  {
-    "name": "Stade Geoffroy Guichard\n\n",
-    "tenants": "AS Saint-Etienne",
-    "country": "FRA",
-    "city": "Saint-Etienne",
-    "type": "competition",
-    "location": "14, rue Paul et Pierre Guichard\n42028 Saint-Étienne",
-    "datefrom": "1/9/2930",
-    "datelistextension": "1938-1983",
-    "capacity": 42000,
-    "owner": "Saint-Etienne Métropole",
-    "operator": "Saint-Etienne Métropole"
-  },
-  {
-    "name": "UK-Ricoh arena (Coventry City)",
-    "tenants": "Coventry City FC",
-    "country": "GBR",
-    "city": "Coventry",
-    "brandedname": "Ricoh Arena",
-    "location": "Ricoh Arena, Phoenix Way, Foleshill, Coventry, CV6 6GE",
-    "capacity": "32,609",
-    "owner": "Wasps Holdings Limited (company owning rugby clubs)",
-    "operator": "Arena Coventry Limited",
-    "shareofuse": "Coventry City FC - rent on matchdays",
-    "website": "http://www.ricoharena.com/",
-    "constructioncostoriginal": 118000000,
-    "constructioncostineuros": "=R6*1.1731",
-    "constructioncostyear": 2005,
-    "publicprivatepartnership": true,
-    "privatecompanyinvolvedintheppp": "Arena Coventry Limited",
-    "sources": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/91905/ERDF_West_Midlands_celebrating_success_2000_to_2006_ERDF_programme.pdf"
+    "publicprivatepartnership": "117mio FRF",
+    "privatecompanyinvolvedintheppp": false,
+    "sources": "https://fr.wikipedia.org/wiki/Stade_de_la_Meinau",
+    "club": "fra-rcstrasbourg",
+    "money_transfers": [
+      {
+        "paymentid": 11,
+        "payer": "Communauté Urbaine de Strasbourg (CUS)",
+        "beneficiary": "La Meinau",
+        "amount": "€513,000",
+        "stadium": "La Meinau",
+        "date": 2011,
+        "type": "Stadium maintenance",
+        "source": "rapport-activite-cus-2011.pdf",
+        "comment": "p.11"
+      },
+      {
+        "paymentid": 23,
+        "payer": "Communauté Urbaine de Strasbourg (CUS)",
+        "beneficiary": "Association RCS",
+        "amount": "€135,000",
+        "stadium": "La Meinau",
+        "date": 2011,
+        "type": "In-kind-gifts (use of the stadium)",
+        "source": "20111028_CR_CUS.pdf",
+        "comment": "Stade et centre sportif sud. L'année précédente, le loyer du stade était de 135kE par an."
+      },
+      {
+        "paymentid": 43,
+        "payer": "Communauté Urbaine de Strasbourg (CUS)",
+        "beneficiary": "Association RCS",
+        "amount": "€135,000",
+        "stadium": "La Meinau",
+        "date": 2012,
+        "type": "In-kind-gifts (use of the stadium)",
+        "source": "20111028_CR_CUS.pdf",
+        "comment": "Stade et centre sportif sud. L'année précédente, le loyer du stade était de 135kE par an."
+      },
+      {
+        "paymentid": 44,
+        "payer": "Communauté Urbaine de Strasbourg (CUS)",
+        "beneficiary": "Association RCS",
+        "amount": "€135,000",
+        "stadium": "La Meinau",
+        "date": 2013,
+        "type": "In-kind-gifts (use of the stadium)",
+        "source": "20111028_CR_CUS.pdf",
+        "comment": "Stade et centre sportif sud. L'année précédente, le loyer du stade était de 135kE par an."
+      }
+    ]
   }
 ]

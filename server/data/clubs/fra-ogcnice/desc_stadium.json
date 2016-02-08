@@ -1,0 +1,19 @@
+[
+  {
+    "country": "FRA",
+    "city": "Nice",
+    "name": "Grand Stade",
+    "residentclub": "Olympique Gymnaste Club Nice Côte d'Azur",
+    "brandedname": "Allianz Riviera",
+    "type": "competition",
+    "location": "Bd des Jardiniers\n06200 Nice",
+    "latitude": 43.703893,
+    "longitude": 7.190894,
+    "capacity": 17415,
+    "operator": "Nice Eco Stadium (50% Vinci / 25% Caisse des Dépôts et Consignations / 25% SEIEF)",
+    "website": "allianz-riviera.fr",
+    "constructioncostineuros": 245000000,
+    "publicprivatepartnership": true,
+    "privatecompanyinvolvedintheppp": "Vinci"
+  }
+]

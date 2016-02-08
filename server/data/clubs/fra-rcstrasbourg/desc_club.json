@@ -1,13 +1,13 @@
 [
   {
+    "country": "FRA",
     "city": "Strasbourg",
-    "nameclub": "RACING CLUB DE STRASBOURG FOOTBALL",
+    "nameclub": "Racing Club de Strasbourg Alsace",
     "nonprofitidentificationnumbername": "SIREN",
     "nonprofitidentificationnumbervalue": 421961764,
-    "namecorporation": "Racing Club de Strasbourg Alsace, S.A.S ",
+    "corporationname": "Racing Club de Strasbourg Alsace, S.A.S ",
     "corporationidentificationnumbername": "SIRET",
     "corporationidentificationnumbervalue": 75130396700010,
-    "country": "FRA",
     "officialurl": "http://www.rcstrasbourgalsace.fr/"
   }
 ]

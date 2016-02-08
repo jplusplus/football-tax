@@ -27,7 +27,7 @@ var slugify = parts => _.chain(parts)
 for(var name of clubs) {
   try {
     // Create a club object
-    var club = require('../../data/clubs/' + name + '/desc.json')[0];
+    var club = require('../../data/clubs/' + name + '/desc_club.json')[0];
   } catch(e) {
     // Catch require error (the clubs is not yet downloaded)
     continue

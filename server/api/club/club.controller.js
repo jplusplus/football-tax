@@ -10,6 +10,7 @@ var response = require("../response"),
 
 var clubs = require('./club.collection'),
     pages = require('../page/page.collection'),
+ stadiums = require('../stadium/stadium.collection'),
 Territory = require('../territory/territory.model');
 
 // Get list of clubs
@@ -27,6 +28,8 @@ exports.show = function(req, res) {
   if(club) {
     // Creates a copy to work on
     club = _.clone(club);
+    // Gets stadiums for this club
+    club.stadiums = stadiums.filter( s => s.club === club.slug );
     // Gets club's transfers
     club.transfers = club.getTransfers();
     // Gets all payers for this club

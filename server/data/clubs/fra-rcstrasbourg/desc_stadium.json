@@ -1,0 +1,21 @@
+[
+  {
+    "23": "https://fr.wikipedia.org/wiki/Stade_de_la_Meinau",
+    "25": "https://fr.wikipedia.org/wiki/Stade_de_la_Meinau",
+    "country": "FRA",
+    "city": "Strasbourg",
+    "name": "La Meinau",
+    "residentclub": "Racing Club de Strasbourg Alsace",
+    "type": "competition",
+    "location": "12 rue de l'Extenwoerth\n67100 Strasbourg",
+    "latitude": 48.559911,
+    "longitude": 7.753367,
+    "capacity": "42 756 ",
+    "owner": "Ville de Strasbourg",
+    "operator": "Racing Club de Strasbourg Alsace",
+    "constructioncostineuros": 17836535,
+    "publicprivatepartnership": "117mio FRF",
+    "privatecompanyinvolvedintheppp": false,
+    "sources": "https://fr.wikipedia.org/wiki/Stade_de_la_Meinau"
+  }
+]

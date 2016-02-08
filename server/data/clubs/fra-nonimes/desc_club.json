@@ -1,15 +1,15 @@
 [
   {
+    "country": "FRA",
     "city": "Nîmes",
     "nameclub": "Nîmes Olympique",
     "locationclub": "Avenue de la Bouvine, 30900 Nîmes, France",
-    "namenonprofitassociation": "Nîmes Olympique Association",
+    "nonprofitnameassociation": "Nîmes Olympique Association",
     "nonprofitidentificationnumbername": "SIRET",
     "nonprofitidentificationnumbervalue": 77591371800026,
-    "namecorporation": "SASP Nîmes Olympique",
+    "corporationname": "SASP Nîmes Olympique",
     "corporationidentificationnumbername": "SIRET",
     "corporationidentificationnumbervalue": 33249227100025,
-    "country": "FRA",
     "officialurl": "http://www.nimes-olympique.com/",
     "wikipediapage": "https://fr.wikipedia.org/wiki/N%C3%AEmes_Olympique",
     "twitterurl": "https://twitter.com/nimesolympique",

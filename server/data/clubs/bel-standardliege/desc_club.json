@@ -1,22 +1,21 @@
 [
   {
+    "country": "BEL",
+    "city": "Liège",
     "nameclub": "Standard de Liège",
     "locationclub": "Rue de la Centrale, 2\n4000 Liège",
-    "namenonprofitassociation": "Centre de Perfectionnement et de Recrutement du Standard de Liège",
-    "typenonprofitassociation": "Association sans but lucratif",
+    "nonprofitnameassociation": "CENTRE DE FORMATION DU STANDARD DE LIEGE ASBL",
+    "nonprofittype": "Association sans but lucratif",
     "nonprofitidentificationnumbername": "BCE ( Banque Carrefour des Entreprises)",
-    "nonprofitidentificationnumbervalue": "0449.974.981",
-    "namecorporation": "ROYAL STANDARD DE LIEGE SA",
+    "nonprofitidentificationnumbervalue": "0829.111.656",
+    "corporationname": "ROYAL STANDARD DE LIEGE SA",
     "corporationidentificationnumbername": "BCE ( Banque Carrefour des Entreprises)",
-    "corporationtvanumbervalue": "0433.255.448",
     "corporationindentificationnumbervalue": "240-0465000-83",
-    "country": "BEL",
+    "corporationtvanumbervalue": "0433.255.448",
     "officialurl": "http://www.standard.be/",
     "wikipediapage": "https://fr.wikipedia.org/wiki/Standard_de_Li%C3%A8ge",
     "twitterurl": "https://twitter.com/Standard_RSCL",
     "facebookurl": "https://www.facebook.com/pages/Standard-Li%C3%A8ge/108081109212723?fref=ts",
-    "foundationdate": 1898,
-    "actionnairesa": "B2 Consult SPRL représentée par Bryan Whitnack",
-    "actionnairesource": "http://www.ejustice.just.fgov.be/cgi_tsv/tsv_rech.pl?language=fr&btw=0433255448&liste=Liste"
+    "foundationdate": 1898
   }
 ]
