@@ -23,27 +23,6 @@ Territory.find({}).remove(function() {
     the_geom: smartGeojson('./nice.json')
   },
   {
-    name : 'Conseil Général 06',
-    country: 'FRA',
-    slug: 'fra-conseil-general-06',
-    level: 0.3,
-    the_geom: smartGeojson('./departement-06.json')
-  },
-  {
-    name : 'Nice Métropole',
-    country: 'FRA',
-    slug: 'fra-nice-metropole',
-    level: 0.2,
-    the_geom: smartGeojson('./metropole-nice.json')
-  },
-   {
-    name : 'Conseil Régional PACA',
-    country: 'FRA',
-    slug: 'fra-conseil-regional-paca',
-    level: 0.4,
-    the_geom: smartGeojson('./conseil-regional-PACA.json')
-  },
-  {
     name : 'Ville de Nîmes',
     country: 'FRA',
     slug: 'fra-ville-de-nimes',
@@ -51,25 +30,25 @@ Territory.find({}).remove(function() {
     the_geom: smartGeojson('./nimes.json')
   },
   {
-    name : 'Conseil général 30',
+    name : 'Ville de Bordeaux',
     country: 'FRA',
-    slug: 'fra-conseil-general-30',
-    level: 0.3,
-    the_geom: smartGeojson('./departement-30.json')
+    slug: 'fra-ville-de-bordeaux',
+    level: 0.1,
+    the_geom: smartGeojson('./bordeaux.json')
   },
   {
-    name : 'Conseil Régional Languedoc Roussillon',
+    name : 'Ville de Strasbourg',
     country: 'FRA',
-    slug: 'fra-conseil-regional-languedoc-roussillon',
-    level: 0.4,
-    the_geom: smartGeojson('./conseil-regional-languedoc-roussillon.json')
+    slug: 'fra-ville-de-strasbourg',
+    level: 0.1,
+    the_geom: smartGeojson('./strasbourg.json')
   },
-   {
-    name : 'Conseil général 69',
+  {
+    name : 'Ville de Saint-Etienne',
     country: 'FRA',
-    slug: 'fra-conseil-general-69',
-    level: 0.3,
-    the_geom: smartGeojson('./departement-69.json')
+    slug: 'fra-ville-de-saintetienne',
+    level: 0.1,
+    the_geom: smartGeojson('./saintetienne.json')
   },
   {
     name : 'Bordeaux Métropole',
@@ -79,18 +58,130 @@ Territory.find({}).remove(function() {
     the_geom: smartGeojson('./metropole-bordeaux.json')
   },
   {
-    name : 'Nimes Métropole',
+    name : 'Communauté d\'agglomération Nîmes Métropole',
     country: 'FRA',
     slug: 'fra-nimes-metropole',
     level: 0.2,
     the_geom: smartGeojson('./metropole-nimes.json')
   },
   {
-    name : 'Lyon Métropole',
+    name : 'Communauté urbaine de Lyon',
     country: 'FRA',
     slug: 'fra-lyon-metropole',
     level: 0.2,
     the_geom: smartGeojson('./metropole-lyon.json')
+  },
+  {
+    name : 'Communauté urbaine Nice Côte d\'Azur',
+    country: 'FRA',
+    slug: 'fra-nice-metropole',
+    level: 0.2,
+    the_geom: smartGeojson('./metropole-nice.json')
+  },
+  {
+    name : 'Communauté Urbaine de Strasbourg (CUS)',
+    country: 'FRA',
+    slug: 'fra-strasbourg-metropole',
+    level: 0.2,
+    the_geom: smartGeojson('./metropole-strasbourg.json')
+  },
+  {
+    name : 'Montpellier Méditerannée Métropole',
+    country: 'FRA',
+    slug: 'fra-montpellier-metropole',
+    level: 0.2,
+    the_geom: smartGeojson('./metropole-montpellier.json')
+  },
+  {
+    name : 'Communauté urbaine Saint-Étienne Métropole',
+    country: 'FRA',
+    slug: 'fra-saintetienne-metropole',
+    level: 0.2,
+    the_geom: smartGeojson('./metropole-saintetienne.json')
+  },
+  {
+    name : 'Conseil départemental du Gard',
+    country: 'FRA',
+    slug: 'fra-conseil-general-30',
+    level: 0.3,
+    the_geom: smartGeojson('./departement-30.json')
+  },
+  {
+    name : 'Conseil Départemental de l\'Hérault',
+    country: 'FRA',
+    slug: 'fra-conseil-general-34',
+    level: 0.3,
+    the_geom: smartGeojson('./departement-34.json')
+  },
+  {
+    name : 'Conseil départemental du Rhône',
+    country: 'FRA',
+    slug: 'fra-conseil-general-69',
+    level: 0.3,
+    the_geom: smartGeojson('./departement-69.json')
+  },
+  {
+    name : 'Conseil départemental de la Gironde',
+    country: 'FRA',
+    slug: 'fra-conseil-general-33',
+    level: 0.3,
+    the_geom: smartGeojson('./departement-33.json')
+  },
+  {
+    name : 'Conseil départemental des Alpes-Maritimes',
+    country: 'FRA',
+    slug: 'fra-conseil-general-06',
+    level: 0.3,
+    the_geom: smartGeojson('./departement-06.json')
+  },
+  {
+    name : 'Conseil départemental du Bas-Rhin',
+    country: 'FRA',
+    slug: 'fra-conseil-general-67',
+    level: 0.3,
+    the_geom: smartGeojson('./departement-67.json')
+  },
+  {
+    name : 'Conseil départemental de la Loire',
+    country: 'FRA',
+    slug: 'fra-conseil-general-42',
+    level: 0.3,
+    the_geom: smartGeojson('./departement-42.json')
+  },
+  {
+    name : 'Conseil régional de Languedoc-Roussillon-Midi-Pyrénées',
+    country: 'FRA',
+    slug: 'fra-conseil-regional-languedoc-roussillon',
+    level: 0.4,
+    the_geom: smartGeojson('./conseil-regional-languedoc-roussillon.json')
+  },
+  {
+    name : 'Conseil régional d\'Alsace-Champagne-Ardenne-Lorraine',
+    country: 'FRA',
+    slug: 'fra-conseil-regional-alsace',
+    level: 0.4,
+    the_geom: smartGeojson('./conseil-regional-alsace.json')
+  },
+  {
+    name : 'Conseil Régional Rhône Alpes',
+    country: 'FRA',
+    slug: 'fra-conseil-regional-rhone-alpes',
+    level: 0.4,
+    the_geom: smartGeojson('./conseil-regional-rhone-alpes.json')
+  },
+  {
+    name : 'Conseil Régional d\'Aquitaine',
+    country: 'FRA',
+    slug: 'fra-conseil-regional-aquitaine',
+    level: 0.4,
+    the_geom: smartGeojson('./conseil-regional-aquitaine.json')
+  },
+  {
+    name : 'Conseil Régional PACA',
+    country: 'FRA',
+    slug: 'fra-conseil-regional-paca',
+    level: 0.4,
+    the_geom: smartGeojson('./conseil-regional-PACA.json')
   }
   ];
 
