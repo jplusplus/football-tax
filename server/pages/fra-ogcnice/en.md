@@ -1,6 +1,6 @@
 When deciding to construct the new stadium, the mayor has assures the citizens that the cost will amout the 'only' €200m with the PPP. The analysis shows, however, that the assumption does not hold water, as the expenses of the city have went up to €400m. And that is if we don't count the many anomalies that we have seen in the contract of the PPP, like a cartel agreement between the bidders, or the fact that the city of Nice never claimed the fines on the late delivery of the stadium. In short, the city has taken all the risks and expenses, while the private company has taken all the profits and benefits.
 
-# The companies involved with this club
+### The companies involved with this club
 - **OGC Nice** : Olympique Gymnaste Club Nice Côte d'Azur is a French association football club based in Nice
 - **SASP OGC Nice** : The Société Anonyme Sportive Professionnelle OGC Nice is the profit company linked to the association, as the article L. 122-1 of the Sport's code stipulates for the association with revenues exceeding 0,80M€.
 - **Nice Eco Stadium** : This is the private company that built, operates and maintains the Stadium Allianz Riviera where OGN Nice is resident.
