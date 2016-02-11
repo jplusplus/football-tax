@@ -1,6 +1,4 @@
 {
-		"type": "Feature",
-		"geometry": {
 			"type": "Polygon",
 			"coordinates": [
 				[
@@ -31,9 +29,4 @@
 					[3.8608378385, 43.5667719062]
 				]
 			]
-		},
-		"properties": {
-			"nom": "Montpellier",
-			"code": "34172"
 		}
-	}

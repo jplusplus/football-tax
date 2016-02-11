@@ -1,6 +1,4 @@
 {
-		"type": "Feature",
-		"geometry": {
 			"type": "Polygon",
 			"coordinates": [
 				[
@@ -51,9 +49,4 @@
 					[4.4049630345, 43.7712681081]
 				]
 			]
-		},
-		"properties": {
-			"nom": "Nîmes",
-			"code": "30189"
 		}
-	}
