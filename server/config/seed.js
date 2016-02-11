@@ -51,6 +51,13 @@ Territory.find({}).remove(function() {
     the_geom: smartGeojson('./saintetienne.json')
   },
   {
+    name : 'Conventry City Council',
+    country: 'GBR',
+    slug: 'fra-coventry-city-council',
+    level: 0.1,
+    the_geom: smartGeojson('./coventry.json')
+  },
+  {
     name : 'Bordeaux Métropole',
     country: 'FRA',
     slug: 'fra-bordeaux-metropole',
