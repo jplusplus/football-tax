@@ -683,7 +683,7 @@ module.exports = function (grunt) {
   grunt.registerTask('gss_to_md', function () {
     const BASE = 'en';
     const LOCALES_DIR = 'client/assets/locales';
-    const PAGE_DIR = 'server/pages';
+    const PAGE_DIR = 'server/pages/clubs';
     // Force task into async mode and grab a handle to the "done" function.
     let done = this.async();
 
