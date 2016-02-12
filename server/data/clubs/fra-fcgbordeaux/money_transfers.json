@@ -1,29 +1,152 @@
 [
   {
-    "paymentid": 16,
-    "payer": "Ville de Bordeaux",
-    "beneficiary": "Stade Matmut-Atlantique",
-    "amount": "€17,000,000",
-    "date": 2012,
-    "type": "Subsidy",
-    "stadium": "Matmut-Atlantique",
-    "source": "http://www.matmut-atlantique.com/fr/le_stade/acteur-financement"
-  },
-  {
-    "paymentid": 17,
-    "payer": "Conseil Régional Aquitaine",
-    "beneficiary": "Stade Matmut-Atlantique",
-    "amount": "€15,000,000",
-    "date": 2012,
-    "type": "Subsidy",
-    "stadium": "Matmut-Atlantique",
-    "source": "http://www.matmut-atlantique.com/fr/le_stade/acteur-financement"
-  },
-  {
     "paymentid": 18,
     "payer": "Bordeaux Métropole",
     "beneficiary": "Stade Matmut-Atlantique",
     "amount": "€15,000,000",
+    "date": 2012,
+    "type": "Subsidy",
+    "stadium": "Matmut-Atlantique",
+    "source": "http://www.matmut-atlantique.com/fr/le_stade/acteur-financement"
+  },
+  {
+    "paymentid": 26,
+    "payer": "Conseil départemental de la Gironde",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€210,000",
+    "date": 2011,
+    "type": "Purchase of seats",
+    "source": "http://www.gironde.fr/upload/docs/application/pdf/2011-06/23.05_reaction_ubb.pdf"
+  },
+  {
+    "paymentid": 27,
+    "payer": "Conseil départemental de la Gironde",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€90,000",
+    "date": 2011,
+    "type": "Subsidy",
+    "source": "http://www.gironde.fr/upload/docs/application/pdf/2011-06/23.05_reaction_ubb.pdf"
+  },
+  {
+    "paymentid": 28,
+    "payer": "Conseil départemental de la Gironde",
+    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
+    "amount": "€290,000",
+    "date": 2010,
+    "type": "Subsidy",
+    "source": "http://www.gironde.fr/upload/docs/application/x-download/2011-05/Subvention_associations_2010.pdf"
+  },
+  {
+    "paymentid": 29,
+    "payer": "Conseil départemental de la Gironde",
+    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
+    "amount": "€50,000",
+    "date": 2013,
+    "type": "Training facility grant",
+    "source": "http://webdelibcitoyens.extra.gironde.fr/webdelibcitoyens/files/unzip//seance_144664/283_d1392641523320.pdf"
+  },
+  {
+    "paymentid": 30,
+    "payer": "Conseil départemental de la Gironde",
+    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
+    "amount": "€50,000",
+    "date": 2013,
+    "type": "Operating grant",
+    "source": "http://webdelibcitoyens.extra.gironde.fr/webdelibcitoyens/files/unzip//seance_144664/283_d1392641523320.pdf"
+  },
+  {
+    "paymentid": 31,
+    "payer": "Conseil départemental de la Gironde",
+    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
+    "amount": "€75,000",
+    "date": 2014,
+    "type": "Subsidy",
+    "source": "http://webdelibcitoyens.extra.gironde.fr/webdelibcitoyens/files/unzip//seance_163994/533_d1424267389081.pdf"
+  },
+  {
+    "paymentid": 32,
+    "payer": "Conseil départemental de la Gironde",
+    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
+    "amount": "€205,000",
+    "date": 2012,
+    "type": "Subsidy",
+    "source": "http://webdelibcitoyens.extra.gironde.fr/webdelibcitoyens/files/unzip//seance_124708/286_d1360677395842.pdf"
+  },
+  {
+    "paymentid": 17,
+    "payer": "Conseil régional d'Aquitaine",
+    "beneficiary": "Stade Matmut-Atlantique",
+    "amount": "€15,000,000",
+    "date": 2012,
+    "type": "Subsidy",
+    "stadium": "Matmut-Atlantique",
+    "source": "http://www.matmut-atlantique.com/fr/le_stade/acteur-financement"
+  },
+  {
+    "paymentid": 19,
+    "payer": "Conseil régional d'Aquitaine",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€25,084",
+    "date": 2011,
+    "type": "Purchase of service benefits",
+    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&ved=0ahUKEwj2oqvR273KAhWLvXIKHS9PCicQFgg4MAU&url=http%3A%2F%2Fwww.aquitaine.fr%2Fcontent%2Fdownload%2F921%2F9020%2Ffile%2FServices_2012.pdf&usg=AFQjCNE60ac6a1SPRBFUQ5aMP5sYze3Y_A"
+  },
+  {
+    "paymentid": 20,
+    "payer": "Conseil régional d'Aquitaine",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€25,084",
+    "date": 2012,
+    "type": "Purchase of service benefits",
+    "source": "http://www.aquitaine.fr/content/download/3418/34642/file/March%C3%A9s%20%20de%20Services%202013.pdf"
+  },
+  {
+    "paymentid": 21,
+    "payer": "Conseil régional d'Aquitaine",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€25,084",
+    "date": 2008,
+    "type": "Purchase of service benefits",
+    "source": "http://www.aquitaine.fr/content/download/3418/34642/file/March%C3%A9s%20%20de%20Services%202013.pdf"
+  },
+  {
+    "paymentid": 22,
+    "payer": "Conseil régional d'Aquitaine",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€25,084",
+    "date": 2010,
+    "type": "Purchase of service benefits"
+  },
+  {
+    "paymentid": 23,
+    "payer": "Conseil régional d'Aquitaine",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€25,084",
+    "date": 2013,
+    "type": "Purchase of service benefits"
+  },
+  {
+    "paymentid": 24,
+    "payer": "Conseil régional d'Aquitaine",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€25,084",
+    "date": 2009,
+    "type": "Purchase of service benefits"
+  },
+  {
+    "paymentid": 25,
+    "payer": "Conseil régional d'Aquitaine",
+    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
+    "amount": "€20,000",
+    "date": 2007,
+    "type": "Purchase of service benefits",
+    "source": "http://www.aquitaine.fr/content/download/936/9065/file/listemarches2007.pdf"
+  },
+  {
+    "paymentid": 16,
+    "payer": "Ville de Bordeaux",
+    "beneficiary": "Stade Matmut-Atlantique",
+    "amount": "€17,000,000",
     "date": 2012,
     "type": "Subsidy",
     "stadium": "Matmut-Atlantique",
@@ -163,128 +286,5 @@
     "date": 2015,
     "type": "Subsidy",
     "source": "http://www.bordeaux.fr/images/ebx/fr/CM/5067/6/acteCM/32434/pieceJointeSpec/81856/file/PV_00011498_D.pdf"
-  },
-  {
-    "paymentid": 19,
-    "payer": "Conseil Régional Aquitaine",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€25,084",
-    "date": 2011,
-    "type": "Purchase of service benefits",
-    "source": "https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&ved=0ahUKEwj2oqvR273KAhWLvXIKHS9PCicQFgg4MAU&url=http%3A%2F%2Fwww.aquitaine.fr%2Fcontent%2Fdownload%2F921%2F9020%2Ffile%2FServices_2012.pdf&usg=AFQjCNE60ac6a1SPRBFUQ5aMP5sYze3Y_A"
-  },
-  {
-    "paymentid": 20,
-    "payer": "Conseil Régional Aquitaine",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€25,084",
-    "date": 2012,
-    "type": "Purchase of service benefits",
-    "source": "http://www.aquitaine.fr/content/download/3418/34642/file/March%C3%A9s%20%20de%20Services%202013.pdf"
-  },
-  {
-    "paymentid": 21,
-    "payer": "Conseil Régional Aquitaine",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€25,084",
-    "date": 2008,
-    "type": "Purchase of service benefits",
-    "source": "http://www.aquitaine.fr/content/download/3418/34642/file/March%C3%A9s%20%20de%20Services%202013.pdf"
-  },
-  {
-    "paymentid": 22,
-    "payer": "Conseil Régional Aquitaine",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€25,084",
-    "date": 2010,
-    "type": "Purchase of service benefits"
-  },
-  {
-    "paymentid": 23,
-    "payer": "Conseil Régional Aquitaine",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€25,084",
-    "date": 2013,
-    "type": "Purchase of service benefits"
-  },
-  {
-    "paymentid": 24,
-    "payer": "Conseil Régional Aquitaine",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€25,084",
-    "date": 2009,
-    "type": "Purchase of service benefits"
-  },
-  {
-    "paymentid": 25,
-    "payer": "Conseil Régional Aquitaine",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€20,000",
-    "date": 2007,
-    "type": "Purchase of service benefits",
-    "source": "http://www.aquitaine.fr/content/download/936/9065/file/listemarches2007.pdf"
-  },
-  {
-    "paymentid": 26,
-    "payer": "Conseil Général Gironde",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€210,000",
-    "date": 2011,
-    "type": "Purchase of seats",
-    "source": "http://www.gironde.fr/upload/docs/application/pdf/2011-06/23.05_reaction_ubb.pdf"
-  },
-  {
-    "paymentid": 27,
-    "payer": "Conseil Général Gironde",
-    "beneficiary": "SASP Football Club des Girondins de Bordeaux",
-    "amount": "€90,000",
-    "date": 2011,
-    "type": "Subsidy",
-    "source": "http://www.gironde.fr/upload/docs/application/pdf/2011-06/23.05_reaction_ubb.pdf"
-  },
-  {
-    "paymentid": 28,
-    "payer": "Conseil Général Gironde",
-    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
-    "amount": "€290,000",
-    "date": 2010,
-    "type": "Subsidy",
-    "source": "http://www.gironde.fr/upload/docs/application/x-download/2011-05/Subvention_associations_2010.pdf"
-  },
-  {
-    "paymentid": 29,
-    "payer": "Conseil Général Gironde",
-    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
-    "amount": "€50,000",
-    "date": 2013,
-    "type": "Training facility grant",
-    "source": "http://webdelibcitoyens.extra.gironde.fr/webdelibcitoyens/files/unzip//seance_144664/283_d1392641523320.pdf"
-  },
-  {
-    "paymentid": 30,
-    "payer": "Conseil Général Gironde",
-    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
-    "amount": "€50,000",
-    "date": 2013,
-    "type": "Operating grant",
-    "source": "http://webdelibcitoyens.extra.gironde.fr/webdelibcitoyens/files/unzip//seance_144664/283_d1392641523320.pdf"
-  },
-  {
-    "paymentid": 31,
-    "payer": "Conseil Général Gironde",
-    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
-    "amount": "€75,000",
-    "date": 2014,
-    "type": "Subsidy",
-    "source": "http://webdelibcitoyens.extra.gironde.fr/webdelibcitoyens/files/unzip//seance_163994/533_d1424267389081.pdf"
-  },
-  {
-    "paymentid": 32,
-    "payer": "Conseil Général Gironde",
-    "beneficiary": "ASS Football Club des Girondins de Bordeaux",
-    "amount": "€205,000",
-    "date": 2012,
-    "type": "Subsidy",
-    "source": "http://webdelibcitoyens.extra.gironde.fr/webdelibcitoyens/files/unzip//seance_124708/286_d1360677395842.pdf"
   }
 ]

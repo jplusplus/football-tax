@@ -1,5 +1,280 @@
 [
   {
+    "paymentid": 8,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€8,148",
+    "date": 2010,
+    "type": "Subsidy",
+    "source": "OGC Comptes 2011-12.pdf",
+    "comment": "p.30"
+  },
+  {
+    "paymentid": 11,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€7,295",
+    "date": 2011,
+    "type": "Subsidy",
+    "source": "OGC Comptes 2011-12.pdf",
+    "comment": "p.30"
+  },
+  {
+    "paymentid": 12,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": 2685,
+    "includedin": 15,
+    "date": 2012,
+    "type": "Investment subsidy",
+    "source": "Subventions CG 06 2012.pdf",
+    "comment": "p.12"
+  },
+  {
+    "paymentid": 13,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": 991,
+    "includedin": 15,
+    "date": 2012,
+    "type": "Investment subsidy",
+    "source": "Subventions CG 06 2012.pdf",
+    "comment": "p.14"
+  },
+  {
+    "paymentid": 15,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€6,903",
+    "date": 2012,
+    "type": "Subsidy",
+    "source": "OGC Comptes 2013-14.pdf",
+    "comment": "p.36"
+  },
+  {
+    "paymentid": 17,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€7,433",
+    "date": 2013,
+    "type": "Subsidy",
+    "source": "OGC Comptes 2013-14.pdf",
+    "comment": "p.36"
+  },
+  {
+    "paymentid": 24,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "Nice Eco Stadium",
+    "amount": "€20,000,000",
+    "date": 2010,
+    "type": "PPP- Construction of the stadium",
+    "stadium": "Grand Stade",
+    "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+  },
+  {
+    "paymentid": 28,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€412,021",
+    "date": 2003,
+    "type": "Subsidy",
+    "source": "https://web.archive.org/web/20150923162122/http://www.ogcnice.com/fr/actualite/591/subvention-revalorisee-du-conseil-general"
+  },
+  {
+    "paymentid": 29,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€457,343",
+    "date": 2004,
+    "type": "Subsidy",
+    "source": "https://web.archive.org/web/20150923162122/http://www.ogcnice.com/fr/actualite/591/subvention-revalorisee-du-conseil-general"
+  },
+  {
+    "paymentid": 67,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€149,229",
+    "date": 2014,
+    "type": "Purchase of communication benefits",
+    "source": "http://ted.europa.eu/udl?uri=TED:NOTICE:406353-2014:TEXT:FR:HTML&src=0"
+  },
+  {
+    "paymentid": 68,
+    "payer": "Conseil départemental des Alpes-Maritimes",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€165,866",
+    "date": 2015,
+    "type": "Purchase of communication benefits",
+    "source": "https://www.e-marches06.fr/avis_attribution.php?pageencours=avis&page=3&tri_mots_cles=&tri_pouvoir_adjudicateur=&ordre=date_debut&sens=DESC"
+  },
+  {
+    "paymentid": 7,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€263,500",
+    "date": 2010,
+    "type": "Subsidy",
+    "source": "OGC Comptes 2011-12.pdf",
+    "comment": "p.30"
+  },
+  {
+    "paymentid": 10,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€98,000",
+    "date": 2011,
+    "type": "Subsidy",
+    "source": "OGC Comptes 2011-12.pdf",
+    "comment": "p.30"
+  },
+  {
+    "paymentid": 27,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Nice Eco Stadium",
+    "amount": "€7,000,000",
+    "date": 2010,
+    "type": "PPP- Construction of the stadium",
+    "stadium": "Grand Stade",
+    "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+  },
+  {
+    "paymentid": 54,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€380,000",
+    "date": 2005,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 55,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€380,000",
+    "date": 2006,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 56,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€380,000",
+    "date": 2007,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 57,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€380,000",
+    "date": 2008,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 58,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€380,000",
+    "date": 2009,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 59,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€8,800",
+    "date": 2012,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 60,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€8,800",
+    "date": 2013,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 61,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "Association OGC Nice Côte d'Azur",
+    "amount": "€8,800",
+    "date": 2014,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 62,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€100,000",
+    "date": 2011,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 63,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€100,000",
+    "date": 2012,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 64,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€100,000",
+    "date": 2013,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 65,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€100,000",
+    "date": 2014,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 66,
+    "payer": "Conseil Régional PACA",
+    "beneficiary": "SASP OGC Nice",
+    "amount": "€100,000",
+    "date": 2015,
+    "type": "Subsidy",
+    "source": "email de la Région"
+  },
+  {
+    "paymentid": 26,
+    "payer": "Etat France",
+    "beneficiary": "Nice Eco Stadium",
+    "amount": "€20,000,000",
+    "date": 2010,
+    "type": "PPP- Construction of the stadium",
+    "stadium": "Grand Stade",
+    "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+  },
+  {
+    "paymentid": 25,
+    "payer": "Communauté urbaine Nice Côte d'Azur",
+    "beneficiary": "Nice Eco Stadium",
+    "amount": "€6,000,000",
+    "date": 2010,
+    "type": "PPP- Construction of the stadium",
+    "stadium": "Grand Stade",
+    "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+  },
+  {
     "paymentid": 1,
     "payer": "Ville de Nice",
     "beneficiary": "Groupement GFC (Bouygues), FIDEPPP, Barclays Infrastructures II Limited",
@@ -59,26 +334,6 @@
     "comment": "p.30"
   },
   {
-    "paymentid": 7,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€263,500",
-    "date": 2010,
-    "type": "Subsidy",
-    "source": "OGC Comptes 2011-12.pdf",
-    "comment": "p.30"
-  },
-  {
-    "paymentid": 8,
-    "payer": "Conseil Général 06",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€8,148",
-    "date": 2010,
-    "type": "Subsidy",
-    "source": "OGC Comptes 2011-12.pdf",
-    "comment": "p.30"
-  },
-  {
     "paymentid": 9,
     "payer": "Ville de Nice",
     "beneficiary": "Association OGC Nice Côte d'Azur",
@@ -87,48 +342,6 @@
     "type": "Subsidy",
     "source": "OGC Comptes 2011-12.pdf",
     "comment": "p.30"
-  },
-  {
-    "paymentid": 10,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€98,000",
-    "date": 2011,
-    "type": "Subsidy",
-    "source": "OGC Comptes 2011-12.pdf",
-    "comment": "p.30"
-  },
-  {
-    "paymentid": 11,
-    "payer": "Conseil Général 06",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€7,295",
-    "date": 2011,
-    "type": "Subsidy",
-    "source": "OGC Comptes 2011-12.pdf",
-    "comment": "p.30"
-  },
-  {
-    "paymentid": 12,
-    "payer": "Conseil Général 06",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": 2685,
-    "includedin": 15,
-    "date": 2012,
-    "type": "Investment subsidy",
-    "source": "Subventions CG 06 2012.pdf",
-    "comment": "p.12"
-  },
-  {
-    "paymentid": 13,
-    "payer": "Conseil Général 06",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": 991,
-    "includedin": 15,
-    "date": 2012,
-    "type": "Investment subsidy",
-    "source": "Subventions CG 06 2012.pdf",
-    "comment": "p.14"
   },
   {
     "paymentid": 14,
@@ -141,30 +354,10 @@
     "comment": "p.36"
   },
   {
-    "paymentid": 15,
-    "payer": "Conseil Général 06",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€6,903",
-    "date": 2012,
-    "type": "Subsidy",
-    "source": "OGC Comptes 2013-14.pdf",
-    "comment": "p.36"
-  },
-  {
     "paymentid": 16,
     "payer": "Ville de Nice",
     "beneficiary": "Association OGC Nice Côte d'Azur",
     "amount": "€1,317,520",
-    "date": 2013,
-    "type": "Subsidy",
-    "source": "OGC Comptes 2013-14.pdf",
-    "comment": "p.36"
-  },
-  {
-    "paymentid": 17,
-    "payer": "Conseil Général 06",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€7,433",
     "date": 2013,
     "type": "Subsidy",
     "source": "OGC Comptes 2013-14.pdf",
@@ -204,7 +397,7 @@
     "payer": "Ville de Nice",
     "beneficiary": "Nice Eco Stadium",
     "amount": "€14,000,000",
-    "date": 2013,
+    "date": 2010,
     "type": "PPP- Construction of the stadium",
     "stadium": "Grand Stade",
     "source": "https://webrecorder.io/record/20150924134034/https://www.ccomptes.fr/Publications/Publications/Construction-du-grand-stade-de-Nice-Nice-PPP-Rapport-d-observations-definitives"
@@ -228,64 +421,6 @@
     "type": "Rent of the stadium",
     "stadium": "Grand Stade",
     "source": "https://webrecorder.io/record/20150924102640/http://www.leparisien.fr/nice-06000/l-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php#xtref=http%3A%2F%2Fwww.leparisien.fr%2Fnice-06000%2Fl-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php"
-  },
-  {
-    "paymentid": 24,
-    "payer": "Conseil Général 06",
-    "beneficiary": "Nice Eco Stadium",
-    "amount": "€20,000,000",
-    "date": 2010,
-    "type": "PPP- Construction of the stadium",
-    "stadium": "Grand Stade",
-    "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
-  },
-  {
-    "paymentid": 25,
-    "payer": "Nice Métropole",
-    "beneficiary": "Nice Eco Stadium",
-    "amount": "€6,000,000",
-    "date": 2010,
-    "type": "PPP- Construction of the stadium",
-    "stadium": "Grand Stade",
-    "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
-  },
-  {
-    "paymentid": 26,
-    "payer": "Etat France",
-    "beneficiary": "Nice Eco Stadium",
-    "amount": "€20,000,000",
-    "date": 2010,
-    "type": "PPP- Construction of the stadium",
-    "stadium": "Grand Stade",
-    "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
-  },
-  {
-    "paymentid": 27,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Nice Eco Stadium",
-    "amount": "€7,000,000",
-    "date": 2010,
-    "type": "PPP- Construction of the stadium",
-    "stadium": "Grand Stade",
-    "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
-  },
-  {
-    "paymentid": 28,
-    "payer": "Conseil Général 06",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€412,021",
-    "date": 2003,
-    "type": "Subsidy",
-    "source": "https://web.archive.org/web/20150923162122/http://www.ogcnice.com/fr/actualite/591/subvention-revalorisee-du-conseil-general"
-  },
-  {
-    "paymentid": 29,
-    "payer": "Conseil Général 06",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€457,343",
-    "date": 2004,
-    "type": "Subsidy",
-    "source": "https://web.archive.org/web/20150923162122/http://www.ogcnice.com/fr/actualite/591/subvention-revalorisee-du-conseil-general"
   },
   {
     "paymentid": 30,
@@ -520,140 +655,5 @@
     "date": "2015-2045",
     "type": "In-kind-gifts (use of the stadium)",
     "source": "Délibération N° 16.3 du 24 novembre 2014 (ville de Nice)"
-  },
-  {
-    "paymentid": 54,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€380,000",
-    "date": 2005,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 55,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€380,000",
-    "date": 2006,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 56,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€380,000",
-    "date": 2007,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 57,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€380,000",
-    "date": 2008,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 58,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€380,000",
-    "date": 2009,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 59,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€8,800",
-    "date": 2012,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 60,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€8,800",
-    "date": 2013,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 61,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "Association OGC Nice Côte d'Azur",
-    "amount": "€8,800",
-    "date": 2014,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 62,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€100,000",
-    "date": 2011,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 63,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€100,000",
-    "date": 2012,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 64,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€100,000",
-    "date": 2013,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 65,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€100,000",
-    "date": 2014,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 66,
-    "payer": "Conseil Régional PACA",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€100,000",
-    "date": 2015,
-    "type": "Subsidy",
-    "source": "email de la Région"
-  },
-  {
-    "paymentid": 67,
-    "payer": "Conseil Général 06",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€149,229",
-    "date": 2014,
-    "type": "Purchase of communication benefits",
-    "source": "http://ted.europa.eu/udl?uri=TED:NOTICE:406353-2014:TEXT:FR:HTML&src=0"
-  },
-  {
-    "paymentid": 68,
-    "payer": "Conseil Général 06",
-    "beneficiary": "SASP OGC Nice",
-    "amount": "€165,866",
-    "date": 2015,
-    "type": "Purchase of communication benefits",
-    "source": "https://www.e-marches06.fr/avis_attribution.php?pageencours=avis&page=3&tri_mots_cles=&tri_pouvoir_adjudicateur=&ordre=date_debut&sens=DESC"
   }
 ]

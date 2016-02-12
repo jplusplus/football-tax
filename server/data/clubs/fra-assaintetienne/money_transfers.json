@@ -1,5 +1,295 @@
 [
   {
+    "paymentid": 6,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€3,000,000",
+    "date": 2012,
+    "type": "Stadium renovation",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
+  },
+  {
+    "paymentid": 21,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€500,000",
+    "date": 2004,
+    "type": "Purchase of communication benefits",
+    "source": "http://www.sport.fr/football/29870.shtm"
+  },
+  {
+    "paymentid": 22,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€250,000",
+    "date": 2005,
+    "type": "Purchase of communication benefits",
+    "source": "http://www.sport.fr/football/29870.shtm"
+  },
+  {
+    "paymentid": 23,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€125,000",
+    "date": 2006,
+    "type": "Purchase of communication benefits",
+    "source": "http://www.sport.fr/football/29870.shtm"
+  },
+  {
+    "paymentid": 31,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€108,000",
+    "date": 2009,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 35,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€108,000",
+    "date": 2010,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 38,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€110,000",
+    "date": 2011,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 45,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€527,904",
+    "date": 2009,
+    "type": "Purchase of communication benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 46,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€693,478",
+    "date": 2010,
+    "type": "Purchase of communication benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 47,
+    "payer": "Conseil départemental de la Loire",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€694,918",
+    "date": 2011,
+    "type": "Purchase of communication benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 5,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€6,800,000",
+    "date": 2012,
+    "type": "Stadium renovation",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.geoffroy-guichard.com/renovation-euro-2016/"
+  },
+  {
+    "paymentid": 9,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€22,500",
+    "date": 2011,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 10,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€30,000",
+    "date": 2009,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 11,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€22,500",
+    "date": 2010,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 14,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€48,000",
+    "date": 2009,
+    "type": "Purchase of communication benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 15,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€20,000",
+    "date": 2010,
+    "type": "Purchase of benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 16,
+    "payer": "Conseil Régional Rhône Alpes",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€20,000",
+    "date": 2011,
+    "type": "Purchase of benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 4,
+    "payer": "Etat",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€8,000,000",
+    "date": 2012,
+    "type": "Stadium renovation ",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.geoffroy-guichard.com/renovation-euro-2016/"
+  },
+  {
+    "paymentid": 17,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "SOFILO",
+    "amount": "€19,650",
+    "date": 2013,
+    "type": "Stadium renovation",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20130916/DELIB130883.pdf",
+    "comment": "DELIB130883.pdf"
+  },
+  {
+    "paymentid": 29,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€860,000",
+    "date": 2015,
+    "type": "Stadium renovation",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+  },
+  {
+    "paymentid": 30,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€46,296",
+    "date": 2009,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 34,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€46,296",
+    "date": 2010,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 37,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Association sportive de Saint-Etienne Loire",
+    "amount": "€46,296",
+    "date": 2011,
+    "type": "Subsidy",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 39,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€2,600,000",
+    "date": 2015,
+    "type": "Stadium maintenance",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+  },
+  {
+    "paymentid": 40,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€550,000",
+    "date": 2015,
+    "type": "Stadium renovation",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+  },
+  {
+    "paymentid": 41,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€40,200,000",
+    "date": 2012,
+    "type": "Stadium renovation",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
+  },
+  {
+    "paymentid": 42,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€5,218,583",
+    "date": 2015,
+    "type": "Stadium renovation",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+  },
+  {
+    "paymentid": 44,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "Stade Geoffroy-Guichard",
+    "amount": "€6,700,000",
+    "date": 2012,
+    "type": "Stadium renovation",
+    "stadium": "Geoffroy-Guichard",
+    "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
+  },
+  {
+    "paymentid": 48,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€612,200",
+    "date": 2009,
+    "type": "Purchase of benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 49,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€354,572",
+    "date": 2010,
+    "type": "Purchase of benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
+    "paymentid": 50,
+    "payer": "Communauté urbaine Saint-Étienne Métropole",
+    "beneficiary": "SASP ASSE LOIRE",
+    "amount": "€355,294",
+    "date": 2011,
+    "type": "Purchase of benefits",
+    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
+  },
+  {
     "paymentid": 1,
     "payer": "Ville de Saint-Etienne",
     "beneficiary": "société SPORTFIVE",
@@ -37,26 +327,6 @@
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20141103/DELIB140904.pdf"
   },
   {
-    "paymentid": 4,
-    "payer": "Etat",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€8,000,000",
-    "date": 2012,
-    "type": "Stadium renovation ",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.geoffroy-guichard.com/renovation-euro-2016/"
-  },
-  {
-    "paymentid": 5,
-    "payer": "Conseil Régional Rhône Alpes",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€6,800,000",
-    "date": 2012,
-    "type": "Stadium renovation",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.geoffroy-guichard.com/renovation-euro-2016/"
-  },
-  {
     "paymentid": 6,
     "payer": "Ville de Saint-Etienne",
     "beneficiary": "SASP ASSE LOIRE",
@@ -64,16 +334,6 @@
     "date": 2014,
     "type": "Subsidy",
     "source": "https://www.saint-etienne.fr/sites/default/files/deliberations/20150914/DELIB150911.pdf"
-  },
-  {
-    "paymentid": 6,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€3,000,000",
-    "date": 2012,
-    "type": "Stadium renovation",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
   },
   {
     "paymentid": 7,
@@ -94,33 +354,6 @@
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20141201/DELIB141107.pdf"
   },
   {
-    "paymentid": 9,
-    "payer": "Conseil Régional Rhône Alpes",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€22,500",
-    "date": 2011,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 10,
-    "payer": "Conseil Régional Rhône Alpes",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€30,000",
-    "date": 2009,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 11,
-    "payer": "Conseil Régional Rhône Alpes",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€22,500",
-    "date": 2010,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
     "paymentid": 12,
     "payer": "Ville de Saint-Etienne",
     "beneficiary": "SASP ASSE LOIRE",
@@ -137,44 +370,6 @@
     "date": 2015,
     "type": "Purchase of seats",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20150706/DELIB150613.pdf"
-  },
-  {
-    "paymentid": 14,
-    "payer": "Conseil Régional Rhône Alpes",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€48,000",
-    "date": 2009,
-    "type": "Purchase of communication benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 15,
-    "payer": "Conseil Régional Rhône Alpes",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€20,000",
-    "date": 2010,
-    "type": "Purchase of benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 16,
-    "payer": "Conseil Régional Rhône Alpes",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€20,000",
-    "date": 2011,
-    "type": "Purchase of benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 17,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "SOFILO",
-    "amount": "€19,650",
-    "date": 2013,
-    "type": "Stadium renovation",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20130916/DELIB130883.pdf",
-    "comment": "DELIB130883.pdf"
   },
   {
     "paymentid": 18,
@@ -202,33 +397,6 @@
     "date": 2014,
     "type": "Purchase of seats",
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20140707/DELIB140537.pdf"
-  },
-  {
-    "paymentid": 21,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€500,000",
-    "date": 2004,
-    "type": "Purchase of communication benefits",
-    "source": "http://www.sport.fr/football/29870.shtm"
-  },
-  {
-    "paymentid": 22,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€250,000",
-    "date": 2005,
-    "type": "Purchase of communication benefits",
-    "source": "http://www.sport.fr/football/29870.shtm"
-  },
-  {
-    "paymentid": 23,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€125,000",
-    "date": 2006,
-    "type": "Purchase of communication benefits",
-    "source": "http://www.sport.fr/football/29870.shtm"
   },
   {
     "paymentid": 24,
@@ -277,34 +445,6 @@
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20120917/DELIB120587.pdf"
   },
   {
-    "paymentid": 29,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€860,000",
-    "date": 2015,
-    "type": "Stadium renovation",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
-  },
-  {
-    "paymentid": 30,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€46,296",
-    "date": 2009,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 31,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€108,000",
-    "date": 2009,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
     "paymentid": 32,
     "payer": "Ville de Saint-Etienne",
     "beneficiary": "Association sportive de Saint-Etienne Loire",
@@ -323,24 +463,6 @@
     "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   },
   {
-    "paymentid": 34,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€46,296",
-    "date": 2010,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 35,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€108,000",
-    "date": 2010,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
     "paymentid": 36,
     "payer": "Ville de Saint-Etienne",
     "beneficiary": "Association sportive de Saint-Etienne Loire",
@@ -350,64 +472,6 @@
     "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20110912/DELIB110866.pdf"
   },
   {
-    "paymentid": 37,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€46,296",
-    "date": 2011,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 38,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "Association sportive de Saint-Etienne Loire",
-    "amount": "€110,000",
-    "date": 2011,
-    "type": "Subsidy",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 39,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€2,600,000",
-    "date": 2015,
-    "type": "Stadium maintenance",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
-  },
-  {
-    "paymentid": 40,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€550,000",
-    "date": 2015,
-    "type": "Stadium renovation",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
-  },
-  {
-    "paymentid": 41,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€40,200,000",
-    "date": 2012,
-    "type": "Stadium renovation",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
-  },
-  {
-    "paymentid": 42,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€5,218,583",
-    "date": 2015,
-    "type": "Stadium renovation",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
-  },
-  {
     "paymentid": 43,
     "payer": "Ville de Saint-Etienne",
     "beneficiary": "SASP ASSE LOIRE",
@@ -415,69 +479,5 @@
     "date": 2003,
     "type": "Operating grant",
     "source": "http://www.sport.fr/football/29870.shtm"
-  },
-  {
-    "paymentid": 44,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "Stade Geoffroy-Guichard",
-    "amount": "€6,700,000",
-    "date": 2012,
-    "type": "Stadium renovation",
-    "stadium": "Geoffroy-Guichard",
-    "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
-  },
-  {
-    "paymentid": 45,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€527,904",
-    "date": 2009,
-    "type": "Purchase of communication benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 46,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€693,478",
-    "date": 2010,
-    "type": "Purchase of communication benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 47,
-    "payer": "Conseil Général Loire",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€694,918",
-    "date": 2011,
-    "type": "Purchase of communication benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 48,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€612,200",
-    "date": 2009,
-    "type": "Purchase of benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 49,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€354,572",
-    "date": 2010,
-    "type": "Purchase of benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
-  },
-  {
-    "paymentid": 50,
-    "payer": "Saint-Etienne métropole (SEM)",
-    "beneficiary": "SASP ASSE LOIRE",
-    "amount": "€355,294",
-    "date": 2011,
-    "type": "Purchase of benefits",
-    "source": "http://deliberations.rhonealpes.fr/RecueilsPDF/2011/CommissionPermanente/r%C3%A9union%20du%2016%20d%C3%A9cembre%202011/d%C3%A9lib%C3%A9rations/15.DSJAP.PROMOTION%20DU%20SPORT.PDF"
   }
 ]

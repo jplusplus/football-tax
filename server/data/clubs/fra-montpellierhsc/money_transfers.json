@@ -1,6 +1,6 @@
 [
   {
-    "payer": "Conseil départemental de l'Hérault",
+    "payer": "Conseil Départemental de l'Hérault",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€250,720",
     "date": 2011,
@@ -122,7 +122,6 @@
     "source": "http://www.montpellier-journal.fr/2013/06/les-collectivites-explosent-le-plafond-legal-dachat-de-prestations-aux-clubs-sportifs.html"
   },
   {
-    "11": "29/06/2015",
     "payer": "Montpellier Méditerannée Métropole",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€964,693",
@@ -131,7 +130,6 @@
     "source": "http://178.20.64.112:8080/webdelibcitoyens/files/unzip//seance_94904/161_d1441800481935.pdf#search=\"sports\""
   },
   {
-    "11": "19/06/2014",
     "payer": "Montpellier Méditerannée Métropole",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€566,300",
@@ -141,7 +139,6 @@
     "comment": "2nd semester"
   },
   {
-    "11": "20/12/2011",
     "payer": "Montpellier Méditerannée Métropole",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€564,579",
@@ -151,7 +148,6 @@
     "comment": "1st semester"
   },
   {
-    "11": "23/06/2011",
     "payer": "Montpellier Méditerannée Métropole",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€564,579",
@@ -161,7 +157,6 @@
     "comment": "2nd semester"
   },
   {
-    "11": "17/01/2013",
     "payer": "Montpellier Méditerannée Métropole",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€564,525",
@@ -171,7 +166,6 @@
     "comment": "1st semester"
   },
   {
-    "11": "23/05/2013",
     "payer": "Montpellier Méditerannée Métropole",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€564,525",
@@ -181,7 +175,6 @@
     "comment": "2nd semester"
   },
   {
-    "11": "19/12/2013",
     "payer": "Montpellier Méditerannée Métropole",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€556,225",
@@ -191,7 +184,6 @@
     "comment": "1st semester"
   },
   {
-    "11": "18/12/2014",
     "payer": "Montpellier Méditerannée Métropole",
     "beneficiary": "SASP Montpellier Hérault Sport Club",
     "amount": "€481,300",
