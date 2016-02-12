@@ -45,7 +45,7 @@ exports.show = function(req, res) {
       .exec(function(err, territories) {
         club.payers = territories;
         // Gets club's page (if any)
-        club.page = pages.get({ slug: req.params.slug });
+        club.page = pages.get({ slug: req.params.slug, type: 'club' });
         // Return a slice of the collections
         res.json(200, club);
       });
