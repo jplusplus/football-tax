@@ -9,7 +9,7 @@ var response = require("../response"),
 
 var stadiums = require('./stadium.collection'),
        clubs = require('../club/club.collection'),
-       pages = require('../club/club.collection');
+       pages = require('../page/page.collection');
 
 
 // Get list of stadiums
@@ -33,7 +33,7 @@ exports.show = function(req, res) {
     // Gets full stadium's club
     stadium.club = clubs.get({ slug: stadium.club });
     // Gets stadium's page (if any)
-    stadium.page = pages.get({ slug: req.params.slug, type: 'stadium' });
+    stadium.page = pages.get({ slug: req.params.slug, type: 'stadiums' });
     // Return a slice of the collections
     res.json(200, stadium);
   // We didn't...

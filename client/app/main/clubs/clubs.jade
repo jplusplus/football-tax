@@ -24,8 +24,8 @@
       
   .main__clubs__content.main__content
     .container
-      h2(ng-if="page") {{ 'CLUB_KEY_POINT' | translate }}
-      .lead(ng-if="page", ng-bind-html="page.body")        
+      h2(ng-if="page && page.body") {{ 'CLUB_KEY_POINT' | translate }}
+      .lead(ng-if="page && page.body", ng-bind-html="page.body")        
       div(money-transfers="club.transfers")   
       
       .main__clubs__content__stadium(ng-repeat="stadium in :: club.stadiums | limitTo:1")

@@ -53,5 +53,6 @@
   "SPENDING_TERR_FOR_CLUB_OUTRO": "If you have it, please send us an email at contact@footballtax.com",
   "TERRITORY_MOST_SPENDING": "Territory that spent most: {territory}",
   "SPENDING_FROM_TERRITORY": "Amount paid by {territory}",
-  "CLUB_KEY_POINT": "The key point for this club"
+  "CLUB_KEY_POINT": "The key point for this club",
+  "STADIUM_KEY_POINT": "The key point for this stadium"
 }

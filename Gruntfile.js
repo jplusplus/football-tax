@@ -153,7 +153,7 @@ module.exports = function (grunt) {
       },
       express: {
         files: [
-          'server/**/*.{js,json}'
+          'server/**/*.{js,json,.md}'
         ],
         tasks: ['express:dev', 'wait'],
         options: {

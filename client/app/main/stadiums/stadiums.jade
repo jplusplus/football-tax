@@ -25,8 +25,8 @@
               
   .main__stadiums__content.main__content
     .container
-      .lead
-        p {{ 'ABOUT_CONTENT' | translate }}
+      h2(ng-if="page && page.body") {{ 'STADIUM_KEY_POINT' | translate }}
+      .lead(ng-if="page && page.body", ng-bind-html="page.body")      
         
       .main__stadiums__content__club(ng-show="stadium.club")
         .main__stadiums__content__club__actions
