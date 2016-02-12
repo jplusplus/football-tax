@@ -4,12 +4,12 @@ ui-view.main
   .main__homepage(screen-height)
     .main__homepage__panel
       .row              
-        .col-sm-6
+        .col-sm-4
           h1
             img(src="assets/images/logo-big.png", height="100" , alt="{{ 'APP_TITLE' | translate }}")
           .h2 {{ 'HOMEPAGE_DESCRIPTION' | translate }}
           
-        .col-sm-6        
+        .col-sm-8     
           .panel
             .panel-body
               h3 {{ 'HOMEPAGE_ADDR_TITLE' | translate }}
@@ -19,40 +19,56 @@ ui-view.main
                   input.form-control(type="text", required="required", ng-model="q", placeholder="Ex: 12 promenade des anglais Nice")
                   span.input-group-btn
                     button.btn.btn-default(type="submit") {{ 'SEARCH_BTN' | translate }}
-                    
-          .panel
-            .panel-body
-              h3 {{ 'HOMEPAGE_CLUBS_TITLE' | translate }}
-              p {{ 'HOMEPAGE_CLUBS_DESCRIPTION' | translate }}
-              p.main__homepage__panel__clubsearch
-                ui-select(ng-model="selectedClub", on-select="selectClub($item.slug)")
-                  ui-select-match(placeholder="{{ 'CLUB_SEARCH_PLACEHOLDER' | translate }}") {{ $select.selected.nameclub }}
-                  ui-select-choices(repeat="club in clubs", 
-                                    refresh="clubLookup($select.search)",
-                                    refresh-delay="0")
-                    strong {{ club.nameclub }}
-                    br
-                    span {{ club.city }}
-              ul.list-unstyled.main__homepage__panel__clubs
-                li.main__homepage__panel__clubs__item
-                  a(ui-sref="main.clubs({slug: 'fra-assaintetienne'})")
-                    img(src="assets/images/fra-assaintetienne.png")          
-                li.main__homepage__panel__clubs__item
-                  a(ui-sref="main.clubs({slug: 'bel-standardliege'})")
-                    img(src="assets/images/bel-standardliege.png")          
-                li.main__homepage__panel__clubs__item
-                  a(ui-sref="main.clubs({slug: 'fra-montpellierhsc'})")
-                    img(src="assets/images/fra-montpellierhsc.png")          
-                li.main__homepage__panel__clubs__item
-                  a(ui-sref="main.clubs({slug: 'fra-ogcnice'})")
-                    img(src="assets/images/fra-ogcnice.png")          
-                li.main__homepage__panel__clubs__item
-                  a(ui-sref="main.clubs({slug: 'fra-olympiquelyonnais'})")
-                    img(src="assets/images/fra-olympiquelyonnais.png")          
-                li.main__homepage__panel__clubs__item
-                  a(ui-sref="main.clubs({slug: 'fra-rcstrasbourg'})")
-                    img(src="assets/images/fra-rcstrasbourg.png")
-          
+          .row  
+              .col-sm-6
+                .panel
+                  .panel-body
+                    h3 {{ 'HOMEPAGE_STADIUMS_TITLE' | translate }}
+                    p {{ 'HOMEPAGE_STADIUMS_DESCRIPTION' | translate }}
+                    p.main__homepage__panel__stadiumSearch
+                      ui-select(ng-model="selectedStadium", on-select="selectStadium($item.slug)")
+                        ui-select-match(placeholder="{{ 'STADIUM_SEARCH_PLACEHOLDER' | translate }}") {{ $select.selected.name }}
+                        ui-select-choices(repeat="stadium in stadiums", 
+                                          refresh="stadiumLookup($select.search)",
+                                          refresh-delay="0")
+                          strong {{ stadium.name }}
+                          br
+                          span {{ stadium.city }}
+                        
+              .col-sm-6
+                .panel
+                  .panel-body
+                    h3 {{ 'HOMEPAGE_CLUBS_TITLE' | translate }}
+                    p {{ 'HOMEPAGE_CLUBS_DESCRIPTION' | translate }}
+                    p.main__homepage__panel__clubsearch
+                      ui-select(ng-model="selectedClub", on-select="selectClub($item.slug)")
+                        ui-select-match(placeholder="{{ 'CLUB_SEARCH_PLACEHOLDER' | translate }}") {{ $select.selected.nameclub }}
+                        ui-select-choices(repeat="club in clubs", 
+                                          refresh="clubLookup($select.search)",
+                                          refresh-delay="0")
+                          strong {{ club.nameclub }}
+                          br
+                          span {{ club.city }}
+                    ul.list-unstyled.main__homepage__panel__clubs
+                      li.main__homepage__panel__clubs__item
+                        a(ui-sref="main.clubs({slug: 'fra-assaintetienne'})")
+                          img(src="assets/images/fra-assaintetienne.png")          
+                      li.main__homepage__panel__clubs__item
+                        a(ui-sref="main.clubs({slug: 'bel-standardliege'})")
+                          img(src="assets/images/bel-standardliege.png")          
+                      li.main__homepage__panel__clubs__item
+                        a(ui-sref="main.clubs({slug: 'fra-montpellierhsc'})")
+                          img(src="assets/images/fra-montpellierhsc.png")          
+                      li.main__homepage__panel__clubs__item
+                        a(ui-sref="main.clubs({slug: 'fra-ogcnice'})")
+                          img(src="assets/images/fra-ogcnice.png")          
+                      li.main__homepage__panel__clubs__item
+                        a(ui-sref="main.clubs({slug: 'fra-olympiquelyonnais'})")
+                          img(src="assets/images/fra-olympiquelyonnais.png")          
+                      li.main__homepage__panel__clubs__item
+                        a(ui-sref="main.clubs({slug: 'fra-rcstrasbourg'})")
+                          img(src="assets/images/fra-rcstrasbourg.png")
+              
   .main__findings
     .container
       h2 {{ 'HOMEPAGE_FINDINGS_TITLE' | translate }}
