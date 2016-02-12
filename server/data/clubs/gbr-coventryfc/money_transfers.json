@@ -1,0 +1,109 @@
+[
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "HBG Holdings limited",
+    "amount": "£5,300,000",
+    "date": 2003,
+    "type": "Purchase of land",
+    "stadium": "Ricoh Arena",
+    "source": "FOI Novemner 2013, p.1"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "ACL",
+    "amount": "£14,400,000",
+    "date": 2013,
+    "type": "Construction of the stadium",
+    "stadium": "Ricoh Arena",
+    "source": "Sky Blue Trust- Ricoh arena timeline p7"
+  },
+  {
+    "payer": "European Regional Development Fund",
+    "beneficiary": "Ricoh Arena",
+    "amount": "£4,745,177",
+    "date": 2003,
+    "type": "Stadium expansion",
+    "stadium": "Ricoh Arena",
+    "source": "FOI November 2013, p1, FOI August 2013_2 p1"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "HBG Holdings limited",
+    "amount": "£4,800,000",
+    "date": 2003,
+    "type": "Purchase of land",
+    "stadium": "Ricoh Arena",
+    "source": "FOI November 2013, p1"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "Pinsents, 11KBW",
+    "amount": "£900,000",
+    "type": "Construction of the stadium",
+    "stadium": "Ricoh Arena",
+    "source": "FOI August 2013 p1"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "ACL",
+    "amount": "£41,000",
+    "date": 2006,
+    "type": "Stadium maintenance",
+    "stadium": "Ricoh Arena",
+    "source": "Accounts, 07-07"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "Ricoh Arena",
+    "amount": "£39,000",
+    "date": 2007,
+    "type": "Stadium maintenance",
+    "stadium": "Ricoh Arena",
+    "source": "Accounts, 07-08"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "CNR",
+    "amount": "£13,731",
+    "date": 2008,
+    "type": "Stadium maintenance",
+    "stadium": "Ricoh Arena",
+    "source": "Accounts, 2008-9"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "ACL",
+    "amount": "£400,000",
+    "date": 2006,
+    "type": "Construction of the stadium",
+    "stadium": "Ricoh Arena",
+    "source": "Agenda Construction Completion report, 2008"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "Tony Gee and\r\nPartners",
+    "amount": "£1,880,000",
+    "date": 2007,
+    "type": "Stadium expansion",
+    "stadium": "Ricoh Arena",
+    "source": "09-Arena Archways, Agenda Construction Completion report, 2008 p8"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "Ricoh Arena",
+    "amount": "£13,600,000",
+    "date": 2011,
+    "type": "Stadium expansion",
+    "stadium": "Ricoh Arena",
+    "source": "http://www.theguardian.com/uk-news/2015/aug/25/coventry-city-ricoh-arena-train-station-open-football-fans-wasps"
+  },
+  {
+    "payer": "Coventry City Council",
+    "beneficiary": "Ricoh Arena",
+    "amount": "£2,947,000",
+    "date": 2006,
+    "type": "Stadium expansion",
+    "stadium": "Ricoh Arena",
+    "source": "Sky Blue Trust- Ricoh arena timeline p6"
+  }
+]
