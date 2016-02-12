@@ -41,6 +41,7 @@ module.exports = function (grunt) {
       // Money transfert sheet
       result[k + '-' + sheet] = {
         options: {
+          useCellTextValues: true,
           spreadsheetId: id,
           worksheetName: sheet
         },
@@ -651,6 +652,10 @@ module.exports = function (grunt) {
             // Boolean value might be expressed with words
             rowdata[key] = rowdata[key] === 'yes' ? true  : rowdata[key];
             rowdata[key] = rowdata[key] === 'no'  ? false : rowdata[key];
+            // Exclude some keys
+            if( ['amountinusd', 'amountformula'].indexOf(key) > -1 ) {
+              delete rowdata[key];
+            }
           });
           return rowdata;
         }

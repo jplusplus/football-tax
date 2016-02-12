@@ -2,8 +2,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "HBG Holdings limited",
-    "amountinusd": "£5,300,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G2),4) * D2 )/ vlookup(G2,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€9,639,745.81",
     "date": 2003,
     "type": "Purchase of land",
     "stadium": "Ricoh Arena",
@@ -12,8 +11,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "ACL",
-    "amountinusd": "£14,400,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G3),4) * D3 )/ vlookup(G3,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€17,055,863.87",
     "date": 2013,
     "type": "Construction of the stadium",
     "stadium": "Ricoh Arena",
@@ -22,8 +20,7 @@
   {
     "payer": "European Regional Development Fund",
     "beneficiary": "Ricoh Arena",
-    "amountinusd": "£4,745,177",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G4),4) * D4 )/ vlookup(G4,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€8,630,622.66",
     "date": 2003,
     "type": "Stadium expansion",
     "stadium": "Ricoh Arena",
@@ -32,8 +29,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "HBG Holdings limited",
-    "amountinusd": "£4,800,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G5),4) * D5 )/ vlookup(G5,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€8,730,335.83",
     "date": 2003,
     "type": "Purchase of land",
     "stadium": "Ricoh Arena",
@@ -42,8 +38,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "Pinsents, 11KBW",
-    "amountinusd": "£900,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G6),4) * D6 )/ vlookup(G6,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€1,065,991.49",
     "date": 2013,
     "type": "Construction of the stadium",
     "stadium": "Ricoh Arena",
@@ -52,8 +47,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "ACL",
-    "amountinusd": "£41,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G7),4) * D7 )/ vlookup(G7,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€71,036.85",
     "date": 2006,
     "type": "Stadium maintenance",
     "stadium": "Ricoh Arena",
@@ -62,8 +56,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "Ricoh Arena",
-    "amountinusd": "£39,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G8),4) * D8 )/ vlookup(G8,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€65,793.81",
     "date": 2007,
     "type": "Stadium maintenance",
     "stadium": "Ricoh Arena",
@@ -72,8 +65,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "CNR",
-    "amountinusd": "£13,731",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G9),4) * D9 )/ vlookup(G9,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€19,252.87",
     "date": 2008,
     "type": "Stadium maintenance",
     "stadium": "Ricoh Arena",
@@ -82,8 +74,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "ACL",
-    "amountinusd": "£400,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G10),4) * D10 )/ vlookup(G10,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€693,042.44",
     "date": 2006,
     "type": "Construction of the stadium",
     "stadium": "Ricoh Arena",
@@ -92,8 +83,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "Tony Gee and\r\nPartners",
-    "amountinusd": "£1,880,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G11),4) * D11 )/ vlookup(G11,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€3,171,599.18",
     "date": 2007,
     "type": "Stadium expansion",
     "stadium": "Ricoh Arena",
@@ -102,8 +92,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "Ricoh Arena",
-    "amountinusd": "£13,600,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G12),4) * D12 )/ vlookup(G12,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€16,420,412.42",
     "date": 2011,
     "type": "Stadium expansion",
     "stadium": "Ricoh Arena",
@@ -112,8 +101,7 @@
   {
     "payer": "Coventry City Council",
     "beneficiary": "Ricoh Arena",
-    "amountinusd": "£2,947,000",
-    "amount": "=(INDEX(FILTER('Exchange rates'!C[-4]:C[-1],'Exchange rates'!C[-4]:C[-4]=G13),4) * D13 )/ vlookup(G13,deflator!C[-3]:C[-2],2,0)",
+    "amount": "€5,105,990.20",
     "date": 2006,
     "type": "Stadium expansion",
     "stadium": "Ricoh Arena",

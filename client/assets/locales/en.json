@@ -11,6 +11,8 @@
   "NAV_TERRITORIES_LABEL": "Territories",
   "NAV_PAGES_LABEL": "Pages",
   "CLUB_SEARCH_PLACEHOLDER": "Search a club by name...",
+  "CLUB_STADIUM_TITLE": "The stadium",
+  "CLUB_STADIUM_DESCRIPTION": "The club <strong>{club}</strong> is the resident club of the stadium <strong>{stadium}</strong>.<br />Discover the financial engineering behind this and what are the commitments from the public administrations involved.",
   "STADIUM_SEARCH_PLACEHOLDER": "Search a stadium by name...",
   "HOMEPAGE_DESCRIPTION": "What taxpayers give to professional football?",
   "HOMEPAGE_ADDR_TITLE": "Enter you address",

@@ -27,6 +27,18 @@
       h2(ng-if="page") {{ 'CLUB_KEY_POINT' | translate }}
       .lead(ng-if="page", ng-bind-html="page.body")        
       div(money-transfers="club.transfers")   
+      
+      .main__clubs__content__stadium(ng-repeat="stadium in :: club.stadiums | limitTo:1")
+        .main__clubs__content__stadium__actions
+          a.btn.btn-default(ui-sref="main.stadiums(stadium)")
+            i.fa.fa-bar-chart
+            span &nbsp;
+            | {{ 'SEE_MONEY_TRANSFERS' | translate }}
+        h2.main__clubs__content__stadium__title
+          | {{ 'CLUB_STADIUM_TITLE' | translate }}
+        p.main__clubs__content__stadium__description
+          span(ng-bind-html="'CLUB_STADIUM_DESCRIPTION' | translate:{club: club.nameclub, stadium: stadium.name}")
+      
         
       .chart-block(ng-repeat="payer in :: payers | orderBy:'level'")
         h2.chart-block__title
