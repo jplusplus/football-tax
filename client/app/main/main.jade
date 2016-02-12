@@ -40,15 +40,6 @@ ui-view.main
                   .panel-body
                     h3 {{ 'HOMEPAGE_CLUBS_TITLE' | translate }}
                     p {{ 'HOMEPAGE_CLUBS_DESCRIPTION' | translate }}
-                    p.main__homepage__panel__clubsearch
-                      ui-select(ng-model="selectedClub", on-select="selectClub($item.slug)")
-                        ui-select-match(placeholder="{{ 'CLUB_SEARCH_PLACEHOLDER' | translate }}") {{ $select.selected.nameclub }}
-                        ui-select-choices(repeat="club in clubs", 
-                                          refresh="clubLookup($select.search)",
-                                          refresh-delay="0")
-                          strong {{ club.nameclub }}
-                          br
-                          span {{ club.city }}
                     ul.list-unstyled.main__homepage__panel__clubs
                       li.main__homepage__panel__clubs__item
                         a(ui-sref="main.clubs({slug: 'fra-assaintetienne'})")
@@ -68,6 +59,15 @@ ui-view.main
                       li.main__homepage__panel__clubs__item
                         a(ui-sref="main.clubs({slug: 'fra-rcstrasbourg'})")
                           img(src="assets/images/fra-rcstrasbourg.png")
+                    p.main__homepage__panel__clubsearch
+                      ui-select(ng-model="selectedClub", on-select="selectClub($item.slug)")
+                        ui-select-match(placeholder="{{ 'CLUB_SEARCH_PLACEHOLDER' | translate }}") {{ $select.selected.nameclub }}
+                        ui-select-choices(repeat="club in clubs", 
+                                          refresh="clubLookup($select.search)",
+                                          refresh-delay="0")
+                          strong {{ club.nameclub }}
+                          br
+                          span {{ club.city }}
               
   .main__findings
     .container
