@@ -30,7 +30,7 @@
       
       .main__clubs__content__stadium(ng-repeat="stadium in :: club.stadiums | limitTo:1")
         .main__clubs__content__stadium__actions
-          a.btn.btn-default(ui-sref="main.stadiums(stadium)")
+          a.btn.btn-primary(ui-sref="main.stadiums(stadium)")
             i.fa.fa-bar-chart
             span &nbsp;
             | {{ 'SEE_MONEY_TRANSFERS' | translate }}
