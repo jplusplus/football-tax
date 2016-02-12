@@ -15,7 +15,7 @@ exports.index = function(req, res) {
 
 // Get a page by its slug
 exports.show = function(req, res) {
-  var page = pages.get({ slug: req.params.slug });
+  var page = pages.get({ slug: req.params.slug, type: (req.params.type || 'default') });
   // We found the page
   if(page) {
     // Return a slice of the collections

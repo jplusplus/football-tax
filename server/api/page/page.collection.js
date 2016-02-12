@@ -9,9 +9,9 @@ marked = require('marked');
 
 // Create an empty set collection
 var collection = new Set([],
-  // Uniqueness is obtain by comparing slug
+  // Uniqueness is obtain by comparing slug and type
   function (a, b) {
-    return a.slug === b.slug;
+    return a.slug === b.slug && a.type === b.type;
   },
   function (object) {
     return object.slug;
