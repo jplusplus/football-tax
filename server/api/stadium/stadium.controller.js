@@ -7,7 +7,8 @@ fuzzy = require('fuzzy');
 var response = require("../response"),
    paginator = require("../paginator");
 
-var stadiums = require('./stadium.collection');
+var stadiums = require('./stadium.collection'),
+       clubs = require('../club/club.collection');
 
 
 // Get list of stadiums
@@ -28,6 +29,8 @@ exports.show = function(req, res) {
     stadium = _.clone(stadium);
     // Gets stadium's transfers
     stadium.transfers = stadium.getTransfers();
+    // Gets full stadium's club
+    stadium.club = clubs.get({ slug: stadium.club });
     // Return a slice of the collections
     res.json(200, stadium);
   // We didn't...

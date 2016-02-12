@@ -1,3 +1,31 @@
 .main__stadiums {
   padding-bottom:30px;
+
+
+  &__content {
+
+    &__club {
+      background: mix(#ffd100, @body-bg);
+      color: contrast(#ffd100);
+
+      &__actions {
+        float:right;
+        padding:20px;
+      }
+
+      &__title, &__description {
+        padding:20px;
+      }
+
+      &__title {
+        padding-bottom:0;
+      }
+
+      &__description {
+        padding-top:10px;
+        .lead();
+      }
+    }
+  }
+
 }

@@ -14,6 +14,8 @@
   "CLUB_STADIUM_TITLE": "The stadium",
   "CLUB_STADIUM_DESCRIPTION": "The club <strong>{club}</strong> is the resident club of the stadium <strong>{stadium}</strong>.<br />Discover the financial engineering behind this and what are the commitments from the public administrations involved.",
   "STADIUM_SEARCH_PLACEHOLDER": "Search a stadium by name...",
+  "STADIUM_CLUB_TITLE":"The resident club",
+  "STADIUM_CLUB_DESCRIPTION": "The resident club of <strong>{stadium}</strong> is <strong>{club}</strong>. Discover what the taxpayers give to finance this club.",
   "HOMEPAGE_DESCRIPTION": "What taxpayers give to professional football?",
   "HOMEPAGE_ADDR_TITLE": "Enter you address",
   "HOMEPAGE_ADDR_DESCRIPTION": "Discover how European taxes are spend for supporting footbal clubs and stadiums around you.",
