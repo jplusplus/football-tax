@@ -1,7 +1,8 @@
 'use strict';
 
-var mongoose = require('mongoose'),
-      Schema = mongoose.Schema;
+var  slug = require('slug'),
+ mongoose = require('mongoose'),
+   Schema = mongoose.Schema;
 
 
 // Gets clubs collections to retreive money transfers
@@ -10,13 +11,14 @@ var _ = require('lodash')
 
 var TerritorySchema = new Schema({
   name: {
-    type: String
+    type: String,
+    required: true
   },
   slug: {
     type: String,
-    required: true,
-    unique: true,
-    index: true
+    allowNull: true,
+    defaultValue: null,
+    unique: true
   },
   country: {
     type: String
@@ -29,6 +31,16 @@ var TerritorySchema = new Schema({
     type: Number
   }
 });
+
+
+TerritorySchema.pre("save", function(next) {
+  // Build the slug automaticly if needed
+  if( typeof(this.slug) === 'undefined' || this.slug === null) {
+    this.slug = slug( this.country + '-' + this.name ).toLowerCase();
+  }
+  next();
+})
+
 
 // Mandatory to query geospacial data
 TerritorySchema.path('the_geom').index({ type: '2dsphere'});

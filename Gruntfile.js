@@ -41,6 +41,7 @@ module.exports = function (grunt) {
       // Money transfert sheet
       result[k + '-' + sheet] = {
         options: {
+          useCellTextValues: true,
           spreadsheetId: id,
           worksheetName: sheet
         },
@@ -152,7 +153,7 @@ module.exports = function (grunt) {
       },
       express: {
         files: [
-          'server/**/*.{js,json}'
+          'server/**/*.{js,json,.md}'
         ],
         tasks: ['express:dev', 'wait'],
         options: {
@@ -651,6 +652,10 @@ module.exports = function (grunt) {
             // Boolean value might be expressed with words
             rowdata[key] = rowdata[key] === 'yes' ? true  : rowdata[key];
             rowdata[key] = rowdata[key] === 'no'  ? false : rowdata[key];
+            // Exclude some keys
+            if( ['amountinusd', 'amountformula'].indexOf(key) > -1 ) {
+              delete rowdata[key];
+            }
           });
           return rowdata;
         }
@@ -678,7 +683,7 @@ module.exports = function (grunt) {
   grunt.registerTask('gss_to_md', function () {
     const BASE = 'en';
     const LOCALES_DIR = 'client/assets/locales';
-    const PAGE_DIR = 'server/pages';
+    const PAGE_DIR = 'server/pages/clubs';
     // Force task into async mode and grab a handle to the "done" function.
     let done = this.async();
 

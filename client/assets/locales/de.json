@@ -47,5 +47,13 @@
   "SPENDING_TERR_FOR_CLUB_OUTRO": "Falls Sie weitere Hinweise und Informationen für uns haben, schicken Sie uns bitte eine Email an contact@footballtax.com",
   "TERRITORY_MOST_SPENDING": "Gebiet mit den größten Ausgaben: {territory}",
   "SPENDING_FROM_TERRITORY": "Ausgaben per {territory}",
-  "SPENDINGS_BY_YEAR": "Ausgaben per Jahr"
+  "SPENDINGS_BY_YEAR": "Ausgaben per Jahr",
+  "CLUB_STADIUM_TITLE": "The stadium",
+  "CLUB_STADIUM_DESCRIPTION": "The club <strong>{club}</strong> is the resident club of the stadium <strong>{stadium}</strong>.<br />Discover the financial engineering behind this and what are the commitments from the public administrations involved.",
+  "STADIUM_CLUB_TITLE": "The resident club",
+  "STADIUM_CLUB_DESCRIPTION": "The resident club of <strong>{stadium}</strong> is <strong>{club}</strong>. Discover what the taxpayers give to finance this club.",
+  "HOMEPAGE_STADIUMS_TITLE": "Select a stadium",
+  "HOMEPAGE_STADIUMS_DESCRIPTION": "Discover the financial engineering behind the stadiums and what are the commitments from the public administrations.",
+  "CLUB_KEY_POINT": "The key point for this club",
+  "STADIUM_KEY_POINT": "The key point for this stadium"
 }

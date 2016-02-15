@@ -1,0 +1,21 @@
+[
+  {
+    "country": "GBR",
+    "city": "Coventry",
+    "name": "Ricoh Arena",
+    "residentclub": "Coventry City Football Club",
+    "tenants": "GBR",
+    "brandedname": "Ricoh Arena",
+    "type": "Ricoh Arena",
+    "location": "Ricoh Arena, Phoenix Way, Foleshill, Coventry, CV6 6GE",
+    "capacity": "32,609",
+    "owner": "Wasps Holdings Limited (company owning rugby clubs)",
+    "operator": "Arena Coventry Limited",
+    "shareofuse": "Coventry City FC - rent on matchdays",
+    "website": "http://www.ricoharena.com/",
+    "constructioncostineuros": 138425800,
+    "publicprivatepartnership": true,
+    "privatecompanyinvolvedintheppp": "Arena Coventry Limited",
+    "sources": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/91905/ERDF_West_Midlands_celebrating_success_2000_to_2006_ERDF_programme.pdf"
+  }
+]
