@@ -29,7 +29,7 @@
             li.list-group-item(ng-repeat="territory in territories | orderBy:'level'")
               .main__territories__search__content__list__details
                 a.btn.btn-primary(ui-sref="main.territories.details({ slug: territory.slug })")
-                  | {{ 'SEE_SUBSIDIES_TERRITORY' | translate }}
+                  | {{ 'SEE_SUBSIDIES_TERRITORY' | translate:{ territory:territory.name } }}
               h4.list-group-item-heading
                 a(ui-sref="main.territories.details({ slug: territory.slug })")
                   | {{ territory.name }}
@@ -40,7 +40,7 @@
             li.list-group-item(ng-repeat="stadium in stadiums | orderBy:'level'")
               .main__territories__search__content__list__details
                 a.btn.btn-primary(ui-sref="main.stadiums({ slug: stadium.slug  })")
-                  | {{ 'SEE_SUBSIDIES_STADIUM' | translate }}
+                  | {{ 'SEE_SUBSIDIES_STADIUM' | translate:{ stadium:stadium.name } }}
               h4.list-group-item-heading              
                 a(ui-sref="main.stadiums({ slug: stadium.slug  })")
                   | {{ stadium.name }}

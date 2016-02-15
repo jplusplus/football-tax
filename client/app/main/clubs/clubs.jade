@@ -48,8 +48,7 @@
         .chart-block__headline
           a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
             i.fa.fa-bar-chart
-            span &nbsp;
-            | {{ 'SEE_MONEY_TRANSFERS' | translate }}
+            span {{ 'SEE_MONEY_TRANSFERS' | translate:{ payer:payer.name } }}
           h3.chart-block__headline__title {{ payer.name }}
           .chart-block__headline__content
             p(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate: territoryFigures(payer.name, payer.transfers)")
