@@ -53,7 +53,7 @@ Territory.find({}).remove(function() {
   {
     name : 'Conventry City Council',
     country: 'GBR',
-    slug: 'fra-coventry-city-council',
+    slug: 'gbr-coventry-city-council',
     level: 0.1,
     the_geom: smartGeojson('./coventry.json')
   },
