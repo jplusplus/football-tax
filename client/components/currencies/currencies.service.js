@@ -7,11 +7,11 @@ angular.module('footballTaxApp')
 
     Currencies.prototype.figuresFormat = function(d) {
       if(d >= 1e9) {
-        return Math.round(d/1e9) + $translate.instant('BILLION_FIGURE');
+        return $translate.instant('CURRENCY_ENG')+Math.round(d/1e9) + $translate.instant('BILLION_FIGURE');
       } else if(d >= 1e6) {
-        return Math.round(d/1e6) + $translate.instant('MILLION_FIGURE');
+        return $translate.instant('CURRENCY_ENG')+Math.round(d/1e6) + $translate.instant('MILLION_FIGURE');
       } else if(d >= 1e3) {
-        return Math.round(d/1e3) + $translate.instant('THOUSAND_FIGURE');
+        return $translate.instant('CURRENCY_ENG')+Math.round(d/1e3) + $translate.instant('THOUSAND_FIGURE');
       } else {
         return d;
       }

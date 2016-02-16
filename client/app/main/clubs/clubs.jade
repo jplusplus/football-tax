@@ -33,7 +33,7 @@
           a.btn.btn-primary(ui-sref="main.stadiums(stadium)")
             i.fa.fa-bar-chart
             span &nbsp;
-            | {{ 'SEE_MONEY_TRANSFERS' | translate }}
+            | {{ 'SEE_SUBSIDIES_STADIUM' | translate:{ stadium:stadium.name } }}
         h2.main__clubs__content__stadium__title
           | {{ 'CLUB_STADIUM_TITLE' | translate }}
         p.main__clubs__content__stadium__description
@@ -48,10 +48,10 @@
         .chart-block__headline
           a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
             i.fa.fa-bar-chart
-            span {{ 'SEE_MONEY_TRANSFERS' | translate:{ payer:payer.name } }}
+            span {{ 'SEE_SUBSIDIES_TERRITORY' | translate:{ payer:payer.name } }}
           h3.chart-block__headline__title {{ payer.name }}
           .chart-block__headline__content
-            p(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate: territoryFigures(payer.name, payer.transfers)")
-            ul.small
-              li(ng-repeat="year in ::missingYears(payer.transfers)") {{ year }}
+            span(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate:territoryFigures(payer.name, payer.transfers)")
+            span(ng-repeat="year in ::missingYears(payer.transfers)") {{ year }} -
+
             p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate")

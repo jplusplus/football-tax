@@ -48,7 +48,7 @@ angular.module('footballTaxApp')
       let largestTransfer =_.max(transfers, 'value');
 
       return {
-        territory: name,
+        territory: territory,
         amount: $filter('currencies')(largestPayment.value),
         club: club.nameclub,
         years_number: $scope.missingYears(transfers).length,
