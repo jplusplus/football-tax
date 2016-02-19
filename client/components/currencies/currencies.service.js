@@ -17,6 +17,17 @@ angular.module('footballTaxApp')
       }
     };
 
+
+
+    Currencies.prototype.millions = function(d) {
+      if(d >= 1e6) {
+        return Math.round(d/1e6)
+      } else {
+        return Math.round(d/1e4)/1e2
+      }
+    }
+
+
     Currencies.prototype.fromStr = function(d) {
       return isNaN(d) ? (d+"").replace(/€|,|\s/gi, '') * 1 : d;
     };
