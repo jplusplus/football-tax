@@ -40,11 +40,11 @@
           span(ng-bind-html="'STADIUM_CLUB_DESCRIPTION' | translate:{club: stadium.club.nameclub, stadium: stadium.name}")
       
       .chart-block
-        h2.chart-block__title {{ 'SPENDING_FOR_STADIUM_EACH_YEAR' | translate }}
+        h2.chart-block__title {{ 'SPENDING_BY_YEAR_FOR_STADIUM' | translate }}
         .chart-block__chart(transfers-by-year="stadium.transfers", years="years") 
         .chart-block__headline 
           h3.chart-block__headline__title {{ 'YEAR_MOST_SPENDING' | translate:{year: yearMostSpeding.name} }}
-          p.chart-block__headline__content {{ 'ABOUT_CONTENT' | translate }}
+          p.chart-block__headline__content {{ 'SPENDING_BY_YEAR_FOR_STADIUM_DESC' | translate }}
         
       .chart-block
         h2.chart-block__title {{ 'SPENDING_BY_TERRITORY_FOR_STADIUM' | translate }}

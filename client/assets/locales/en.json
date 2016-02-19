@@ -59,5 +59,8 @@
   "MOENY_TRANSFERS_TITLE": "Who give to whom?",
   "MOENY_TRANSFERS_DESCRIPTION": "A medium description that explains how a sankey diagram can be read.",
   "CLUB_PAYERS_TITLE": "They support this club",
-  "CLUB_PAYERS_DESCRIPTION": "A medium description that explains how those tiny bars display the amount spend for the club."
+  "SPENDING_BY_YEAR_FOR_STADIUM":"Public money spent for the stadium (per year)",
+  "SPENDING_BY_TERRITORY_FOR_STADIUM":"Public money spent for the stadium (per territory)",
+  "CLUB_PAYERS_DESCRIPTION": "A medium description that explains how those tiny bars display the amount spend for the club.",
+  "SPENDING_BY_YEAR_FOR_STADIUM_DESC":"Nos enquêteurs ont retrouvé la trace d'environ <amount> d'argent public dépensé pour le stade. L'année <year> a été l'année avec le plus onéreuse pour le stade avec des dépenses de <spending_stadium_list>."
 }

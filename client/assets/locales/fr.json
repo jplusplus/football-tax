@@ -26,7 +26,8 @@
   "ADMIN_TERRITORIES": "Territoires administratifs",
   "STADIUMS": "Stades",
   "SEARCH_BTN": "Rechercher",
-  "SEE_SUBSIDIES_TERRITORY": "Accéder à la page {payer}",
+  "SEE_SUBSIDIES_PAYER": "Accéder à la page {payer}",
+  "SEE_SUBSIDIES_TERRITORY": "Accéder à la page {territory}",
   "SEE_SUBSIDIES_STADIUM": "Accéder à la page {stadium}",
   "AMOUNT_SPENT": "{value} dépensés",
   "BILLION_FIGURE": "Mrd EUR",
@@ -56,5 +57,8 @@
   "STADIUM_CLUB_DESCRIPTION": "The resident club of <strong>{stadium}</strong> is <strong>{club}</strong>. Discover what the taxpayers give to finance this club.",
   "HOMEPAGE_STADIUMS_TITLE": "Selectionnez un stade",
   "HOMEPAGE_STADIUMS_DESCRIPTION": "Discover the financial engineering behind the stadiums and what are the commitments from the public administrations.",
-  "STADIUM_KEY_POINT": "Que retenir pour ce stade ?"
+  "STADIUM_KEY_POINT": "Que retenir pour ce stade ?",
+  "SPENDING_BY_TERRITORY_FOR_STADIUM":"Argent public dépensé pour le stade (par territoire)",
+  "SPENDING_BY_YEAR_FOR_STADIUM":"Argent public dépensé pour le stade (par année)",
+  "SPENDING_BY_YEAR_FOR_STADIUM_DESC":"Nos enquêteurs ont retrouvé la trace d'environ <amount> d'argent public dépensé pour le stade. L'année <year> a été l'année avec le plus onéreuse pour le stade avec des dépenses de <spending_stadium_list>."
 }
