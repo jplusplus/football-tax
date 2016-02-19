@@ -52,6 +52,8 @@
           h3.chart-block__headline__title {{ payer.name }}
           .chart-block__headline__content
             span(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate:territoryFigures(payer.name, payer.transfers)")
-            span(ng-repeat="year in ::missingYears(payer.transfers)") {{ year }} -
+            | &nbsp;{{ :: missingYears(payer.transfers).splice(0,5).join(', ') }}
+            span(ng-show=":: missingYears(payer.transfers).length > 5") , (...)
+            | .
 
             p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate")
