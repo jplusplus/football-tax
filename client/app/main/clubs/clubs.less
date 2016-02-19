@@ -17,28 +17,21 @@
 
   &__content {
 
-    &__stadium {
-      border:1px solid #001F2E;
-      color: #001F2E;
-
-      &__actions {
-        float:right;
-        padding:20px;
-      }
-
-      &__title, &__description {
-        padding:20px;
-      }
-
-      &__title {
-        padding-bottom:0;
-      }
-
-      &__description {
-        padding-top:10px;
-        .lead();
+    h2 {
+      &:before {
+        content:"# ";
+        color:@brand-secondary;
       }
     }
+
+    &__payers {
+      margin-top:20px;
+
+      &__description, &__chart {
+        padding-top:20px;
+      }
+    }
+    
   }
 
 }

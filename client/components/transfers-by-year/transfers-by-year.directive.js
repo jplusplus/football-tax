@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("transfersByYear", function($window, currencies, compute) {
+  .directive("transfersByYear", function($window, $timeout, currencies, compute) {
     return {
       restrict: 'AE',
       template: '<svg class="transfers-by-year"></svg>',
@@ -109,12 +109,13 @@ angular.module('footballTaxApp')
           var color = ()=> "#086FA1";
         }
 
+        var findWidth = (el)=> el.width() || findWidth(el.parent())
         var init = ()=> {
           // Some setup stuff.
           const padding = { left: 20, right: 20, top: 20, bottom: 60 };
-          const width = element.width();
-          const height = 350;
-          const mobileWidth = 720;
+          const width = findWidth(element);
+          const height = Math.max(350, width/3);
+          const mobileWidth = 880;
           const barSpace = width - padding.left - padding.right;
           const stackWidth = Math.min(barSpace / scope.years.length, 350);
           const barGap = stackWidth * (1/3);
@@ -268,7 +269,7 @@ angular.module('footballTaxApp')
           }
         };
 
-        init();
+        $timeout(init, 300);
         angular.element($window).bind("resize", init);
       }
     };

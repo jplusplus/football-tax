@@ -21,11 +21,11 @@
       ul.nav.navbar-nav.navbar-right  
         li(ui-sref-active="active")
           a(ui-sref='pages({ slug: "about" })') {{ 'NAV_ABOUT_LABEL' | translate }}    
-        li.dropdown
-          a.dropdown-toggle 
+        li(uib-dropdown)
+          a(uib-dropdown-toggle)
             | {{ 'NAV_LANGUAGE_LABEL' | translate }}
             span.caret
-          ul.dropdown-menu
+          ul(uib-dropdown-menu)
             li(ng-class="{ active: use() === 'en' }")
               a(ng-click="use('en')") English
             li(ng-class="{ active: use() === 'fr' }")

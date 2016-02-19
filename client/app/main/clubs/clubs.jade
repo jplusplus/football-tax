@@ -25,35 +25,46 @@
   .main__clubs__content.main__content
     .container
       h2(ng-if="page && page.body") {{ 'CLUB_KEY_POINT' | translate }}
-      .lead(ng-if="page && page.body", ng-bind-html="page.body")        
+      .lead(ng-if="page && page.body", ng-bind-html="page.body")   
+      
+      h2 {{ 'MOENY_TRANSFERS_TITLE' | translate }}
+      p.lead  {{ 'MOENY_TRANSFERS_DESCRIPTION' | translate }}
+      
       div(money-transfers="club.transfers")   
       
-      .main__clubs__content__stadium(ng-repeat="stadium in :: club.stadiums | limitTo:1")
-        .main__clubs__content__stadium__actions
+      div(ng-repeat="stadium in :: club.stadiums | limitTo:1")
+        h2 {{ 'CLUB_STADIUM_TITLE' | translate }}
+        p.lead(ng-bind-html="'CLUB_STADIUM_DESCRIPTION' | translate:{club: club.nameclub, stadium: stadium.name}")
+        .text-right
           a.btn.btn-primary(ui-sref="main.stadiums(stadium)")
             i.fa.fa-bar-chart
             span &nbsp;
             | {{ 'SEE_SUBSIDIES_STADIUM' | translate:{ stadium:stadium.name } }}
-        h2.main__clubs__content__stadium__title
-          | {{ 'CLUB_STADIUM_TITLE' | translate }}
-        p.main__clubs__content__stadium__description
-          span(ng-bind-html="'CLUB_STADIUM_DESCRIPTION' | translate:{club: club.nameclub, stadium: stadium.name}")
       
+            
+      h2 {{ 'CLUB_PAYERS_TITLE' | translate }}
+      p.lead {{ 'CLUB_PAYERS_DESCRIPTION' | translate }}
+      
+      uib-tabset.main__clubs__content__payers
+        uib-tab(ng-repeat="payer in :: payers | orderBy:'level'", heading="{{ payer.name }}", active="payer.active")              
+          .row
+            .col-xs-4.col-xs-push-8.main__clubs__content__payers__description              
+              p
+                span(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate:territoryFigures(payer.name, payer.transfers)")
+                | &nbsp;{{ :: missingYears(payer.transfers).splice(0,5).join(', ') }}
+                span(ng-show=":: missingYears(payer.transfers).length > 5") , [...]
+                | .
+              p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate")
+            
+              a.btn.btn-primary(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
+                i.fa.fa-bar-chart
+                =" "
+                span {{ 'SEE_SUBSIDIES_TERRITORY' | translate:{ payer:payer.name } }}
+                  
+            .col-xs-8.col-xs-pull-4.main__clubs__content__payers__chart
+              .chart-block
+                h3.chart-block__title
+                  a(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })", 
+                    ng-bind-html="'SPENDING_FROM_TERRITORY' | translate:{ territory: payer.name }")
+                .chart-block__chart(transfers-by-year="payer.transfers", years="years", subgroup="'beneficiary'", ng-if="payer.active") 
         
-      .chart-block(ng-repeat="payer in :: payers | orderBy:'level'")
-        h2.chart-block__title
-          a(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })", 
-            ng-bind-html="'SPENDING_FROM_TERRITORY' | translate:{ territory: payer.name }")
-        .chart-block__chart(transfers-by-year="payer.transfers", years="years", subgroup="'beneficiary'") 
-        .chart-block__headline
-          a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
-            i.fa.fa-bar-chart
-            span {{ 'SEE_SUBSIDIES_TERRITORY' | translate:{ payer:payer.name } }}
-          h3.chart-block__headline__title {{ payer.name }}
-          .chart-block__headline__content
-            span(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate:territoryFigures(payer.name, payer.transfers)")
-            | &nbsp;{{ :: missingYears(payer.transfers).splice(0,5).join(', ') }}
-            span(ng-show=":: missingYears(payer.transfers).length > 5") , (...)
-            | .
-
-            p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate")
