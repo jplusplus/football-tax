@@ -59,5 +59,13 @@
   "MOENY_TRANSFERS_TITLE": "Who give to whom?",
   "MOENY_TRANSFERS_DESCRIPTION": "A medium description that explains how a sankey diagram can be read.",
   "CLUB_PAYERS_TITLE": "They support this club",
-  "CLUB_PAYERS_DESCRIPTION": "A medium description that explains how those tiny bars display the amount spend for the club."
+  "CLUB_PAYERS_DESCRIPTION": "A medium description that explains how those tiny bars display the amount spend for the club.",
+  "STADIUM_YEARS_TITLE": "When did this stadium received the most?",
+  "STADIUM_YEARS_DESCRIPTION": "A medium description that explains how this diagram can be read.",
+  "STADIUM_TERRITORIES_TITLE": "Who give the most for this stadium?",
+  "STADIUM_TERRITORIES_DESCRIPTION": "A medium description that explains how this diagram can be read.",
+  "TERRITORY_YEARS_TITLE": "When did this territory received the most?",
+  "TERRITORY_YEARS_DESCRIPTION": "A medium description that explains how this diagram can be read.",
+  "TERRITORY_BENEFICIARY_TITLE": "Who received the most from this territory?",
+  "TERRITORY_BENEFICIARY_DESCRIPTION": "A medium description that explains how this diagram can be read."
 }
