@@ -22,7 +22,7 @@
   {
     "paymentid": 9,
     "payer": "Communauté Urbaine de Strasbourg (CUS)",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€95,000",
     "date": 2014,
     "type": "Purchase of benefits",
@@ -53,7 +53,7 @@
   {
     "paymentid": 15,
     "payer": "Communauté Urbaine de Strasbourg (CUS)",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€83,600",
     "date": 2013,
     "type": "Purchase of benefits",
@@ -73,7 +73,7 @@
   {
     "paymentid": 19,
     "payer": "Communauté Urbaine de Strasbourg (CUS)",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€135,000",
     "date": 2008,
     "type": "Purchase of service benefits",
@@ -176,7 +176,7 @@
   {
     "paymentid": 46,
     "payer": "Communauté Urbaine de Strasbourg (CUS)",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€50,000",
     "date": 2012,
     "type": "Purchase of service benefits",
@@ -196,7 +196,7 @@
   {
     "paymentid": 48,
     "payer": "Communauté Urbaine de Strasbourg (CUS)",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€150,000",
     "date": 2013,
     "type": "Purchase of service benefits",
@@ -206,7 +206,7 @@
   {
     "paymentid": 28,
     "payer": "Conseil départemental du Bas-Rhin",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€57,600",
     "date": 2014,
     "type": "Subsidy",
@@ -226,7 +226,7 @@
   {
     "paymentid": 42,
     "payer": "Conseil départemental du Bas-Rhin",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€30,000",
     "date": 2012,
     "type": "Subsidy",
@@ -235,7 +235,7 @@
   {
     "paymentid": 43,
     "payer": "Conseil départemental du Bas-Rhin",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€28,800",
     "date": 2015,
     "type": "Subsidy",
@@ -244,7 +244,7 @@
   {
     "paymentid": 27,
     "payer": "Conseil régional d'Alsace-Champagne-Ardenne-Lorraine",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€200,000",
     "date": 2014,
     "type": "Purchase of communication benefits",
@@ -264,7 +264,7 @@
   {
     "paymentid": 34,
     "payer": "Conseil régional d'Alsace-Champagne-Ardenne-Lorraine",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€200,000",
     "date": 2012,
     "type": "Purchase of communication benefits",
@@ -273,7 +273,7 @@
   {
     "paymentid": 35,
     "payer": "Conseil régional d'Alsace-Champagne-Ardenne-Lorraine",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€200,000",
     "date": 2013,
     "type": "Purchase of communication benefits",
@@ -427,7 +427,7 @@
   {
     "paymentid": 16,
     "payer": "Ville de Strasbourg",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€169,806",
     "date": 2013,
     "type": "Purchase of communication benefits",
@@ -437,7 +437,7 @@
   {
     "paymentid": 17,
     "payer": "Ville de Strasbourg",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€350,000",
     "date": 2013,
     "type": "Subsidy",
@@ -447,7 +447,7 @@
   {
     "paymentid": 20,
     "payer": "Ville de Strasbourg",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€171,500",
     "includedin": 29,
     "date": 2014,
@@ -458,7 +458,7 @@
   {
     "paymentid": 21,
     "payer": "Ville de Strasbourg",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€166,925",
     "date": 2015,
     "type": "Purchase of communication benefits",
@@ -468,7 +468,7 @@
   {
     "paymentid": 29,
     "payer": "Ville de Strasbourg",
-    "beneficiary": "SAS Racing Club de Strasbourg",
+    "beneficiary": "SASP Racing Club de Strasbourg",
     "amount": "€545,000",
     "date": 2014,
     "type": "Purchase of communication benefits",
