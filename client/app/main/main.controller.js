@@ -10,6 +10,18 @@ angular.module('footballTaxApp')
     $scope.addrLookup = function(q) {
       $state.go('main.territories.search', { q: q });
     };
+    // Looks for a club and a stadium
+    $scope.polymorphicLookup = function(q) {
+      if(!q) {
+        $scope.items = []
+        return;
+      }
+      Restangular.one('polymorphics')
+        .getList('search', { q: q })
+        .then(function(items) {
+          $scope.items = items;
+        });
+    };
     // Looks for a club
     $scope.clubLookup = function(q) {
       if(!q) {
@@ -41,5 +53,16 @@ angular.module('footballTaxApp')
     // A stadium is Selected
     $scope.selectStadium = function(slug) {
       $state.go("main.stadiums", { slug: slug });
+    };
+    // A polymorphyc is Selected
+    $scope.selectPolymorphic = function(item) {
+      switch(item.domain) {
+        case 'stadium':
+          $state.go("main.stadiums", { slug: item.properties.slug });
+          break;
+        case 'club':
+          $state.go("main.clubs", { slug: item.properties.slug });
+          break
+      }
     };
   });

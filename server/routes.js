@@ -14,6 +14,7 @@ module.exports = function(app) {
   app.use('/api/clubs', require('./api/club'));
   app.use('/api/stadiums', require('./api/stadium'));
   app.use('/api/pages', require('./api/page'));
+  app.use('/api/polymorphics', require('./api/polymorphic'));
 
   // All undefined asset or api routes should return a 404
   app.route('/:url(api|components|app|bower_components|assets)/*')
