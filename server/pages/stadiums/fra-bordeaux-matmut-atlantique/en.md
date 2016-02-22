@@ -1,0 +1,2 @@
+With Euro2016 coming, Bordeaux, in partnership with a private company built a €183m-stadium. The combined cost of construction, maintenance, and operation is over €219m-- all from the local budget. Plus, according to the contract, the city of Bordeaux is the guarantor for the loans contracted by the private company.
+It is not suprising, than, that the mayor of Bordeaux seems to mix cost accounting and crystal ball gazing, as he has declared that all future cost calculations can only provide "fanciful figures".
