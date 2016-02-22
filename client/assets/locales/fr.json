@@ -60,5 +60,6 @@
   "STADIUM_KEY_POINT": "Que retenir pour ce stade ?",
   "SPENDING_BY_TERRITORY_FOR_STADIUM":"Argent public dépensé pour le stade (par territoire)",
   "SPENDING_BY_YEAR_FOR_STADIUM":"Argent public dépensé pour le stade (par année)",
-  "SPENDING_BY_YEAR_FOR_STADIUM_DESC":"Nos enquêteurs ont retrouvé la trace d'environ <amount> d'argent public dépensé pour le stade. L'année <year> a été l'année avec le plus onéreuse pour le stade avec des dépenses de <spending_stadium_list>."
+  "SPENDING_BY_YEAR_FOR_STADIUM_DESC":"Nos enquêteurs ont retrouvé la trace d'environ <amount> d'argent public dépensé pour le stade. L'année <year> a été l'année avec le plus onéreuse pour le stade avec des dépenses de <spending_stadium_list>.",
+  "SEE_DETAILS": "Voir en détails"
 }

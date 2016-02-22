@@ -27,6 +27,14 @@
       h2(ng-if="page && page.body") {{ 'CLUB_KEY_POINT' | translate }}
       .lead(ng-if="page && page.body", ng-bind-html="page.body")   
       
+      h2 {{ 'DOWNLOAD_TITLE' | translate }}
+      p.lead  {{ 'DOWNLOAD_DESCRIPTION' | translate }}
+      .text-right
+        a.btn.btn-primary()
+        i.fa.fa-download
+          span &nbsp;
+          | {{ 'DOWNLOAD_BTN' | translate:{ stadium:stadium.name } }}
+      
       h2 {{ 'MOENY_TRANSFERS_TITLE' | translate }}
       p.lead  {{ 'MOENY_TRANSFERS_DESCRIPTION' | translate }}
       
@@ -57,11 +65,12 @@
                     span(ng-show=":: missingYears(payer.transfers).length > 5") , [...]
                     | .
                   p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate")
-              
-                  a.btn.btn-primary(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
-                    i.fa.fa-bar-chart
-                    =" "
-                    span {{ 'SEE_SUBSIDIES_PAYER' | translate:{ payer:payer.name } }}
+                  
+                  .text-right
+                    a.btn.btn-primary(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
+                      i.fa.fa-bar-chart
+                      =" "
+                      span {{ 'SEE_DETAILS' | translate:{ payer:payer.name } }}
                       
               .col-xs-8.col-xs-pull-4
                 .main__clubs__content__payers__pane__chart
