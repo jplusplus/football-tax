@@ -43,7 +43,7 @@ exports.search = function(req, res) {
     return slug(properties.name + ' ' + properties.city)
   });
   // Merge results
-  var filtered = _.sortBy( _.merge(filteredClubs, filteredStadiums), 'match');
+  var filtered = _.sortBy( filteredClubs.concat(filteredStadiums), 'match');
   // Return a slice of the collections
   res.json(200, filtered.slice(params.offset, params.offset + params.limit) );
 };
