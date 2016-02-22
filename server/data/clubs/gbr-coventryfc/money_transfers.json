@@ -18,7 +18,7 @@
     "source": "Sky Blue Trust- Ricoh arena timeline p7"
   },
   {
-    "payer": "European Regional Development Fund",
+    "payer": "Coventry City Council",
     "beneficiary": "Ricoh Arena",
     "amount": "€8,630,622.66",
     "date": 2003,
@@ -27,13 +27,21 @@
     "source": "FOI November 2013, p1, FOI August 2013_2 p1"
   },
   {
-    "payer": "Coventry City Council",
+    "payer": "European Regional Development Fund",
     "beneficiary": "HBG Holdings limited",
     "amount": "€8,730,335.83",
     "date": 2003,
     "type": "Purchase of land",
     "stadium": "Ricoh Arena",
     "source": "FOI November 2013, p1"
+  },
+  {
+    "payer": "European Regional Development Fund",
+    "beneficiary": "Ricoh Arena",
+    "date": 2003,
+    "type": "Stadium expansion",
+    "stadium": "Ricoh Arena",
+    "source": "FOI 2016 p2"
   },
   {
     "payer": "Coventry City Council",
