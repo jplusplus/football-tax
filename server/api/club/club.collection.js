@@ -33,7 +33,9 @@ for(var name of clubs) {
     continue
   }
   // Add the slug to this object
-  club.slug = name
+  club.slug = name;
+  // Club Google Spreadsheet
+  club.gss = require('../../config/clubs.json')[name];
   // Add every money transfers to this club
   club.getTransfers = (club=>{
     let transfers = require('../../data/clubs/' + club.slug + '/money_transfers.json');
