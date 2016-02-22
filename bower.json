@@ -22,10 +22,14 @@
     "d3": "3.5.9",
     "d3-sankey": "https://raw.githubusercontent.com/soxofaan/d3-plugin-captain-sankey/master/sankey.js",
     "angular-translate-interpolation-messageformat": "2.8.1",
-    "slug": "0.9.1"
+    "slug": "0.9.1",
+    "angular-truncate": "*"
   },
   "devDependencies": {
     "angular-mocks": ">=1.4.*",
     "angular-scenario": ">=1.4.*"
+  },
+  "resolutions": {
+    "angular": "1.4.7"
   }
 }

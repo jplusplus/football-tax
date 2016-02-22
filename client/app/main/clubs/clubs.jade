@@ -46,7 +46,7 @@
       p.lead {{ 'CLUB_PAYERS_DESCRIPTION' | translate }}
       
       uib-tabset.main__clubs__content__payers
-        uib-tab(ng-repeat="payer in :: payers | orderBy:'level'", heading="{{ payer.name }}", active="payer.active")              
+        uib-tab(ng-repeat="payer in :: payers | orderBy:'level'", heading="{{ payer.name  | characters:25 }}", active="payer.active")              
           .main__clubs__content__payers__pane
             .row
               .col-xs-4.col-xs-push-8
