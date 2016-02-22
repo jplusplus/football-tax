@@ -9,4 +9,5 @@ angular.module('footballTaxApp', [
   'ui.select',
   'pascalprecht.translate',
   'restangular',
+  'truncate',
 ]);
