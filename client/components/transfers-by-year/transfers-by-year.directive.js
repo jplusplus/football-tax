@@ -185,7 +185,7 @@ angular.module('footballTaxApp')
                     "dy": "1.15em",
                     "x": barWidth/2
                   })
-                  .text(d => currencies.figuresFormat(d.total));
+                  .text(d => currencies.millions(d.total));
 
           var xlabels = svg.append("g")
                   .attr("class", "xlabels")

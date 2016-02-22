@@ -24,8 +24,12 @@
       .lead
         p(ng-bind-html="'INTRO_TERRITORY' | translate:{ starting_year: years[0], ending_year: years[ years.length - 1], total_amount: (total | currencies), territory: territory.name }")
       
+        
+      h2 {{ 'TERRITORY_YEARS_TITLE' | translate }}
+      p.lead {{ 'TERRITORY_YEARS_DESCRIPTION' | translate }}
+      
       .chart-block
-        h2.chart-block__title {{ 'SPENDINGS_BY_YEAR'| translate }}
+        h3.chart-block__title {{ 'SPENDINGS_BY_YEAR'| translate }}
         .chart-block__chart(transfers-by-year="transfers", years="years")  
         .chart-block__headline
           h3.chart-block__headline__title {{ 'YEAR_MOST_SPENDING' | translate:{ year: yearMostSpending.name } }}
@@ -36,9 +40,12 @@
               li(ng-repeat="transfer in ::yearMostSpending.transfers")
                 span(ng-bind-html=" 'YEAR_MOST_SPENDING_LIST_ITEM' | translate:{ amount: (transfer.value | currencies), beneficiary: transfer.beneficiary}")                
             p(ng-bind-html="'YEAR_MOST_SPENDING_OUTRO'| translate:{ total_amount_year: (yearMostSpending.total | currencies), territory: territory.name }")
-          
+            
+      h2 {{ 'TERRITORY_BENEFICIARY_TITLE' | translate }}
+      p.lead {{ 'TERRITORY_BENEFICIARY_DESCRIPTION' | translate }}
+      
       .chart-block
-        h2.chart-block__title {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}        
+        h3.chart-block__title {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}        
         .chart-block__chart(transfers-by-category="transfers", category="'beneficiary'")  
         .chart-block__headline
           a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.clubs({ slug: beneficiaryMostSpending.club.slug })")

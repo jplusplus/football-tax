@@ -25,29 +25,35 @@
               
   .main__stadiums__content.main__content
     .container
+    
       h2(ng-if="page && page.body") {{ 'STADIUM_KEY_POINT' | translate }}
-      .lead(ng-if="page && page.body", ng-bind-html="page.body")      
+      .lead(ng-if="page && page.body", ng-bind-html="page.body")
         
       .main__stadiums__content__club(ng-show="stadium.club")
-        .main__stadiums__content__club__actions
+        h2.main__stadiums__content__club__title {{ 'STADIUM_CLUB_TITLE' | translate }}
+        .main__stadiums__content__club__description.lead
+          p(ng-bind-html="'STADIUM_CLUB_DESCRIPTION' | translate:{club: stadium.club.nameclub, stadium: stadium.name}")
+        .text-right
           a.btn.btn-primary(ui-sref="main.clubs(stadium.club)")
             i.fa.fa-bar-chart
             span &nbsp;
             | {{ 'SEE_MONEY_TRANSFERS' | translate }}
-        h2.main__stadiums__content__club__title
-          |  {{ 'STADIUM_CLUB_TITLE' | translate }}
-        p.main__stadiums__content__club__description
-          span(ng-bind-html="'STADIUM_CLUB_DESCRIPTION' | translate:{club: stadium.club.nameclub, stadium: stadium.name}")
+      
+      
+      h2 {{ 'STADIUM_YEARS_TITLE' | translate }}
+      p.lead {{ 'STADIUM_YEARS_DESCRIPTION' | translate }}
       
       .chart-block
-        h2.chart-block__title {{ 'SPENDING_BY_YEAR_FOR_STADIUM' | translate }}
+        h3.chart-block__title {{ 'SPENDING_BY_YEAR_FOR_STADIUM' | translate }}
         .chart-block__chart(transfers-by-year="stadium.transfers", years="years") 
         .chart-block__headline 
           h3.chart-block__headline__title {{ 'YEAR_MOST_SPENDING' | translate:{year: yearMostSpeding.name} }}
           p.chart-block__headline__content {{ 'SPENDING_BY_YEAR_FOR_STADIUM_DESC' | translate }}
-        
-      .chart-block
-        h2.chart-block__title {{ 'SPENDING_BY_TERRITORY_FOR_STADIUM' | translate }}
+          
+      h2 {{ 'STADIUM_TERRITORIES_TITLE' | translate }}
+      p.lead {{ 'STADIUM_TERRITORIES_DESCRIPTION' | translate }}
+        .chart-block
+        h3.chart-block__title {{ 'SPENDING_BY_TERRITORY_FOR_STADIUM' | translate }}
         .chart-block__chart(transfers-by-category="yearMostSpeding.transfers", category="'payer'")  
         .chart-block__headline
           a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.territories.details({ slug: (stadium.country | slug:territoryMostSpending.name) })")

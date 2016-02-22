@@ -62,5 +62,14 @@
   "SPENDING_BY_YEAR_FOR_STADIUM":"Public money spent for the stadium (per year)",
   "SPENDING_BY_TERRITORY_FOR_STADIUM":"Public money spent for the stadium (per territory)",
   "CLUB_PAYERS_DESCRIPTION": "A medium description that explains how those tiny bars display the amount spend for the club.",
-  "SPENDING_BY_YEAR_FOR_STADIUM_DESC":"Nos enquêteurs ont retrouvé la trace d'environ <amount> d'argent public dépensé pour le stade. L'année <year> a été l'année avec le plus onéreuse pour le stade avec des dépenses de <spending_stadium_list>."
+  "SPENDING_BY_YEAR_FOR_STADIUM_DESC":"Nos enquêteurs ont retrouvé la trace d'environ <amount> d'argent public dépensé pour le stade. L'année <year> a été l'année avec le plus onéreuse pour le stade avec des dépenses de <spending_stadium_list>.",
+  "CLUB_PAYERS_DESCRIPTION": "A medium description that explains how those tiny bars display the amount spend for the club.",
+  "STADIUM_YEARS_TITLE": "When did this stadium received the most?",
+  "STADIUM_YEARS_DESCRIPTION": "A medium description that explains how this diagram can be read.",
+  "STADIUM_TERRITORIES_TITLE": "Who give the most for this stadium?",
+  "STADIUM_TERRITORIES_DESCRIPTION": "A medium description that explains how this diagram can be read.",
+  "TERRITORY_YEARS_TITLE": "When did this territory received the most?",
+  "TERRITORY_YEARS_DESCRIPTION": "A medium description that explains how this diagram can be read.",
+  "TERRITORY_BENEFICIARY_TITLE": "Who received the most from this territory?",
+  "TERRITORY_BENEFICIARY_DESCRIPTION": "A medium description that explains how this diagram can be read."
 }
