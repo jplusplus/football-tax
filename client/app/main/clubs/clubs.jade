@@ -30,8 +30,8 @@
       h2 {{ 'DOWNLOAD_TITLE' | translate }}
       p.lead  {{ 'DOWNLOAD_DESCRIPTION' | translate }}
       .text-right
-        a.btn.btn-primary()
-        i.fa.fa-download
+        a.btn.btn-primary(target="_blank", ng-href="//docs.google.com/spreadsheets/d/{{ club.gss }}")
+          i.fa.fa-download
           span &nbsp;
           | {{ 'DOWNLOAD_BTN' | translate:{ stadium:stadium.name } }}
       
