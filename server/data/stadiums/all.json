@@ -22,7 +22,7 @@
     "money_transfers": []
   },
   {
-    "country": "FRANCE",
+    "country": "FRA",
     "city": "Bordeaux",
     "name": "Matmut-Atlantique",
     "residentclub": "Football Club des Girondins de Bordeaux",
@@ -30,10 +30,10 @@
     "club": "fra-fcgbordeaux",
     "money_transfers": [
       {
-        "paymentid": 16,
-        "payer": "Ville de Bordeaux",
+        "paymentid": 18,
+        "payer": "Bordeaux Métropole",
         "beneficiary": "Stade Matmut-Atlantique",
-        "amount": "€17,000,000",
+        "amount": "€15,000,000",
         "date": 2012,
         "type": "Subsidy",
         "stadium": "Matmut-Atlantique",
@@ -41,7 +41,7 @@
       },
       {
         "paymentid": 17,
-        "payer": "Conseil Régional Aquitaine",
+        "payer": "Conseil régional d'Aquitaine",
         "beneficiary": "Stade Matmut-Atlantique",
         "amount": "€15,000,000",
         "date": 2012,
@@ -50,10 +50,10 @@
         "source": "http://www.matmut-atlantique.com/fr/le_stade/acteur-financement"
       },
       {
-        "paymentid": 18,
-        "payer": "Bordeaux Métropole",
+        "paymentid": 16,
+        "payer": "Ville de Bordeaux",
         "beneficiary": "Stade Matmut-Atlantique",
-        "amount": "€15,000,000",
+        "amount": "€17,000,000",
         "date": 2012,
         "type": "Subsidy",
         "stadium": "Matmut-Atlantique",
@@ -128,6 +128,46 @@
     "club": "fra-ogcnice",
     "money_transfers": [
       {
+        "paymentid": 24,
+        "payer": "Conseil départemental des Alpes-Maritimes",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€20,000,000",
+        "date": 2010,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+      },
+      {
+        "paymentid": 27,
+        "payer": "Conseil Régional PACA",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€7,000,000",
+        "date": 2010,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+      },
+      {
+        "paymentid": 26,
+        "payer": "Etat France",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€20,000,000",
+        "date": 2010,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+      },
+      {
+        "paymentid": 25,
+        "payer": "Communauté urbaine Nice Côte d'Azur",
+        "beneficiary": "Nice Eco Stadium",
+        "amount": "€6,000,000",
+        "date": 2010,
+        "type": "PPP- Construction of the stadium",
+        "stadium": "Grand Stade",
+        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
+      },
+      {
         "paymentid": 1,
         "payer": "Ville de Nice",
         "beneficiary": "Groupement GFC (Bouygues), FIDEPPP, Barclays Infrastructures II Limited",
@@ -174,7 +214,7 @@
         "payer": "Ville de Nice",
         "beneficiary": "Nice Eco Stadium",
         "amount": "€14,000,000",
-        "date": 2013,
+        "date": 2010,
         "type": "PPP- Construction of the stadium",
         "stadium": "Grand Stade",
         "source": "https://webrecorder.io/record/20150924134034/https://www.ccomptes.fr/Publications/Publications/Construction-du-grand-stade-de-Nice-Nice-PPP-Rapport-d-observations-definitives"
@@ -198,46 +238,6 @@
         "type": "Rent of the stadium",
         "stadium": "Grand Stade",
         "source": "https://webrecorder.io/record/20150924102640/http://www.leparisien.fr/nice-06000/l-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php#xtref=http%3A%2F%2Fwww.leparisien.fr%2Fnice-06000%2Fl-allianz-riviera-le-nid-xxl-et-eco-responsable-de-l-ogc-nice-16-09-2013-3143781.php"
-      },
-      {
-        "paymentid": 24,
-        "payer": "Conseil Général 06",
-        "beneficiary": "Nice Eco Stadium",
-        "amount": "€20,000,000",
-        "date": 2010,
-        "type": "PPP- Construction of the stadium",
-        "stadium": "Grand Stade",
-        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
-      },
-      {
-        "paymentid": 25,
-        "payer": "Nice Métropole",
-        "beneficiary": "Nice Eco Stadium",
-        "amount": "€6,000,000",
-        "date": 2010,
-        "type": "PPP- Construction of the stadium",
-        "stadium": "Grand Stade",
-        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
-      },
-      {
-        "paymentid": 26,
-        "payer": "Etat France",
-        "beneficiary": "Nice Eco Stadium",
-        "amount": "€20,000,000",
-        "date": 2010,
-        "type": "PPP- Construction of the stadium",
-        "stadium": "Grand Stade",
-        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
-      },
-      {
-        "paymentid": 27,
-        "payer": "Conseil Régional PACA",
-        "beneficiary": "Nice Eco Stadium",
-        "amount": "€7,000,000",
-        "date": 2010,
-        "type": "PPP- Construction of the stadium",
-        "stadium": "Grand Stade",
-        "source": "https://web.archive.org/web/20150923163602/http://www.stadiumstrategies.com/euro-2016/allianz-riviera/"
       },
       {
         "paymentid": 31,
@@ -354,6 +354,144 @@
         "type": "In-kind-gifts (use of the stadium)",
         "source": "20111028_CR_CUS.pdf",
         "comment": "Stade et centre sportif sud. L'année précédente, le loyer du stade était de 135kE par an."
+      }
+    ]
+  },
+  {
+    "country": "GBR",
+    "city": "Coventry",
+    "name": "Ricoh Arena",
+    "residentclub": "Coventry City Football Club",
+    "tenants": "GBR",
+    "brandedname": "Ricoh Arena",
+    "type": "Ricoh Arena",
+    "location": "Ricoh Arena, Phoenix Way, Foleshill, Coventry, CV6 6GE",
+    "capacity": "32,609",
+    "owner": "Wasps Holdings Limited (company owning rugby clubs)",
+    "operator": "Arena Coventry Limited",
+    "shareofuse": "Coventry City FC - rent on matchdays",
+    "website": "http://www.ricoharena.com/",
+    "constructioncostineuros": 138425800,
+    "publicprivatepartnership": true,
+    "privatecompanyinvolvedintheppp": "Arena Coventry Limited",
+    "sources": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/91905/ERDF_West_Midlands_celebrating_success_2000_to_2006_ERDF_programme.pdf",
+    "club": "gbr-coventryfc",
+    "money_transfers": [
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "HBG Holdings limited",
+        "amount": "€9,639,745.81",
+        "date": 2003,
+        "type": "Purchase of land",
+        "stadium": "Ricoh Arena",
+        "source": "FOI Novemner 2013, p.1"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "ACL",
+        "amount": "€17,055,863.87",
+        "date": 2013,
+        "type": "Construction of the stadium",
+        "stadium": "Ricoh Arena",
+        "source": "Sky Blue Trust- Ricoh arena timeline p7"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "Ricoh Arena",
+        "amount": "€8,630,622.66",
+        "date": 2003,
+        "type": "Stadium expansion",
+        "stadium": "Ricoh Arena",
+        "source": "FOI November 2013, p1, FOI August 2013_2 p1"
+      },
+      {
+        "payer": "European Regional Development Fund",
+        "beneficiary": "HBG Holdings limited",
+        "amount": "€8,730,335.83",
+        "date": 2003,
+        "type": "Purchase of land",
+        "stadium": "Ricoh Arena",
+        "source": "FOI November 2013, p1"
+      },
+      {
+        "payer": "European Regional Development Fund",
+        "beneficiary": "Ricoh Arena",
+        "date": 2003,
+        "type": "Stadium expansion",
+        "stadium": "Ricoh Arena",
+        "source": "FOI 2016 p2"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "Pinsents, 11KBW",
+        "amount": "€1,065,991.49",
+        "date": 2013,
+        "type": "Construction of the stadium",
+        "stadium": "Ricoh Arena",
+        "source": "FOI August 2013 p1"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "ACL",
+        "amount": "€71,036.85",
+        "date": 2006,
+        "type": "Stadium maintenance",
+        "stadium": "Ricoh Arena",
+        "source": "Accounts, 07-07"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "Ricoh Arena",
+        "amount": "€65,793.81",
+        "date": 2007,
+        "type": "Stadium maintenance",
+        "stadium": "Ricoh Arena",
+        "source": "Accounts, 07-08"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "CNR",
+        "amount": "€19,252.87",
+        "date": 2008,
+        "type": "Stadium maintenance",
+        "stadium": "Ricoh Arena",
+        "source": "Accounts, 2008-9"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "ACL",
+        "amount": "€693,042.44",
+        "date": 2006,
+        "type": "Construction of the stadium",
+        "stadium": "Ricoh Arena",
+        "source": "Agenda Construction Completion report, 2008"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "Tony Gee and\r\nPartners",
+        "amount": "€3,171,599.18",
+        "date": 2007,
+        "type": "Stadium expansion",
+        "stadium": "Ricoh Arena",
+        "source": "09-Arena Archways, Agenda Construction Completion report, 2008 p8"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "Ricoh Arena",
+        "amount": "€16,420,412.42",
+        "date": 2011,
+        "type": "Stadium expansion",
+        "stadium": "Ricoh Arena",
+        "source": "http://www.theguardian.com/uk-news/2015/aug/25/coventry-city-ricoh-arena-train-station-open-football-fans-wasps"
+      },
+      {
+        "payer": "Coventry City Council",
+        "beneficiary": "Ricoh Arena",
+        "amount": "€5,105,990.20",
+        "date": 2006,
+        "type": "Stadium expansion",
+        "stadium": "Ricoh Arena",
+        "source": "Sky Blue Trust- Ricoh arena timeline p6"
       }
     ]
   }

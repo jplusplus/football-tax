@@ -721,7 +721,7 @@ module.exports = function (grunt) {
     });
   });
 
-  grunt.registerTask('gss', 'env:all', 'gss_to_json', 'gss_to_md')
+  grunt.registerTask('gss', 'env:all', 'gss_to_json', 'gss_to_md', 'transferstypes', 'stadiums')
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
