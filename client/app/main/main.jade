@@ -7,7 +7,7 @@ ui-view.main
         .col-sm-6
           h1
             img(src="assets/images/logo-big.png", height="100" , alt="{{ 'APP_TITLE' | translate }}")
-          .h2 {{ 'HOMEPAGE_DESCRIPTION' | translate }}
+          p.lead {{ 'HOMEPAGE_DESCRIPTION' | translate }}
           
         .col-sm-6
           .panel
@@ -57,7 +57,7 @@ ui-view.main
   .main__findings
     .container
       h2 {{ 'HOMEPAGE_FINDINGS_TITLE' | translate }}
-      p.lead(ng-bind-html="'HOMEPAGE_FINDINGS_CONTENT' | translate")
+      div(ng-bind-html="'HOMEPAGE_FINDINGS_CONTENT' | translate")
 
 
 div(ng-include='"components/footer/footer.html"')
