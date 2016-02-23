@@ -33,10 +33,8 @@
         h2.main__stadiums__content__club__title {{ 'STADIUM_CLUB_TITLE' | translate }}
         .main__stadiums__content__club__description.lead
           p(ng-bind-html="'STADIUM_CLUB_DESCRIPTION' | translate:{club: stadium.club.nameclub, stadium: stadium.name}")
-        .text-right
-          a.btn.btn-primary(ui-sref="main.clubs(stadium.club)")
-            i.fa.fa-bar-chart
-            span &nbsp;
+        .text-left
+          a(ui-sref="main.clubs(stadium.club)")
             | {{ 'SEE_MONEY_TRANSFERS' | translate }}
       
       
@@ -52,13 +50,11 @@
           
       h2 {{ 'STADIUM_TERRITORIES_TITLE' | translate }}
       p.lead {{ 'STADIUM_TERRITORIES_DESCRIPTION' | translate }}
-        .chart-block
+      .chart-block
         h3.chart-block__title {{ 'SPENDING_BY_TERRITORY_FOR_STADIUM' | translate }}
         .chart-block__chart(transfers-by-category="yearMostSpeding.transfers", category="'payer'")  
         .chart-block__headline
-          a.chart-block__headline__action.btn.btn-primary.btn-xs(ui-sref="main.territories.details({ slug: (stadium.country | slug:territoryMostSpending.name) })")
-            i.fa.fa-bar-chart
-            span &nbsp;
-            | {{ 'SEE_MONEY_TRANSFERS_FOR_TERRITORY' | translate }}
           h3.chart-block__headline__title {{ 'TERRITORY_MOST_SPENDING' | translate:{territory: territoryMostSpending.name} }}
           p.chart-block__headline__content {{ 'ABOUT_CONTENT' | translate }}
+          a(ui-sref="main.territories.details({ slug: (stadium.country | slug:territoryMostSpending.name) })")
+            | {{ 'SEE_MONEY_TRANSFERS_FOR_TERRITORY' | translate }}

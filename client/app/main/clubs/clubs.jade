@@ -43,10 +43,8 @@
       div(ng-repeat="stadium in :: club.stadiums | limitTo:1")
         h2 {{ 'CLUB_STADIUM_TITLE' | translate }}
         p.lead(ng-bind-html="'CLUB_STADIUM_DESCRIPTION' | translate:{club: club.nameclub, stadium: stadium.name}")
-        .text-right
-          a.btn.btn-primary(ui-sref="main.stadiums(stadium)")
-            i.fa.fa-bar-chart
-            span &nbsp;
+        .text-left
+          a(ui-sref="main.stadiums(stadium)")
             | {{ 'SEE_SUBSIDIES_STADIUM' | translate:{ stadium:stadium.name } }}
       
             
@@ -57,7 +55,7 @@
         uib-tab(ng-repeat="payer in :: payers | orderBy:'level'", heading="{{ payer.name  | characters:25 }}", active="payer.active")              
           .main__clubs__content__payers__pane
             .row
-              .col-xs-4.col-xs-push-8
+              .col-sm-4.col-sm-push-8
                 .main__clubs__content__payers__pane__description              
                   p
                     span(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate:territoryFigures(payer.name, payer.transfers)")
@@ -66,13 +64,11 @@
                     | .
                   p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate")
                   
-                  .text-right
-                    a.btn.btn-primary(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
-                      i.fa.fa-bar-chart
-                      =" "
-                      span {{ 'SEE_DETAILS' | translate:{ payer:payer.name } }}
+                  .text-left
+                    a(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
+                      span {{ 'SEE_SUBSIDIES_TERRITORY' | translate:{ territory: payer.name } }}
                       
-              .col-xs-8.col-xs-pull-4
+              .col-sm-8.col-sm-pull-4
                 .main__clubs__content__payers__pane__chart
                   .chart-block
                     h3.chart-block__title
