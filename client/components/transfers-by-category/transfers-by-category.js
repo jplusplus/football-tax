@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("transfersByCategory", function($window, currencies, compute) {
+  .directive("transfersByCategory", function($window, $timeout, currencies, compute) {
     return {
       restrict: 'AE',
       template: '<svg class="transfers-by-category"></svg>',
@@ -51,7 +51,14 @@ angular.module('footballTaxApp')
         data.groups = _.sortBy(data.groups, 'total');
         // One color
         var color = "#086FA1";
-
+        
+        var initTimeout = null;
+        var initAfterResize = ()=> {
+          // Clear exisiting timeout
+          if(initTimeout) $timeout.cancel(initTimeout);
+          // Init the graph after the small
+          initTimeout = $timeout(init, 300);
+        }
 
         var init = ()=> {
           // Some setup stuff.
@@ -147,7 +154,7 @@ angular.module('footballTaxApp')
         };
 
         init();
-        angular.element($window).bind("resize", init);
+        angular.element($window).bind("resize", initAfterResize);
       }
     };
   });
