@@ -109,7 +109,16 @@ angular.module('footballTaxApp')
           var color = ()=> "#086FA1";
         }
 
-        var findWidth = (el)=> el.width() || findWidth(el.parent())
+        var initTimeout = null;
+        var initAfterResize = ()=> {
+          // Clear exisiting timeout
+          if(initTimeout) $timeout.cancel(initTimeout);
+          // Init the graph after the small
+          initTimeout = $timeout(init, 300);
+        }
+
+        var findWidth = (el)=> el.width() || findWidth(el.parent());
+
         var init = ()=> {
           // Some setup stuff.
           const padding = { left: 20, right: 20, top: 20, bottom: 60 };
@@ -270,7 +279,7 @@ angular.module('footballTaxApp')
         };
 
         $timeout(init, 300);
-        angular.element($window).bind("resize", init);
+        angular.element($window).bind("resize", initAfterResize);
       }
     };
   });

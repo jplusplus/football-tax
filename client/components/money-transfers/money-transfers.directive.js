@@ -1,5 +1,5 @@
 angular.module('footballTaxApp')
-  .directive("moneyTransfers", function($window, $translate, currencies) {
+  .directive("moneyTransfers", function($window, $translate, $timeout, currencies) {
     return {
       restrict: 'AE',
       template: '<svg class="money-transfers"></svg>',
@@ -58,6 +58,14 @@ angular.module('footballTaxApp')
           return res;
         }, []).value();
 
+
+        var initTimeout = null;
+        var initAfterResize = ()=> {
+          // Clear exisiting timeout
+          if(initTimeout) $timeout.cancel(initTimeout);
+          // Init the graph after the small
+          initTimeout = $timeout(init, 300);
+        }
 
         var init = function() {
 
@@ -183,7 +191,7 @@ angular.module('footballTaxApp')
         }
 
         init();
-        angular.element($window).bind("resize", init);
+        angular.element($window).bind("resize", initAfterResize);
       }
     };
   });
