@@ -59,11 +59,17 @@
                 .main__clubs__content__payers__pane__description              
                   p
                     span(ng-bind-html="'SPENDING_TERR_FOR_CLUB' | translate:territoryFigures(payer.name, payer.transfers)")
+                  
+                  p
+                    span(ng-bind-html="'SPENDING_TERR_FOR_CLUB_MORE'| translate:territoryFigures(payer.name, payer.transfers)")
+                    span(ng-bind-html="'SPENDING_TERR_FOR_CLUB_PURCHASE'| translate:territoryFigures(payer.name, payer.transfers)") 
+                  p
+                    span(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate:territoryFigures(payer.name, payer.transfers)")
                     | &nbsp;{{ :: missingYears(payer.transfers).splice(0,5).join(', ') }}
                     span(ng-show=":: missingYears(payer.transfers).length > 5") , [...]
                     | .
-                  p(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate")
-                  
+                    span(ng-bind-html="'SPENDING_TERR_FOR_CLUB_CONTACT' | translate:territoryFigures(payer.name, payer.transfers)")
+
                   .text-left
                     a(ui-sref="main.territories.details({ slug: (club.country | slug:payer.name)  })")
                       span {{ 'SEE_SUBSIDIES_TERRITORY' | translate:{ territory: payer.name } }}
