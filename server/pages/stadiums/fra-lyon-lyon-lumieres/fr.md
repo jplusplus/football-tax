@@ -1,3 +1,3 @@
 Contrairement aux autres clubs, l'OL ont décidé de construire le stade par eux-mêmes, avec leur fonds propres.
 Malgré cela, la ville de Lyon a quand même déboursé 168€ Mio en infrastructures afin que les fans puissent se rendre jusqu'au stade. Elle est également garante du club à hauteur de 40€ Mio, si ce dernier ne peut plus rembourser sa dette.
-Le maire de la petite commune de Décines-Charpieux où est construit le stade a même décidé d'éxonérer le club d'impôts locaux sans se préocupper de faire voter cette décision. La chambre régional des comptes estime à 4,2€ Mio le manque à gagner.
+Le maire de la petite commune de Décines-Charpieux où est construit le stade a même décidé d'éxonérer le club d'impôts locaux sans se préocupper de faire voter cette décision. La chambre régionale des comptes estime à 4,2€ Mio le manque à gagner.

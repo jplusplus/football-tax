@@ -1,1 +1,6 @@
 En décidant de construire le nouveau stade du club, le maire a assuré aux citoyens que cela ne coûterait "que" €200m en passant par un PPP. Après analyse, il n'en n'est rien, les engagements pris pour la ville s'élèvent à  €400m de loyer total, sans compter les nombreuses anomalies détectées lors du montage du PPP : entente sur les prix lors du marché public, renoncement par la ville aux pénalités de retard etc. En bref, la ville assume tous les risques et les coûts tandis l'entreprise privée profite des bénéfices.
+
+### Les sociétés qui composent le club
+- **OGC Nice** : Olympique Gymnaste Club Nice Côte d'Azur est une association française de football basée à Nice.
+- **SASP OGC Nice** : La Société Anonyme Sportive Professionnelle OGC Nice est la société à but lucratif liée à l'association, comme l'article L. 122-1 du code du sport l'oblige lorsque les revenus de l'association excèdent 0,8Mio€.
+- **Nice Eco Stadium** : Cette société, filiale de VINCI Concessions a construit le stade Allianz Riviera dans lequel OGC Nice est résident. La société s'occupe également de la maintenance et du fonctionnement du stade.

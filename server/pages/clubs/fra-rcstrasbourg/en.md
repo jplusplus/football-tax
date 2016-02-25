@@ -1,0 +1,1 @@
+After a few seasons playing in the first league, the RC Strasbourg filed for bankrupcy and its team was downgraded to the fourth league, thereby losing professional status. Not to be outdone, public authorities kept subsidizing the club to the tune of hundreds of thousands of euros per year.

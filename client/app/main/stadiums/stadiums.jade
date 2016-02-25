@@ -55,6 +55,6 @@
         .chart-block__chart(transfers-by-category="yearMostSpeding.transfers", category="'payer'")  
         .chart-block__headline
           h3.chart-block__headline__title {{ 'TERRITORY_MOST_SPENDING' | translate:{territory: territoryMostSpending.name} }}
-          p.chart-block__headline__content {{ 'SPENDING_BY_TERRITORY_FOR_STADIUM_DESC' | translate }}
+          p(ng-bind-html="'SPENDING_BY_TERRITORY_FOR_STADIUM_DESC' | translate:{territory: territoryMostSpending.name} ")
           a(ui-sref="main.territories.details({ slug: (stadium.country | slug:territoryMostSpending.name) })")
-            | {{ 'SEE_MONEY_TRANSFERS_FOR_TERRITORY' | translate }}
+            | {{ 'SEE_SUBSIDIES_TERRITORY' | translate:{ territory: territoryMostSpending.name } }}

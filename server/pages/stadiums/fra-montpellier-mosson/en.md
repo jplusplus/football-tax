@@ -1,0 +1,1 @@
+Every year, the Mosson stadium costs 300,000€ to the city of Montpellier. Of these, only 85,000€ are paid by the club.
