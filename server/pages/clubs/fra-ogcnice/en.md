@@ -2,5 +2,5 @@ When deciding to construct the new stadium, the mayor has assures the citizens t
 
 ### The companies involved with this club
 - **OGC Nice** : Olympique Gymnaste Club Nice Côte d'Azur is a French association football club based in Nice
-- **SASP OGC Nice** : The Société Anonyme Sportive Professionnelle OGC Nice is the profit company linked to the association, as the article L. 122-1 of the Sport's code stipulates for the association with revenues exceeding 0,80M€.
-- **Nice Eco Stadium** : This is the private company that built, operates and maintains the Stadium Allianz Riviera where OGN Nice is resident.
+- **SASP OGC Nice** : The Société Anonyme Sportive Professionnelle OGC Nice is the profit company linked to the association, as the article L. 122-1 of the Sport's code stipulates for the association with revenues exceeding 0.80M€.
+- **Nice Eco Stadium** : This is the private company that built, operates and maintains the Stadium Allianz Riviera where OGC Nice is resident.

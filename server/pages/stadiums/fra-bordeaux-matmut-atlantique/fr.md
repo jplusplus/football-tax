@@ -1,4 +1,1 @@
-Pour l'Euro2016, la ville de Bordeaux, en partenariat avec une société privée, a construit un stade à 183€ Mio.
-Si l'on additionne les coûts de construction pris en charge par la ville ainsi que ceux de maintenance et de fonctionnement, l'opération va coûter plus de 219€ Mio d'argent public.
-Sans compter les risques et engagements pris par la ville, comme par exemple la resposabilité des prêts bancaires accordés à l'entreprise privée.
-Cela n'est pas surprenant lorsqu'on sait que le maire de Bordeaux confond comptabilité prévisionnelle et voyance en déclarant que le calcul des coûts futurs pour la ville n'avait fourni que des "chiffres fantaisistes".
+Pour l'Euro2016, la ville de Bordeaux a fait construire un stade par des société privées. Coût officiel pour la ville: 19 millions d'euros seulement. Mais le diable est dans les détails! Si l'on met bout-à-bout les engagements pris par la ville sur les 30 prochaines années, les contribuables vont payer 220 millions, soit 200 millions de plus qu'annoncés ! Face à cette contradiction, Alain Juppé, baron local, a un argument béton. Les chiffres sont "fantaisistes", a-t-il déclaré. Et les contribuables payeront.

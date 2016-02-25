@@ -45,7 +45,7 @@
   "LARGEST_BENEFICIARY": "Der größte Begünstigter von {territory}: {beneficiary}<br /><small>für den Verein {club}</small>",
   "LARGEST_BENEFICIARY_DESC": "In dem Zeitraum {starting_year}-{ending_year}, haben wir herausgefunden, dass {territory} <strong>{beneficiary}</strong> mit <strong>{amount_largest_beneficiary}</strong> geliefert (für den Verein {club}), der ist so der größte Beneficiar in der {territory}",
   "SPENDING_TERR_FOR_CLUB": "{territory} hat zwischen 2003 und 2015 ca.<strong>{amount}</strong> für den Verein {club} ausgegeben. Die größten Ausgaben fanden in <strong>{largest_transfer_year}</strong> statt,  <strong>{largest_transfer_type}</strong>.<br/> Informationen für folgende Jahren fehlen noch:",
-  "SPENDING_TERR_FOR_CLUB_OUTRO": "Falls Sie weitere Hinweise und Informationen für uns haben, schicken Sie uns bitte eine Email an contact@footballtax.com",
+  "SPENDING_TERR_FOR_CLUB_OUTRO": "Falls Sie weitere Hinweise und Informationen für uns haben, schicken Sie uns bitte eine Email an contact@thefootballtax.com",
   "TERRITORY_MOST_SPENDING": "Gebiet mit den größten Ausgaben: {territory}",
   "SPENDING_FROM_TERRITORY": "Ausgaben per {territory}",
   "SPENDINGS_BY_YEAR": "Ausgaben per Jahr",

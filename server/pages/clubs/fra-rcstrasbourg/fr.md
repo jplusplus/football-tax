@@ -1,0 +1,1 @@
+Après quelques saisons en Ligue 1, le Racing Club de Strasbourg a été rétrogradé en quatrième division en 2011 suite à sa liquidation judiciaire. Cela n'a pas empêché la ville de Strasbourg et les autres organismes publics de poursuivre leurs subventions, à hauteur de plusieurs centaines de milliers d'euros par an.
