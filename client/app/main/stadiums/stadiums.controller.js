@@ -8,6 +8,7 @@ angular.module('footballTaxApp')
     var transfers =  compute.cleanAmount(stadium.transfers);
     // Pick the year with most spending
     $scope.yearMostSpeding = compute.mostSpending(transfers, 'date');
+    $scope.totalSpending = _.sum(transfers, 'value');
     // Pick the entity with the transfers
     $scope.territoryMostSpending = compute.mostSpending(transfers, 'payer');
 

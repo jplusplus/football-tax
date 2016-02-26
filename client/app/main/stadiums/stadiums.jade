@@ -52,7 +52,7 @@
         .chart-block__chart(transfers-by-year="stadium.transfers", years="years") 
         .chart-block__headline 
           h3.chart-block__headline__title {{ 'YEAR_MOST_SPENDING' | translate:{year: yearMostSpeding.name} }}
-          p(ng-bind-html="'SPENDING_BY_YEAR_FOR_STADIUM_DESC' | translate:{club: stadium.club.nameclub, stadium: stadium.name,year: yearMostSpeding.name}")
+          p(ng-bind-html="'SPENDING_BY_YEAR_FOR_STADIUM_DESC' | translate:{club: stadium.club.nameclub, stadium: stadium.name, year: yearMostSpeding.name, total_amount: (totalSpending | currencies ) }")
 
       h2 {{ 'STADIUM_TERRITORIES_TITLE' | translate }}
       p.lead {{ 'STADIUM_TERRITORIES_DESCRIPTION' | translate }}
