@@ -115,10 +115,33 @@
 
   &__content {
 
+    position:relative;
+
     h2 {
       &:before {
         content:"# ";
         color:@brand-secondary;
+      }
+    }
+
+    &__no-data {
+      position: absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      background:fade(@body-bg, 90);
+      color: @text-color;
+      .lead();
+
+      &__modal {
+        position:absolute;
+        top:50px;
+        left:50%;
+        max-width: 650px;
+        padding:20px;
+        text-align:center;
+        .translate(-50%, 0);
       }
     }
   }

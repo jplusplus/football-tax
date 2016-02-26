@@ -75,5 +75,8 @@
   "SEE_DETAILS": "See details",
   "DOWNLOAD_TITLE": "Dive into the data",
   "DOWNLOAD_DESCRIPTION": "Lorem datum",
-  "DOWNLOAD_BTN": "See the data"
+  "DOWNLOAD_BTN": "See the data",
+  "NO_DATA_TITLE": "We don't have the budget data for this stadium yet.",
+  "NO_DATA_DESCRIPTION": "Want to contribute?<br />Send us an email at <a href='mailto:contact@footballtax.com'>contact@footballtax.com</a>.",
+  "GO_TO_HOMEPAGE": "Go to the homepage"
 }

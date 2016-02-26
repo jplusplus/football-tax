@@ -24,8 +24,14 @@
       
               
   .main__stadiums__content.main__content
-    .container
-    
+    .main__content__no-data(ng-show="stadium.transfers.length == 0")      
+      .main__content__no-data__modal
+        h3 {{ 'NO_DATA_TITLE' | translate }} 
+        p(ng-bind-html="'NO_DATA_DESCRIPTION' | translate")
+        br
+        p
+          a(ui-sref="main")  {{ 'GO_TO_HOMEPAGE' | translate }}
+    .container    
       h2(ng-if="page && page.body") {{ 'STADIUM_KEY_POINT' | translate }}
       .lead(ng-if="page && page.body", ng-bind-html="page.body")
         

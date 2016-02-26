@@ -131,7 +131,7 @@
   },
   {
     "paymentid": 9,
-    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées'",
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
     "beneficiary": "Nîmes Olympique Association",
     "amount": "€25,000",
     "date": 2009,
@@ -142,23 +142,12 @@
   },
   {
     "paymentid": 13,
-    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées'",
+    "payer": "Conseil régional de Languedoc-Roussillon-Midi-Pyrénées",
     "beneficiary": "Nîmes Olympique Association",
     "amount": "€25,000",
     "date": 2010,
     "type": "Subsidy",
     "source": "http://www.journal-officiel.gouv.fr/publications/assoccpt/pdf/2011/3006/775913718_30062011.pdf",
-    "comment": "p.10",
-    "title": "bilan-association-2011-2012.pdf"
-  },
-  {
-    "paymentid": 15,
-    "payer": "Conseil Régional Languedoc Roussillon",
-    "beneficiary": "Nîmes Olympique Association",
-    "amount": "€25,000",
-    "date": 2011,
-    "type": "Subsidy",
-    "source": "http://www.journal-officiel.gouv.fr/publications/assoccpt/pdf/2012/3006/775913718_30062012.pdf",
     "comment": "p.10",
     "title": "bilan-association-2011-2012.pdf"
   },
@@ -188,6 +177,17 @@
     "date": 2012,
     "type": "Purchase of communication benefits",
     "source": "http://www.laregion.fr/uploads/Deliberations/ConseilRegional/2012/12/21/DELIBERATION/D0LXS.pdf"
+  },
+  {
+    "paymentid": 15,
+    "payer": "Conseil Régional Languedoc Roussillon",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€25,000",
+    "date": 2011,
+    "type": "Subsidy",
+    "source": "http://www.journal-officiel.gouv.fr/publications/assoccpt/pdf/2012/3006/775913718_30062012.pdf",
+    "comment": "p.10",
+    "title": "bilan-association-2011-2012.pdf"
   },
   {
     "paymentid": 30,
@@ -256,45 +256,12 @@
     "title": "bilan-association-2013-2014.pdf"
   },
   {
-    "paymentid": 1,
-    "payer": "Ville de Nîmes",
-    "beneficiary": "SASP Nîmes Olympique",
-    "amount": "€304,900",
-    "date": 2003,
-    "type": "Training facility grant",
-    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
-    "comment": "p.36",
-    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
-  },
-  {
     "paymentid": 2,
     "payer": "Ville de Nîmes",
     "beneficiary": "SASP Nîmes Olympique",
     "amount": "€411,615",
     "date": 2003,
     "type": "Purchase of benefits",
-    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
-    "comment": "p.36",
-    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
-  },
-  {
-    "paymentid": 3,
-    "payer": "Ville de Nîmes",
-    "beneficiary": "Nîmes Olympique Association",
-    "amount": "€243,920",
-    "date": 2003,
-    "type": "Training facility grant",
-    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
-    "comment": "p.36",
-    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
-  },
-  {
-    "paymentid": 4,
-    "payer": "Ville de Nîmes",
-    "beneficiary": "SASP Nîmes Olympique",
-    "amount": "€457,350",
-    "date": 2004,
-    "type": "Training facility grant",
     "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
     "comment": "p.36",
     "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
@@ -311,17 +278,6 @@
     "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
   },
   {
-    "paymentid": 6,
-    "payer": "Ville de Nîmes",
-    "beneficiary": "Nîmes Olympique Association",
-    "amount": "€167,690",
-    "date": 2004,
-    "type": "Training facility grant",
-    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
-    "comment": "p.36",
-    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
-  },
-  {
     "paymentid": 7,
     "payer": "Ville de Nîmes",
     "beneficiary": "SASP Nîmes Olympique",
@@ -333,15 +289,32 @@
     "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
   },
   {
-    "paymentid": 8,
+    "paymentid": 25,
     "payer": "Ville de Nîmes",
-    "beneficiary": "Nîmes Olympique Association",
-    "amount": "€98,184",
-    "date": 2005,
-    "type": "Training facility grant",
-    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
-    "comment": "p.36",
-    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€630,672",
+    "date": 2014,
+    "type": "Purchase of benefits",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 28,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€631,302",
+    "date": 2015,
+    "type": "Purchase of benefits",
+    "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 19,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€630,000",
+    "date": 2012,
+    "type": "Purchase of communication benefits",
+    "source": "https://www.ccomptes.fr/content/download/79140/1980378/version/1/file/LRO201504-R.pdf",
+    "comment": "p.12"
   },
   {
     "paymentid": 11,
@@ -375,16 +348,6 @@
     "source": "ville-nimes.fr (email)"
   },
   {
-    "paymentid": 19,
-    "payer": "Ville de Nîmes",
-    "beneficiary": "SASP Nîmes Olympique",
-    "amount": "€630,000",
-    "date": 2012,
-    "type": "Purchase of communication benefits",
-    "source": "https://www.ccomptes.fr/content/download/79140/1980378/version/1/file/LRO201504-R.pdf",
-    "comment": "p.12"
-  },
-  {
     "paymentid": 20,
     "payer": "Ville de Nîmes",
     "beneficiary": "Nîmes Olympique Association",
@@ -415,15 +378,6 @@
     "title": "bilan-association-2013-2014.pdf"
   },
   {
-    "paymentid": 25,
-    "payer": "Ville de Nîmes",
-    "beneficiary": "SASP Nîmes Olympique",
-    "amount": "€630,672",
-    "date": 2014,
-    "type": "Purchase of benefits",
-    "source": "ville-nimes.fr (email)"
-  },
-  {
     "paymentid": 26,
     "payer": "Ville de Nîmes",
     "beneficiary": "Nîmes Olympique Association",
@@ -445,15 +399,6 @@
     "title": "bilan-association-2013-2014.pdf"
   },
   {
-    "paymentid": 28,
-    "payer": "Ville de Nîmes",
-    "beneficiary": "SASP Nîmes Olympique",
-    "amount": "€631,302",
-    "date": 2015,
-    "type": "Purchase of benefits",
-    "source": "ville-nimes.fr (email)"
-  },
-  {
     "paymentid": 29,
     "payer": "Ville de Nîmes",
     "beneficiary": "Nîmes Olympique Association",
@@ -461,5 +406,60 @@
     "date": 2015,
     "type": "Subsidy",
     "source": "ville-nimes.fr (email)"
+  },
+  {
+    "paymentid": 1,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€304,900",
+    "date": 2003,
+    "type": "Training facility grant",
+    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
+    "comment": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 3,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€243,920",
+    "date": 2003,
+    "type": "Training facility grant",
+    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
+    "comment": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 4,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "SASP Nîmes Olympique",
+    "amount": "€457,350",
+    "date": 2004,
+    "type": "Training facility grant",
+    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
+    "comment": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 6,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€167,690",
+    "date": 2004,
+    "type": "Training facility grant",
+    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
+    "comment": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
+  },
+  {
+    "paymentid": 8,
+    "payer": "Ville de Nîmes",
+    "beneficiary": "Nîmes Olympique Association",
+    "amount": "€98,184",
+    "date": 2005,
+    "type": "Training facility grant",
+    "source": "https://www.ccomptes.fr/content/download/26515/427800/version/2/file/LRR201101.pdf",
+    "comment": "p.36",
+    "title": "Rapport d’observations définitives n° 106/007 du 5 janvier 2011\rCOMMUNE DE NIMES (30)"
   }
 ]
