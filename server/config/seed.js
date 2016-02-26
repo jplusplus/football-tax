@@ -186,7 +186,7 @@ Territory.find({}).remove(function() {
   for(let territory of territories) {
     Territory.create(territory, function(err, doc) {
       if(err) {
-        console.log("Failed to insert \"%s\":", territory.name);
+        console.log("Warning: trying to insert \"%s\" failed.", territory.name);
         if(err.code === 11000) {
           console.log("This territory already exist in the database.")
         }
