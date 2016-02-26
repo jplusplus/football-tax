@@ -49,7 +49,7 @@
   "LARGEST_BENEFICIARY_DESC": "Pour la période {starting_year}-{ending_year}, {territory} a versé <strong>{amount_largest_beneficiary}</strong> à <strong>{beneficiary}</strong> (pour le club {club}), ce qui en fait le plus gros bénéficiaire de {territory}.",
   "SPENDING_TERR_FOR_CLUB": "{territory} a versé environ <strong>{amount}</strong> à {club} entre 2003 et 2015. Le plus gros versement a eu lieu en <strong>{largest_transfer_year}</strong>, il s'agit de <strong>{largest_transfer_type}</strong>.",
   "SPENDING_TERR_FOR_CLUB_MORE":"Les subventions accordées aux clubs de football sont distribuées sans aucun contrôle ni aucune étude d'impact ou de bilan. Mais les subventions ne sont pas le seul type d'argent public distribué, les collectivités passent également des marchés publics sans mise en concurrence.",
-  "SPENDING_TERR_FOR_CLUB_PURCHASE":" Ainsi depuis 2003, {territory} a versé au club au moins <strong>{amount_purchase}</strong> pour des achats de places ainsi que des achats prestations de services ou de communication.",
+  "SPENDING_TERR_FOR_CLUB_PURCHASE":"Ainsi depuis 2003, {territory} a versé au club au moins <strong>{amount_purchase}</strong> pour des achats de places ainsi que des achats prestations de services ou de communication.",
   "SPENDING_TERR_FOR_CLUB_OUTRO": "Il nous manque encore des informations concernant {years_number, plural, one{l'année suivante} other{les années suivantes}} : ",
   "SPENDING_TERR_FOR_CLUB_CONTACT":"Si vous les avez, envoyez nous un courriel à contact@thefootballtax.com",
   "TERRITORY_MOST_SPENDING": "Territoire avec le plus de dépenses : {territory}",

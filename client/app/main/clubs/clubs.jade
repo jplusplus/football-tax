@@ -62,6 +62,7 @@
                   
                   p
                     span(ng-bind-html="'SPENDING_TERR_FOR_CLUB_MORE'| translate:territoryFigures(payer.name, payer.transfers)")
+                  p(ng-show="territoryFigures(payer.name, payer.transfers).amount_purchase")
                     span(ng-bind-html="'SPENDING_TERR_FOR_CLUB_PURCHASE'| translate:territoryFigures(payer.name, payer.transfers)") 
                   p
                     span(ng-bind-html="'SPENDING_TERR_FOR_CLUB_OUTRO' | translate:territoryFigures(payer.name, payer.transfers)")

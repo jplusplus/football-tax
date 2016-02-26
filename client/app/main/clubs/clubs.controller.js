@@ -46,6 +46,15 @@ angular.module('footballTaxApp')
       });
 
       let largestTransfer =_.max(transfers, 'value');
+      // Type that are purchases
+      let PUCHARSE_TYPES = [
+        'Purchase of benefits',
+        'Purchase of service benefits',
+        'Purchase of communication benefits',
+        'Purchase of seats'
+      ]
+      // Iterator that returns
+      let isPurchase = t => PUCHARSE_TYPES.indexOf(t.type) > -1
 
       return {
         territory: territory,
@@ -53,7 +62,10 @@ angular.module('footballTaxApp')
         club: club.nameclub,
         years_number: $scope.missingYears(transfers).length,
         largest_transfer_year: largestTransfer.date,
-        largest_transfer_type: $translate.instant(largestTransfer.type)
+        largest_transfer_type: $translate.instant(largestTransfer.type),
+        amount_purchase:  $filter('currencies')(
+          _.chain(transfers).filter(isPurchase).sum('value').value()
+        ),
       };
     };
 
