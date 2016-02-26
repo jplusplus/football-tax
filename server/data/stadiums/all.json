@@ -11,7 +11,7 @@
   {
     "country": "FRA",
     "city": "Saint-Etienne",
-    "name": "Geoffroy-Guichard\n",
+    "name": "Geoffroy-Guichard",
     "residentclub": "AS Saint-Etienne",
     "type": "competition",
     "location": "14, rue Paul et Pierre Guichard\n42028 Saint-Étienne",
@@ -19,7 +19,109 @@
     "owner": "Saint-Etienne Métropole",
     "operator": "Saint-Etienne Métropole",
     "club": "fra-assaintetienne",
-    "money_transfers": []
+    "money_transfers": [
+      {
+        "paymentid": 6,
+        "payer": "Conseil départemental de la Loire",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€3,000,000",
+        "date": 2012,
+        "type": "Stadium renovation",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
+      },
+      {
+        "paymentid": 5,
+        "payer": "Conseil Régional Rhône Alpes",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€6,800,000",
+        "date": 2012,
+        "type": "Stadium renovation",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.geoffroy-guichard.com/renovation-euro-2016/"
+      },
+      {
+        "paymentid": 4,
+        "payer": "Etat",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€8,000,000",
+        "date": 2012,
+        "type": "Stadium renovation ",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.geoffroy-guichard.com/renovation-euro-2016/"
+      },
+      {
+        "paymentid": 17,
+        "payer": "Communauté urbaine Saint-Étienne Métropole",
+        "beneficiary": "SOFILO",
+        "amount": "€19,650",
+        "date": 2013,
+        "type": "Stadium renovation",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.saint-etienne.fr/sites/default/files/deliberations/20130916/DELIB130883.pdf",
+        "comment": "DELIB130883.pdf"
+      },
+      {
+        "paymentid": 29,
+        "payer": "Communauté urbaine Saint-Étienne Métropole",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€860,000",
+        "date": 2015,
+        "type": "Stadium renovation",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+      },
+      {
+        "paymentid": 39,
+        "payer": "Communauté urbaine Saint-Étienne Métropole",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€2,600,000",
+        "date": 2015,
+        "type": "Stadium maintenance",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+      },
+      {
+        "paymentid": 40,
+        "payer": "Communauté urbaine Saint-Étienne Métropole",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€550,000",
+        "date": 2015,
+        "type": "Stadium renovation",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+      },
+      {
+        "paymentid": 41,
+        "payer": "Communauté urbaine Saint-Étienne Métropole",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€40,200,000",
+        "date": 2012,
+        "type": "Stadium renovation",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
+      },
+      {
+        "paymentid": 42,
+        "payer": "Communauté urbaine Saint-Étienne Métropole",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€5,218,583",
+        "date": 2015,
+        "type": "Stadium renovation",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.agglo-st-etienne.fr/fileadmin/user_upload/05_role_de_agglo/Budget/RapportBP2015-ok.pdf"
+      },
+      {
+        "paymentid": 44,
+        "payer": "Communauté urbaine Saint-Étienne Métropole",
+        "beneficiary": "Stade Geoffroy-Guichard",
+        "amount": "€6,700,000",
+        "date": 2012,
+        "type": "Stadium renovation",
+        "stadium": "Geoffroy-Guichard",
+        "source": "http://www.info-stades.fr/forum/ligue1/saint-etienne-stade-geoffroy-guichard-euro-2016-t17-3195.html"
+      }
+    ]
   },
   {
     "country": "FRA",

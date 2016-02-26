@@ -855,8 +855,9 @@ module.exports = function (grunt) {
         // Collects stadiums in this file (it should have only one
         // but we are open to the possibility of several stadiums)
         for(let stadium of stadium_desc) {
-          stadium.city    = club_desc.city || stadium.city;
-          stadium.country = club_desc.country || stadium.country;
+          stadium.city    = _.trim(club_desc.city || stadium.city);
+          stadium.country = _.trim(club_desc.country || stadium.country);
+          stadium.name    = _.trim(stadium.name)
           stadium.club    = club_slug;
           // Collect money transfers for this stadiums
           stadium.money_transfers = _.filter(money_transfers, { stadium: stadium.name });
