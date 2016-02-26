@@ -27,11 +27,13 @@ angular.module('footballTaxApp')
     };
 
     Compute.prototype.mostSpending = function(transfers, aggregate) {
-      // Pick and return the group with the maximum value for 'total'
-      let max = _.max( this.aggregate(transfers, aggregate), 'total');
-      let types = _.countBy(max.transfers, 'type');
-      max.type = _.chain(types).pairs().max(d => d[1]).value()[0];
-      return max;
+      if(transfers.length) {
+        // Pick and return the group with the maximum value for 'total'
+        let max = _.max( this.aggregate(transfers, aggregate), 'total');
+        let types = _.countBy(max.transfers, 'type');
+        max.type = _.chain(types).pairs().max(d => d[1]).value()[0];
+        return max;        
+      }
     };
 
     Compute.prototype.cleanAmount = function(transfers) {
