@@ -26,7 +26,7 @@
       
         
       h2 {{ 'TERRITORY_YEARS_TITLE' | translate }}
-      p.lead {{ 'TERRITORY_YEARS_DESCRIPTION' | translate }}
+      p.lead(ng-bind-html="'TERRITORY_YEARS_DESCRIPTION' | translate:{ territory:territory.name } ")
       
       .chart-block
         h3.chart-block__title {{ 'SPENDINGS_BY_YEAR'| translate }}
@@ -42,7 +42,7 @@
             p(ng-bind-html="'YEAR_MOST_SPENDING_OUTRO'| translate:{ total_amount_year: (yearMostSpending.total | currencies), territory: territory.name }")
             
       h2 {{ 'TERRITORY_BENEFICIARY_TITLE' | translate }}
-      p.lead {{ 'TERRITORY_BENEFICIARY_DESCRIPTION' | translate }}
+      p.lead(ng-bind-html="'TERRITORY_BENEFICIARY_DESCRIPTION' | translate:{ territory:territory.name } ")
       
       .chart-block
         h3.chart-block__title {{ 'SPENDINGS_BY_BENEFICIARY' | translate }}        

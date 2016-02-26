@@ -35,7 +35,7 @@
   "THOUSAND_FIGURE": "{amount}M EUR",
   "CURRENCY_ENG": "€",
   "YEAR_MOST_SPENDING": "Année avec le plus de dépenses: {year}",
-  "SPENDING_BY_TERRITORY_FOR_STADIUM_DESC": "Les collectivités s'impliquent à plusieurs dans les coûts de constructions, fonctionnement et maintenance mais ce sont bien souvent les villes qui portent le plus gros fardeau. Pour ce stade, c'est <strong>{territory} qui a assumé le plus gros des dépenses.",
+  "SPENDING_BY_TERRITORY_FOR_STADIUM_DESC": "Les collectivités s'impliquent à plusieurs dans les coûts de constructions, fonctionnement et maintenance mais ce sont bien souvent les villes qui portent le plus gros fardeau. Pour ce stade, c'est <strong>{territory}</strong> qui a assumé le plus gros des dépenses.",
   "BENEFICIARY_MOST_SPENDING": "Entité ayant reçu le plus de financements : {beneficiary}<br /><small>pour le club {club}</small>",
   "SEE_MONEY_TRANSFERS": "Accéder à la page {club}",
   "SEE_MONEY_TRANSFERS_FOR_CLUB": "Voir toutes les financements pour ce club",
@@ -74,11 +74,12 @@
   "STADIUM_YEARS_DESCRIPTION": "Visualisez le détail par année des montants d'argent public dépensés pour ce stade.",
   "STADIUM_TERRITORIES_TITLE": "Qui dépense le plus pour financer le stade ?",
   "STADIUM_TERRITORIES_DESCRIPTION": "Visualisez les montants dépensés par collectivité pour le stade.",
-  "TERRITORY_YEARS_TITLE": "When did this territory received the most?",
-  "TERRITORY_YEARS_DESCRIPTION": "VOICI LA DESC",
-  "TERRITORY_BENEFICIARY_TITLE": "Who received the most from this territory?",
-  "TERRITORY_BENEFICIARY_DESCRIPTION": "A COMPLETER",
+  "TERRITORY_YEARS_TITLE": "Quelle a été l'année avec le plus de dépenses ?",
+  "TERRITORY_YEARS_DESCRIPTION": "Visualisez le détail par année des montants alloués par <strong>{territory}</strong> pour ce club.",
+  "TERRITORY_BENEFICIARY_TITLE": "Quelle entité a reçu le plus d'argent ?",
+  "TERRITORY_BENEFICIARY_DESCRIPTION": "Visualisez à quelle entité liée à un club de football <strong>{territory}</strong> a versé le plus d'argent",
   "DOWNLOAD_TITLE": "Plongez dans les données",
   "DOWNLOAD_DESCRIPTION": "Visualisez les données brutes collectées par The Football Tax représentant les flux financiers. Si vous souhaitez les compléter, les réutiliser ou si vous avez des questions, envoyez-nous un courriel à contact@thefootballtax.com.",
-  "DOWNLOAD_BTN": "Voir les données"
+  "DOWNLOAD_BTN": "Voir les données",
+  "ADDR_NO_TERRITORIES":"Il n'y a pas encore de données pour ce territoire."
 }
