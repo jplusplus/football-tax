@@ -51,7 +51,7 @@ angular.module('footballTaxApp')
         data.groups = _.sortBy(data.groups, 'total');
         // One color
         var color = "#086FA1";
-        
+
         var initTimeout = null;
         var initAfterResize = ()=> {
           // Clear exisiting timeout
@@ -154,7 +154,12 @@ angular.module('footballTaxApp')
         };
 
         init();
-        angular.element($window).bind("resize", initAfterResize);
+        // Creates a unique resize event
+        var resizev = "resize:" + _.uniqueId();
+        // Init the graph when the window is resized
+        angular.element($window).on(resizev, initAfterResize);
+        // Delete the resize event when destroying the scope
+        scope.$on('$destroy', ()=> angular.element($window).off(resizev) );
       }
     };
   });
